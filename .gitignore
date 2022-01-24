@@ -1,0 +1,7 @@
+build/
+aux/
+.auctex/
+*.pdf
+*.zip
+zref-vario-ctan.curlopt
+

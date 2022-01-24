@@ -1,0 +1,518 @@
+% \iffalse meta-comment
+%
+% File: zref-vario.dtx
+%
+% This file is part of the LaTeX package "zref-vario".
+%
+% Copyright (C) 2022  Gustavo Barros
+%
+% It may be distributed and/or modified under the conditions of the
+% LaTeX Project Public License (LPPL), either version 1.3c of this
+% license or (at your option) any later version.  The latest version
+% of this license is in the file:
+%
+%    https://www.latex-project.org/lppl.txt
+%
+% and version 1.3 or later is part of all distributions of LaTeX
+% version 2005/12/01 or later.
+%
+%
+% This work is "maintained" (as per LPPL maintenance status) by
+% Gustavo Barros.
+%
+% This work consists of the files zref-vario.dtx,
+%                                 zref-vario.ins,
+%                                 zref-vario.tex,
+%                                 zref-vario-code.tex,
+%         and the files listed in MANIFEST.md.
+%
+% The released version of this package is available from CTAN.
+%
+% -----------------------------------------------------------------------
+%
+% The development version of the package can be found at
+%
+%    https://github.com/gusbrs/zref-vario
+%
+% for those people who are interested.
+%
+% -----------------------------------------------------------------------
+%
+% \fi
+%
+% \iffalse
+%<*driver>
+\documentclass{l3doc}
+
+% Have \GetFileInfo pick up date and version data and used in the
+% documentation.
+\usepackage{zref-vario}
+
+\begin{document}
+
+\DocInput{zref-vario.dtx}
+
+\end{document}
+%</driver>
+% \fi
+%
+% \NewDocumentCommand\githubissue{m}{^^A
+%   issue~\href{https://github.com/gusbrs/zref-vario/issues/#1}{\##1}}
+%
+% \NewDocumentCommand\githubPR{m}{^^A
+%   PR~\href{https://github.com/gusbrs/zref-vario/pull/#1}{\##1}}
+%
+% ^^A Currently just for keeping semantic markup on this.
+% \NewDocumentCommand\contributor{m}{#1}
+%
+% \NewDocumentCommand\opt{m}{\texttt{#1}}
+%
+% \pdfstringdefDisableCommands{^^A
+%   \def\opt#1{#1}
+% }
+%
+% ^^A Have the Index at 'section' level rather than 'part'.  Otherwise it is
+% ^^A just the same definition from 'l3doc.cls'.
+% \IndexPrologue{^^A
+%   \section*{Index}
+%   \markboth{Index}{Index}
+%   \addcontentsline{toc}{section}{Index}
+%   The italic numbers denote the pages where the corresponding entry is
+%   described, numbers underlined point to the definition, all others indicate
+%   the places where it is used.^^A
+% }
+%
+%
+% \GetFileInfo{zref-vario.sty}
+%
+% \title{^^A
+%   The \pkg{zref-vario} package^^A
+%   \thanks{This file describes \fileversion, released \filedate.}^^A
+%   \texorpdfstring{\\{}\medskip{}}{ - }^^A
+%   Code documentation^^A
+%   \texorpdfstring{\medskip{}}{}^^A
+% }
+%
+% \author{^^A
+%   Gustavo Barros^^A
+%   \thanks{\url{https://github.com/gusbrs/zref-vario}}^^A
+% }
+%
+% \date{\filedate}
+%
+% \maketitle
+%
+% \begin{center}
+%   \textbf{EXPERIMENTAL}
+% \end{center}
+%
+%
+% \tableofcontents
+%
+%
+% \section{Initial setup}
+%
+% Start the \pkg{DocStrip} guards.
+%    \begin{macrocode}
+%<*package>
+%    \end{macrocode}
+%
+% Identify the internal prefix (\LaTeX3 \pkg{DocStrip} convention).
+%    \begin{macrocode}
+%<@@=zrefvario>
+%    \end{macrocode}
+%
+%
+% Identify the package.
+%    \begin{macrocode}
+\ProvidesExplPackage {zref-vario} {2022-01-10} {0.1.0-alpha}
+  {Extended page cross-references based on zref}
+%    \end{macrocode}
+%
+%
+% \section{Dependencies}
+%
+% Required packages.
+%
+%    \begin{macrocode}
+\RequirePackage { zref-clever }
+\RequirePackage { varioref }
+\RequirePackage { l3keys2e }
+%    \end{macrocode}
+%
+%
+% \section{Customization}
+%
+% \subsection{General}
+%
+% \begin{macro}[EXP]{\@@_reffmt_varname_general_tl:n}
+%   \begin{syntax}
+%     \cs{@@_reffmt_varname_general_tl:n} \Arg{option}
+%   \end{syntax}
+%    \begin{macrocode}
+\cs_new:Npn \@@_reffmt_varname_general:n #1
+  { l_@@_reffmt_general_ #1 _tl }
+%    \end{macrocode}
+% \end{macro}
+%
+% \begin{macro}[EXP]{\@@_reffmt_varname_general_cs:nn}
+%   \begin{syntax}
+%     \cs{@@_reffmt_varname_general_cs:nn} \Arg{option} \Arg{signature}
+%   \end{syntax}
+%    \begin{macrocode}
+\cs_new:Npn \@@_reffmt_varname_general_cs:nn #1#2
+  { @@_reffmt_general_ #1 : #2 }
+%    \end{macrocode}
+% \end{macro}
+%
+% \begin{macro}[EXP]{\@@_base_lang:n}
+%   \begin{syntax}
+%     \cs{@@_base_lang:n} \Arg{language}
+%   \end{syntax}
+%    \begin{macrocode}
+\cs_new:Npn \@@_base_lang:n #1
+  { \tl_use:c { \__zrefclever_language_varname:n {#1} } }
+%    \end{macrocode}
+% \end{macro}
+%
+% \begin{macro}[EXP]{\@@_reffmt_varname_lang_tl:nn}
+%   \begin{syntax}
+%     \cs{@@_reffmt_varname_lang_tl:nn} \Arg{lang} \Arg{option}
+%   \end{syntax}
+%    \begin{macrocode}
+\cs_new:Npn \@@_reffmt_varname_lang_tl:nn #1#2
+  { g_@@_reffmt_lang_ \@@_base_lang:n {#1} _ #2 _tl }
+\cs_generate_variant:Nn \@@_reffmt_varname_lang_tl:nn { en }
+%    \end{macrocode}
+% \end{macro}
+%
+% \begin{macro}[EXP]{\@@_reffmt_varname_lang_cs:nnn}
+%   \begin{syntax}
+%     \cs{@@_reffmt_varname_lang_cs:nnn} \Arg{lang} \Arg{option} \Arg{signature}
+%   \end{syntax}
+%    \begin{macrocode}
+\cs_new:Npn \@@_reffmt_varname_lang_cs:nnn #1#2#3
+  { @@_reffmt_lang_ \@@_base_lang:n {#1} _ #2 : #3 }
+\cs_generate_variant:Nn \@@_reffmt_varname_lang_cs:nnn { enn }
+%    \end{macrocode}
+% \end{macro}
+%
+%
+%
+%    \begin{macrocode}
+% <lang> <option> <tl var to set>
+\cs_new_protected:Npn \@@_reffmt_tl_get:nnN #1#2#3
+  {
+    \tl_if_exist:cTF
+      { \@@_reffmt_varname_lang_tl:nn {#1} {#2} }
+      {
+        \tl_set_eq:Nc #3
+          { \@@_reffmt_varname_lang_tl:nn {#1} {#2} }
+      }
+      {
+        \tl_set:Nn #3 {??}
+        % TODO warn
+      }
+  }
+\cs_generate_variant:Nn \@@_reffmt_tl_get:nnN { xnN }
+% <lang> <option> <cs signature> <cs to set>
+\cs_new_protected:Npn \@@_reffmt_cs_get:nnnN #1#2#3#4
+  {
+    \cs_if_exist:cTF
+      { \@@_reffmt_varname_lang_cs:nnn {#1} {#2} {#3} }
+      {
+        \cs_set_eq:Nc #4
+          { \@@_reffmt_varname_lang_cs:nnn {#1} {#2} {#3} }
+      }
+      {
+        \cs_set:Nn #3 {??}
+        % TODO warn
+      }
+  }
+\cs_generate_variant:Nn \@@_reffmt_cs_get:nnnN { xnnN }
+%    \end{macrocode}
+%
+%
+%
+%
+% \subsection{Language support}
+%
+%
+% \begin{macro}[int]{\zvLanguageSetup}
+%   \begin{syntax}
+%     \cs{zvLanguageSetup}\marg{language}\marg{options}
+%   \end{syntax}
+%    \begin{macrocode}
+\tl_new:N \l_@@_setup_language_tl
+\NewDocumentCommand \zvLanguageSetup { m m }
+  {
+    \group_begin:
+    \__zrefclever_language_if_declared:nTF {#1}
+      {
+        \tl_set:Nn \l_@@_setup_language_tl {#1}
+        \keys_set:nn { zref-vario/langsetup } {#2}
+      }
+      { \msg_warning:nnn { zref-clever } { unknown-language-setup } {#1} }
+    \group_end:
+  }
+\@onlypreamble \zvLanguageSetup
+%    \end{macrocode}
+% \end{macro}
+%
+%
+%
+%    \begin{macrocode}
+\keys_define:nn { zref-vario/langsetup }
+  {
+    reftextfaceafter .code:n =
+      {
+        \tl_gset:cn
+          {
+            \@@_reffmt_varname_lang_tl:en
+              { \l_@@_setup_language_tl }
+              { reftextfaceafter }
+          } {#1}
+      } ,
+    reftextfacebefore .code:n =
+      {
+        \tl_gset:cn
+          {
+            \@@_reffmt_varname_lang_tl:en
+              { \l_@@_setup_language_tl }
+              { reftextfacebefore }
+          } {#1}
+      } ,
+    reftextafter .code:n =
+      {
+        \tl_gset:cn
+          {
+            \@@_reffmt_varname_lang_tl:en
+              { \l_@@_setup_language_tl }
+              { reftextafter }
+          } {#1}
+      } ,
+    reftextbefore .code:n =
+      {
+        \tl_gset:cn
+          {
+            \@@_reffmt_varname_lang_tl:en
+              { \l_@@_setup_language_tl }
+              { reftextbefore }
+          } {#1}
+      } ,
+    reftextcurrent .code:n =
+      {
+        \tl_gset:cn
+          {
+            \@@_reffmt_varname_lang_tl:en
+              { \l_@@_setup_language_tl }
+              { reftextcurrent }
+          } {#1}
+      } ,
+    reftextfaraway .code:n =
+      {
+        \cs_gset:cpn
+          {
+            \@@_reffmt_varname_lang_cs:enn
+              { \l_@@_setup_language_tl }
+              { reftextfaraway } { n }
+          }
+          ##1
+          {#1}
+      } ,
+    vrefformat .code:n =
+      {
+        \cs_gset:cpn
+          {
+            \@@_reffmt_varname_lang_cs:enn
+              { \l_@@_setup_language_tl }
+              { vrefformat } { nn }
+          }
+          ##1##2
+          {#1}
+      } ,
+    reftextpagerange .code:n =
+      {
+        \cs_gset:cpn
+          {
+            \@@_reffmt_varname_lang_cs:enn
+              { \l_@@_setup_language_tl }
+              { reftextpagerange } { nn }
+          }
+          ##1##2
+          {#1}
+      } ,
+    reftextlabelrange .code:n =
+      {
+        \cs_gset:cpn
+          {
+            \@@_reffmt_varname_lang_cs:enn
+              { \l_@@_setup_language_tl }
+              { reftextlabelrange } { nn }
+          }
+          ##1##2
+          {#1}
+      } ,
+    vrefrangeformat .code:n =
+      {
+        \cs_gset:cpn
+          {
+            \@@_reffmt_varname_lang_cs:enn
+              { \l_@@_setup_language_tl }
+              { vrefrangeformat } { nnn }
+          }
+          ##1##2##3
+          {#1}
+      } ,
+    fullrefformat .code:n =
+      {
+        \cs_gset:cpn
+          {
+            \@@_reffmt_varname_lang_cs:enn
+              { \l_@@_setup_language_tl }
+              { fullrefformat } { n }
+          }
+          ##1
+          {#1}
+      } ,
+  }
+%    \end{macrocode}
+%
+%
+%
+%
+% \section{User interface}
+%
+%
+%    \begin{macrocode}
+\NewDocumentCommand \zvref { s O {} m }
+  { \zref@wrapper@babel \@@_zvref:nnn {#3} {#1} {#2} }
+
+\cs_new_protected:Npn \@@_zvref:nnn #1#2#3
+  {
+    \group_begin:
+    \keys_set:nn { zref-clever/reference } {#3}
+    \@vrefhandlespacefalse
+    \bool_if:nT {#2}
+      { \bool_set_false:N \l__zrefclever_hyperlink_bool }
+    \cs_set_eq:NN \vref@pagenum \@@_vref_pagenum:Nn
+    \cs_set_eq:NN \vrefpagenum \@@_vrefpagenum:Nn
+    \cs_set_eq:NN \vref@label \@@_vref_label:n
+    \@@_reffmt_cs_get:xnnN
+      { \l__zrefclever_ref_language_tl }
+      { vrefformat } { nn }
+      \vrefformat
+    % "Ideally", we'd be using '\vref' here, but 'hyperref' redefines
+    % '\vref@star' and '\vr@f', hard-coding what was supposed to be
+    % configurable..., so we use '\vrefformat' instead, which is the original
+    % definition of '\vref@star', and '\vr@f' boils down to '\vref@star' when
+    % '\@vrefhandlespace' is false, which is our case.
+    \vrefformat {} {#1} % optional argument still to fill
+    \group_end:
+  }
+
+\NewDocumentCommand \zvpageref { s O {} m }
+  { \zref@wrapper@babel \@@_zvpageref:nnn {#3} {#1} {#2} }
+
+\cs_new_protected:Npn \@@_zvpageref:nnn #1#2#3
+  {
+    \group_begin:
+    \keys_set:nn { zref-clever/reference } {#3}
+    \@vrefhandlespacefalse
+    \bool_if:nT {#2}
+      { \bool_set_false:N \l__zrefclever_hyperlink_bool }
+    \cs_set_eq:NN \vref@pagenum \@@_vref_pagenum:Nn
+    \cs_set_eq:NN \vrefpagenum \@@_vrefpagenum:Nn
+    \cs_set_eq:NN \vref@label \@@_vref_label:n
+    \@@_reffmt_tl_get:xnN
+      { \l__zrefclever_ref_language_tl }
+      { reftextfaceafter }
+      \reftextfaceafter
+    \@@_reffmt_tl_get:xnN
+      { \l__zrefclever_ref_language_tl }
+      { reftextfacebefore }
+      \reftextfacebefore
+    \@@_reffmt_tl_get:xnN
+      { \l__zrefclever_ref_language_tl }
+      { reftextafter }
+      \reftextafter
+    \@@_reffmt_tl_get:xnN
+      { \l__zrefclever_ref_language_tl }
+      { reftextbefore }
+      \reftextbefore
+    \@@_reffmt_tl_get:xnN
+      { \l__zrefclever_ref_language_tl }
+      { reftextcurrent }
+      \reftextcurrent
+    \@@_reffmt_cs_get:xnnN
+      { \l__zrefclever_ref_language_tl }
+      { reftextfaraway } { n }
+      \reftextfaraway
+    \vpageref {#1}
+    \group_end:
+  }
+
+\cs_new_protected:Npn \@@_vref_pagenum:Nn #1#2
+  { \zref@def@extractdefault {#1} {#2} { page } { ?? } }
+\cs_new_protected:Npn \@@_vrefpagenum:Nn #1#2
+  {
+    \zifrefundefined {#2}
+      { }
+      { \@@_vref_pagenum:Nn #1 {#2} }
+  }
+\cs_generate_variant:Nn \@@_set_vref_label:n { x }
+\cs_new_protected:Npn \@@_vref_label:n #1
+  { \zref@labelbyprops {#1} { page } }
+%    \end{macrocode}
+%
+%
+%
+%
+% \section{Language setup}
+%
+%
+%    \begin{macrocode}
+\zvLanguageSetup { english }
+  {
+    reftextfaceafter = {on~the~\reftextvario{facing}{next}~page} ,
+    reftextfacebefore = {on~the~\reftextvario{facing}{preceding}~page} ,
+    reftextafter = {on~the~\reftextvario{following}{next}~page} ,
+    reftextbefore = {on~the~\reftextvario{preceding}{previous}~page} ,
+    reftextcurrent = {on~\reftextvario{this}{the current}~page} ,
+    reftextfaraway = {on~\zcpageref{#1}} ,
+    vrefformat = {\zcref{#2}~\zvpageref[#1]{#2}} ,
+    reftextpagerange = {on~\zcpageref[range]{#1,#2}} ,
+    reftextlabelrange = {\zcref[range]{#1,#2}} ,
+    vrefrangeformat = {\zreftextlabelrange{#2}{#3}~\zvpagerefrange[{#1}]{#2}{#3}} ,
+    fullrefformat = {\zcref{#1}~\reftextfaraway{#1}} ,
+  }
+%    \end{macrocode}
+%
+%
+%
+%    \begin{macrocode}
+\zvLanguageSetup { german }
+  {
+    reftextfaceafter = {auf~der~nächsten~Seite} ,
+    reftextfacebefore = {auf~der~vorherigen~Seite} ,
+    reftextafter = {auf~der~nächsten~Seite} ,
+    reftextbefore = {auf~der~vorherigen~Seite} ,
+    reftextcurrent = {auf~dieser~Seite} ,
+    reftextfaraway = {auf~\zcpageref[d=D]{#1}} ,
+    vrefformat = {\zcref{#2}~\zvpageref[#1]{#2}} ,
+    reftextpagerange = {auf~den~\zcpageref[d=D,range]{#1,#2}} ,
+    reftextlabelrange = {\zcref[range]{#1,#2}} ,
+    vrefrangeformat = {\zreftextlabelrange{#2}{#3}~\zvpagerefrange[{#1}]{#2}{#3}} ,
+    fullrefformat = {\zcref{#1}~\reftextfaraway{#1}} ,
+  }
+%    \end{macrocode}
+%
+%    \begin{macrocode}
+%</package>
+%    \end{macrocode}
+%
+%
+%
+% \PrintIndex
+%
+%
