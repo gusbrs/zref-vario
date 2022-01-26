@@ -1,0 +1,260 @@
+% \iffalse meta-comment
+%
+% File: zref-vario.tex
+%
+% This file is part of the LaTeX package "zref-vario".
+%
+% Copyright (C) 2021-2022  Gustavo Barros
+%
+% It may be distributed and/or modified under the conditions of the
+% LaTeX Project Public License (LPPL), either version 1.3c of this
+% license or (at your option) any later version.  The latest version
+% of this license is in the file:
+%
+%    https://www.latex-project.org/lppl.txt
+%
+% and version 1.3 or later is part of all distributions of LaTeX
+% version 2005/12/01 or later.
+%
+%
+% This work is "maintained" (as per LPPL maintenance status) by
+% Gustavo Barros.
+%
+% This work consists of the files zref-vario.dtx,
+%                                 zref-vario.ins,
+%                                 zref-vario.tex,
+%                                 zref-vario-code.tex,
+%         and the files listed in MANIFEST.md.
+%
+% The released version of this package is available from CTAN.
+%
+% -----------------------------------------------------------------------
+%
+% The development version of the package can be found at
+%
+%    https://github.com/gusbrs/zref-vario
+%
+% for those people who are interested.
+%
+% -----------------------------------------------------------------------
+%
+% \fi
+
+\documentclass{l3doc}
+
+% The package itself *must* be loaded so that \GetFileInfo can pick up date
+% and version data.
+\usepackage{zref-vario}
+
+\usepackage[T1]{fontenc}
+
+\usepackage[sc]{mathpazo}
+\linespread{1.05}
+\usepackage[scale=.88]{tgheros} % sans
+\usepackage[varqu,scaled=1.03]{inconsolata} % tt
+
+\usepackage{listings}
+
+\usepackage{microtype}
+
+\hypersetup{hidelinks}
+
+\NewDocumentCommand\opt{m}{\texttt{#1}}
+
+\lstdefinestyle{code}{
+  language=[LaTeX]TeX,
+  % moretexcs={
+  % }
+}
+\lstdefinestyle{zrefvario}{
+  style=code,
+  % moretexcs={
+  % }
+}
+\lstset{
+  style=zrefvario,
+  basicstyle=\ttfamily\small,
+  columns=fullflexible,
+  keepspaces,
+  xleftmargin=\leftmargin,
+  xrightmargin=.5\leftmargin,
+}
+\lstnewenvironment{zvexample}[1][]{%
+  \renewcommand{\lstlistingname}{Example}%
+  \lstset{#1}%
+}{}
+
+\begin{document}
+
+\GetFileInfo{zref-vario.sty}
+
+\title{%
+  The \pkg{zref-vario} package%
+  \thanks{This file describes \fileversion, released \filedate.}%
+  \texorpdfstring{\\{}\medskip{}}{ - }%
+  User manual%
+  \texorpdfstring{\medskip{}}{}%
+}
+
+\author{%
+  Gustavo Barros%
+  \thanks{\url{https://github.com/gusbrs/zref-vario}}%
+}
+
+\date{\filedate}
+
+\maketitle
+
+\begin{center}
+  {\bfseries \abstractname\vspace{-.5em}\vspace{0pt}}
+\end{center}
+
+\begin{quotation}
+  \pkg{zref-vario} offers a compatibility layer for \pkg{varioref} to be used
+  alongside \pkg{zref-clever}.  It provides ``\texttt{\cs{z}}\dots{}''
+  counterparts to \pkg{varioref}'s main reference commands, each of which
+  essentially does some (scoped) setup for \pkg{varioref}, then calls the
+  original one.
+\end{quotation}
+
+\bigskip{}
+
+\begin{center}
+  \textbf{EXPERIMENTAL}
+\end{center}
+
+\tableofcontents
+
+\clearpage{}
+
+\section{Loading the package}
+
+As usual:
+
+\begin{zvexample}
+\usepackage{zref-vario}
+\end{zvexample}
+
+
+\section{Dependencies}
+
+\pkg{zref-vario} requires \pkg{zref-clever} and \pkg{varioref}.
+
+
+\section{User interface}
+
+\begin{function}{\zvref}
+  \begin{syntax}
+    \cs{zvref}\meta{*}\oarg{options}\marg{label}
+  \end{syntax}
+\end{function}
+
+\begin{function}{\zvpageref}
+  \begin{syntax}
+    \cs{zvpageref}\meta{*}\oarg{options}\marg{label}
+  \end{syntax}
+\end{function}
+
+\begin{function}{\zvrefrange}
+  \begin{syntax}
+    \cs{zvrefrange}\meta{*}\oarg{options}\marg{label}\marg{label}
+  \end{syntax}
+\end{function}
+
+\begin{function}{\zvpagerefrange}
+  \begin{syntax}
+    \cs{zvpagerefrange}\meta{*}\oarg{options}\marg{label}\marg{label}
+  \end{syntax}
+\end{function}
+
+\begin{function}{\zfullref}
+  \begin{syntax}
+    \cs{zfullref}\meta{*}\oarg{options}\marg{label}
+  \end{syntax}
+\end{function}
+
+These user commands work pretty much as their \pkg{varioref} counterparts.
+Indeed, they are just wrappers around them.  As such, differently from
+\pkg{zref-clever}'s commands, these can receive single labels as arguments,
+not lists of them.  In all of them the starred version inhibits hyperlinking,
+and they (locally) set \pkg{varioref}'s \opt{nospace} option, so that the
+this syntax can be used unambiguously.
+
+All of them have a single optional argument, which can receive any of
+\cs{zcref}'s options, and those are set for calls to \cs{zcref} or
+\cs{zpageref} which are part of the building blocks of the reference formats
+and strings set for \pkg{varioref}.  However, there is indeed some potential
+friction and caveats stemming from the use of these options, which were
+designed to work for single calls of \cs{zcref}, to apply to \emph{pairs} of
+them.  Hence, whether each and every of these options is meaningful, useful,
+or potentially harmful in this context depends on the case, and it is up to
+the user to make proper use of them.  Of course, one can always split the pair
+using \cs{zcref} and then \cs{zvpageref}, \cs{zvpagerefrange}, or
+\cs{zcpageref}, and have more control over each part.  Anyway, the package
+does what it says: passes the options along to the underlying call(s) to
+\cs{zcref}.\footnote{Note that the options given to each call of these user
+  macros are set \emph{before} the call to the original \pkg{varioref}
+  counterpart.  This means that options given to \cs{zcref} or \cs{zpageref}
+  in the strings and formats in \cs{zvLanguageSetup} will have precedence over
+  the former.  Which is useful, so that we can distinguish to some degree the
+  first from the second call of \cs{zcref}/\cs{zpageref} done in the formats,
+  but does not eliminate the limitations which arise from the underlying
+  problem.}
+
+Besides these options, two other are provided corresponding to
+\pkg{varioref}'s commands' optional arguments: \opt{vcurrent} (the first
+optional argument) and \opt{vother} (the second optional argument).  Of
+course, these are only available when the underlying \pkg{varioref} command
+supports them.
+
+\section{Customization}
+
+
+\begin{function}{\zvLanguageSetup}
+  \begin{syntax}
+    \cs{zvLanguageSetup}\marg{language}\marg{options}
+  \end{syntax}
+\end{function}
+
+User interface for customization of ``strings'' and ``formats'' for
+\meta{language}.  \meta{language} must be known to \pkg{zref-clever}.  The
+\meta{options} are familiar to users of \pkg{varioref}:
+\opt{reftextfaceafter}, \opt{reftextfacebefore}, \opt{reftextafter},
+\opt{reftextbefore}, \opt{reftextcurrent}, \opt{reftextfaraway},
+\opt{reftextpagerange}, \opt{reftextlabelrange}, \opt{vrefformat},
+\opt{vrefrangeformat}, and \opt{fullrefformat}.\footnote{For details, see
+  \pkg{varioref}'s documentation.}  Their meaning is the same as the ones they
+have in \pkg{varioref} and, indeed, they work by setting those \pkg{varioref}
+macros to the values given to the corresponding options in
+\cs{zvLanguageSetup}.  If you are setting up a language which has no built-in
+support, you should set at least the whole set of ``\texttt{reftext}\dots{}''
+options.  Language independent default values are provided for the
+``\dots{}\texttt{format}'' options (equivalent to the ones from
+\pkg{varioref}, which are adequate to most use cases), so you may omit them.
+But, if you need to adjust them, the default values can be overridden by
+setting the corresponding options in \cs{zvLanguageSetup}.
+
+
+% \section{Acknowledgments}
+%
+% A number of people have contributed to \pkg{zref-vario}.  Suggestions,
+% ideas, solutions to problems, bug reports or even encouragement were
+% generously provided by (in chronological order):
+%
+% The package's language settings have been provided or improved thanks to:
+%
+% If I have inadvertently left anyone off the list I apologize, and please let
+% me know, so that I can correct the oversight.
+%
+% Thank you all very much!
+
+
+\section{Change history}
+
+A change log with relevant changes for each version, eventual upgrade
+instructions, and upcoming changes, is maintained in the package's repository,
+at \url{https://github.com/gusbrs/zref-vario/blob/main/CHANGELOG.md}.  An
+archive of historical versions of the package is also kept at
+\url{https://github.com/gusbrs/zref-vario/releases}.
+
+\end{document}

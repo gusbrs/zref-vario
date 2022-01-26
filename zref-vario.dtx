@@ -56,6 +56,8 @@
 %</driver>
 % \fi
 %
+% \DoNotIndex{\\,\{,\}}
+%
 % \NewDocumentCommand\githubissue{m}{^^A
 %   issue~\href{https://github.com/gusbrs/zref-vario/issues/#1}{\##1}}
 %
@@ -109,6 +111,7 @@
 %
 % \tableofcontents
 %
+% \clearpage{}
 %
 % \section{Initial setup}
 %
@@ -140,6 +143,7 @@
 %
 % \section{Customization}
 %
+% Provide some functions to define options names in a standard form.
 %
 % \begin{macro}[EXP]{\@@_ref_opt_default_cs:nn}
 %   \begin{syntax}
@@ -190,8 +194,19 @@
 % \end{macro}
 %
 %
+% Retrieving options values.
+%
+% \begin{macro}
+%   {
+%     \@@_ref_opt_tl_get:nnN ,
+%     \@@_ref_opt_cs_get:nnnN ,
+%   }
+%   \begin{syntax}
+%     \cs{@@_ref_opt_tl_get:nnN} \Arg{lang} \Arg{option} \Arg{tl var to set}
+%     \cs{@@_ref_opt_cs_get:nnnN} \Arg{lang} \Arg{option}
+%     ~~\Arg{cs signature} \Arg{cs to set}
+%   \end{syntax}
 %    \begin{macrocode}
-% <lang> <option> <tl var to set>
 \cs_new_protected:Npn \@@_ref_opt_tl_get:nnN #1#2#3
   {
     \tl_if_exist:cTF
@@ -206,7 +221,6 @@
       }
   }
 \cs_generate_variant:Nn \@@_ref_opt_tl_get:nnN { xnN }
-% <lang> <option> <cs signature> <cs to set>
 \cs_new_protected:Npn \@@_ref_opt_cs_get:nnnN #1#2#3#4
   {
     \cs_if_exist:cTF
@@ -233,7 +247,17 @@
   }
 \cs_generate_variant:Nn \@@_ref_opt_cs_get:nnnN { xnnN }
 %    \end{macrocode}
+% \end{macro}
 %
+%
+% Handle the options set of the user commands, and add support for
+% \pkg{varioref} optional arguments.  All commands can receive the same set of
+% options \cs{zcref} can, and these are processed the same way and
+% ``consumed'' by any \cs{zcref} or \cs{zcpageref} calls.  Besides those,
+% \opt{vother} is made available for \cs{zvpageref}, corresponding to its
+% second optional argument, and \opt{vcurrent} which is available to all
+% commands except \cs{fullref}, corresponding to their first optional
+% arguments.
 %
 %    \begin{macrocode}
 \tl_new:N \l_@@_reftextcurrent_tl
@@ -262,6 +286,8 @@
 %
 %
 % \begin{macro}[int]{\zvLanguageSetup}
+% User interface for setting ``strings'' (\texttt{reftext\dots{}} options) and
+% ``formats'' (\texttt{\dots{}format} options) for each language.
 %   \begin{syntax}
 %     \cs{zvLanguageSetup}\marg{language}\marg{options}
 %   \end{syntax}
@@ -409,27 +435,41 @@
 %    \end{macrocode}
 %
 %
+% Default reference formats for all languages.  These will be used by
+% \cs{@@_ref_opt_cs_get:nnnN}, unless a language specific setting for the same
+% format has been set.
+%
 %    \begin{macrocode}
 \cs_new:cpn
   { \@@_ref_opt_default_cs:nn { vrefformat } { nn } } #1#2
-  {\zcref{#2}~\zvpageref*[S=false,vcurrent={#1}]{#2}}
+  {
+    \zcref {#2} ~
+    \zvpageref* [ S=false, nonudge, vcurrent={#1} ] {#2}
+  }
 \cs_new:cpn
   { \@@_ref_opt_default_cs:nn { vrefrangeformat } { nnn } } #1#2#3
-  {\reftextlabelrange{#2}{#3}~\zvpagerefrange*[S=false,vcurrent={#1}]{#2}{#3}}
+  {
+    \reftextlabelrange {#2} {#3} ~
+    \zvpagerefrange* [ S=false, nonudge, vcurrent={#1} ] {#2} {#3}
+  }
 \cs_new:cpn
   { \@@_ref_opt_default_cs:nn { fullrefformat } { n } } #1
-  {\zcref{#1}~\zfullreftextfaraway{#1}}
-\cs_new_protected:Npn \@@_reftextfarway:n #1
   {
-    \group_begin:
-    \keys_set:nn { zref-vario/ref } { S=false }
-    \bool_set_false:N \l__zrefclever_hyperlink_bool
-    \reftextfaraway{#1}
-    \group_end:
+    \zcref {#1} ~
+    \zfullreftextfaraway {#1}
   }
-\cs_set_eq:NN \zfullreftextfaraway \@@_reftextfarway:n
+\NewDocumentCommand \zfullreftextfaraway { m }
+ {
+   \group_begin:
+   \keys_set:nn { zref-vario/ref } { S=false, nonudge }
+   \bool_set_false:N \l__zrefclever_hyperlink_bool
+   \reftextfaraway{#1}
+   \group_end:
+ }
 %    \end{macrocode}
 %
+%
+% Warnings and values for missing strings / unknown languages.
 %
 %    \begin{macrocode}
 \group_begin:
@@ -491,6 +531,8 @@
 %    \end{macrocode}
 %
 %
+% A general initial warning in case the language is altogether not set up.
+%
 %    \begin{macrocode}
 \AddToHook { begindocument }
   {
@@ -503,7 +545,7 @@
   }
 \msg_new:nnn { zref-vario } { language-not-setup }
   {
-    Language~'#1'~is~not~set~up~for~'zref-vario'~\msg_line_context:.~
+    Language~'#1'~is~not~set~up~for~'zref-vario'.~
     See~documentation~for~'\iow_char:N\\zvLanguageSetup'.
   }
 %    \end{macrocode}
@@ -512,7 +554,16 @@
 %
 % \section{User interface}
 %
-%
+% \begin{macro}
+%   {
+%     \@@_vref_pagenum:Nn ,
+%     \@@_vrefpagenum:Nn ,
+%     \@@_vref_label:n ,
+%   }
+% These three small functions are responsible for ``connecting''
+% \pkg{varioref} with \pkg{zref}, instead of with the standard referencing
+% system.  They are meant to locally replace their \pkg{varioref}
+% counterparts: \cs{vref@pagenum}, \cs{vrefpagenum}, and \cs{vref@label}.
 %    \begin{macrocode}
 \cs_new_protected:Npn \@@_vref_pagenum:Nn #1#2
   {
@@ -524,12 +575,14 @@
     \zref@refused {#2}
     \@@_vref_pagenum:Nn #1 {#2}
   }
-\cs_generate_variant:Nn \@@_set_vref_label:n { x }
 \cs_new_protected:Npn \@@_vref_label:n #1
   { \zref@labelbyprops {#1} { page } }
 %    \end{macrocode}
+% \end{macro}
 %
-%
+% \begin{macro}{\@@_varioref_setup:}
+% Sets things up for \pkg{varioref} to work with \pkg{zref}/\pkg{zref-clever}.
+% It is pretty straightforward, but it is the core of the package.
 %    \begin{macrocode}
 \tl_new:N \l_@@_ref_language_tl
 \cs_new_protected:Npn \@@_varioref_setup:
@@ -586,9 +639,15 @@
       \fullrefformat
   }
 %    \end{macrocode}
+% \end{macro}
 %
 %
+% User commands.
 %
+% \begin{macro}[int]{\zvref}
+%   \begin{syntax}
+%     \cs{zvref}\meta{*}\oarg{options}\marg{label}
+%   \end{syntax}
 %    \begin{macrocode}
 \NewDocumentCommand \zvref { s O { } m }
   { \zref@wrapper@babel \@@_zvref:nnn {#3} {#1} {#2} }
@@ -599,17 +658,27 @@
     \bool_if:nT {#2}
       { \bool_set_false:N \l__zrefclever_hyperlink_bool }
     \@@_varioref_setup:
-    % "Ideally", we'd be using '\vref' here, but 'hyperref' redefines
-    % '\vref@star' and '\vr@f', hard-coding what was supposed to be
-    % configurable..., so we use '\vrefformat' instead, which is the original
-    % definition of '\vref@star', and '\vr@f' also boils down to '\vref@star'
-    % when '\@vrefhandlespace' is false, which is our case.
-    \exp_args:Nv \vrefformat { l_@@_reftextcurrent_tl } {#1}
+    \@@_vref:Vn \l_@@_reftextcurrent_tl {#1}
     \group_end:
   }
 %    \end{macrocode}
+% ``Ideally'', we'd be using \cs{vref} here, but \pkg{hyperref} redefines
+% \cs{vref@star} and \cs{vr@f}, hard-coding what was supposed to be
+% configurable\dots{}, so we use \cs{vrefformat} instead, which is the
+% original definition of \cs{vref@star}, and \cs{vr@f} also boils down to
+% \cs{vref@star} when \cs{@vrefhandlespace} is false, which is our case.
+%    \begin{macrocode}
+\cs_new_protected:Npn \@@_vref:nn #1#2
+  { \vrefformat {#1} {#2} }
+\cs_generate_variant:Nn \@@_vref:nn { Vn }
+%    \end{macrocode}
+% \end{macro}
 %
 %
+% \begin{macro}[int]{\zvpageref}
+%   \begin{syntax}
+%     \cs{zvpageref}\meta{*}\oarg{options}\marg{label}
+%   \end{syntax}
 %    \begin{macrocode}
 \NewDocumentCommand \zvpageref { s O { } m }
   { \zref@wrapper@babel \@@_zvpageref:nnn {#3} {#1} {#2} }
@@ -620,15 +689,21 @@
     \bool_if:nT {#2}
       { \bool_set_false:N \l__zrefclever_hyperlink_bool }
     \@@_varioref_setup:
-    \exp_after:wN \exp_after:wN \exp_after:wN \vpageref
-      \exp_after:wN \exp_after:wN \exp_after:wN
-      [ \exp_after:wN \l_@@_reftextcurrent_tl \exp_after:wN ]
-      \exp_after:wN [ \l_@@_reftextother_tl ] {#1}
+    \@@_vpageref:VVn \l_@@_reftextcurrent_tl
+      \l_@@_reftextother_tl {#1}
     \group_end:
   }
+\cs_new_protected:Npn \@@_vpageref:nnn #1#2#3
+  { \vpageref [#1] [#2] {#3} }
+\cs_generate_variant:Nn \@@_vpageref:nnn { VVn }
 %    \end{macrocode}
+% \end{macro}
 %
 %
+% \begin{macro}[int]{\zvrefrange}
+%   \begin{syntax}
+%     \cs{zvrefrange}\meta{*}\oarg{options}\marg{label}\marg{label}
+%   \end{syntax}
 %    \begin{macrocode}
 \NewDocumentCommand \zvrefrange { s O { } m m }
   {
@@ -643,13 +718,20 @@
     \bool_if:nT {#3}
       { \bool_set_false:N \l__zrefclever_hyperlink_bool }
     \@@_varioref_setup:
-    \exp_after:wN \vrefrange
-      \exp_after:wN [ \l_@@_reftextcurrent_tl ] {#1} {#2}
+    \@@_vrefrange:Vnn \l_@@_reftextcurrent_tl {#1} {#2}
     \group_end:
   }
+\cs_new_protected:Npn \@@_vrefrange:nnn #1#2#3
+  { \vrefrange [#1] {#2} {#3} }
+\cs_generate_variant:Nn \@@_vrefrange:nnn { Vnn }
 %    \end{macrocode}
+% \end{macro}
 %
 %
+% \begin{macro}[int]{\zvpagerefrange}
+%   \begin{syntax}
+%     \cs{zvpagerefrange}\meta{*}\oarg{options}\marg{label}\marg{label}
+%   \end{syntax}
 %    \begin{macrocode}
 \NewDocumentCommand \zvpagerefrange { s O { } m m }
   {
@@ -664,13 +746,20 @@
     \bool_if:nT {#3}
       { \bool_set_false:N \l__zrefclever_hyperlink_bool }
     \@@_varioref_setup:
-    \exp_after:wN \vpagerefrange
-      \exp_after:wN [ \l_@@_reftextcurrent_tl ] {#1} {#2}
+    \@@_vpagerefrange:Vnn \l_@@_reftextcurrent_tl {#1} {#2}
     \group_end:
   }
+\cs_new_protected:Npn \@@_vpagerefrange:nnn #1#2#3
+  { \vpagerefrange [#1] {#2} {#3} }
+\cs_generate_variant:Nn \@@_vpagerefrange:nnn { Vnn }
 %    \end{macrocode}
+% \end{macro}
 %
 %
+% \begin{macro}[int]{\zfullref}
+%   \begin{syntax}
+%     \cs{zfullref}\meta{*}\oarg{options}\marg{label}
+%   \end{syntax}
 %    \begin{macrocode}
 \NewDocumentCommand \zfullref { s O { } m }
   { \zref@wrapper@babel \@@_zfullref:nnn {#3} {#1} {#2} }
@@ -685,6 +774,7 @@
     \group_end:
   }
 %    \end{macrocode}
+% \end{macro}
 %
 %
 %
