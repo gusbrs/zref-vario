@@ -31,6 +31,7 @@ These files are typeset using LaTeX to produce the PDF documentation for the pac
 Plain text files included as documentation or metadata.
 
 * CHANGELOG.md ‡
+* MANIFEST.md ‡
 * README.md ‡
 * readme-ctan.md 
 * DEPENDS.txt ‡
@@ -49,6 +50,38 @@ etc., package files.
 
 * zref-vario-code.pdf ‡
 * zref-vario.pdf ‡
+
+### Test files
+
+These files form the test suite for the package. `.lvt` or `.lte` files are the individual
+unit tests, and `.tlg` are the stored output for ensuring changes to the package produce
+the same output. These output files are sometimes shared and sometime specific for
+different engines (pdfTeX, XeTeX, LuaTeX, etc.).
+
+* zv-basic01.lvt 
+* zv-basic02.lvt 
+* zv-basic03.lvt 
+* zv-basic04.lvt 
+* zv-basic01.luatex.tlg 
+* zv-basic01.luatexdev.tlg 
+* zv-basic01.tlg 
+* zv-basic01.xetex.tlg 
+* zv-basic01.xetexdev.tlg 
+* zv-basic02.luatex.tlg 
+* zv-basic02.luatexdev.tlg 
+* zv-basic02.tlg 
+* zv-basic02.xetex.tlg 
+* zv-basic02.xetexdev.tlg 
+* zv-basic03.luatex.tlg 
+* zv-basic03.luatexdev.tlg 
+* zv-basic03.tlg 
+* zv-basic03.xetex.tlg 
+* zv-basic03.xetexdev.tlg 
+* zv-basic04.luatex.tlg 
+* zv-basic04.luatexdev.tlg 
+* zv-basic04.tlg 
+* zv-basic04.xetex.tlg 
+* zv-basic04.xetexdev.tlg 
 
 
 ## TDS manifest
@@ -75,6 +108,7 @@ All files included in the `zref-vario/doc` directory.
 
 * CHANGELOG.md 
 * DEPENDS.txt 
+* MANIFEST.md 
 * README.md 
 * zref-vario-code.pdf 
 * zref-vario-code.tex 
@@ -90,6 +124,7 @@ The following group lists the files included in the CTAN package.
 
 * CHANGELOG.md 
 * DEPENDS.txt 
+* MANIFEST.md 
 * README.md 
 * zref-vario-code.pdf 
 * zref-vario-code.tex 
