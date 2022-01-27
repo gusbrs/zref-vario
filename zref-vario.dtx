@@ -171,6 +171,15 @@
 %    \end{macrocode}
 % \end{macro}
 %
+% \begin{macro}{\l_@@_ref_language_tl}
+% An internal copy of \cs{l__zrefclever_ref_language_tl}, since we need to
+% retreive the current value of the variable in multiple places.
+%    \begin{macrocode}
+\tl_new:N \l_@@_ref_language_tl
+\tl_set:Nn \l_@@_ref_language_tl { \l__zrefclever_ref_language_tl }
+%    \end{macrocode}
+% \end{macro}
+%
 % \begin{macro}[EXP]{\@@_ref_opt_name_lang_tl:nn}
 %   \begin{syntax}
 %     \cs{@@_ref_opt_name_lang_tl:nn} \Arg{lang} \Arg{option}
@@ -257,15 +266,24 @@
 % \opt{vother} is made available for \cs{zvpageref}, corresponding to its
 % second optional argument, and \opt{vcurrent} which is available to all
 % commands except \cs{fullref}, corresponding to their first optional
-% arguments.
+% arguments.  The distinction between \cs{l_@@_reftextcurrent_tl} and
+% \cs{l_@@_vref_reftextcurrent_tl} is in their default/initial values.  The
+% default values for the optional arguments of \cs{vpageref}, \cs{vrefrange},
+% and \cs{vpagerefrange} is \cs{reftextcurrent}, while the default value of
+% the optional argument of \cs{vref} is empty.
 %
 %    \begin{macrocode}
 \tl_new:N \l_@@_reftextcurrent_tl
+\tl_set:Nn \l_@@_reftextcurrent_tl { \reftextcurrent }
+\tl_new:N \l_@@_vref_reftextcurrent_tl
 \tl_new:N \l_@@_reftextother_tl
 \keys_define:nn { zref-vario/current }
   {
-    vcurrent .tl_set:N = \l_@@_reftextcurrent_tl ,
-    vcurrent .initial:n = \reftextcurrent ,
+    vcurrent .code:n =
+      {
+        \tl_set:Nn \l_@@_reftextcurrent_tl {#1}
+        \tl_set:Nn \l_@@_vref_reftextcurrent_tl {#1}
+      } ,
     vcurrent .value_required:n = true ,
   }
 \keys_define:nn { zref-vario/other }
@@ -437,35 +455,41 @@
 %
 % Default reference formats for all languages.  These will be used by
 % \cs{@@_ref_opt_cs_get:nnnN}, unless a language specific setting for the same
-% format has been set.
+% format has been set.  \cs{zreftextfaraway} is defined so it can be called
+% with different arguments in \cs{zvpageref} (where it is alone) and in
+% \cs{zfullref} (where it is the second of the pair).
 %
 %    \begin{macrocode}
 \cs_new:cpn
   { \@@_ref_opt_default_cs:nn { vrefformat } { nn } } #1#2
   {
     \zcref {#2} ~
-    \zvpageref* [ S=false, nonudge, vcurrent={#1} ] {#2}
+    \zvpageref [ S=false, typeset=both, vcurrent={#1} ] {#2}
   }
 \cs_new:cpn
   { \@@_ref_opt_default_cs:nn { vrefrangeformat } { nnn } } #1#2#3
   {
     \reftextlabelrange {#2} {#3} ~
-    \zvpagerefrange* [ S=false, nonudge, vcurrent={#1} ] {#2} {#3}
+    \zvpagerefrange [ S=false, typeset=both, vcurrent={#1} ] {#2} {#3}
   }
 \cs_new:cpn
   { \@@_ref_opt_default_cs:nn { fullrefformat } { n } } #1
   {
     \zcref {#1} ~
-    \zfullreftextfaraway {#1}
+    \zreftextfaraway [ S=false, typeset=both ] {#1}
   }
-\NewDocumentCommand \zfullreftextfaraway { m }
- {
-   \group_begin:
-   \keys_set:nn { zref-vario/ref } { S=false, nonudge }
-   \bool_set_false:N \l__zrefclever_hyperlink_bool
-   \reftextfaraway{#1}
-   \group_end:
- }
+\NewDocumentCommand \zreftextfaraway { s O { } m }
+  { \zref@wrapper@babel \@@_zreftextfaraway:nnn {#3} {#1} {#2} }
+\cs_new_protected:Npn \@@_zreftextfaraway:nnn #1#2#3
+  {
+    \group_begin:
+    \keys_set:nn { zref-vario/ref } {#3}
+    \bool_if:nT {#2}
+      { \keys_set:nn { zref-vario/ref } { nohyperref } }
+    \@@_varioref_setup:
+    \reftextfaraway{#1}
+    \group_end:
+  }
 %    \end{macrocode}
 %
 %
@@ -537,10 +561,10 @@
 \AddToHook { begindocument }
   {
     \seq_if_in:NxF \g_@@_setup_languages_seq
-      { \@@_base_lang:e { \l__zrefclever_ref_language_tl } }
+      { \@@_base_lang:e { \l_@@_ref_language_tl } }
       {
         \msg_warning:nnx  { zref-vario } { language-not-setup }
-          { \l__zrefclever_ref_language_tl }
+          { \l_@@_ref_language_tl }
       }
   }
 \msg_new:nnn { zref-vario } { language-not-setup }
@@ -583,60 +607,64 @@
 % \begin{macro}{\@@_varioref_setup:}
 % Sets things up for \pkg{varioref} to work with \pkg{zref}/\pkg{zref-clever}.
 % It is pretty straightforward, but it is the core of the package.
+% \cs{l_@@_varioref_setup_bool} ensures this setup runs only once in case of
+% nested calls to the package's commands.
 %    \begin{macrocode}
-\tl_new:N \l_@@_ref_language_tl
+\bool_new:N \l_@@_varioref_setup_bool
 \cs_new_protected:Npn \@@_varioref_setup:
   {
-    \@vrefhandlespacefalse
-    \cs_set_eq:NN \vref@pagenum \@@_vref_pagenum:Nn
-    \cs_set_eq:NN \vrefpagenum \@@_vrefpagenum:Nn
-    \cs_set_eq:NN \vref@label \@@_vref_label:n
-    \tl_set_eq:NN \l_@@_ref_language_tl
-      \l__zrefclever_ref_language_tl
-    \@@_ref_opt_tl_get:xnN
-      { \l_@@_ref_language_tl }
-      { reftextfaceafter }
-      \reftextfaceafter
-    \@@_ref_opt_tl_get:xnN
-      { \l_@@_ref_language_tl }
-      { reftextfacebefore }
-      \reftextfacebefore
-    \@@_ref_opt_tl_get:xnN
-      { \l_@@_ref_language_tl }
-      { reftextafter }
-      \reftextafter
-    \@@_ref_opt_tl_get:xnN
-      { \l_@@_ref_language_tl }
-      { reftextbefore }
-      \reftextbefore
-    \@@_ref_opt_tl_get:xnN
-      { \l_@@_ref_language_tl }
-      { reftextcurrent }
-      \reftextcurrent
-    \@@_ref_opt_cs_get:xnnN
-      { \l_@@_ref_language_tl }
-      { reftextfaraway } { n }
-      \reftextfaraway
-    \@@_ref_opt_cs_get:xnnN
-      { \l_@@_ref_language_tl }
-      { vrefformat } { nn }
-      \vrefformat
-    \@@_ref_opt_cs_get:xnnN
-      { \l_@@_ref_language_tl }
-      { reftextpagerange } { nn }
-      \reftextpagerange
-    \@@_ref_opt_cs_get:xnnN
-      { \l_@@_ref_language_tl }
-      { reftextlabelrange } { nn }
-      \reftextlabelrange
-    \@@_ref_opt_cs_get:xnnN
-      { \l_@@_ref_language_tl }
-      { vrefrangeformat } { nnn }
-      \vrefrangeformat
-    \@@_ref_opt_cs_get:xnnN
-      { \l_@@_ref_language_tl }
-      { fullrefformat } { n }
-      \fullrefformat
+    \bool_if:NF \l_@@_varioref_setup_bool
+      {
+        \bool_set_true:N \l_@@_varioref_setup_bool
+        \@vrefhandlespacefalse
+        \cs_set_eq:NN \vref@pagenum \@@_vref_pagenum:Nn
+        \cs_set_eq:NN \vrefpagenum \@@_vrefpagenum:Nn
+        \cs_set_eq:NN \vref@label \@@_vref_label:n
+        \@@_ref_opt_tl_get:xnN
+          { \l_@@_ref_language_tl }
+          { reftextfaceafter }
+          \reftextfaceafter
+        \@@_ref_opt_tl_get:xnN
+          { \l_@@_ref_language_tl }
+          { reftextfacebefore }
+          \reftextfacebefore
+        \@@_ref_opt_tl_get:xnN
+          { \l_@@_ref_language_tl }
+          { reftextafter }
+          \reftextafter
+        \@@_ref_opt_tl_get:xnN
+          { \l_@@_ref_language_tl }
+          { reftextbefore }
+          \reftextbefore
+        \@@_ref_opt_tl_get:xnN
+          { \l_@@_ref_language_tl }
+          { reftextcurrent }
+          \reftextcurrent
+        \@@_ref_opt_cs_get:xnnN
+          { \l_@@_ref_language_tl }
+          { reftextfaraway } { n }
+          \reftextfaraway
+        \@@_ref_opt_cs_get:xnnN
+          { \l_@@_ref_language_tl }
+          { vrefformat } { nn }
+          \vrefformat
+        \@@_ref_opt_cs_get:xnnN
+          { \l_@@_ref_language_tl }
+          { reftextpagerange } { nn }
+          \reftextpagerange
+        \@@_ref_opt_cs_get:xnnN
+          { \l_@@_ref_language_tl }
+          { reftextlabelrange } { nn }
+          \reftextlabelrange
+        \@@_ref_opt_cs_get:xnnN
+          { \l_@@_ref_language_tl }
+          { vrefrangeformat } { nnn }
+          \vrefrangeformat
+        \@@_ref_opt_cs_get:xnnN
+          { \l_@@_ref_language_tl }
+          { fullrefformat } { n }
+          \fullrefformat
+      }
   }
 %    \end{macrocode}
 % \end{macro}
@@ -656,9 +684,9 @@
     \group_begin:
     \keys_set:nn { zref-vario/ref-oneoptarg } {#3}
     \bool_if:nT {#2}
-      { \bool_set_false:N \l__zrefclever_hyperlink_bool }
+      { \keys_set:nn { zref-vario/ref } { nohyperref } }
     \@@_varioref_setup:
-    \@@_vref:Vn \l_@@_reftextcurrent_tl {#1}
+    \@@_vref:Vn \l_@@_vref_reftextcurrent_tl {#1}
     \group_end:
   }
 %    \end{macrocode}
@@ -687,7 +715,7 @@
     \group_begin:
     \keys_set:nn { zref-vario/ref-twooptargs } {#3}
     \bool_if:nT {#2}
-      { \bool_set_false:N \l__zrefclever_hyperlink_bool }
+      { \keys_set:nn { zref-vario/ref } { nohyperref } }
     \@@_varioref_setup:
     \@@_vpageref:VVn \l_@@_reftextcurrent_tl
       \l_@@_reftextother_tl {#1}
@@ -716,7 +744,7 @@
     \group_begin:
     \keys_set:nn { zref-vario/ref-oneoptarg } {#4}
     \bool_if:nT {#3}
-      { \bool_set_false:N \l__zrefclever_hyperlink_bool }
+      { \keys_set:nn { zref-vario/ref } { nohyperref } }
     \@@_varioref_setup:
     \@@_vrefrange:Vnn \l_@@_reftextcurrent_tl {#1} {#2}
     \group_end:
@@ -744,7 +772,7 @@
     \group_begin:
     \keys_set:nn { zref-vario/ref-oneoptarg } {#4}
     \bool_if:nT {#3}
-      { \bool_set_false:N \l__zrefclever_hyperlink_bool }
+      { \keys_set:nn { zref-vario/ref } { nohyperref } }
     \@@_varioref_setup:
     \@@_vpagerefrange:Vnn \l_@@_reftextcurrent_tl {#1} {#2}
     \group_end:
@@ -768,7 +796,7 @@
     \group_begin:
     \keys_set:nn { zref-vario/ref } {#3}
     \bool_if:nT {#2}
-      { \bool_set_false:N \l__zrefclever_hyperlink_bool }
+      { \keys_set:nn { zref-vario/ref } { nohyperref } }
     \@@_varioref_setup:
     \fullref {#1}
     \group_end:
@@ -789,8 +817,8 @@
     reftextafter = {on~the~\reftextvario{following}{next}~page} ,
     reftextbefore = {on~the~\reftextvario{preceding}{previous}~page} ,
     reftextcurrent = {on~\reftextvario{this}{the~current}~page} ,
-    reftextfaraway = {on~\zcpageref[S=false]{#1}} ,
-    reftextpagerange = {on~\zcpageref[range,S=false]{#1,#2}} ,
+    reftextfaraway = {on~\zcpageref{#1}} ,
+    reftextpagerange = {on~\zcpageref[range]{#1,#2}} ,
     reftextlabelrange = {\zcref[range]{#1,#2}} ,
   }
 %    \end{macrocode}
@@ -804,8 +832,8 @@
     reftextafter = {auf~der~nächsten~Seite} ,
     reftextbefore = {auf~der~vorherigen~Seite} ,
     reftextcurrent = {auf~dieser~Seite} ,
-    reftextfaraway = {auf~\zcpageref[d=D]{#1}} ,
-    reftextpagerange = {auf~den~\zcpageref[d=D,range]{#1,#2}} ,
+    reftextfaraway = {auf~\zcpageref[d=D,g=f]{#1}} ,
+    reftextpagerange = {auf~den~\zcpageref[range,d=D,g=f]{#1,#2}} ,
     reftextlabelrange = {\zcref[range]{#1,#2}} ,
   }
 %    \end{macrocode}
@@ -819,8 +847,8 @@
     reftextafter = {page~suivante} ,
     reftextbefore = {page~précédente} ,
     reftextcurrent = {de~la~présente~page} ,
-    reftextfaraway = {\zcpageref{#1}} ,
-    reftextpagerange = {\zcpageref[range]{#1,#2}} ,
+    reftextfaraway = {\zcpageref[g=f]{#1}} ,
+    reftextpagerange = {\zcpageref[range,g=f]{#1,#2}} ,
     reftextlabelrange = {\zcref[range]{#1,#2}} ,
   }
 %    \end{macrocode}
@@ -834,8 +862,8 @@
     reftextafter = {na~\reftextvario{página~seguinte}{próxima~página}} ,
     reftextbefore = {na~página~\reftextvario{anterior}{precedente}} ,
     reftextcurrent = {nesta~página} ,
-    reftextfaraway = {na~\zcpageref[S=false]{#1}} ,
-    reftextpagerange = {nas~\zcpageref[range,S=false]{#1,#2}} ,
+    reftextfaraway = {na~\zcpageref[g=f]{#1}} ,
+    reftextpagerange = {nas~\zcpageref[range,g=f]{#1,#2}} ,
     reftextlabelrange = {\zcref[range]{#1,#2}} ,
   }
 %    \end{macrocode}
@@ -849,8 +877,8 @@
     reftextafter = {en~la~página~siguiente} ,
     reftextbefore = {en~la~página~anterior} ,
     reftextcurrent = {en~esta~página} ,
-    reftextfaraway = {en~la~\zcpageref[S=false]{#1}} ,
-    reftextpagerange = {en~las~\zcpageref[range,S=false]{#1,#2}} ,
+    reftextfaraway = {en~la~\zcpageref[g=f]{#1}} ,
+    reftextpagerange = {en~las~\zcpageref[range,g=f]{#1,#2}} ,
     reftextlabelrange = {\zcref[range]{#1,#2}} ,
   }
 %    \end{macrocode}
@@ -864,8 +892,8 @@
     reftextafter = {op~de~\reftextvario{volgende~pagina}{pagina~hierna}} ,
     reftextbefore = {op~de~\reftextvario{vorige~pagina}{pagina~hiervoor}} ,
     reftextcurrent = {op~deze~pagina} ,
-    reftextfaraway = {op~\zcpageref[S=false]{#1}} ,
-    reftextpagerange = {op~\zcpageref[range,S=false]{#1,#2}} ,
+    reftextfaraway = {op~\zcpageref[g=f]{#1}} ,
+    reftextpagerange = {op~\zcpageref[range,g=f]{#1,#2}} ,
     reftextlabelrange = {\zcref[range]{#1,#2}} ,
   }
 %    \end{macrocode}

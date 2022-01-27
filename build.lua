@@ -1,4 +1,4 @@
--- Build script for "zref-clever" package
+-- Build script for "zref-vario" package
 
 -- Identify the bundle and module
 bundle = ""
@@ -7,30 +7,20 @@ module = "zref-vario"
 -- Typeset only the .tex files
 typesetfiles = {"*.tex"}
 
--- Add language files to installation files
--- installfiles = {"*.sty","*.cls","*.lang"}
-
 -- Two runs for label testing
 checkruns = 2
 
--- Set up different test sets
--- checkconfigs = {"build","build-moreruns"}
-
 -- Use dev formats for regression tests
 -- See https://tex.stackexchange.com/q/611424
--- checkengines = {"pdftex","luatex","xetex","pdftexdev","luatexdev","xetexdev"}
--- specialformats = specialformats or {}
--- specialformats.latex = specialformats.latex or { }
--- specialformats.latex.pdftexdev = { binary = "pdflatex-dev" , format = "" }
--- specialformats.latex.luatexdev = { binary = "lualatex-dev" , format = "" }
--- specialformats.latex.xetexdev  = { binary = "xelatex-dev"  , format = "" }
-
+checkengines = {"pdftex","luatex","xetex","pdftexdev","luatexdev","xetexdev"}
+specialformats = specialformats or {}
+specialformats.latex = specialformats.latex or { }
+specialformats.latex.pdftexdev = { binary = "pdflatex-dev" , format = "" }
+specialformats.latex.luatexdev = { binary = "lualatex-dev" , format = "" }
+specialformats.latex.xetexdev  = { binary = "xelatex-dev"  , format = "" }
 
 -- Use UTF-8 logs for all engines
 asciiengines = {}
-
--- Release a TDS-style zip
--- packtdszip = true
 
 -- CTAN upload settings
 uploadconfig = {
