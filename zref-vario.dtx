@@ -163,8 +163,8 @@
 %    \begin{macrocode}
 \cs_new:Npn \@@_base_lang:n #1
   {
-    \__zrefclever_language_if_declared:nTF {#1}
-      { \tl_use:c { \__zrefclever_language_varname:n {#1} } }
+    \zrefclever_language_if_declared:nTF {#1}
+      { \tl_use:c { \zrefclever_language_varname:n {#1} } }
       { zv_unknown_language }
   }
 \cs_generate_variant:Nn \@@_base_lang:n { e }
@@ -172,11 +172,11 @@
 % \end{macro}
 %
 % \begin{macro}{\l_@@_ref_language_tl}
-% An internal copy of \cs{l__zrefclever_ref_language_tl}, since we need to
+% An internal version of \cs{l_zrefclever_ref_language_tl}, since we need to
 % retreive the current value of the variable in multiple places.
 %    \begin{macrocode}
 \tl_new:N \l_@@_ref_language_tl
-\tl_set:Nn \l_@@_ref_language_tl { \l__zrefclever_ref_language_tl }
+\tl_set:Nn \l_@@_ref_language_tl { \l_zrefclever_ref_language_tl }
 %    \end{macrocode}
 % \end{macro}
 %
@@ -315,7 +315,7 @@
 \NewDocumentCommand \zvLanguageSetup { m m }
   {
     \group_begin:
-    \__zrefclever_language_if_declared:nTF {#1}
+    \zrefclever_language_if_declared:nTF {#1}
       {
         \tl_set:Nn \l_@@_setup_language_tl {#1}
         \keys_set:nn { zref-vario/langsetup } {#2}
