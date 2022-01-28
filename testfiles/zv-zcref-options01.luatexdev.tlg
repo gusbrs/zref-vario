@@ -1,0 +1,1795 @@
+This is a generated file for the l3build validation system.
+Don't change this file in any respect.
+============================================================
+TEST 1: Option: S
+============================================================
+> \box...=
+\hbox(7.05+2.06)x93.33, direction TLT
+.\pdfstartlink(*+*)x* attr{/Border[0 0 1]/H/I/C[1 0 0]} action goto name{section.1.1}
+.\TU/lmr/m/n/10 S
+.\TU/lmr/m/n/10 e
+.\TU/lmr/m/n/10 c
+.\discretionary (penalty 50)
+..< \TU/lmr/m/n/10 -
+.\TU/lmr/m/n/10 t
+.\TU/lmr/m/n/10 i
+.\TU/lmr/m/n/10 o
+.\TU/lmr/m/n/10 n
+.\penalty 10000
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\TU/lmr/m/n/10 1
+.\TU/lmr/m/n/10 .
+.\TU/lmr/m/n/10 1
+.\pdfendlink
+.\write1{\zref@newlabel{1@xvr}{\page{\Z@C@page }}}
+.\glue 3.33 plus 1.665 minus 1.11
+.\TU/lmr/m/n/10 o
+.\TU/lmr/m/n/10 n
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\pdfstartlink(*+*)x* attr{/Border[0 0 1]/H/I/C[1 0 0]} action goto name{section.1.1}
+.\TU/lmr/m/n/10 p
+.\TU/lmr/m/n/10 a
+.\TU/lmr/m/n/10 g
+.\TU/lmr/m/n/10 e
+.\penalty 10000
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\TU/lmr/m/n/10 1
+.\pdfendlink
+.\write1{\zref@newlabel{1@vr}{\page{\Z@C@page }}}
+! OK.
+l. ...\showbox0
+> \box...=
+\hbox(6.83+2.06)x43.19, direction TLT
+.\write1{\zref@newlabel{2@xvr}{\page{\Z@C@page }}}
+.\TU/lmr/m/n/10 o
+.\TU/lmr/m/n/10 n
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\pdfstartlink(*+*)x* attr{/Border[0 0 1]/H/I/C[1 0 0]} action goto name{section.1.1}
+.\TU/lmr/m/n/10 P
+.\kern-0.28 (font)
+.\TU/lmr/m/n/10 a
+.\TU/lmr/m/n/10 g
+.\TU/lmr/m/n/10 e
+.\penalty 10000
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\TU/lmr/m/n/10 1
+.\pdfendlink
+.\write1{\zref@newlabel{2@vr}{\page{\Z@C@page }}}
+! OK.
+l. ...\showbox0
+> \box...=
+\hbox(7.05+2.06)x132.83, direction TLT
+.\TU/lmr/m/n/10 S
+.\TU/lmr/m/n/10 e
+.\TU/lmr/m/n/10 c
+.\discretionary (penalty 50)
+..< \TU/lmr/m/n/10 -
+.\TU/lmr/m/n/10 t
+.\TU/lmr/m/n/10 i
+.\TU/lmr/m/n/10 o
+.\TU/lmr/m/n/10 n
+.\TU/lmr/m/n/10 s
+.\penalty 10000
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\pdfstartlink(*+*)x* attr{/Border[0 0 1]/H/I/C[1 0 0]} action goto name{section.1.1}
+.\TU/lmr/m/n/10 1
+.\TU/lmr/m/n/10 .
+.\TU/lmr/m/n/10 1
+.\pdfendlink
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\TU/lmr/m/n/10 a
+.\TU/lmr/m/n/10 n
+.\TU/lmr/m/n/10 d
+.\penalty 10000
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\pdfstartlink(*+*)x* attr{/Border[0 0 1]/H/I/C[1 0 0]} action goto name{section.1.2}
+.\TU/lmr/m/n/10 1
+.\TU/lmr/m/n/10 .
+.\TU/lmr/m/n/10 2
+.\pdfendlink
+.\write1{\zref@newlabel{3@xvr}{\page{\Z@C@page }}}
+.\glue 3.33 plus 1.665 minus 1.11
+.\TU/lmr/m/n/10 o
+.\TU/lmr/m/n/10 n
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\pdfstartlink(*+*)x* attr{/Border[0 0 1]/H/I/C[1 0 0]} action goto name{section.1.1}
+.\TU/lmr/m/n/10 p
+.\TU/lmr/m/n/10 a
+.\TU/lmr/m/n/10 g
+.\TU/lmr/m/n/10 e
+.\penalty 10000
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\TU/lmr/m/n/10 1
+.\pdfendlink
+.\write1{\zref@newlabel{3@vr}{\page{\Z@C@page }}}
+! OK.
+l. ...\showbox0
+> \box...=
+\hbox(6.83+2.06)x43.19, direction TLT
+.\write1{\zref@newlabel{4@xvr}{\page{\Z@C@page }}}
+.\TU/lmr/m/n/10 o
+.\TU/lmr/m/n/10 n
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\pdfstartlink(*+*)x* attr{/Border[0 0 1]/H/I/C[1 0 0]} action goto name{section.1.1}
+.\TU/lmr/m/n/10 P
+.\kern-0.28 (font)
+.\TU/lmr/m/n/10 a
+.\TU/lmr/m/n/10 g
+.\TU/lmr/m/n/10 e
+.\penalty 10000
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\TU/lmr/m/n/10 1
+.\pdfendlink
+.\write1{\zref@newlabel{4@vr}{\page{\Z@C@page }}}
+! OK.
+l. ...\showbox0
+> \box...=
+\hbox(7.05+2.06)x93.33, direction TLT
+.\pdfstartlink(*+*)x* attr{/Border[0 0 1]/H/I/C[1 0 0]} action goto name{section.1.1}
+.\TU/lmr/m/n/10 S
+.\TU/lmr/m/n/10 e
+.\TU/lmr/m/n/10 c
+.\discretionary (penalty 50)
+..< \TU/lmr/m/n/10 -
+.\TU/lmr/m/n/10 t
+.\TU/lmr/m/n/10 i
+.\TU/lmr/m/n/10 o
+.\TU/lmr/m/n/10 n
+.\penalty 10000
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\TU/lmr/m/n/10 1
+.\TU/lmr/m/n/10 .
+.\TU/lmr/m/n/10 1
+.\pdfendlink
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\TU/lmr/m/n/10 o
+.\TU/lmr/m/n/10 n
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\pdfstartlink(*+*)x* attr{/Border[0 0 1]/H/I/C[1 0 0]} action goto name{section.1.1}
+.\TU/lmr/m/n/10 p
+.\TU/lmr/m/n/10 a
+.\TU/lmr/m/n/10 g
+.\TU/lmr/m/n/10 e
+.\penalty 10000
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\TU/lmr/m/n/10 1
+.\pdfendlink
+! OK.
+l. ...\showbox0
+============================================================
+============================================================
+TEST 2: Option: cap
+============================================================
+> \box...=
+\hbox(7.05+2.06)x94.3, direction TLT
+.\pdfstartlink(*+*)x* attr{/Border[0 0 1]/H/I/C[1 0 0]} action goto name{section.1.1}
+.\TU/lmr/m/n/10 S
+.\TU/lmr/m/n/10 e
+.\TU/lmr/m/n/10 c
+.\discretionary (penalty 50)
+..< \TU/lmr/m/n/10 -
+.\TU/lmr/m/n/10 t
+.\TU/lmr/m/n/10 i
+.\TU/lmr/m/n/10 o
+.\TU/lmr/m/n/10 n
+.\penalty 10000
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\TU/lmr/m/n/10 1
+.\TU/lmr/m/n/10 .
+.\TU/lmr/m/n/10 1
+.\pdfendlink
+.\write1{\zref@newlabel{5@xvr}{\page{\Z@C@page }}}
+.\glue 3.33 plus 1.665 minus 1.11
+.\TU/lmr/m/n/10 o
+.\TU/lmr/m/n/10 n
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\pdfstartlink(*+*)x* attr{/Border[0 0 1]/H/I/C[1 0 0]} action goto name{section.1.1}
+.\TU/lmr/m/n/10 P
+.\kern-0.28 (font)
+.\TU/lmr/m/n/10 a
+.\TU/lmr/m/n/10 g
+.\TU/lmr/m/n/10 e
+.\penalty 10000
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\TU/lmr/m/n/10 1
+.\pdfendlink
+.\write1{\zref@newlabel{5@vr}{\page{\Z@C@page }}}
+! OK.
+l. ...\showbox0
+> \box...=
+\hbox(6.83+2.06)x43.19, direction TLT
+.\write1{\zref@newlabel{6@xvr}{\page{\Z@C@page }}}
+.\TU/lmr/m/n/10 o
+.\TU/lmr/m/n/10 n
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\pdfstartlink(*+*)x* attr{/Border[0 0 1]/H/I/C[1 0 0]} action goto name{section.1.1}
+.\TU/lmr/m/n/10 P
+.\kern-0.28 (font)
+.\TU/lmr/m/n/10 a
+.\TU/lmr/m/n/10 g
+.\TU/lmr/m/n/10 e
+.\penalty 10000
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\TU/lmr/m/n/10 1
+.\pdfendlink
+.\write1{\zref@newlabel{6@vr}{\page{\Z@C@page }}}
+! OK.
+l. ...\showbox0
+> \box...=
+\hbox(7.05+2.06)x133.8, direction TLT
+.\TU/lmr/m/n/10 S
+.\TU/lmr/m/n/10 e
+.\TU/lmr/m/n/10 c
+.\discretionary (penalty 50)
+..< \TU/lmr/m/n/10 -
+.\TU/lmr/m/n/10 t
+.\TU/lmr/m/n/10 i
+.\TU/lmr/m/n/10 o
+.\TU/lmr/m/n/10 n
+.\TU/lmr/m/n/10 s
+.\penalty 10000
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\pdfstartlink(*+*)x* attr{/Border[0 0 1]/H/I/C[1 0 0]} action goto name{section.1.1}
+.\TU/lmr/m/n/10 1
+.\TU/lmr/m/n/10 .
+.\TU/lmr/m/n/10 1
+.\pdfendlink
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\TU/lmr/m/n/10 a
+.\TU/lmr/m/n/10 n
+.\TU/lmr/m/n/10 d
+.\penalty 10000
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\pdfstartlink(*+*)x* attr{/Border[0 0 1]/H/I/C[1 0 0]} action goto name{section.1.2}
+.\TU/lmr/m/n/10 1
+.\TU/lmr/m/n/10 .
+.\TU/lmr/m/n/10 2
+.\pdfendlink
+.\write1{\zref@newlabel{7@xvr}{\page{\Z@C@page }}}
+.\glue 3.33 plus 1.665 minus 1.11
+.\TU/lmr/m/n/10 o
+.\TU/lmr/m/n/10 n
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\pdfstartlink(*+*)x* attr{/Border[0 0 1]/H/I/C[1 0 0]} action goto name{section.1.1}
+.\TU/lmr/m/n/10 P
+.\kern-0.28 (font)
+.\TU/lmr/m/n/10 a
+.\TU/lmr/m/n/10 g
+.\TU/lmr/m/n/10 e
+.\penalty 10000
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\TU/lmr/m/n/10 1
+.\pdfendlink
+.\write1{\zref@newlabel{7@vr}{\page{\Z@C@page }}}
+! OK.
+l. ...\showbox0
+> \box...=
+\hbox(6.83+2.06)x43.19, direction TLT
+.\write1{\zref@newlabel{8@xvr}{\page{\Z@C@page }}}
+.\TU/lmr/m/n/10 o
+.\TU/lmr/m/n/10 n
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\pdfstartlink(*+*)x* attr{/Border[0 0 1]/H/I/C[1 0 0]} action goto name{section.1.1}
+.\TU/lmr/m/n/10 P
+.\kern-0.28 (font)
+.\TU/lmr/m/n/10 a
+.\TU/lmr/m/n/10 g
+.\TU/lmr/m/n/10 e
+.\penalty 10000
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\TU/lmr/m/n/10 1
+.\pdfendlink
+.\write1{\zref@newlabel{8@vr}{\page{\Z@C@page }}}
+! OK.
+l. ...\showbox0
+> \box...=
+\hbox(7.05+2.06)x94.3, direction TLT
+.\pdfstartlink(*+*)x* attr{/Border[0 0 1]/H/I/C[1 0 0]} action goto name{section.1.1}
+.\TU/lmr/m/n/10 S
+.\TU/lmr/m/n/10 e
+.\TU/lmr/m/n/10 c
+.\discretionary (penalty 50)
+..< \TU/lmr/m/n/10 -
+.\TU/lmr/m/n/10 t
+.\TU/lmr/m/n/10 i
+.\TU/lmr/m/n/10 o
+.\TU/lmr/m/n/10 n
+.\penalty 10000
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\TU/lmr/m/n/10 1
+.\TU/lmr/m/n/10 .
+.\TU/lmr/m/n/10 1
+.\pdfendlink
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\TU/lmr/m/n/10 o
+.\TU/lmr/m/n/10 n
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\pdfstartlink(*+*)x* attr{/Border[0 0 1]/H/I/C[1 0 0]} action goto name{section.1.1}
+.\TU/lmr/m/n/10 P
+.\kern-0.28 (font)
+.\TU/lmr/m/n/10 a
+.\TU/lmr/m/n/10 g
+.\TU/lmr/m/n/10 e
+.\penalty 10000
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\TU/lmr/m/n/10 1
+.\pdfendlink
+! OK.
+l. ...\showbox0
+============================================================
+============================================================
+TEST 3: Option: noname
+============================================================
+> \box...=
+\hbox(6.66+2.06)x58.33, direction TLT
+.\pdfstartlink(*+*)x* attr{/Border[0 0 1]/H/I/C[1 0 0]} action goto name{section.1.1}
+.\TU/lmr/m/n/10 1
+.\TU/lmr/m/n/10 .
+.\TU/lmr/m/n/10 1
+.\pdfendlink
+.\write1{\zref@newlabel{9@xvr}{\page{\Z@C@page }}}
+.\glue 3.33 plus 1.665 minus 1.11
+.\TU/lmr/m/n/10 o
+.\TU/lmr/m/n/10 n
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\pdfstartlink(*+*)x* attr{/Border[0 0 1]/H/I/C[1 0 0]} action goto name{section.1.1}
+.\TU/lmr/m/n/10 p
+.\TU/lmr/m/n/10 a
+.\TU/lmr/m/n/10 g
+.\TU/lmr/m/n/10 e
+.\penalty 10000
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\TU/lmr/m/n/10 1
+.\pdfendlink
+.\write1{\zref@newlabel{9@vr}{\page{\Z@C@page }}}
+! OK.
+l. ...\showbox0
+> \box...=
+\hbox(6.66+0.11)x18.89, direction TLT
+.\write1{\zref@newlabel{10@xvr}{\page{\Z@C@page }}}
+.\TU/lmr/m/n/10 o
+.\TU/lmr/m/n/10 n
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\pdfstartlink(*+*)x* attr{/Border[0 0 1]/H/I/C[1 0 0]} action goto name{section.1.1}
+.\TU/lmr/m/n/10 1
+.\pdfendlink
+.\write1{\zref@newlabel{10@vr}{\page{\Z@C@page }}}
+! OK.
+l. ...\showbox0
+> \box...=
+\hbox(6.94+2.06)x93.89, direction TLT
+.\pdfstartlink(*+*)x* attr{/Border[0 0 1]/H/I/C[1 0 0]} action goto name{section.1.1}
+.\TU/lmr/m/n/10 1
+.\TU/lmr/m/n/10 .
+.\TU/lmr/m/n/10 1
+.\pdfendlink
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\TU/lmr/m/n/10 a
+.\TU/lmr/m/n/10 n
+.\TU/lmr/m/n/10 d
+.\penalty 10000
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\pdfstartlink(*+*)x* attr{/Border[0 0 1]/H/I/C[1 0 0]} action goto name{section.1.2}
+.\TU/lmr/m/n/10 1
+.\TU/lmr/m/n/10 .
+.\TU/lmr/m/n/10 2
+.\pdfendlink
+.\write1{\zref@newlabel{11@xvr}{\page{\Z@C@page }}}
+.\glue 3.33 plus 1.665 minus 1.11
+.\TU/lmr/m/n/10 o
+.\TU/lmr/m/n/10 n
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\pdfstartlink(*+*)x* attr{/Border[0 0 1]/H/I/C[1 0 0]} action goto name{section.1.1}
+.\TU/lmr/m/n/10 p
+.\TU/lmr/m/n/10 a
+.\TU/lmr/m/n/10 g
+.\TU/lmr/m/n/10 e
+.\penalty 10000
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\TU/lmr/m/n/10 1
+.\pdfendlink
+.\write1{\zref@newlabel{11@vr}{\page{\Z@C@page }}}
+! OK.
+l. ...\showbox0
+> \box...=
+\hbox(6.66+0.11)x18.89, direction TLT
+.\write1{\zref@newlabel{12@xvr}{\page{\Z@C@page }}}
+.\TU/lmr/m/n/10 o
+.\TU/lmr/m/n/10 n
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\pdfstartlink(*+*)x* attr{/Border[0 0 1]/H/I/C[1 0 0]} action goto name{section.1.1}
+.\TU/lmr/m/n/10 1
+.\pdfendlink
+.\write1{\zref@newlabel{12@vr}{\page{\Z@C@page }}}
+! OK.
+l. ...\showbox0
+> \box...=
+\hbox(6.66+2.06)x58.33, direction TLT
+.\pdfstartlink(*+*)x* attr{/Border[0 0 1]/H/I/C[1 0 0]} action goto name{section.1.1}
+.\TU/lmr/m/n/10 1
+.\TU/lmr/m/n/10 .
+.\TU/lmr/m/n/10 1
+.\pdfendlink
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\TU/lmr/m/n/10 o
+.\TU/lmr/m/n/10 n
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\pdfstartlink(*+*)x* attr{/Border[0 0 1]/H/I/C[1 0 0]} action goto name{section.1.1}
+.\TU/lmr/m/n/10 p
+.\TU/lmr/m/n/10 a
+.\TU/lmr/m/n/10 g
+.\TU/lmr/m/n/10 e
+.\penalty 10000
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\TU/lmr/m/n/10 1
+.\pdfendlink
+! OK.
+l. ...\showbox0
+============================================================
+============================================================
+TEST 4: Option: noref
+============================================================
+> \box...=
+\hbox(6.66+2.06)x75.6, direction TLT
+.\pdfstartlink(*+*)x* attr{/Border[0 0 1]/H/I/C[1 0 0]} action goto name{section.1.1}
+.\TU/lmr/m/n/10 s
+.\TU/lmr/m/n/10 e
+.\TU/lmr/m/n/10 c
+.\discretionary (penalty 50)
+..< \TU/lmr/m/n/10 -
+.\TU/lmr/m/n/10 t
+.\TU/lmr/m/n/10 i
+.\TU/lmr/m/n/10 o
+.\TU/lmr/m/n/10 n
+.\pdfendlink
+.\write1{\zref@newlabel{13@xvr}{\page{\Z@C@page }}}
+.\glue 3.33 plus 1.665 minus 1.11
+.\TU/lmr/m/n/10 o
+.\TU/lmr/m/n/10 n
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\pdfstartlink(*+*)x* attr{/Border[0 0 1]/H/I/C[1 0 0]} action goto name{section.1.1}
+.\TU/lmr/m/n/10 p
+.\TU/lmr/m/n/10 a
+.\TU/lmr/m/n/10 g
+.\TU/lmr/m/n/10 e
+.\penalty 10000
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\TU/lmr/m/n/10 1
+.\pdfendlink
+.\write1{\zref@newlabel{13@vr}{\page{\Z@C@page }}}
+! OK.
+l. ...\showbox0
+> \box...=
+\hbox(4.53+2.06)x33.89, direction TLT
+.\write1{\zref@newlabel{14@xvr}{\page{\Z@C@page }}}
+.\TU/lmr/m/n/10 o
+.\TU/lmr/m/n/10 n
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\pdfstartlink(*+*)x* attr{/Border[0 0 1]/H/I/C[1 0 0]} action goto name{section.1.1}
+.\TU/lmr/m/n/10 p
+.\TU/lmr/m/n/10 a
+.\TU/lmr/m/n/10 g
+.\TU/lmr/m/n/10 e
+.\pdfendlink
+.\write1{\zref@newlabel{14@vr}{\page{\Z@C@page }}}
+! OK.
+l. ...\showbox0
+> \box...=
+\hbox(6.66+2.06)x79.54001, direction TLT
+.\TU/lmr/m/n/10 s
+.\TU/lmr/m/n/10 e
+.\TU/lmr/m/n/10 c
+.\discretionary (penalty 50)
+..< \TU/lmr/m/n/10 -
+.\TU/lmr/m/n/10 t
+.\TU/lmr/m/n/10 i
+.\TU/lmr/m/n/10 o
+.\TU/lmr/m/n/10 n
+.\TU/lmr/m/n/10 s
+.\write1{\zref@newlabel{15@xvr}{\page{\Z@C@page }}}
+.\glue 3.33 plus 1.665 minus 1.11
+.\TU/lmr/m/n/10 o
+.\TU/lmr/m/n/10 n
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\pdfstartlink(*+*)x* attr{/Border[0 0 1]/H/I/C[1 0 0]} action goto name{section.1.1}
+.\TU/lmr/m/n/10 p
+.\TU/lmr/m/n/10 a
+.\TU/lmr/m/n/10 g
+.\TU/lmr/m/n/10 e
+.\penalty 10000
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\TU/lmr/m/n/10 1
+.\pdfendlink
+.\write1{\zref@newlabel{15@vr}{\page{\Z@C@page }}}
+! OK.
+l. ...\showbox0
+> \box...=
+\hbox(4.53+2.06)x33.89, direction TLT
+.\write1{\zref@newlabel{16@xvr}{\page{\Z@C@page }}}
+.\TU/lmr/m/n/10 o
+.\TU/lmr/m/n/10 n
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\pdfstartlink(*+*)x* attr{/Border[0 0 1]/H/I/C[1 0 0]} action goto name{section.1.1}
+.\TU/lmr/m/n/10 p
+.\TU/lmr/m/n/10 a
+.\TU/lmr/m/n/10 g
+.\TU/lmr/m/n/10 e
+.\pdfendlink
+.\write1{\zref@newlabel{16@vr}{\page{\Z@C@page }}}
+! OK.
+l. ...\showbox0
+> \box...=
+\hbox(6.66+2.06)x75.6, direction TLT
+.\pdfstartlink(*+*)x* attr{/Border[0 0 1]/H/I/C[1 0 0]} action goto name{section.1.1}
+.\TU/lmr/m/n/10 s
+.\TU/lmr/m/n/10 e
+.\TU/lmr/m/n/10 c
+.\discretionary (penalty 50)
+..< \TU/lmr/m/n/10 -
+.\TU/lmr/m/n/10 t
+.\TU/lmr/m/n/10 i
+.\TU/lmr/m/n/10 o
+.\TU/lmr/m/n/10 n
+.\pdfendlink
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\TU/lmr/m/n/10 o
+.\TU/lmr/m/n/10 n
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\pdfstartlink(*+*)x* attr{/Border[0 0 1]/H/I/C[1 0 0]} action goto name{section.1.1}
+.\TU/lmr/m/n/10 p
+.\TU/lmr/m/n/10 a
+.\TU/lmr/m/n/10 g
+.\TU/lmr/m/n/10 e
+.\penalty 10000
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\TU/lmr/m/n/10 1
+.\pdfendlink
+! OK.
+l. ...\showbox0
+============================================================
+============================================================
+TEST 5: Option: nameinlink
+============================================================
+> \box...=
+\hbox(6.66+2.06)x91.71, direction TLT
+.\TU/lmr/m/n/10 s
+.\TU/lmr/m/n/10 e
+.\TU/lmr/m/n/10 c
+.\discretionary (penalty 50)
+..< \TU/lmr/m/n/10 -
+.\TU/lmr/m/n/10 t
+.\TU/lmr/m/n/10 i
+.\TU/lmr/m/n/10 o
+.\TU/lmr/m/n/10 n
+.\penalty 10000
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\pdfstartlink(*+*)x* attr{/Border[0 0 1]/H/I/C[1 0 0]} action goto name{section.1.1}
+.\TU/lmr/m/n/10 1
+.\TU/lmr/m/n/10 .
+.\TU/lmr/m/n/10 1
+.\pdfendlink
+.\write1{\zref@newlabel{17@xvr}{\page{\Z@C@page }}}
+.\glue 3.33 plus 1.665 minus 1.11
+.\TU/lmr/m/n/10 o
+.\TU/lmr/m/n/10 n
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\TU/lmr/m/n/10 p
+.\TU/lmr/m/n/10 a
+.\TU/lmr/m/n/10 g
+.\TU/lmr/m/n/10 e
+.\penalty 10000
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\pdfstartlink(*+*)x* attr{/Border[0 0 1]/H/I/C[1 0 0]} action goto name{section.1.1}
+.\TU/lmr/m/n/10 1
+.\pdfendlink
+.\write1{\zref@newlabel{17@vr}{\page{\Z@C@page }}}
+! OK.
+l. ...\showbox0
+> \box...=
+\hbox(6.66+2.06)x42.22, direction TLT
+.\write1{\zref@newlabel{18@xvr}{\page{\Z@C@page }}}
+.\TU/lmr/m/n/10 o
+.\TU/lmr/m/n/10 n
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\TU/lmr/m/n/10 p
+.\TU/lmr/m/n/10 a
+.\TU/lmr/m/n/10 g
+.\TU/lmr/m/n/10 e
+.\penalty 10000
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\pdfstartlink(*+*)x* attr{/Border[0 0 1]/H/I/C[1 0 0]} action goto name{section.1.1}
+.\TU/lmr/m/n/10 1
+.\pdfendlink
+.\write1{\zref@newlabel{18@vr}{\page{\Z@C@page }}}
+! OK.
+l. ...\showbox0
+> \box...=
+\hbox(6.94+2.06)x131.21, direction TLT
+.\TU/lmr/m/n/10 s
+.\TU/lmr/m/n/10 e
+.\TU/lmr/m/n/10 c
+.\discretionary (penalty 50)
+..< \TU/lmr/m/n/10 -
+.\TU/lmr/m/n/10 t
+.\TU/lmr/m/n/10 i
+.\TU/lmr/m/n/10 o
+.\TU/lmr/m/n/10 n
+.\TU/lmr/m/n/10 s
+.\penalty 10000
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\pdfstartlink(*+*)x* attr{/Border[0 0 1]/H/I/C[1 0 0]} action goto name{section.1.1}
+.\TU/lmr/m/n/10 1
+.\TU/lmr/m/n/10 .
+.\TU/lmr/m/n/10 1
+.\pdfendlink
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\TU/lmr/m/n/10 a
+.\TU/lmr/m/n/10 n
+.\TU/lmr/m/n/10 d
+.\penalty 10000
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\pdfstartlink(*+*)x* attr{/Border[0 0 1]/H/I/C[1 0 0]} action goto name{section.1.2}
+.\TU/lmr/m/n/10 1
+.\TU/lmr/m/n/10 .
+.\TU/lmr/m/n/10 2
+.\pdfendlink
+.\write1{\zref@newlabel{19@xvr}{\page{\Z@C@page }}}
+.\glue 3.33 plus 1.665 minus 1.11
+.\TU/lmr/m/n/10 o
+.\TU/lmr/m/n/10 n
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\TU/lmr/m/n/10 p
+.\TU/lmr/m/n/10 a
+.\TU/lmr/m/n/10 g
+.\TU/lmr/m/n/10 e
+.\penalty 10000
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\pdfstartlink(*+*)x* attr{/Border[0 0 1]/H/I/C[1 0 0]} action goto name{section.1.1}
+.\TU/lmr/m/n/10 1
+.\pdfendlink
+.\write1{\zref@newlabel{19@vr}{\page{\Z@C@page }}}
+! OK.
+l. ...\showbox0
+> \box...=
+\hbox(6.66+2.06)x42.22, direction TLT
+.\write1{\zref@newlabel{20@xvr}{\page{\Z@C@page }}}
+.\TU/lmr/m/n/10 o
+.\TU/lmr/m/n/10 n
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\TU/lmr/m/n/10 p
+.\TU/lmr/m/n/10 a
+.\TU/lmr/m/n/10 g
+.\TU/lmr/m/n/10 e
+.\penalty 10000
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\pdfstartlink(*+*)x* attr{/Border[0 0 1]/H/I/C[1 0 0]} action goto name{section.1.1}
+.\TU/lmr/m/n/10 1
+.\pdfendlink
+.\write1{\zref@newlabel{20@vr}{\page{\Z@C@page }}}
+! OK.
+l. ...\showbox0
+> \box...=
+\hbox(6.66+2.06)x91.71, direction TLT
+.\TU/lmr/m/n/10 s
+.\TU/lmr/m/n/10 e
+.\TU/lmr/m/n/10 c
+.\discretionary (penalty 50)
+..< \TU/lmr/m/n/10 -
+.\TU/lmr/m/n/10 t
+.\TU/lmr/m/n/10 i
+.\TU/lmr/m/n/10 o
+.\TU/lmr/m/n/10 n
+.\penalty 10000
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\pdfstartlink(*+*)x* attr{/Border[0 0 1]/H/I/C[1 0 0]} action goto name{section.1.1}
+.\TU/lmr/m/n/10 1
+.\TU/lmr/m/n/10 .
+.\TU/lmr/m/n/10 1
+.\pdfendlink
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\TU/lmr/m/n/10 o
+.\TU/lmr/m/n/10 n
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\TU/lmr/m/n/10 p
+.\TU/lmr/m/n/10 a
+.\TU/lmr/m/n/10 g
+.\TU/lmr/m/n/10 e
+.\penalty 10000
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\pdfstartlink(*+*)x* attr{/Border[0 0 1]/H/I/C[1 0 0]} action goto name{section.1.1}
+.\TU/lmr/m/n/10 1
+.\pdfendlink
+! OK.
+l. ...\showbox0
+============================================================
+============================================================
+TEST 6: Option: lang
+============================================================
+(../zref-clever-spanish.lang)
+Package zref-clever Info: Loaded 'spanish' language file.
+> \box...=
+\hbox(6.98+2.06)x111.71, direction TLT
+.\pdfstartlink(*+*)x* attr{/Border[0 0 1]/H/I/C[1 0 0]} action goto name{section.1.1}
+.\TU/lmr/m/n/10 s
+.\TU/lmr/m/n/10 e
+.\TU/lmr/m/n/10 c
+.\discretionary (penalty 50)
+..< \TU/lmr/m/n/10 -
+.\TU/lmr/m/n/10 c
+.\TU/lmr/m/n/10 i
+.\TU/lmr/m/n/10 ó
+.\TU/lmr/m/n/10 n
+.\penalty 10000
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\TU/lmr/m/n/10 1
+.\TU/lmr/m/n/10 .
+.\TU/lmr/m/n/10 1
+.\pdfendlink
+.\write1{\zref@newlabel{21@xvr}{\page{\Z@C@page }}}
+.\glue 3.33 plus 1.665 minus 1.11
+.\TU/lmr/m/n/10 e
+.\TU/lmr/m/n/10 n
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\TU/lmr/m/n/10 l
+.\TU/lmr/m/n/10 a
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\pdfstartlink(*+*)x* attr{/Border[0 0 1]/H/I/C[1 0 0]} action goto name{section.1.1}
+.\TU/lmr/m/n/10 p
+.\TU/lmr/m/n/10 á
+.\TU/lmr/m/n/10 g
+.\TU/lmr/m/n/10 i
+.\TU/lmr/m/n/10 n
+.\TU/lmr/m/n/10 a
+.\penalty 10000
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\TU/lmr/m/n/10 1
+.\pdfendlink
+.\write1{\zref@newlabel{21@vr}{\page{\Z@C@page }}}
+! OK.
+l. ...\showbox0
+> \box...=
+\hbox(6.98+2.06)x61.67, direction TLT
+.\write1{\zref@newlabel{22@xvr}{\page{\Z@C@page }}}
+.\TU/lmr/m/n/10 e
+.\TU/lmr/m/n/10 n
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\TU/lmr/m/n/10 l
+.\TU/lmr/m/n/10 a
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\pdfstartlink(*+*)x* attr{/Border[0 0 1]/H/I/C[1 0 0]} action goto name{section.1.1}
+.\TU/lmr/m/n/10 p
+.\TU/lmr/m/n/10 á
+.\TU/lmr/m/n/10 g
+.\TU/lmr/m/n/10 i
+.\TU/lmr/m/n/10 n
+.\TU/lmr/m/n/10 a
+.\penalty 10000
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\TU/lmr/m/n/10 1
+.\pdfendlink
+.\write1{\zref@newlabel{22@vr}{\page{\Z@C@page }}}
+! OK.
+l. ...\showbox0
+> \box...=
+\hbox(6.98+2.06)x144.81001, direction TLT
+.\TU/lmr/m/n/10 s
+.\TU/lmr/m/n/10 e
+.\TU/lmr/m/n/10 c
+.\discretionary (penalty 50)
+..< \TU/lmr/m/n/10 -
+.\TU/lmr/m/n/10 c
+.\TU/lmr/m/n/10 i
+.\TU/lmr/m/n/10 o
+.\TU/lmr/m/n/10 n
+.\TU/lmr/m/n/10 e
+.\TU/lmr/m/n/10 s
+.\penalty 10000
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\pdfstartlink(*+*)x* attr{/Border[0 0 1]/H/I/C[1 0 0]} action goto name{section.1.1}
+.\TU/lmr/m/n/10 1
+.\TU/lmr/m/n/10 .
+.\TU/lmr/m/n/10 1
+.\pdfendlink
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\TU/lmr/m/n/10 y
+.\penalty 10000
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\pdfstartlink(*+*)x* attr{/Border[0 0 1]/H/I/C[1 0 0]} action goto name{section.1.2}
+.\TU/lmr/m/n/10 1
+.\TU/lmr/m/n/10 .
+.\TU/lmr/m/n/10 2
+.\pdfendlink
+.\write1{\zref@newlabel{23@xvr}{\page{\Z@C@page }}}
+.\glue 3.33 plus 1.665 minus 1.11
+.\TU/lmr/m/n/10 e
+.\TU/lmr/m/n/10 n
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\TU/lmr/m/n/10 l
+.\TU/lmr/m/n/10 a
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\pdfstartlink(*+*)x* attr{/Border[0 0 1]/H/I/C[1 0 0]} action goto name{section.1.1}
+.\TU/lmr/m/n/10 p
+.\TU/lmr/m/n/10 á
+.\TU/lmr/m/n/10 g
+.\TU/lmr/m/n/10 i
+.\TU/lmr/m/n/10 n
+.\TU/lmr/m/n/10 a
+.\penalty 10000
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\TU/lmr/m/n/10 1
+.\pdfendlink
+.\write1{\zref@newlabel{23@vr}{\page{\Z@C@page }}}
+! OK.
+l. ...\showbox0
+> \box...=
+\hbox(6.98+2.06)x61.67, direction TLT
+.\write1{\zref@newlabel{24@xvr}{\page{\Z@C@page }}}
+.\TU/lmr/m/n/10 e
+.\TU/lmr/m/n/10 n
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\TU/lmr/m/n/10 l
+.\TU/lmr/m/n/10 a
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\pdfstartlink(*+*)x* attr{/Border[0 0 1]/H/I/C[1 0 0]} action goto name{section.1.1}
+.\TU/lmr/m/n/10 p
+.\TU/lmr/m/n/10 á
+.\TU/lmr/m/n/10 g
+.\TU/lmr/m/n/10 i
+.\TU/lmr/m/n/10 n
+.\TU/lmr/m/n/10 a
+.\penalty 10000
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\TU/lmr/m/n/10 1
+.\pdfendlink
+.\write1{\zref@newlabel{24@vr}{\page{\Z@C@page }}}
+! OK.
+l. ...\showbox0
+> \box...=
+\hbox(6.98+2.06)x111.71, direction TLT
+.\pdfstartlink(*+*)x* attr{/Border[0 0 1]/H/I/C[1 0 0]} action goto name{section.1.1}
+.\TU/lmr/m/n/10 s
+.\TU/lmr/m/n/10 e
+.\TU/lmr/m/n/10 c
+.\discretionary (penalty 50)
+..< \TU/lmr/m/n/10 -
+.\TU/lmr/m/n/10 c
+.\TU/lmr/m/n/10 i
+.\TU/lmr/m/n/10 ó
+.\TU/lmr/m/n/10 n
+.\penalty 10000
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\TU/lmr/m/n/10 1
+.\TU/lmr/m/n/10 .
+.\TU/lmr/m/n/10 1
+.\pdfendlink
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\TU/lmr/m/n/10 e
+.\TU/lmr/m/n/10 n
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\TU/lmr/m/n/10 l
+.\TU/lmr/m/n/10 a
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\pdfstartlink(*+*)x* attr{/Border[0 0 1]/H/I/C[1 0 0]} action goto name{section.1.1}
+.\TU/lmr/m/n/10 p
+.\TU/lmr/m/n/10 á
+.\TU/lmr/m/n/10 g
+.\TU/lmr/m/n/10 i
+.\TU/lmr/m/n/10 n
+.\TU/lmr/m/n/10 a
+.\penalty 10000
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\TU/lmr/m/n/10 1
+.\pdfendlink
+! OK.
+l. ...\showbox0
+============================================================
+============================================================
+TEST 7: Option: font
+============================================================
+> \box...=
+\hbox(6.85+2.01)x103.04001, direction TLT
+.\pdfstartlink(*+*)x* attr{/Border[0 0 1]/H/I/C[1 0 0]} action goto name{section.1.1}
+.\TU/lmr/bx/n/10 s
+.\TU/lmr/bx/n/10 e
+.\TU/lmr/bx/n/10 c
+.\discretionary (penalty 50)
+..< \TU/lmr/bx/n/10 -
+.\TU/lmr/bx/n/10 t
+.\TU/lmr/bx/n/10 i
+.\TU/lmr/bx/n/10 o
+.\TU/lmr/bx/n/10 n
+.\penalty 10000
+.\glue(\spaceskip) 3.83 plus 1.915 minus 1.27667
+.\TU/lmr/bx/n/10 1
+.\TU/lmr/bx/n/10 .
+.\TU/lmr/bx/n/10 1
+.\pdfendlink
+.\write1{\zref@newlabel{25@xvr}{\page{\Z@C@page }}}
+.\glue 3.33 plus 1.665 minus 1.11
+.\TU/lmr/m/n/10 o
+.\TU/lmr/m/n/10 n
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\pdfstartlink(*+*)x* attr{/Border[0 0 1]/H/I/C[1 0 0]} action goto name{section.1.1}
+.\TU/lmr/bx/n/10 p
+.\TU/lmr/bx/n/10 a
+.\TU/lmr/bx/n/10 g
+.\TU/lmr/bx/n/10 e
+.\penalty 10000
+.\glue(\spaceskip) 3.83 plus 1.915 minus 1.27667
+.\TU/lmr/bx/n/10 1
+.\pdfendlink
+.\write1{\zref@newlabel{25@vr}{\page{\Z@C@page }}}
+! OK.
+l. ...\showbox0
+> \box...=
+\hbox(6.55+2.01)x46.47, direction TLT
+.\write1{\zref@newlabel{26@xvr}{\page{\Z@C@page }}}
+.\TU/lmr/m/n/10 o
+.\TU/lmr/m/n/10 n
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\pdfstartlink(*+*)x* attr{/Border[0 0 1]/H/I/C[1 0 0]} action goto name{section.1.1}
+.\TU/lmr/bx/n/10 p
+.\TU/lmr/bx/n/10 a
+.\TU/lmr/bx/n/10 g
+.\TU/lmr/bx/n/10 e
+.\penalty 10000
+.\glue(\spaceskip) 3.83 plus 1.915 minus 1.27667
+.\TU/lmr/bx/n/10 1
+.\pdfendlink
+.\write1{\zref@newlabel{26@vr}{\page{\Z@C@page }}}
+! OK.
+l. ...\showbox0
+> \box...=
+\hbox(6.94+2.01)x148.3, direction TLT
+.\TU/lmr/bx/n/10 s
+.\TU/lmr/bx/n/10 e
+.\TU/lmr/bx/n/10 c
+.\discretionary (penalty 50)
+..< \TU/lmr/bx/n/10 -
+.\TU/lmr/bx/n/10 t
+.\TU/lmr/bx/n/10 i
+.\TU/lmr/bx/n/10 o
+.\TU/lmr/bx/n/10 n
+.\TU/lmr/bx/n/10 s
+.\penalty 10000
+.\glue(\spaceskip) 3.83 plus 1.915 minus 1.27667
+.\pdfstartlink(*+*)x* attr{/Border[0 0 1]/H/I/C[1 0 0]} action goto name{section.1.1}
+.\TU/lmr/bx/n/10 1
+.\TU/lmr/bx/n/10 .
+.\TU/lmr/bx/n/10 1
+.\pdfendlink
+.\glue(\spaceskip) 3.83 plus 1.915 minus 1.27667
+.\TU/lmr/bx/n/10 a
+.\TU/lmr/bx/n/10 n
+.\TU/lmr/bx/n/10 d
+.\penalty 10000
+.\glue(\spaceskip) 3.83 plus 1.915 minus 1.27667
+.\pdfstartlink(*+*)x* attr{/Border[0 0 1]/H/I/C[1 0 0]} action goto name{section.1.2}
+.\TU/lmr/bx/n/10 1
+.\TU/lmr/bx/n/10 .
+.\TU/lmr/bx/n/10 2
+.\pdfendlink
+.\write1{\zref@newlabel{27@xvr}{\page{\Z@C@page }}}
+.\glue 3.33 plus 1.665 minus 1.11
+.\TU/lmr/m/n/10 o
+.\TU/lmr/m/n/10 n
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\pdfstartlink(*+*)x* attr{/Border[0 0 1]/H/I/C[1 0 0]} action goto name{section.1.1}
+.\TU/lmr/bx/n/10 p
+.\TU/lmr/bx/n/10 a
+.\TU/lmr/bx/n/10 g
+.\TU/lmr/bx/n/10 e
+.\penalty 10000
+.\glue(\spaceskip) 3.83 plus 1.915 minus 1.27667
+.\TU/lmr/bx/n/10 1
+.\pdfendlink
+.\write1{\zref@newlabel{27@vr}{\page{\Z@C@page }}}
+! OK.
+l. ...\showbox0
+> \box...=
+\hbox(6.55+2.01)x46.47, direction TLT
+.\write1{\zref@newlabel{28@xvr}{\page{\Z@C@page }}}
+.\TU/lmr/m/n/10 o
+.\TU/lmr/m/n/10 n
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\pdfstartlink(*+*)x* attr{/Border[0 0 1]/H/I/C[1 0 0]} action goto name{section.1.1}
+.\TU/lmr/bx/n/10 p
+.\TU/lmr/bx/n/10 a
+.\TU/lmr/bx/n/10 g
+.\TU/lmr/bx/n/10 e
+.\penalty 10000
+.\glue(\spaceskip) 3.83 plus 1.915 minus 1.27667
+.\TU/lmr/bx/n/10 1
+.\pdfendlink
+.\write1{\zref@newlabel{28@vr}{\page{\Z@C@page }}}
+! OK.
+l. ...\showbox0
+> \box...=
+\hbox(6.85+2.01)x103.04001, direction TLT
+.\pdfstartlink(*+*)x* attr{/Border[0 0 1]/H/I/C[1 0 0]} action goto name{section.1.1}
+.\TU/lmr/bx/n/10 s
+.\TU/lmr/bx/n/10 e
+.\TU/lmr/bx/n/10 c
+.\discretionary (penalty 50)
+..< \TU/lmr/bx/n/10 -
+.\TU/lmr/bx/n/10 t
+.\TU/lmr/bx/n/10 i
+.\TU/lmr/bx/n/10 o
+.\TU/lmr/bx/n/10 n
+.\penalty 10000
+.\glue(\spaceskip) 3.83 plus 1.915 minus 1.27667
+.\TU/lmr/bx/n/10 1
+.\TU/lmr/bx/n/10 .
+.\TU/lmr/bx/n/10 1
+.\pdfendlink
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\TU/lmr/m/n/10 o
+.\TU/lmr/m/n/10 n
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\pdfstartlink(*+*)x* attr{/Border[0 0 1]/H/I/C[1 0 0]} action goto name{section.1.1}
+.\TU/lmr/bx/n/10 p
+.\TU/lmr/bx/n/10 a
+.\TU/lmr/bx/n/10 g
+.\TU/lmr/bx/n/10 e
+.\penalty 10000
+.\glue(\spaceskip) 3.83 plus 1.915 minus 1.27667
+.\TU/lmr/bx/n/10 1
+.\pdfendlink
+! OK.
+l. ...\showbox0
+============================================================
+============================================================
+TEST 8: Option: reffont
+============================================================
+> \box...=
+\hbox(6.57+2.06)x94.37001, direction TLT
+.\pdfstartlink(*+*)x* attr{/Border[0 0 1]/H/I/C[1 0 0]} action goto name{section.1.1}
+.\TU/lmr/m/n/10 s
+.\TU/lmr/m/n/10 e
+.\TU/lmr/m/n/10 c
+.\discretionary (penalty 50)
+..< \TU/lmr/m/n/10 -
+.\TU/lmr/m/n/10 t
+.\TU/lmr/m/n/10 i
+.\TU/lmr/m/n/10 o
+.\TU/lmr/m/n/10 n
+.\penalty 10000
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\TU/lmr/bx/n/10 1
+.\TU/lmr/bx/n/10 .
+.\TU/lmr/bx/n/10 1
+.\pdfendlink
+.\write1{\zref@newlabel{29@xvr}{\page{\Z@C@page }}}
+.\glue 3.33 plus 1.665 minus 1.11
+.\TU/lmr/m/n/10 o
+.\TU/lmr/m/n/10 n
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\pdfstartlink(*+*)x* attr{/Border[0 0 1]/H/I/C[1 0 0]} action goto name{section.1.1}
+.\TU/lmr/m/n/10 p
+.\TU/lmr/m/n/10 a
+.\TU/lmr/m/n/10 g
+.\TU/lmr/m/n/10 e
+.\penalty 10000
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\TU/lmr/bx/n/10 1
+.\pdfendlink
+.\write1{\zref@newlabel{29@vr}{\page{\Z@C@page }}}
+! OK.
+l. ...\showbox0
+> \box...=
+\hbox(6.55+2.06)x42.97, direction TLT
+.\write1{\zref@newlabel{30@xvr}{\page{\Z@C@page }}}
+.\TU/lmr/m/n/10 o
+.\TU/lmr/m/n/10 n
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\pdfstartlink(*+*)x* attr{/Border[0 0 1]/H/I/C[1 0 0]} action goto name{section.1.1}
+.\TU/lmr/m/n/10 p
+.\TU/lmr/m/n/10 a
+.\TU/lmr/m/n/10 g
+.\TU/lmr/m/n/10 e
+.\penalty 10000
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\TU/lmr/bx/n/10 1
+.\pdfendlink
+.\write1{\zref@newlabel{30@vr}{\page{\Z@C@page }}}
+! OK.
+l. ...\showbox0
+> \box...=
+\hbox(6.94+2.06)x135.78001, direction TLT
+.\TU/lmr/m/n/10 s
+.\TU/lmr/m/n/10 e
+.\TU/lmr/m/n/10 c
+.\discretionary (penalty 50)
+..< \TU/lmr/m/n/10 -
+.\TU/lmr/m/n/10 t
+.\TU/lmr/m/n/10 i
+.\TU/lmr/m/n/10 o
+.\TU/lmr/m/n/10 n
+.\TU/lmr/m/n/10 s
+.\penalty 10000
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\pdfstartlink(*+*)x* attr{/Border[0 0 1]/H/I/C[1 0 0]} action goto name{section.1.1}
+.\TU/lmr/bx/n/10 1
+.\TU/lmr/bx/n/10 .
+.\TU/lmr/bx/n/10 1
+.\pdfendlink
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\TU/lmr/m/n/10 a
+.\TU/lmr/m/n/10 n
+.\TU/lmr/m/n/10 d
+.\penalty 10000
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\pdfstartlink(*+*)x* attr{/Border[0 0 1]/H/I/C[1 0 0]} action goto name{section.1.2}
+.\TU/lmr/bx/n/10 1
+.\TU/lmr/bx/n/10 .
+.\TU/lmr/bx/n/10 2
+.\pdfendlink
+.\write1{\zref@newlabel{31@xvr}{\page{\Z@C@page }}}
+.\glue 3.33 plus 1.665 minus 1.11
+.\TU/lmr/m/n/10 o
+.\TU/lmr/m/n/10 n
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\pdfstartlink(*+*)x* attr{/Border[0 0 1]/H/I/C[1 0 0]} action goto name{section.1.1}
+.\TU/lmr/m/n/10 p
+.\TU/lmr/m/n/10 a
+.\TU/lmr/m/n/10 g
+.\TU/lmr/m/n/10 e
+.\penalty 10000
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\TU/lmr/bx/n/10 1
+.\pdfendlink
+.\write1{\zref@newlabel{31@vr}{\page{\Z@C@page }}}
+! OK.
+l. ...\showbox0
+> \box...=
+\hbox(6.55+2.06)x42.97, direction TLT
+.\write1{\zref@newlabel{32@xvr}{\page{\Z@C@page }}}
+.\TU/lmr/m/n/10 o
+.\TU/lmr/m/n/10 n
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\pdfstartlink(*+*)x* attr{/Border[0 0 1]/H/I/C[1 0 0]} action goto name{section.1.1}
+.\TU/lmr/m/n/10 p
+.\TU/lmr/m/n/10 a
+.\TU/lmr/m/n/10 g
+.\TU/lmr/m/n/10 e
+.\penalty 10000
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\TU/lmr/bx/n/10 1
+.\pdfendlink
+.\write1{\zref@newlabel{32@vr}{\page{\Z@C@page }}}
+! OK.
+l. ...\showbox0
+> \box...=
+\hbox(6.57+2.06)x94.37001, direction TLT
+.\pdfstartlink(*+*)x* attr{/Border[0 0 1]/H/I/C[1 0 0]} action goto name{section.1.1}
+.\TU/lmr/m/n/10 s
+.\TU/lmr/m/n/10 e
+.\TU/lmr/m/n/10 c
+.\discretionary (penalty 50)
+..< \TU/lmr/m/n/10 -
+.\TU/lmr/m/n/10 t
+.\TU/lmr/m/n/10 i
+.\TU/lmr/m/n/10 o
+.\TU/lmr/m/n/10 n
+.\penalty 10000
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\TU/lmr/bx/n/10 1
+.\TU/lmr/bx/n/10 .
+.\TU/lmr/bx/n/10 1
+.\pdfendlink
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\TU/lmr/m/n/10 o
+.\TU/lmr/m/n/10 n
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\pdfstartlink(*+*)x* attr{/Border[0 0 1]/H/I/C[1 0 0]} action goto name{section.1.1}
+.\TU/lmr/m/n/10 p
+.\TU/lmr/m/n/10 a
+.\TU/lmr/m/n/10 g
+.\TU/lmr/m/n/10 e
+.\penalty 10000
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\TU/lmr/bx/n/10 1
+.\pdfendlink
+! OK.
+l. ...\showbox0
+============================================================
+============================================================
+TEST 9: Option: refbounds
+============================================================
+> \box...=
+\hbox(7.5+2.5)x107.27, direction TLT
+.\pdfstartlink(*+*)x* attr{/Border[0 0 1]/H/I/C[1 0 0]} action goto name{section.1.1}
+.\TU/lmr/m/n/10 s
+.\TU/lmr/m/n/10 e
+.\TU/lmr/m/n/10 c
+.\discretionary (penalty 50)
+..< \TU/lmr/m/n/10 -
+.\TU/lmr/m/n/10 t
+.\TU/lmr/m/n/10 i
+.\TU/lmr/m/n/10 o
+.\TU/lmr/m/n/10 n
+.\penalty 10000
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\TU/lmr/m/n/10 (
+.\TU/lmr/m/n/10 1
+.\TU/lmr/m/n/10 .
+.\TU/lmr/m/n/10 1
+.\TU/lmr/m/n/10 )
+.\pdfendlink
+.\write1{\zref@newlabel{33@xvr}{\page{\Z@C@page }}}
+.\glue 3.33 plus 1.665 minus 1.11
+.\TU/lmr/m/n/10 o
+.\TU/lmr/m/n/10 n
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\pdfstartlink(*+*)x* attr{/Border[0 0 1]/H/I/C[1 0 0]} action goto name{section.1.1}
+.\TU/lmr/m/n/10 p
+.\TU/lmr/m/n/10 a
+.\TU/lmr/m/n/10 g
+.\TU/lmr/m/n/10 e
+.\penalty 10000
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\TU/lmr/m/n/10 (
+.\TU/lmr/m/n/10 1
+.\TU/lmr/m/n/10 )
+.\pdfendlink
+.\write1{\zref@newlabel{33@vr}{\page{\Z@C@page }}}
+! OK.
+l. ...\showbox0
+> \box...=
+\hbox(7.5+2.5)x50.0, direction TLT
+.\write1{\zref@newlabel{34@xvr}{\page{\Z@C@page }}}
+.\TU/lmr/m/n/10 o
+.\TU/lmr/m/n/10 n
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\pdfstartlink(*+*)x* attr{/Border[0 0 1]/H/I/C[1 0 0]} action goto name{section.1.1}
+.\TU/lmr/m/n/10 p
+.\TU/lmr/m/n/10 a
+.\TU/lmr/m/n/10 g
+.\TU/lmr/m/n/10 e
+.\penalty 10000
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\TU/lmr/m/n/10 (
+.\TU/lmr/m/n/10 1
+.\TU/lmr/m/n/10 )
+.\pdfendlink
+.\write1{\zref@newlabel{34@vr}{\page{\Z@C@page }}}
+! OK.
+l. ...\showbox0
+> \box...=
+\hbox(7.5+2.5)x154.55, direction TLT
+.\TU/lmr/m/n/10 s
+.\TU/lmr/m/n/10 e
+.\TU/lmr/m/n/10 c
+.\discretionary (penalty 50)
+..< \TU/lmr/m/n/10 -
+.\TU/lmr/m/n/10 t
+.\TU/lmr/m/n/10 i
+.\TU/lmr/m/n/10 o
+.\TU/lmr/m/n/10 n
+.\TU/lmr/m/n/10 s
+.\penalty 10000
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\pdfstartlink(*+*)x* attr{/Border[0 0 1]/H/I/C[1 0 0]} action goto name{section.1.1}
+.\TU/lmr/m/n/10 (
+.\TU/lmr/m/n/10 1
+.\TU/lmr/m/n/10 .
+.\TU/lmr/m/n/10 1
+.\TU/lmr/m/n/10 )
+.\pdfendlink
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\TU/lmr/m/n/10 a
+.\TU/lmr/m/n/10 n
+.\TU/lmr/m/n/10 d
+.\penalty 10000
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\pdfstartlink(*+*)x* attr{/Border[0 0 1]/H/I/C[1 0 0]} action goto name{section.1.2}
+.\TU/lmr/m/n/10 (
+.\TU/lmr/m/n/10 1
+.\TU/lmr/m/n/10 .
+.\TU/lmr/m/n/10 2
+.\TU/lmr/m/n/10 )
+.\pdfendlink
+.\write1{\zref@newlabel{35@xvr}{\page{\Z@C@page }}}
+.\glue 3.33 plus 1.665 minus 1.11
+.\TU/lmr/m/n/10 o
+.\TU/lmr/m/n/10 n
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\pdfstartlink(*+*)x* attr{/Border[0 0 1]/H/I/C[1 0 0]} action goto name{section.1.1}
+.\TU/lmr/m/n/10 p
+.\TU/lmr/m/n/10 a
+.\TU/lmr/m/n/10 g
+.\TU/lmr/m/n/10 e
+.\penalty 10000
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\TU/lmr/m/n/10 (
+.\TU/lmr/m/n/10 1
+.\TU/lmr/m/n/10 )
+.\pdfendlink
+.\write1{\zref@newlabel{35@vr}{\page{\Z@C@page }}}
+! OK.
+l. ...\showbox0
+> \box...=
+\hbox(7.5+2.5)x50.0, direction TLT
+.\write1{\zref@newlabel{36@xvr}{\page{\Z@C@page }}}
+.\TU/lmr/m/n/10 o
+.\TU/lmr/m/n/10 n
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\pdfstartlink(*+*)x* attr{/Border[0 0 1]/H/I/C[1 0 0]} action goto name{section.1.1}
+.\TU/lmr/m/n/10 p
+.\TU/lmr/m/n/10 a
+.\TU/lmr/m/n/10 g
+.\TU/lmr/m/n/10 e
+.\penalty 10000
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\TU/lmr/m/n/10 (
+.\TU/lmr/m/n/10 1
+.\TU/lmr/m/n/10 )
+.\pdfendlink
+.\write1{\zref@newlabel{36@vr}{\page{\Z@C@page }}}
+! OK.
+l. ...\showbox0
+> \box...=
+\hbox(7.5+2.5)x107.27, direction TLT
+.\pdfstartlink(*+*)x* attr{/Border[0 0 1]/H/I/C[1 0 0]} action goto name{section.1.1}
+.\TU/lmr/m/n/10 s
+.\TU/lmr/m/n/10 e
+.\TU/lmr/m/n/10 c
+.\discretionary (penalty 50)
+..< \TU/lmr/m/n/10 -
+.\TU/lmr/m/n/10 t
+.\TU/lmr/m/n/10 i
+.\TU/lmr/m/n/10 o
+.\TU/lmr/m/n/10 n
+.\penalty 10000
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\TU/lmr/m/n/10 (
+.\TU/lmr/m/n/10 1
+.\TU/lmr/m/n/10 .
+.\TU/lmr/m/n/10 1
+.\TU/lmr/m/n/10 )
+.\pdfendlink
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\TU/lmr/m/n/10 o
+.\TU/lmr/m/n/10 n
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\pdfstartlink(*+*)x* attr{/Border[0 0 1]/H/I/C[1 0 0]} action goto name{section.1.1}
+.\TU/lmr/m/n/10 p
+.\TU/lmr/m/n/10 a
+.\TU/lmr/m/n/10 g
+.\TU/lmr/m/n/10 e
+.\penalty 10000
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\TU/lmr/m/n/10 (
+.\TU/lmr/m/n/10 1
+.\TU/lmr/m/n/10 )
+.\pdfendlink
+! OK.
+l. ...\showbox0
+============================================================
+============================================================
+TEST 10: Option: ref=title
+============================================================
+> \box...=
+\hbox(7.05+2.06)x126.71, direction TLT
+.\pdfstartlink(*+*)x* attr{/Border[0 0 1]/H/I/C[1 0 0]} action goto name{section.1.1}
+.\TU/lmr/m/n/10 s
+.\TU/lmr/m/n/10 e
+.\TU/lmr/m/n/10 c
+.\discretionary (penalty 50)
+..< \TU/lmr/m/n/10 -
+.\TU/lmr/m/n/10 t
+.\TU/lmr/m/n/10 i
+.\TU/lmr/m/n/10 o
+.\TU/lmr/m/n/10 n
+.\penalty 10000
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\TU/lmr/m/n/10 S
+.\TU/lmr/m/n/10 e
+.\TU/lmr/m/n/10 c
+.\discretionary (penalty 50)
+..< \TU/lmr/m/n/10 -
+.\TU/lmr/m/n/10 t
+.\TU/lmr/m/n/10 i
+.\TU/lmr/m/n/10 o
+.\TU/lmr/m/n/10 n
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\TU/lmr/m/n/10 1
+.\TU/lmr/m/n/10 .
+.\TU/lmr/m/n/10 1
+.\pdfendlink
+.\write1{\zref@newlabel{37@xvr}{\page{\Z@C@page }}}
+.\glue 3.33 plus 1.665 minus 1.11
+.\TU/lmr/m/n/10 o
+.\TU/lmr/m/n/10 n
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\pdfstartlink(*+*)x* attr{/Border[0 0 1]/H/I/C[1 0 0]} action goto name{section.1.1}
+.\TU/lmr/m/n/10 p
+.\TU/lmr/m/n/10 a
+.\TU/lmr/m/n/10 g
+.\TU/lmr/m/n/10 e
+.\penalty 10000
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\TU/lmr/m/n/10 1
+.\pdfendlink
+.\write1{\zref@newlabel{37@vr}{\page{\Z@C@page }}}
+! OK.
+l. ...\showbox0
+> \box...=
+\hbox(6.66+2.06)x42.22, direction TLT
+.\write1{\zref@newlabel{38@xvr}{\page{\Z@C@page }}}
+.\TU/lmr/m/n/10 o
+.\TU/lmr/m/n/10 n
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\pdfstartlink(*+*)x* attr{/Border[0 0 1]/H/I/C[1 0 0]} action goto name{section.1.1}
+.\TU/lmr/m/n/10 p
+.\TU/lmr/m/n/10 a
+.\TU/lmr/m/n/10 g
+.\TU/lmr/m/n/10 e
+.\penalty 10000
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\TU/lmr/m/n/10 1
+.\pdfendlink
+.\write1{\zref@newlabel{38@vr}{\page{\Z@C@page }}}
+! OK.
+l. ...\showbox0
+> \box...=
+\hbox(7.05+2.06)x201.21, direction TLT
+.\TU/lmr/m/n/10 s
+.\TU/lmr/m/n/10 e
+.\TU/lmr/m/n/10 c
+.\discretionary (penalty 50)
+..< \TU/lmr/m/n/10 -
+.\TU/lmr/m/n/10 t
+.\TU/lmr/m/n/10 i
+.\TU/lmr/m/n/10 o
+.\TU/lmr/m/n/10 n
+.\TU/lmr/m/n/10 s
+.\penalty 10000
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\pdfstartlink(*+*)x* attr{/Border[0 0 1]/H/I/C[1 0 0]} action goto name{section.1.1}
+.\TU/lmr/m/n/10 S
+.\TU/lmr/m/n/10 e
+.\TU/lmr/m/n/10 c
+.\discretionary (penalty 50)
+..< \TU/lmr/m/n/10 -
+.\TU/lmr/m/n/10 t
+.\TU/lmr/m/n/10 i
+.\TU/lmr/m/n/10 o
+.\TU/lmr/m/n/10 n
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\TU/lmr/m/n/10 1
+.\TU/lmr/m/n/10 .
+.\TU/lmr/m/n/10 1
+.\pdfendlink
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\TU/lmr/m/n/10 a
+.\TU/lmr/m/n/10 n
+.\TU/lmr/m/n/10 d
+.\penalty 10000
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\pdfstartlink(*+*)x* attr{/Border[0 0 1]/H/I/C[1 0 0]} action goto name{section.1.2}
+.\TU/lmr/m/n/10 S
+.\TU/lmr/m/n/10 e
+.\TU/lmr/m/n/10 c
+.\discretionary (penalty 50)
+..< \TU/lmr/m/n/10 -
+.\TU/lmr/m/n/10 t
+.\TU/lmr/m/n/10 i
+.\TU/lmr/m/n/10 o
+.\TU/lmr/m/n/10 n
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\TU/lmr/m/n/10 1
+.\TU/lmr/m/n/10 .
+.\TU/lmr/m/n/10 2
+.\pdfendlink
+.\write1{\zref@newlabel{39@xvr}{\page{\Z@C@page }}}
+.\glue 3.33 plus 1.665 minus 1.11
+.\TU/lmr/m/n/10 o
+.\TU/lmr/m/n/10 n
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\pdfstartlink(*+*)x* attr{/Border[0 0 1]/H/I/C[1 0 0]} action goto name{section.1.1}
+.\TU/lmr/m/n/10 p
+.\TU/lmr/m/n/10 a
+.\TU/lmr/m/n/10 g
+.\TU/lmr/m/n/10 e
+.\penalty 10000
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\TU/lmr/m/n/10 1
+.\pdfendlink
+.\write1{\zref@newlabel{39@vr}{\page{\Z@C@page }}}
+! OK.
+l. ...\showbox0
+> \box...=
+\hbox(6.66+2.06)x42.22, direction TLT
+.\write1{\zref@newlabel{40@xvr}{\page{\Z@C@page }}}
+.\TU/lmr/m/n/10 o
+.\TU/lmr/m/n/10 n
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\pdfstartlink(*+*)x* attr{/Border[0 0 1]/H/I/C[1 0 0]} action goto name{section.1.1}
+.\TU/lmr/m/n/10 p
+.\TU/lmr/m/n/10 a
+.\TU/lmr/m/n/10 g
+.\TU/lmr/m/n/10 e
+.\penalty 10000
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\TU/lmr/m/n/10 1
+.\pdfendlink
+.\write1{\zref@newlabel{40@vr}{\page{\Z@C@page }}}
+! OK.
+l. ...\showbox0
+> \box...=
+\hbox(7.05+2.06)x126.71, direction TLT
+.\pdfstartlink(*+*)x* attr{/Border[0 0 1]/H/I/C[1 0 0]} action goto name{section.1.1}
+.\TU/lmr/m/n/10 s
+.\TU/lmr/m/n/10 e
+.\TU/lmr/m/n/10 c
+.\discretionary (penalty 50)
+..< \TU/lmr/m/n/10 -
+.\TU/lmr/m/n/10 t
+.\TU/lmr/m/n/10 i
+.\TU/lmr/m/n/10 o
+.\TU/lmr/m/n/10 n
+.\penalty 10000
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\TU/lmr/m/n/10 S
+.\TU/lmr/m/n/10 e
+.\TU/lmr/m/n/10 c
+.\discretionary (penalty 50)
+..< \TU/lmr/m/n/10 -
+.\TU/lmr/m/n/10 t
+.\TU/lmr/m/n/10 i
+.\TU/lmr/m/n/10 o
+.\TU/lmr/m/n/10 n
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\TU/lmr/m/n/10 1
+.\TU/lmr/m/n/10 .
+.\TU/lmr/m/n/10 1
+.\pdfendlink
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\TU/lmr/m/n/10 o
+.\TU/lmr/m/n/10 n
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\pdfstartlink(*+*)x* attr{/Border[0 0 1]/H/I/C[1 0 0]} action goto name{section.1.1}
+.\TU/lmr/m/n/10 p
+.\TU/lmr/m/n/10 a
+.\TU/lmr/m/n/10 g
+.\TU/lmr/m/n/10 e
+.\penalty 10000
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\TU/lmr/m/n/10 1
+.\pdfendlink
+! OK.
+l. ...\showbox0
+============================================================
+============================================================
+TEST 11: Option: d=...
+============================================================
+(../zref-clever-german.lang)
+Package zref-clever Info: Loaded 'german' language file.
+> \box...=
+\hbox(7.16+0.22)x108.67, direction TLT
+.\pdfstartlink(*+*)x* attr{/Border[0 0 1]/H/I/C[1 0 0]} action goto name{section.1.1}
+.\TU/lmr/m/n/10 A
+.\TU/lmr/m/n/10 b
+.\discretionary (penalty 50)
+..< \TU/lmr/m/n/10 -
+.\TU/lmr/m/n/10 s
+.\TU/lmr/m/n/10 c
+.\kern-0.28 (font)
+.\TU/lmr/m/n/10 h
+.\TU/lmr/m/n/10 n
+.\TU/lmr/m/n/10 i
+.\TU/lmr/m/n/10 t
+.\TU/lmr/m/n/10 t
+.\penalty 10000
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\TU/lmr/m/n/10 1
+.\TU/lmr/m/n/10 .
+.\TU/lmr/m/n/10 1
+.\pdfendlink
+.\write1{\zref@newlabel{41@xvr}{\page{\Z@C@page }}}
+.\glue 3.33 plus 1.665 minus 1.11
+.\TU/lmr/m/n/10 a
+.\TU/lmr/m/n/10 u
+.\TU/lmr/m/n/10 f
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\pdfstartlink(*+*)x* attr{/Border[0 0 1]/H/I/C[1 0 0]} action goto name{section.1.1}
+.\TU/lmr/m/n/10 S
+.\TU/lmr/m/n/10 e
+.\TU/lmr/m/n/10 i
+.\TU/lmr/m/n/10 t
+.\TU/lmr/m/n/10 e
+.\penalty 10000
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\TU/lmr/m/n/10 1
+.\pdfendlink
+.\write1{\zref@newlabel{41@vr}{\page{\Z@C@page }}}
+! OK.
+l. ...\showbox0
+> \box...=
+\hbox(7.05+0.22)x46.39, direction TLT
+.\write1{\zref@newlabel{42@xvr}{\page{\Z@C@page }}}
+.\TU/lmr/m/n/10 a
+.\TU/lmr/m/n/10 u
+.\TU/lmr/m/n/10 f
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\pdfstartlink(*+*)x* attr{/Border[0 0 1]/H/I/C[1 0 0]} action goto name{section.1.1}
+.\TU/lmr/m/n/10 S
+.\TU/lmr/m/n/10 e
+.\TU/lmr/m/n/10 i
+.\TU/lmr/m/n/10 t
+.\TU/lmr/m/n/10 e
+.\penalty 10000
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\TU/lmr/m/n/10 1
+.\pdfendlink
+.\write1{\zref@newlabel{42@vr}{\page{\Z@C@page }}}
+! OK.
+l. ...\showbox0
+> \box...=
+\hbox(7.16+0.22)x154.79, direction TLT
+.\TU/lmr/m/n/10 A
+.\TU/lmr/m/n/10 b
+.\discretionary (penalty 50)
+..< \TU/lmr/m/n/10 -
+.\TU/lmr/m/n/10 s
+.\TU/lmr/m/n/10 c
+.\kern-0.28 (font)
+.\TU/lmr/m/n/10 h
+.\TU/lmr/m/n/10 n
+.\TU/lmr/m/n/10 i
+.\TU/lmr/m/n/10 t
+.\discretionary (penalty 50)
+..< \TU/lmr/m/n/10 -
+.\TU/lmr/m/n/10 t
+.\TU/lmr/m/n/10 e
+.\TU/lmr/m/n/10 n
+.\penalty 10000
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\pdfstartlink(*+*)x* attr{/Border[0 0 1]/H/I/C[1 0 0]} action goto name{section.1.1}
+.\TU/lmr/m/n/10 1
+.\TU/lmr/m/n/10 .
+.\TU/lmr/m/n/10 1
+.\pdfendlink
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\TU/lmr/m/n/10 u
+.\TU/lmr/m/n/10 n
+.\TU/lmr/m/n/10 d
+.\penalty 10000
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\pdfstartlink(*+*)x* attr{/Border[0 0 1]/H/I/C[1 0 0]} action goto name{section.1.2}
+.\TU/lmr/m/n/10 1
+.\TU/lmr/m/n/10 .
+.\TU/lmr/m/n/10 2
+.\pdfendlink
+.\write1{\zref@newlabel{43@xvr}{\page{\Z@C@page }}}
+.\glue 3.33 plus 1.665 minus 1.11
+.\TU/lmr/m/n/10 a
+.\TU/lmr/m/n/10 u
+.\TU/lmr/m/n/10 f
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\pdfstartlink(*+*)x* attr{/Border[0 0 1]/H/I/C[1 0 0]} action goto name{section.1.1}
+.\TU/lmr/m/n/10 S
+.\TU/lmr/m/n/10 e
+.\TU/lmr/m/n/10 i
+.\TU/lmr/m/n/10 t
+.\TU/lmr/m/n/10 e
+.\penalty 10000
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\TU/lmr/m/n/10 1
+.\pdfendlink
+.\write1{\zref@newlabel{43@vr}{\page{\Z@C@page }}}
+! OK.
+l. ...\showbox0
+> \box...=
+\hbox(7.16+0.22)x149.23, direction TLT
+.\TU/lmr/m/n/10 A
+.\TU/lmr/m/n/10 b
+.\discretionary (penalty 50)
+..< \TU/lmr/m/n/10 -
+.\TU/lmr/m/n/10 s
+.\TU/lmr/m/n/10 c
+.\kern-0.28 (font)
+.\TU/lmr/m/n/10 h
+.\TU/lmr/m/n/10 n
+.\TU/lmr/m/n/10 i
+.\TU/lmr/m/n/10 t
+.\TU/lmr/m/n/10 t
+.\TU/lmr/m/n/10 e
+.\penalty 10000
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\pdfstartlink(*+*)x* attr{/Border[0 0 1]/H/I/C[1 0 0]} action goto name{section.1.1}
+.\TU/lmr/m/n/10 1
+.\TU/lmr/m/n/10 .
+.\TU/lmr/m/n/10 1
+.\pdfendlink
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\TU/lmr/m/n/10 u
+.\TU/lmr/m/n/10 n
+.\TU/lmr/m/n/10 d
+.\penalty 10000
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\pdfstartlink(*+*)x* attr{/Border[0 0 1]/H/I/C[1 0 0]} action goto name{section.1.2}
+.\TU/lmr/m/n/10 1
+.\TU/lmr/m/n/10 .
+.\TU/lmr/m/n/10 2
+.\pdfendlink
+.\write1{\zref@newlabel{44@xvr}{\page{\Z@C@page }}}
+.\glue 3.33 plus 1.665 minus 1.11
+.\TU/lmr/m/n/10 a
+.\TU/lmr/m/n/10 u
+.\TU/lmr/m/n/10 f
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\pdfstartlink(*+*)x* attr{/Border[0 0 1]/H/I/C[1 0 0]} action goto name{section.1.1}
+.\TU/lmr/m/n/10 S
+.\TU/lmr/m/n/10 e
+.\TU/lmr/m/n/10 i
+.\TU/lmr/m/n/10 t
+.\TU/lmr/m/n/10 e
+.\penalty 10000
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\TU/lmr/m/n/10 1
+.\pdfendlink
+.\write1{\zref@newlabel{44@vr}{\page{\Z@C@page }}}
+! OK.
+l. ...\showbox0
+> \box...=
+\hbox(7.05+0.22)x46.39, direction TLT
+.\write1{\zref@newlabel{45@xvr}{\page{\Z@C@page }}}
+.\TU/lmr/m/n/10 a
+.\TU/lmr/m/n/10 u
+.\TU/lmr/m/n/10 f
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\pdfstartlink(*+*)x* attr{/Border[0 0 1]/H/I/C[1 0 0]} action goto name{section.1.1}
+.\TU/lmr/m/n/10 S
+.\TU/lmr/m/n/10 e
+.\TU/lmr/m/n/10 i
+.\TU/lmr/m/n/10 t
+.\TU/lmr/m/n/10 e
+.\penalty 10000
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\TU/lmr/m/n/10 1
+.\pdfendlink
+.\write1{\zref@newlabel{45@vr}{\page{\Z@C@page }}}
+! OK.
+l. ...\showbox0
+> \box...=
+\hbox(7.16+0.22)x112.61, direction TLT
+.\pdfstartlink(*+*)x* attr{/Border[0 0 1]/H/I/C[1 0 0]} action goto name{section.1.1}
+.\TU/lmr/m/n/10 A
+.\TU/lmr/m/n/10 b
+.\discretionary (penalty 50)
+..< \TU/lmr/m/n/10 -
+.\TU/lmr/m/n/10 s
+.\TU/lmr/m/n/10 c
+.\kern-0.28 (font)
+.\TU/lmr/m/n/10 h
+.\TU/lmr/m/n/10 n
+.\TU/lmr/m/n/10 i
+.\TU/lmr/m/n/10 t
+.\TU/lmr/m/n/10 t
+.\TU/lmr/m/n/10 s
+.\penalty 10000
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\TU/lmr/m/n/10 1
+.\TU/lmr/m/n/10 .
+.\TU/lmr/m/n/10 1
+.\pdfendlink
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\TU/lmr/m/n/10 a
+.\TU/lmr/m/n/10 u
+.\TU/lmr/m/n/10 f
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\pdfstartlink(*+*)x* attr{/Border[0 0 1]/H/I/C[1 0 0]} action goto name{section.1.1}
+.\TU/lmr/m/n/10 S
+.\TU/lmr/m/n/10 e
+.\TU/lmr/m/n/10 i
+.\TU/lmr/m/n/10 t
+.\TU/lmr/m/n/10 e
+.\penalty 10000
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\TU/lmr/m/n/10 1
+.\pdfendlink
+! OK.
+l. ...\showbox0
+============================================================

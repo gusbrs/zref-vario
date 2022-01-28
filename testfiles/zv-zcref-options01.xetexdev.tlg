@@ -1,0 +1,1113 @@
+This is a generated file for the l3build validation system.
+Don't change this file in any respect.
+============================================================
+TEST 1: Option: S
+============================================================
+> \box...=
+\hbox(7.05+2.05998)x93.33
+.\special{pdf:bann<</Type/Annot/Subtype/Link/Border[0 0 1]/H/I/C[1 0 0]/A<</S/G\ETC.}
+.\TU/lmr/m/n/10 Section
+.\penalty 10000
+.\glue 3.33 plus 1.665 minus 1.11
+.\TU/lmr/m/n/10 1.1
+.\special{pdf:eann}
+.\write1{\zref@newlabel{1@xvr}{\page{\Z@C@page }}}
+.\glue 3.33 plus 1.665 minus 1.11
+.\TU/lmr/m/n/10 on
+.\glue 3.33 plus 1.665 minus 1.11
+.\special{pdf:bann<</Type/Annot/Subtype/Link/Border[0 0 1]/H/I/C[1 0 0]/A<</S/G\ETC.}
+.\TU/lmr/m/n/10 page
+.\penalty 10000
+.\glue 3.33 plus 1.665 minus 1.11
+.\TU/lmr/m/n/10 1
+.\special{pdf:eann}
+.\write1{\zref@newlabel{1@vr}{\page{\Z@C@page }}}
+! OK.
+l. ...\showbox0
+> \box...=
+\hbox(6.83+2.05998)x43.19
+.\write1{\zref@newlabel{2@xvr}{\page{\Z@C@page }}}
+.\TU/lmr/m/n/10 on
+.\glue 3.33 plus 1.665 minus 1.11
+.\special{pdf:bann<</Type/Annot/Subtype/Link/Border[0 0 1]/H/I/C[1 0 0]/A<</S/G\ETC.}
+.\TU/lmr/m/n/10 Page
+.\penalty 10000
+.\glue 3.33 plus 1.665 minus 1.11
+.\TU/lmr/m/n/10 1
+.\special{pdf:eann}
+.\write1{\zref@newlabel{2@vr}{\page{\Z@C@page }}}
+! OK.
+l. ...\showbox0
+> \box...=
+\hbox(7.05+2.05998)x132.83
+.\TU/lmr/m/n/10 Sections
+.\penalty 10000
+.\glue 3.33 plus 1.665 minus 1.11
+.\special{pdf:bann<</Type/Annot/Subtype/Link/Border[0 0 1]/H/I/C[1 0 0]/A<</S/G\ETC.}
+.\TU/lmr/m/n/10 1.1
+.\special{pdf:eann}
+.\glue 3.33 plus 1.665 minus 1.11
+.\TU/lmr/m/n/10 and
+.\penalty 10000
+.\glue 3.33 plus 1.665 minus 1.11
+.\special{pdf:bann<</Type/Annot/Subtype/Link/Border[0 0 1]/H/I/C[1 0 0]/A<</S/G\ETC.}
+.\TU/lmr/m/n/10 1.2
+.\special{pdf:eann}
+.\write1{\zref@newlabel{3@xvr}{\page{\Z@C@page }}}
+.\glue 3.33 plus 1.665 minus 1.11
+.\TU/lmr/m/n/10 on
+.\glue 3.33 plus 1.665 minus 1.11
+.\special{pdf:bann<</Type/Annot/Subtype/Link/Border[0 0 1]/H/I/C[1 0 0]/A<</S/G\ETC.}
+.\TU/lmr/m/n/10 page
+.\penalty 10000
+.\glue 3.33 plus 1.665 minus 1.11
+.\TU/lmr/m/n/10 1
+.\special{pdf:eann}
+.\write1{\zref@newlabel{3@vr}{\page{\Z@C@page }}}
+! OK.
+l. ...\showbox0
+> \box...=
+\hbox(6.83+2.05998)x43.19
+.\write1{\zref@newlabel{4@xvr}{\page{\Z@C@page }}}
+.\TU/lmr/m/n/10 on
+.\glue 3.33 plus 1.665 minus 1.11
+.\special{pdf:bann<</Type/Annot/Subtype/Link/Border[0 0 1]/H/I/C[1 0 0]/A<</S/G\ETC.}
+.\TU/lmr/m/n/10 Page
+.\penalty 10000
+.\glue 3.33 plus 1.665 minus 1.11
+.\TU/lmr/m/n/10 1
+.\special{pdf:eann}
+.\write1{\zref@newlabel{4@vr}{\page{\Z@C@page }}}
+! OK.
+l. ...\showbox0
+> \box...=
+\hbox(7.05+2.05998)x93.33
+.\special{pdf:bann<</Type/Annot/Subtype/Link/Border[0 0 1]/H/I/C[1 0 0]/A<</S/G\ETC.}
+.\TU/lmr/m/n/10 Section
+.\penalty 10000
+.\glue 3.33 plus 1.665 minus 1.11
+.\TU/lmr/m/n/10 1.1
+.\special{pdf:eann}
+.\glue 3.33 plus 1.665 minus 1.11
+.\TU/lmr/m/n/10 on
+.\glue 3.33 plus 1.665 minus 1.11
+.\special{pdf:bann<</Type/Annot/Subtype/Link/Border[0 0 1]/H/I/C[1 0 0]/A<</S/G\ETC.}
+.\TU/lmr/m/n/10 page
+.\penalty 10000
+.\glue 3.33 plus 1.665 minus 1.11
+.\TU/lmr/m/n/10 1
+.\special{pdf:eann}
+! OK.
+l. ...\showbox0
+============================================================
+============================================================
+TEST 2: Option: cap
+============================================================
+> \box...=
+\hbox(7.05+2.05998)x94.3
+.\special{pdf:bann<</Type/Annot/Subtype/Link/Border[0 0 1]/H/I/C[1 0 0]/A<</S/G\ETC.}
+.\TU/lmr/m/n/10 Section
+.\penalty 10000
+.\glue 3.33 plus 1.665 minus 1.11
+.\TU/lmr/m/n/10 1.1
+.\special{pdf:eann}
+.\write1{\zref@newlabel{5@xvr}{\page{\Z@C@page }}}
+.\glue 3.33 plus 1.665 minus 1.11
+.\TU/lmr/m/n/10 on
+.\glue 3.33 plus 1.665 minus 1.11
+.\special{pdf:bann<</Type/Annot/Subtype/Link/Border[0 0 1]/H/I/C[1 0 0]/A<</S/G\ETC.}
+.\TU/lmr/m/n/10 Page
+.\penalty 10000
+.\glue 3.33 plus 1.665 minus 1.11
+.\TU/lmr/m/n/10 1
+.\special{pdf:eann}
+.\write1{\zref@newlabel{5@vr}{\page{\Z@C@page }}}
+! OK.
+l. ...\showbox0
+> \box...=
+\hbox(6.83+2.05998)x43.19
+.\write1{\zref@newlabel{6@xvr}{\page{\Z@C@page }}}
+.\TU/lmr/m/n/10 on
+.\glue 3.33 plus 1.665 minus 1.11
+.\special{pdf:bann<</Type/Annot/Subtype/Link/Border[0 0 1]/H/I/C[1 0 0]/A<</S/G\ETC.}
+.\TU/lmr/m/n/10 Page
+.\penalty 10000
+.\glue 3.33 plus 1.665 minus 1.11
+.\TU/lmr/m/n/10 1
+.\special{pdf:eann}
+.\write1{\zref@newlabel{6@vr}{\page{\Z@C@page }}}
+! OK.
+l. ...\showbox0
+> \box...=
+\hbox(7.05+2.05998)x133.8
+.\TU/lmr/m/n/10 Sections
+.\penalty 10000
+.\glue 3.33 plus 1.665 minus 1.11
+.\special{pdf:bann<</Type/Annot/Subtype/Link/Border[0 0 1]/H/I/C[1 0 0]/A<</S/G\ETC.}
+.\TU/lmr/m/n/10 1.1
+.\special{pdf:eann}
+.\glue 3.33 plus 1.665 minus 1.11
+.\TU/lmr/m/n/10 and
+.\penalty 10000
+.\glue 3.33 plus 1.665 minus 1.11
+.\special{pdf:bann<</Type/Annot/Subtype/Link/Border[0 0 1]/H/I/C[1 0 0]/A<</S/G\ETC.}
+.\TU/lmr/m/n/10 1.2
+.\special{pdf:eann}
+.\write1{\zref@newlabel{7@xvr}{\page{\Z@C@page }}}
+.\glue 3.33 plus 1.665 minus 1.11
+.\TU/lmr/m/n/10 on
+.\glue 3.33 plus 1.665 minus 1.11
+.\special{pdf:bann<</Type/Annot/Subtype/Link/Border[0 0 1]/H/I/C[1 0 0]/A<</S/G\ETC.}
+.\TU/lmr/m/n/10 Page
+.\penalty 10000
+.\glue 3.33 plus 1.665 minus 1.11
+.\TU/lmr/m/n/10 1
+.\special{pdf:eann}
+.\write1{\zref@newlabel{7@vr}{\page{\Z@C@page }}}
+! OK.
+l. ...\showbox0
+> \box...=
+\hbox(6.83+2.05998)x43.19
+.\write1{\zref@newlabel{8@xvr}{\page{\Z@C@page }}}
+.\TU/lmr/m/n/10 on
+.\glue 3.33 plus 1.665 minus 1.11
+.\special{pdf:bann<</Type/Annot/Subtype/Link/Border[0 0 1]/H/I/C[1 0 0]/A<</S/G\ETC.}
+.\TU/lmr/m/n/10 Page
+.\penalty 10000
+.\glue 3.33 plus 1.665 minus 1.11
+.\TU/lmr/m/n/10 1
+.\special{pdf:eann}
+.\write1{\zref@newlabel{8@vr}{\page{\Z@C@page }}}
+! OK.
+l. ...\showbox0
+> \box...=
+\hbox(7.05+2.05998)x94.3
+.\special{pdf:bann<</Type/Annot/Subtype/Link/Border[0 0 1]/H/I/C[1 0 0]/A<</S/G\ETC.}
+.\TU/lmr/m/n/10 Section
+.\penalty 10000
+.\glue 3.33 plus 1.665 minus 1.11
+.\TU/lmr/m/n/10 1.1
+.\special{pdf:eann}
+.\glue 3.33 plus 1.665 minus 1.11
+.\TU/lmr/m/n/10 on
+.\glue 3.33 plus 1.665 minus 1.11
+.\special{pdf:bann<</Type/Annot/Subtype/Link/Border[0 0 1]/H/I/C[1 0 0]/A<</S/G\ETC.}
+.\TU/lmr/m/n/10 Page
+.\penalty 10000
+.\glue 3.33 plus 1.665 minus 1.11
+.\TU/lmr/m/n/10 1
+.\special{pdf:eann}
+! OK.
+l. ...\showbox0
+============================================================
+============================================================
+TEST 3: Option: noname
+============================================================
+> \box...=
+\hbox(6.66+2.05998)x58.33
+.\special{pdf:bann<</Type/Annot/Subtype/Link/Border[0 0 1]/H/I/C[1 0 0]/A<</S/G\ETC.}
+.\TU/lmr/m/n/10 1.1
+.\special{pdf:eann}
+.\write1{\zref@newlabel{9@xvr}{\page{\Z@C@page }}}
+.\glue 3.33 plus 1.665 minus 1.11
+.\TU/lmr/m/n/10 on
+.\glue 3.33 plus 1.665 minus 1.11
+.\special{pdf:bann<</Type/Annot/Subtype/Link/Border[0 0 1]/H/I/C[1 0 0]/A<</S/G\ETC.}
+.\TU/lmr/m/n/10 page
+.\penalty 10000
+.\glue 3.33 plus 1.665 minus 1.11
+.\TU/lmr/m/n/10 1
+.\special{pdf:eann}
+.\write1{\zref@newlabel{9@vr}{\page{\Z@C@page }}}
+! OK.
+l. ...\showbox0
+> \box...=
+\hbox(6.66+0.10999)x18.89
+.\write1{\zref@newlabel{10@xvr}{\page{\Z@C@page }}}
+.\TU/lmr/m/n/10 on
+.\glue 3.33 plus 1.665 minus 1.11
+.\special{pdf:bann<</Type/Annot/Subtype/Link/Border[0 0 1]/H/I/C[1 0 0]/A<</S/G\ETC.}
+.\TU/lmr/m/n/10 1
+.\special{pdf:eann}
+.\write1{\zref@newlabel{10@vr}{\page{\Z@C@page }}}
+! OK.
+l. ...\showbox0
+> \box...=
+\hbox(6.94+2.05998)x93.89
+.\special{pdf:bann<</Type/Annot/Subtype/Link/Border[0 0 1]/H/I/C[1 0 0]/A<</S/G\ETC.}
+.\TU/lmr/m/n/10 1.1
+.\special{pdf:eann}
+.\glue 3.33 plus 1.665 minus 1.11
+.\TU/lmr/m/n/10 and
+.\penalty 10000
+.\glue 3.33 plus 1.665 minus 1.11
+.\special{pdf:bann<</Type/Annot/Subtype/Link/Border[0 0 1]/H/I/C[1 0 0]/A<</S/G\ETC.}
+.\TU/lmr/m/n/10 1.2
+.\special{pdf:eann}
+.\write1{\zref@newlabel{11@xvr}{\page{\Z@C@page }}}
+.\glue 3.33 plus 1.665 minus 1.11
+.\TU/lmr/m/n/10 on
+.\glue 3.33 plus 1.665 minus 1.11
+.\special{pdf:bann<</Type/Annot/Subtype/Link/Border[0 0 1]/H/I/C[1 0 0]/A<</S/G\ETC.}
+.\TU/lmr/m/n/10 page
+.\penalty 10000
+.\glue 3.33 plus 1.665 minus 1.11
+.\TU/lmr/m/n/10 1
+.\special{pdf:eann}
+.\write1{\zref@newlabel{11@vr}{\page{\Z@C@page }}}
+! OK.
+l. ...\showbox0
+> \box...=
+\hbox(6.66+0.10999)x18.89
+.\write1{\zref@newlabel{12@xvr}{\page{\Z@C@page }}}
+.\TU/lmr/m/n/10 on
+.\glue 3.33 plus 1.665 minus 1.11
+.\special{pdf:bann<</Type/Annot/Subtype/Link/Border[0 0 1]/H/I/C[1 0 0]/A<</S/G\ETC.}
+.\TU/lmr/m/n/10 1
+.\special{pdf:eann}
+.\write1{\zref@newlabel{12@vr}{\page{\Z@C@page }}}
+! OK.
+l. ...\showbox0
+> \box...=
+\hbox(6.66+2.05998)x58.33
+.\special{pdf:bann<</Type/Annot/Subtype/Link/Border[0 0 1]/H/I/C[1 0 0]/A<</S/G\ETC.}
+.\TU/lmr/m/n/10 1.1
+.\special{pdf:eann}
+.\glue 3.33 plus 1.665 minus 1.11
+.\TU/lmr/m/n/10 on
+.\glue 3.33 plus 1.665 minus 1.11
+.\special{pdf:bann<</Type/Annot/Subtype/Link/Border[0 0 1]/H/I/C[1 0 0]/A<</S/G\ETC.}
+.\TU/lmr/m/n/10 page
+.\penalty 10000
+.\glue 3.33 plus 1.665 minus 1.11
+.\TU/lmr/m/n/10 1
+.\special{pdf:eann}
+! OK.
+l. ...\showbox0
+============================================================
+============================================================
+TEST 4: Option: noref
+============================================================
+> \box...=
+\hbox(6.66+2.05998)x75.6
+.\special{pdf:bann<</Type/Annot/Subtype/Link/Border[0 0 1]/H/I/C[1 0 0]/A<</S/G\ETC.}
+.\TU/lmr/m/n/10 section
+.\special{pdf:eann}
+.\write1{\zref@newlabel{13@xvr}{\page{\Z@C@page }}}
+.\glue 3.33 plus 1.665 minus 1.11
+.\TU/lmr/m/n/10 on
+.\glue 3.33 plus 1.665 minus 1.11
+.\special{pdf:bann<</Type/Annot/Subtype/Link/Border[0 0 1]/H/I/C[1 0 0]/A<</S/G\ETC.}
+.\TU/lmr/m/n/10 page
+.\penalty 10000
+.\glue 3.33 plus 1.665 minus 1.11
+.\TU/lmr/m/n/10 1
+.\special{pdf:eann}
+.\write1{\zref@newlabel{13@vr}{\page{\Z@C@page }}}
+! OK.
+l. ...\showbox0
+> \box...=
+\hbox(4.53+2.05998)x33.89
+.\write1{\zref@newlabel{14@xvr}{\page{\Z@C@page }}}
+.\TU/lmr/m/n/10 on
+.\glue 3.33 plus 1.665 minus 1.11
+.\special{pdf:bann<</Type/Annot/Subtype/Link/Border[0 0 1]/H/I/C[1 0 0]/A<</S/G\ETC.}
+.\TU/lmr/m/n/10 page
+.\special{pdf:eann}
+.\write1{\zref@newlabel{14@vr}{\page{\Z@C@page }}}
+! OK.
+l. ...\showbox0
+> \box...=
+\hbox(6.66+2.05998)x79.54001
+.\TU/lmr/m/n/10 sections
+.\write1{\zref@newlabel{15@xvr}{\page{\Z@C@page }}}
+.\glue 3.33 plus 1.665 minus 1.11
+.\TU/lmr/m/n/10 on
+.\glue 3.33 plus 1.665 minus 1.11
+.\special{pdf:bann<</Type/Annot/Subtype/Link/Border[0 0 1]/H/I/C[1 0 0]/A<</S/G\ETC.}
+.\TU/lmr/m/n/10 page
+.\penalty 10000
+.\glue 3.33 plus 1.665 minus 1.11
+.\TU/lmr/m/n/10 1
+.\special{pdf:eann}
+.\write1{\zref@newlabel{15@vr}{\page{\Z@C@page }}}
+! OK.
+l. ...\showbox0
+> \box...=
+\hbox(4.53+2.05998)x33.89
+.\write1{\zref@newlabel{16@xvr}{\page{\Z@C@page }}}
+.\TU/lmr/m/n/10 on
+.\glue 3.33 plus 1.665 minus 1.11
+.\special{pdf:bann<</Type/Annot/Subtype/Link/Border[0 0 1]/H/I/C[1 0 0]/A<</S/G\ETC.}
+.\TU/lmr/m/n/10 page
+.\special{pdf:eann}
+.\write1{\zref@newlabel{16@vr}{\page{\Z@C@page }}}
+! OK.
+l. ...\showbox0
+> \box...=
+\hbox(6.66+2.05998)x75.6
+.\special{pdf:bann<</Type/Annot/Subtype/Link/Border[0 0 1]/H/I/C[1 0 0]/A<</S/G\ETC.}
+.\TU/lmr/m/n/10 section
+.\special{pdf:eann}
+.\glue 3.33 plus 1.665 minus 1.11
+.\TU/lmr/m/n/10 on
+.\glue 3.33 plus 1.665 minus 1.11
+.\special{pdf:bann<</Type/Annot/Subtype/Link/Border[0 0 1]/H/I/C[1 0 0]/A<</S/G\ETC.}
+.\TU/lmr/m/n/10 page
+.\penalty 10000
+.\glue 3.33 plus 1.665 minus 1.11
+.\TU/lmr/m/n/10 1
+.\special{pdf:eann}
+! OK.
+l. ...\showbox0
+============================================================
+============================================================
+TEST 5: Option: nameinlink
+============================================================
+> \box...=
+\hbox(6.66+2.05998)x91.71
+.\TU/lmr/m/n/10 section
+.\penalty 10000
+.\glue 3.33 plus 1.665 minus 1.11
+.\special{pdf:bann<</Type/Annot/Subtype/Link/Border[0 0 1]/H/I/C[1 0 0]/A<</S/G\ETC.}
+.\TU/lmr/m/n/10 1.1
+.\special{pdf:eann}
+.\write1{\zref@newlabel{17@xvr}{\page{\Z@C@page }}}
+.\glue 3.33 plus 1.665 minus 1.11
+.\TU/lmr/m/n/10 on
+.\glue 3.33 plus 1.665 minus 1.11
+.\TU/lmr/m/n/10 page
+.\penalty 10000
+.\glue 3.33 plus 1.665 minus 1.11
+.\special{pdf:bann<</Type/Annot/Subtype/Link/Border[0 0 1]/H/I/C[1 0 0]/A<</S/G\ETC.}
+.\TU/lmr/m/n/10 1
+.\special{pdf:eann}
+.\write1{\zref@newlabel{17@vr}{\page{\Z@C@page }}}
+! OK.
+l. ...\showbox0
+> \box...=
+\hbox(6.66+2.05998)x42.22
+.\write1{\zref@newlabel{18@xvr}{\page{\Z@C@page }}}
+.\TU/lmr/m/n/10 on
+.\glue 3.33 plus 1.665 minus 1.11
+.\TU/lmr/m/n/10 page
+.\penalty 10000
+.\glue 3.33 plus 1.665 minus 1.11
+.\special{pdf:bann<</Type/Annot/Subtype/Link/Border[0 0 1]/H/I/C[1 0 0]/A<</S/G\ETC.}
+.\TU/lmr/m/n/10 1
+.\special{pdf:eann}
+.\write1{\zref@newlabel{18@vr}{\page{\Z@C@page }}}
+! OK.
+l. ...\showbox0
+> \box...=
+\hbox(6.94+2.05998)x131.21
+.\TU/lmr/m/n/10 sections
+.\penalty 10000
+.\glue 3.33 plus 1.665 minus 1.11
+.\special{pdf:bann<</Type/Annot/Subtype/Link/Border[0 0 1]/H/I/C[1 0 0]/A<</S/G\ETC.}
+.\TU/lmr/m/n/10 1.1
+.\special{pdf:eann}
+.\glue 3.33 plus 1.665 minus 1.11
+.\TU/lmr/m/n/10 and
+.\penalty 10000
+.\glue 3.33 plus 1.665 minus 1.11
+.\special{pdf:bann<</Type/Annot/Subtype/Link/Border[0 0 1]/H/I/C[1 0 0]/A<</S/G\ETC.}
+.\TU/lmr/m/n/10 1.2
+.\special{pdf:eann}
+.\write1{\zref@newlabel{19@xvr}{\page{\Z@C@page }}}
+.\glue 3.33 plus 1.665 minus 1.11
+.\TU/lmr/m/n/10 on
+.\glue 3.33 plus 1.665 minus 1.11
+.\TU/lmr/m/n/10 page
+.\penalty 10000
+.\glue 3.33 plus 1.665 minus 1.11
+.\special{pdf:bann<</Type/Annot/Subtype/Link/Border[0 0 1]/H/I/C[1 0 0]/A<</S/G\ETC.}
+.\TU/lmr/m/n/10 1
+.\special{pdf:eann}
+.\write1{\zref@newlabel{19@vr}{\page{\Z@C@page }}}
+! OK.
+l. ...\showbox0
+> \box...=
+\hbox(6.66+2.05998)x42.22
+.\write1{\zref@newlabel{20@xvr}{\page{\Z@C@page }}}
+.\TU/lmr/m/n/10 on
+.\glue 3.33 plus 1.665 minus 1.11
+.\TU/lmr/m/n/10 page
+.\penalty 10000
+.\glue 3.33 plus 1.665 minus 1.11
+.\special{pdf:bann<</Type/Annot/Subtype/Link/Border[0 0 1]/H/I/C[1 0 0]/A<</S/G\ETC.}
+.\TU/lmr/m/n/10 1
+.\special{pdf:eann}
+.\write1{\zref@newlabel{20@vr}{\page{\Z@C@page }}}
+! OK.
+l. ...\showbox0
+> \box...=
+\hbox(6.66+2.05998)x91.71
+.\TU/lmr/m/n/10 section
+.\penalty 10000
+.\glue 3.33 plus 1.665 minus 1.11
+.\special{pdf:bann<</Type/Annot/Subtype/Link/Border[0 0 1]/H/I/C[1 0 0]/A<</S/G\ETC.}
+.\TU/lmr/m/n/10 1.1
+.\special{pdf:eann}
+.\glue 3.33 plus 1.665 minus 1.11
+.\TU/lmr/m/n/10 on
+.\glue 3.33 plus 1.665 minus 1.11
+.\TU/lmr/m/n/10 page
+.\penalty 10000
+.\glue 3.33 plus 1.665 minus 1.11
+.\special{pdf:bann<</Type/Annot/Subtype/Link/Border[0 0 1]/H/I/C[1 0 0]/A<</S/G\ETC.}
+.\TU/lmr/m/n/10 1
+.\special{pdf:eann}
+! OK.
+l. ...\showbox0
+============================================================
+============================================================
+TEST 6: Option: lang
+============================================================
+(../zref-clever-spanish.lang)
+Package zref-clever Info: Loaded 'spanish' language file.
+> \box...=
+\hbox(6.98+2.05998)x111.71
+.\special{pdf:bann<</Type/Annot/Subtype/Link/Border[0 0 1]/H/I/C[1 0 0]/A<</S/G\ETC.}
+.\TU/lmr/m/n/10 sección
+.\penalty 10000
+.\glue 3.33 plus 1.665 minus 1.11
+.\TU/lmr/m/n/10 1.1
+.\special{pdf:eann}
+.\write1{\zref@newlabel{21@xvr}{\page{\Z@C@page }}}
+.\glue 3.33 plus 1.665 minus 1.11
+.\TU/lmr/m/n/10 en
+.\glue 3.33 plus 1.665 minus 1.11
+.\TU/lmr/m/n/10 la
+.\glue 3.33 plus 1.665 minus 1.11
+.\special{pdf:bann<</Type/Annot/Subtype/Link/Border[0 0 1]/H/I/C[1 0 0]/A<</S/G\ETC.}
+.\TU/lmr/m/n/10 página
+.\penalty 10000
+.\glue 3.33 plus 1.665 minus 1.11
+.\TU/lmr/m/n/10 1
+.\special{pdf:eann}
+.\write1{\zref@newlabel{21@vr}{\page{\Z@C@page }}}
+! OK.
+l. ...\showbox0
+> \box...=
+\hbox(6.98+2.05998)x61.67
+.\write1{\zref@newlabel{22@xvr}{\page{\Z@C@page }}}
+.\TU/lmr/m/n/10 en
+.\glue 3.33 plus 1.665 minus 1.11
+.\TU/lmr/m/n/10 la
+.\glue 3.33 plus 1.665 minus 1.11
+.\special{pdf:bann<</Type/Annot/Subtype/Link/Border[0 0 1]/H/I/C[1 0 0]/A<</S/G\ETC.}
+.\TU/lmr/m/n/10 página
+.\penalty 10000
+.\glue 3.33 plus 1.665 minus 1.11
+.\TU/lmr/m/n/10 1
+.\special{pdf:eann}
+.\write1{\zref@newlabel{22@vr}{\page{\Z@C@page }}}
+! OK.
+l. ...\showbox0
+> \box...=
+\hbox(6.98+2.05998)x144.81
+.\TU/lmr/m/n/10 secciones
+.\penalty 10000
+.\glue 3.33 plus 1.665 minus 1.11
+.\special{pdf:bann<</Type/Annot/Subtype/Link/Border[0 0 1]/H/I/C[1 0 0]/A<</S/G\ETC.}
+.\TU/lmr/m/n/10 1.1
+.\special{pdf:eann}
+.\glue 3.33 plus 1.665 minus 1.11
+.\TU/lmr/m/n/10 y
+.\penalty 10000
+.\glue 3.33 plus 1.665 minus 1.11
+.\special{pdf:bann<</Type/Annot/Subtype/Link/Border[0 0 1]/H/I/C[1 0 0]/A<</S/G\ETC.}
+.\TU/lmr/m/n/10 1.2
+.\special{pdf:eann}
+.\write1{\zref@newlabel{23@xvr}{\page{\Z@C@page }}}
+.\glue 3.33 plus 1.665 minus 1.11
+.\TU/lmr/m/n/10 en
+.\glue 3.33 plus 1.665 minus 1.11
+.\TU/lmr/m/n/10 la
+.\glue 3.33 plus 1.665 minus 1.11
+.\special{pdf:bann<</Type/Annot/Subtype/Link/Border[0 0 1]/H/I/C[1 0 0]/A<</S/G\ETC.}
+.\TU/lmr/m/n/10 página
+.\penalty 10000
+.\glue 3.33 plus 1.665 minus 1.11
+.\TU/lmr/m/n/10 1
+.\special{pdf:eann}
+.\write1{\zref@newlabel{23@vr}{\page{\Z@C@page }}}
+! OK.
+l. ...\showbox0
+> \box...=
+\hbox(6.98+2.05998)x61.67
+.\write1{\zref@newlabel{24@xvr}{\page{\Z@C@page }}}
+.\TU/lmr/m/n/10 en
+.\glue 3.33 plus 1.665 minus 1.11
+.\TU/lmr/m/n/10 la
+.\glue 3.33 plus 1.665 minus 1.11
+.\special{pdf:bann<</Type/Annot/Subtype/Link/Border[0 0 1]/H/I/C[1 0 0]/A<</S/G\ETC.}
+.\TU/lmr/m/n/10 página
+.\penalty 10000
+.\glue 3.33 plus 1.665 minus 1.11
+.\TU/lmr/m/n/10 1
+.\special{pdf:eann}
+.\write1{\zref@newlabel{24@vr}{\page{\Z@C@page }}}
+! OK.
+l. ...\showbox0
+> \box...=
+\hbox(6.98+2.05998)x111.71
+.\special{pdf:bann<</Type/Annot/Subtype/Link/Border[0 0 1]/H/I/C[1 0 0]/A<</S/G\ETC.}
+.\TU/lmr/m/n/10 sección
+.\penalty 10000
+.\glue 3.33 plus 1.665 minus 1.11
+.\TU/lmr/m/n/10 1.1
+.\special{pdf:eann}
+.\glue 3.33 plus 1.665 minus 1.11
+.\TU/lmr/m/n/10 en
+.\glue 3.33 plus 1.665 minus 1.11
+.\TU/lmr/m/n/10 la
+.\glue 3.33 plus 1.665 minus 1.11
+.\special{pdf:bann<</Type/Annot/Subtype/Link/Border[0 0 1]/H/I/C[1 0 0]/A<</S/G\ETC.}
+.\TU/lmr/m/n/10 página
+.\penalty 10000
+.\glue 3.33 plus 1.665 minus 1.11
+.\TU/lmr/m/n/10 1
+.\special{pdf:eann}
+! OK.
+l. ...\showbox0
+============================================================
+============================================================
+TEST 7: Option: font
+============================================================
+> \box...=
+\hbox(6.85+2.00998)x103.04001
+.\special{pdf:bann<</Type/Annot/Subtype/Link/Border[0 0 1]/H/I/C[1 0 0]/A<</S/G\ETC.}
+.\TU/lmr/bx/n/10 section
+.\penalty 10000
+.\glue 3.83 plus 1.915 minus 1.27666
+.\TU/lmr/bx/n/10 1.1
+.\special{pdf:eann}
+.\write1{\zref@newlabel{25@xvr}{\page{\Z@C@page }}}
+.\glue 3.33 plus 1.665 minus 1.11
+.\TU/lmr/m/n/10 on
+.\glue 3.33 plus 1.665 minus 1.11
+.\special{pdf:bann<</Type/Annot/Subtype/Link/Border[0 0 1]/H/I/C[1 0 0]/A<</S/G\ETC.}
+.\TU/lmr/bx/n/10 page
+.\penalty 10000
+.\glue 3.83 plus 1.915 minus 1.27666
+.\TU/lmr/bx/n/10 1
+.\special{pdf:eann}
+.\write1{\zref@newlabel{25@vr}{\page{\Z@C@page }}}
+! OK.
+l. ...\showbox0
+> \box...=
+\hbox(6.55+2.00998)x46.47
+.\write1{\zref@newlabel{26@xvr}{\page{\Z@C@page }}}
+.\TU/lmr/m/n/10 on
+.\glue 3.33 plus 1.665 minus 1.11
+.\special{pdf:bann<</Type/Annot/Subtype/Link/Border[0 0 1]/H/I/C[1 0 0]/A<</S/G\ETC.}
+.\TU/lmr/bx/n/10 page
+.\penalty 10000
+.\glue 3.83 plus 1.915 minus 1.27666
+.\TU/lmr/bx/n/10 1
+.\special{pdf:eann}
+.\write1{\zref@newlabel{26@vr}{\page{\Z@C@page }}}
+! OK.
+l. ...\showbox0
+> \box...=
+\hbox(6.94+2.00998)x148.3
+.\TU/lmr/bx/n/10 sections
+.\penalty 10000
+.\glue 3.83 plus 1.915 minus 1.27666
+.\special{pdf:bann<</Type/Annot/Subtype/Link/Border[0 0 1]/H/I/C[1 0 0]/A<</S/G\ETC.}
+.\TU/lmr/bx/n/10 1.1
+.\special{pdf:eann}
+.\glue 3.83 plus 1.915 minus 1.27666
+.\TU/lmr/bx/n/10 and
+.\penalty 10000
+.\glue 3.83 plus 1.915 minus 1.27666
+.\special{pdf:bann<</Type/Annot/Subtype/Link/Border[0 0 1]/H/I/C[1 0 0]/A<</S/G\ETC.}
+.\TU/lmr/bx/n/10 1.2
+.\special{pdf:eann}
+.\write1{\zref@newlabel{27@xvr}{\page{\Z@C@page }}}
+.\glue 3.33 plus 1.665 minus 1.11
+.\TU/lmr/m/n/10 on
+.\glue 3.33 plus 1.665 minus 1.11
+.\special{pdf:bann<</Type/Annot/Subtype/Link/Border[0 0 1]/H/I/C[1 0 0]/A<</S/G\ETC.}
+.\TU/lmr/bx/n/10 page
+.\penalty 10000
+.\glue 3.83 plus 1.915 minus 1.27666
+.\TU/lmr/bx/n/10 1
+.\special{pdf:eann}
+.\write1{\zref@newlabel{27@vr}{\page{\Z@C@page }}}
+! OK.
+l. ...\showbox0
+> \box...=
+\hbox(6.55+2.00998)x46.47
+.\write1{\zref@newlabel{28@xvr}{\page{\Z@C@page }}}
+.\TU/lmr/m/n/10 on
+.\glue 3.33 plus 1.665 minus 1.11
+.\special{pdf:bann<</Type/Annot/Subtype/Link/Border[0 0 1]/H/I/C[1 0 0]/A<</S/G\ETC.}
+.\TU/lmr/bx/n/10 page
+.\penalty 10000
+.\glue 3.83 plus 1.915 minus 1.27666
+.\TU/lmr/bx/n/10 1
+.\special{pdf:eann}
+.\write1{\zref@newlabel{28@vr}{\page{\Z@C@page }}}
+! OK.
+l. ...\showbox0
+> \box...=
+\hbox(6.85+2.00998)x103.04001
+.\special{pdf:bann<</Type/Annot/Subtype/Link/Border[0 0 1]/H/I/C[1 0 0]/A<</S/G\ETC.}
+.\TU/lmr/bx/n/10 section
+.\penalty 10000
+.\glue 3.83 plus 1.915 minus 1.27666
+.\TU/lmr/bx/n/10 1.1
+.\special{pdf:eann}
+.\glue 3.33 plus 1.665 minus 1.11
+.\TU/lmr/m/n/10 on
+.\glue 3.33 plus 1.665 minus 1.11
+.\special{pdf:bann<</Type/Annot/Subtype/Link/Border[0 0 1]/H/I/C[1 0 0]/A<</S/G\ETC.}
+.\TU/lmr/bx/n/10 page
+.\penalty 10000
+.\glue 3.83 plus 1.915 minus 1.27666
+.\TU/lmr/bx/n/10 1
+.\special{pdf:eann}
+! OK.
+l. ...\showbox0
+============================================================
+============================================================
+TEST 8: Option: reffont
+============================================================
+> \box...=
+\hbox(6.57+2.05998)x94.37001
+.\special{pdf:bann<</Type/Annot/Subtype/Link/Border[0 0 1]/H/I/C[1 0 0]/A<</S/G\ETC.}
+.\TU/lmr/m/n/10 section
+.\penalty 10000
+.\glue 3.33 plus 1.665 minus 1.11
+.\TU/lmr/bx/n/10 1.1
+.\special{pdf:eann}
+.\write1{\zref@newlabel{29@xvr}{\page{\Z@C@page }}}
+.\glue 3.33 plus 1.665 minus 1.11
+.\TU/lmr/m/n/10 on
+.\glue 3.33 plus 1.665 minus 1.11
+.\special{pdf:bann<</Type/Annot/Subtype/Link/Border[0 0 1]/H/I/C[1 0 0]/A<</S/G\ETC.}
+.\TU/lmr/m/n/10 page
+.\penalty 10000
+.\glue 3.33 plus 1.665 minus 1.11
+.\TU/lmr/bx/n/10 1
+.\special{pdf:eann}
+.\write1{\zref@newlabel{29@vr}{\page{\Z@C@page }}}
+! OK.
+l. ...\showbox0
+> \box...=
+\hbox(6.55+2.05998)x42.97
+.\write1{\zref@newlabel{30@xvr}{\page{\Z@C@page }}}
+.\TU/lmr/m/n/10 on
+.\glue 3.33 plus 1.665 minus 1.11
+.\special{pdf:bann<</Type/Annot/Subtype/Link/Border[0 0 1]/H/I/C[1 0 0]/A<</S/G\ETC.}
+.\TU/lmr/m/n/10 page
+.\penalty 10000
+.\glue 3.33 plus 1.665 minus 1.11
+.\TU/lmr/bx/n/10 1
+.\special{pdf:eann}
+.\write1{\zref@newlabel{30@vr}{\page{\Z@C@page }}}
+! OK.
+l. ...\showbox0
+> \box...=
+\hbox(6.94+2.05998)x135.78001
+.\TU/lmr/m/n/10 sections
+.\penalty 10000
+.\glue 3.33 plus 1.665 minus 1.11
+.\special{pdf:bann<</Type/Annot/Subtype/Link/Border[0 0 1]/H/I/C[1 0 0]/A<</S/G\ETC.}
+.\TU/lmr/bx/n/10 1.1
+.\special{pdf:eann}
+.\glue 3.33 plus 1.665 minus 1.11
+.\TU/lmr/m/n/10 and
+.\penalty 10000
+.\glue 3.33 plus 1.665 minus 1.11
+.\special{pdf:bann<</Type/Annot/Subtype/Link/Border[0 0 1]/H/I/C[1 0 0]/A<</S/G\ETC.}
+.\TU/lmr/bx/n/10 1.2
+.\special{pdf:eann}
+.\write1{\zref@newlabel{31@xvr}{\page{\Z@C@page }}}
+.\glue 3.33 plus 1.665 minus 1.11
+.\TU/lmr/m/n/10 on
+.\glue 3.33 plus 1.665 minus 1.11
+.\special{pdf:bann<</Type/Annot/Subtype/Link/Border[0 0 1]/H/I/C[1 0 0]/A<</S/G\ETC.}
+.\TU/lmr/m/n/10 page
+.\penalty 10000
+.\glue 3.33 plus 1.665 minus 1.11
+.\TU/lmr/bx/n/10 1
+.\special{pdf:eann}
+.\write1{\zref@newlabel{31@vr}{\page{\Z@C@page }}}
+! OK.
+l. ...\showbox0
+> \box...=
+\hbox(6.55+2.05998)x42.97
+.\write1{\zref@newlabel{32@xvr}{\page{\Z@C@page }}}
+.\TU/lmr/m/n/10 on
+.\glue 3.33 plus 1.665 minus 1.11
+.\special{pdf:bann<</Type/Annot/Subtype/Link/Border[0 0 1]/H/I/C[1 0 0]/A<</S/G\ETC.}
+.\TU/lmr/m/n/10 page
+.\penalty 10000
+.\glue 3.33 plus 1.665 minus 1.11
+.\TU/lmr/bx/n/10 1
+.\special{pdf:eann}
+.\write1{\zref@newlabel{32@vr}{\page{\Z@C@page }}}
+! OK.
+l. ...\showbox0
+> \box...=
+\hbox(6.57+2.05998)x94.37001
+.\special{pdf:bann<</Type/Annot/Subtype/Link/Border[0 0 1]/H/I/C[1 0 0]/A<</S/G\ETC.}
+.\TU/lmr/m/n/10 section
+.\penalty 10000
+.\glue 3.33 plus 1.665 minus 1.11
+.\TU/lmr/bx/n/10 1.1
+.\special{pdf:eann}
+.\glue 3.33 plus 1.665 minus 1.11
+.\TU/lmr/m/n/10 on
+.\glue 3.33 plus 1.665 minus 1.11
+.\special{pdf:bann<</Type/Annot/Subtype/Link/Border[0 0 1]/H/I/C[1 0 0]/A<</S/G\ETC.}
+.\TU/lmr/m/n/10 page
+.\penalty 10000
+.\glue 3.33 plus 1.665 minus 1.11
+.\TU/lmr/bx/n/10 1
+.\special{pdf:eann}
+! OK.
+l. ...\showbox0
+============================================================
+============================================================
+TEST 9: Option: refbounds
+============================================================
+> \box...=
+\hbox(7.5+2.49998)x107.27
+.\special{pdf:bann<</Type/Annot/Subtype/Link/Border[0 0 1]/H/I/C[1 0 0]/A<</S/G\ETC.}
+.\TU/lmr/m/n/10 section
+.\penalty 10000
+.\glue 3.33 plus 1.665 minus 1.11
+.\TU/lmr/m/n/10 (1.1)
+.\special{pdf:eann}
+.\write1{\zref@newlabel{33@xvr}{\page{\Z@C@page }}}
+.\glue 3.33 plus 1.665 minus 1.11
+.\TU/lmr/m/n/10 on
+.\glue 3.33 plus 1.665 minus 1.11
+.\special{pdf:bann<</Type/Annot/Subtype/Link/Border[0 0 1]/H/I/C[1 0 0]/A<</S/G\ETC.}
+.\TU/lmr/m/n/10 page
+.\penalty 10000
+.\glue 3.33 plus 1.665 minus 1.11
+.\TU/lmr/m/n/10 (1)
+.\special{pdf:eann}
+.\write1{\zref@newlabel{33@vr}{\page{\Z@C@page }}}
+! OK.
+l. ...\showbox0
+> \box...=
+\hbox(7.5+2.49998)x50.0
+.\write1{\zref@newlabel{34@xvr}{\page{\Z@C@page }}}
+.\TU/lmr/m/n/10 on
+.\glue 3.33 plus 1.665 minus 1.11
+.\special{pdf:bann<</Type/Annot/Subtype/Link/Border[0 0 1]/H/I/C[1 0 0]/A<</S/G\ETC.}
+.\TU/lmr/m/n/10 page
+.\penalty 10000
+.\glue 3.33 plus 1.665 minus 1.11
+.\TU/lmr/m/n/10 (1)
+.\special{pdf:eann}
+.\write1{\zref@newlabel{34@vr}{\page{\Z@C@page }}}
+! OK.
+l. ...\showbox0
+> \box...=
+\hbox(7.5+2.49998)x154.55
+.\TU/lmr/m/n/10 sections
+.\penalty 10000
+.\glue 3.33 plus 1.665 minus 1.11
+.\special{pdf:bann<</Type/Annot/Subtype/Link/Border[0 0 1]/H/I/C[1 0 0]/A<</S/G\ETC.}
+.\TU/lmr/m/n/10 (1.1)
+.\special{pdf:eann}
+.\glue 3.33 plus 1.665 minus 1.11
+.\TU/lmr/m/n/10 and
+.\penalty 10000
+.\glue 3.33 plus 1.665 minus 1.11
+.\special{pdf:bann<</Type/Annot/Subtype/Link/Border[0 0 1]/H/I/C[1 0 0]/A<</S/G\ETC.}
+.\TU/lmr/m/n/10 (1.2)
+.\special{pdf:eann}
+.\write1{\zref@newlabel{35@xvr}{\page{\Z@C@page }}}
+.\glue 3.33 plus 1.665 minus 1.11
+.\TU/lmr/m/n/10 on
+.\glue 3.33 plus 1.665 minus 1.11
+.\special{pdf:bann<</Type/Annot/Subtype/Link/Border[0 0 1]/H/I/C[1 0 0]/A<</S/G\ETC.}
+.\TU/lmr/m/n/10 page
+.\penalty 10000
+.\glue 3.33 plus 1.665 minus 1.11
+.\TU/lmr/m/n/10 (1)
+.\special{pdf:eann}
+.\write1{\zref@newlabel{35@vr}{\page{\Z@C@page }}}
+! OK.
+l. ...\showbox0
+> \box...=
+\hbox(7.5+2.49998)x50.0
+.\write1{\zref@newlabel{36@xvr}{\page{\Z@C@page }}}
+.\TU/lmr/m/n/10 on
+.\glue 3.33 plus 1.665 minus 1.11
+.\special{pdf:bann<</Type/Annot/Subtype/Link/Border[0 0 1]/H/I/C[1 0 0]/A<</S/G\ETC.}
+.\TU/lmr/m/n/10 page
+.\penalty 10000
+.\glue 3.33 plus 1.665 minus 1.11
+.\TU/lmr/m/n/10 (1)
+.\special{pdf:eann}
+.\write1{\zref@newlabel{36@vr}{\page{\Z@C@page }}}
+! OK.
+l. ...\showbox0
+> \box...=
+\hbox(7.5+2.49998)x107.27
+.\special{pdf:bann<</Type/Annot/Subtype/Link/Border[0 0 1]/H/I/C[1 0 0]/A<</S/G\ETC.}
+.\TU/lmr/m/n/10 section
+.\penalty 10000
+.\glue 3.33 plus 1.665 minus 1.11
+.\TU/lmr/m/n/10 (1.1)
+.\special{pdf:eann}
+.\glue 3.33 plus 1.665 minus 1.11
+.\TU/lmr/m/n/10 on
+.\glue 3.33 plus 1.665 minus 1.11
+.\special{pdf:bann<</Type/Annot/Subtype/Link/Border[0 0 1]/H/I/C[1 0 0]/A<</S/G\ETC.}
+.\TU/lmr/m/n/10 page
+.\penalty 10000
+.\glue 3.33 plus 1.665 minus 1.11
+.\TU/lmr/m/n/10 (1)
+.\special{pdf:eann}
+! OK.
+l. ...\showbox0
+============================================================
+============================================================
+TEST 10: Option: ref=title
+============================================================
+> \box...=
+\hbox(7.05+2.05998)x126.71
+.\special{pdf:bann<</Type/Annot/Subtype/Link/Border[0 0 1]/H/I/C[1 0 0]/A<</S/G\ETC.}
+.\TU/lmr/m/n/10 section
+.\penalty 10000
+.\glue 3.33 plus 1.665 minus 1.11
+.\TU/lmr/m/n/10 Section
+.\glue 3.33 plus 1.665 minus 1.11
+.\TU/lmr/m/n/10 1.1
+.\special{pdf:eann}
+.\write1{\zref@newlabel{37@xvr}{\page{\Z@C@page }}}
+.\glue 3.33 plus 1.665 minus 1.11
+.\TU/lmr/m/n/10 on
+.\glue 3.33 plus 1.665 minus 1.11
+.\special{pdf:bann<</Type/Annot/Subtype/Link/Border[0 0 1]/H/I/C[1 0 0]/A<</S/G\ETC.}
+.\TU/lmr/m/n/10 page
+.\penalty 10000
+.\glue 3.33 plus 1.665 minus 1.11
+.\TU/lmr/m/n/10 1
+.\special{pdf:eann}
+.\write1{\zref@newlabel{37@vr}{\page{\Z@C@page }}}
+! OK.
+l. ...\showbox0
+> \box...=
+\hbox(6.66+2.05998)x42.22
+.\write1{\zref@newlabel{38@xvr}{\page{\Z@C@page }}}
+.\TU/lmr/m/n/10 on
+.\glue 3.33 plus 1.665 minus 1.11
+.\special{pdf:bann<</Type/Annot/Subtype/Link/Border[0 0 1]/H/I/C[1 0 0]/A<</S/G\ETC.}
+.\TU/lmr/m/n/10 page
+.\penalty 10000
+.\glue 3.33 plus 1.665 minus 1.11
+.\TU/lmr/m/n/10 1
+.\special{pdf:eann}
+.\write1{\zref@newlabel{38@vr}{\page{\Z@C@page }}}
+! OK.
+l. ...\showbox0
+> \box...=
+\hbox(7.05+2.05998)x201.21
+.\TU/lmr/m/n/10 sections
+.\penalty 10000
+.\glue 3.33 plus 1.665 minus 1.11
+.\special{pdf:bann<</Type/Annot/Subtype/Link/Border[0 0 1]/H/I/C[1 0 0]/A<</S/G\ETC.}
+.\TU/lmr/m/n/10 Section
+.\glue 3.33 plus 1.665 minus 1.11
+.\TU/lmr/m/n/10 1.1
+.\special{pdf:eann}
+.\glue 3.33 plus 1.665 minus 1.11
+.\TU/lmr/m/n/10 and
+.\penalty 10000
+.\glue 3.33 plus 1.665 minus 1.11
+.\special{pdf:bann<</Type/Annot/Subtype/Link/Border[0 0 1]/H/I/C[1 0 0]/A<</S/G\ETC.}
+.\TU/lmr/m/n/10 Section
+.\glue 3.33 plus 1.665 minus 1.11
+.\TU/lmr/m/n/10 1.2
+.\special{pdf:eann}
+.\write1{\zref@newlabel{39@xvr}{\page{\Z@C@page }}}
+.\glue 3.33 plus 1.665 minus 1.11
+.\TU/lmr/m/n/10 on
+.\glue 3.33 plus 1.665 minus 1.11
+.\special{pdf:bann<</Type/Annot/Subtype/Link/Border[0 0 1]/H/I/C[1 0 0]/A<</S/G\ETC.}
+.\TU/lmr/m/n/10 page
+.\penalty 10000
+.\glue 3.33 plus 1.665 minus 1.11
+.\TU/lmr/m/n/10 1
+.\special{pdf:eann}
+.\write1{\zref@newlabel{39@vr}{\page{\Z@C@page }}}
+! OK.
+l. ...\showbox0
+> \box...=
+\hbox(6.66+2.05998)x42.22
+.\write1{\zref@newlabel{40@xvr}{\page{\Z@C@page }}}
+.\TU/lmr/m/n/10 on
+.\glue 3.33 plus 1.665 minus 1.11
+.\special{pdf:bann<</Type/Annot/Subtype/Link/Border[0 0 1]/H/I/C[1 0 0]/A<</S/G\ETC.}
+.\TU/lmr/m/n/10 page
+.\penalty 10000
+.\glue 3.33 plus 1.665 minus 1.11
+.\TU/lmr/m/n/10 1
+.\special{pdf:eann}
+.\write1{\zref@newlabel{40@vr}{\page{\Z@C@page }}}
+! OK.
+l. ...\showbox0
+> \box...=
+\hbox(7.05+2.05998)x126.71
+.\special{pdf:bann<</Type/Annot/Subtype/Link/Border[0 0 1]/H/I/C[1 0 0]/A<</S/G\ETC.}
+.\TU/lmr/m/n/10 section
+.\penalty 10000
+.\glue 3.33 plus 1.665 minus 1.11
+.\TU/lmr/m/n/10 Section
+.\glue 3.33 plus 1.665 minus 1.11
+.\TU/lmr/m/n/10 1.1
+.\special{pdf:eann}
+.\glue 3.33 plus 1.665 minus 1.11
+.\TU/lmr/m/n/10 on
+.\glue 3.33 plus 1.665 minus 1.11
+.\special{pdf:bann<</Type/Annot/Subtype/Link/Border[0 0 1]/H/I/C[1 0 0]/A<</S/G\ETC.}
+.\TU/lmr/m/n/10 page
+.\penalty 10000
+.\glue 3.33 plus 1.665 minus 1.11
+.\TU/lmr/m/n/10 1
+.\special{pdf:eann}
+! OK.
+l. ...\showbox0
+============================================================
+============================================================
+TEST 11: Option: d=...
+============================================================
+(../zref-clever-german.lang)
+Package zref-clever Info: Loaded 'german' language file.
+> \box...=
+\hbox(7.16+0.21999)x108.67
+.\special{pdf:bann<</Type/Annot/Subtype/Link/Border[0 0 1]/H/I/C[1 0 0]/A<</S/G\ETC.}
+.\TU/lmr/m/n/10 Abschnitt
+.\penalty 10000
+.\glue 3.33 plus 1.665 minus 1.11
+.\TU/lmr/m/n/10 1.1
+.\special{pdf:eann}
+.\write1{\zref@newlabel{41@xvr}{\page{\Z@C@page }}}
+.\glue 3.33 plus 1.665 minus 1.11
+.\TU/lmr/m/n/10 auf
+.\glue 3.33 plus 1.665 minus 1.11
+.\special{pdf:bann<</Type/Annot/Subtype/Link/Border[0 0 1]/H/I/C[1 0 0]/A<</S/G\ETC.}
+.\TU/lmr/m/n/10 Seite
+.\penalty 10000
+.\glue 3.33 plus 1.665 minus 1.11
+.\TU/lmr/m/n/10 1
+.\special{pdf:eann}
+.\write1{\zref@newlabel{41@vr}{\page{\Z@C@page }}}
+! OK.
+l. ...\showbox0
+> \box...=
+\hbox(7.05+0.21999)x46.39
+.\write1{\zref@newlabel{42@xvr}{\page{\Z@C@page }}}
+.\TU/lmr/m/n/10 auf
+.\glue 3.33 plus 1.665 minus 1.11
+.\special{pdf:bann<</Type/Annot/Subtype/Link/Border[0 0 1]/H/I/C[1 0 0]/A<</S/G\ETC.}
+.\TU/lmr/m/n/10 Seite
+.\penalty 10000
+.\glue 3.33 plus 1.665 minus 1.11
+.\TU/lmr/m/n/10 1
+.\special{pdf:eann}
+.\write1{\zref@newlabel{42@vr}{\page{\Z@C@page }}}
+! OK.
+l. ...\showbox0
+> \box...=
+\hbox(7.16+0.21999)x154.79001
+.\TU/lmr/m/n/10 Abschnitten
+.\penalty 10000
+.\glue 3.33 plus 1.665 minus 1.11
+.\special{pdf:bann<</Type/Annot/Subtype/Link/Border[0 0 1]/H/I/C[1 0 0]/A<</S/G\ETC.}
+.\TU/lmr/m/n/10 1.1
+.\special{pdf:eann}
+.\glue 3.33 plus 1.665 minus 1.11
+.\TU/lmr/m/n/10 und
+.\penalty 10000
+.\glue 3.33 plus 1.665 minus 1.11
+.\special{pdf:bann<</Type/Annot/Subtype/Link/Border[0 0 1]/H/I/C[1 0 0]/A<</S/G\ETC.}
+.\TU/lmr/m/n/10 1.2
+.\special{pdf:eann}
+.\write1{\zref@newlabel{43@xvr}{\page{\Z@C@page }}}
+.\glue 3.33 plus 1.665 minus 1.11
+.\TU/lmr/m/n/10 auf
+.\glue 3.33 plus 1.665 minus 1.11
+.\special{pdf:bann<</Type/Annot/Subtype/Link/Border[0 0 1]/H/I/C[1 0 0]/A<</S/G\ETC.}
+.\TU/lmr/m/n/10 Seite
+.\penalty 10000
+.\glue 3.33 plus 1.665 minus 1.11
+.\TU/lmr/m/n/10 1
+.\special{pdf:eann}
+.\write1{\zref@newlabel{43@vr}{\page{\Z@C@page }}}
+! OK.
+l. ...\showbox0
+> \box...=
+\hbox(7.16+0.21999)x149.23001
+.\TU/lmr/m/n/10 Abschnitte
+.\penalty 10000
+.\glue 3.33 plus 1.665 minus 1.11
+.\special{pdf:bann<</Type/Annot/Subtype/Link/Border[0 0 1]/H/I/C[1 0 0]/A<</S/G\ETC.}
+.\TU/lmr/m/n/10 1.1
+.\special{pdf:eann}
+.\glue 3.33 plus 1.665 minus 1.11
+.\TU/lmr/m/n/10 und
+.\penalty 10000
+.\glue 3.33 plus 1.665 minus 1.11
+.\special{pdf:bann<</Type/Annot/Subtype/Link/Border[0 0 1]/H/I/C[1 0 0]/A<</S/G\ETC.}
+.\TU/lmr/m/n/10 1.2
+.\special{pdf:eann}
+.\write1{\zref@newlabel{44@xvr}{\page{\Z@C@page }}}
+.\glue 3.33 plus 1.665 minus 1.11
+.\TU/lmr/m/n/10 auf
+.\glue 3.33 plus 1.665 minus 1.11
+.\special{pdf:bann<</Type/Annot/Subtype/Link/Border[0 0 1]/H/I/C[1 0 0]/A<</S/G\ETC.}
+.\TU/lmr/m/n/10 Seite
+.\penalty 10000
+.\glue 3.33 plus 1.665 minus 1.11
+.\TU/lmr/m/n/10 1
+.\special{pdf:eann}
+.\write1{\zref@newlabel{44@vr}{\page{\Z@C@page }}}
+! OK.
+l. ...\showbox0
+> \box...=
+\hbox(7.05+0.21999)x46.39
+.\write1{\zref@newlabel{45@xvr}{\page{\Z@C@page }}}
+.\TU/lmr/m/n/10 auf
+.\glue 3.33 plus 1.665 minus 1.11
+.\special{pdf:bann<</Type/Annot/Subtype/Link/Border[0 0 1]/H/I/C[1 0 0]/A<</S/G\ETC.}
+.\TU/lmr/m/n/10 Seite
+.\penalty 10000
+.\glue 3.33 plus 1.665 minus 1.11
+.\TU/lmr/m/n/10 1
+.\special{pdf:eann}
+.\write1{\zref@newlabel{45@vr}{\page{\Z@C@page }}}
+! OK.
+l. ...\showbox0
+> \box...=
+\hbox(7.16+0.21999)x112.61
+.\special{pdf:bann<</Type/Annot/Subtype/Link/Border[0 0 1]/H/I/C[1 0 0]/A<</S/G\ETC.}
+.\TU/lmr/m/n/10 Abschnitts
+.\penalty 10000
+.\glue 3.33 plus 1.665 minus 1.11
+.\TU/lmr/m/n/10 1.1
+.\special{pdf:eann}
+.\glue 3.33 plus 1.665 minus 1.11
+.\TU/lmr/m/n/10 auf
+.\glue 3.33 plus 1.665 minus 1.11
+.\special{pdf:bann<</Type/Annot/Subtype/Link/Border[0 0 1]/H/I/C[1 0 0]/A<</S/G\ETC.}
+.\TU/lmr/m/n/10 Seite
+.\penalty 10000
+.\glue 3.33 plus 1.665 minus 1.11
+.\TU/lmr/m/n/10 1
+.\special{pdf:eann}
+! OK.
+l. ...\showbox0
+============================================================

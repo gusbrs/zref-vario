@@ -1,0 +1,259 @@
+This is a generated file for the l3build validation system.
+Don't change this file in any respect.
+============================================================
+TEST 1: english
+============================================================
+> \g__zrefvario_ref_opt_lang_english_reftextfaceafter_tl=on the \reftextvario
+{facing}{next} page.
+<recently read> }
+l. ...  }
+> \g__zrefvario_ref_opt_lang_english_reftextfacebefore_tl=on the \reftextvario
+{facing}{preceding} page.
+<recently read> }
+l. ...  }
+> \g__zrefvario_ref_opt_lang_english_reftextafter_tl=on the \reftextvario
+{following}{next} page.
+<recently read> }
+l. ...  }
+> \g__zrefvario_ref_opt_lang_english_reftextbefore_tl=on the \reftextvario
+{preceding}{previous} page.
+<recently read> }
+l. ...  }
+> \g__zrefvario_ref_opt_lang_english_reftextcurrent_tl=on \reftextvario
+{this}{the current} page.
+<recently read> }
+l. ...  }
+> \__zrefvario_ref_opt_lang_english_reftextfaraway:n=macro:#1->on \zcpageref
+{#1}.
+<recently read> }
+l. ...  }
+> \__zrefvario_ref_opt_lang_english_reftextpagerange:nn=macro:#1#2->on
+\zcpageref [range]{#1,#2}.
+<recently read> }
+l. ...  }
+> \__zrefvario_ref_opt_lang_english_reftextlabelrange:nn=macro:#1#2->\zcref
+[range]{#1,#2}.
+<recently read> }
+l. ...  }
+============================================================
+============================================================
+TEST 2: german
+============================================================
+> \g__zrefvario_ref_opt_lang_german_reftextfaceafter_tl=auf der nächsten
+Seite.
+<recently read> }
+l. ...  }
+> \g__zrefvario_ref_opt_lang_german_reftextfacebefore_tl=auf der vorherigen
+Seite.
+<recently read> }
+l. ...  }
+> \g__zrefvario_ref_opt_lang_german_reftextafter_tl=auf der nächsten Seite.
+<recently read> }
+l. ...  }
+> \g__zrefvario_ref_opt_lang_german_reftextbefore_tl=auf der vorherigen Seite.
+<recently read> }
+l. ...  }
+> \g__zrefvario_ref_opt_lang_german_reftextcurrent_tl=auf dieser Seite.
+<recently read> }
+l. ...  }
+> \__zrefvario_ref_opt_lang_german_reftextfaraway:n=macro:#1->auf \zcpageref
+[d=D,g=f]{#1}.
+<recently read> }
+l. ...  }
+> \__zrefvario_ref_opt_lang_german_reftextpagerange:nn=macro:#1#2->auf den
+\zcpageref [range,d=D,g=f]{#1,#2}.
+<recently read> }
+l. ...  }
+> \__zrefvario_ref_opt_lang_german_reftextlabelrange:nn=macro:#1#2->\zcref
+[range]{#1,#2}.
+<recently read> }
+l. ...  }
+============================================================
+============================================================
+TEST 3: french
+============================================================
+> \g__zrefvario_ref_opt_lang_french_reftextfaceafter_tl=page \reftextvario
+{ci-contre}{suivante}.
+<recently read> }
+l. ...  }
+> \g__zrefvario_ref_opt_lang_french_reftextfacebefore_tl=page \reftextvario
+{ci-contre}{précédente}.
+<recently read> }
+l. ...  }
+> \g__zrefvario_ref_opt_lang_french_reftextafter_tl=page suivante.
+<recently read> }
+l. ...  }
+> \g__zrefvario_ref_opt_lang_french_reftextbefore_tl=page précédente.
+<recently read> }
+l. ...  }
+> \g__zrefvario_ref_opt_lang_french_reftextcurrent_tl=de la présente page.
+<recently read> }
+l. ...  }
+> \__zrefvario_ref_opt_lang_french_reftextfaraway:n=macro:#1->\zcpageref
+[g=f]{#1}.
+<recently read> }
+l. ...  }
+> \__zrefvario_ref_opt_lang_french_reftextpagerange:nn=macro:#1#2->\zcpageref
+[range,g=f]{#1,#2}.
+<recently read> }
+l. ...  }
+> \__zrefvario_ref_opt_lang_french_reftextlabelrange:nn=macro:#1#2->\zcref
+[range]{#1,#2}.
+<recently read> }
+l. ...  }
+============================================================
+============================================================
+TEST 4: portuguese
+============================================================
+> \g__zrefvario_ref_opt_lang_portuguese_reftextfaceafter_tl=na \reftextvario
+{página oposta}{próxima página}.
+<recently read> }
+l. ...  }
+> \g__zrefvario_ref_opt_lang_portuguese_reftextfacebefore_tl=na página
+\reftextvario {oposta}{anterior}.
+<recently read> }
+l. ...  }
+> \g__zrefvario_ref_opt_lang_portuguese_reftextafter_tl=na \reftextvario
+{página seguinte}{próxima página}.
+<recently read> }
+l. ...  }
+> \g__zrefvario_ref_opt_lang_portuguese_reftextbefore_tl=na página
+\reftextvario {anterior}{precedente}.
+<recently read> }
+l. ...  }
+> \g__zrefvario_ref_opt_lang_portuguese_reftextcurrent_tl=nesta página.
+<recently read> }
+l. ...  }
+> \__zrefvario_ref_opt_lang_portuguese_reftextfaraway:n=macro:#1->na
+\zcpageref [g=f]{#1}.
+<recently read> }
+l. ...  }
+> \__zrefvario_ref_opt_lang_portuguese_reftextpagerange:nn=macro:#1#2->nas
+\zcpageref [range,g=f]{#1,#2}.
+<recently read> }
+l. ...  }
+> \__zrefvario_ref_opt_lang_portuguese_reftextlabelrange:nn=macro:#1#2->\zcref
+[range]{#1,#2}.
+<recently read> }
+l. ...  }
+============================================================
+============================================================
+TEST 5: spanish
+============================================================
+> \g__zrefvario_ref_opt_lang_spanish_reftextfaceafter_tl=en la página
+siguiente.
+<recently read> }
+l. ...  }
+> \g__zrefvario_ref_opt_lang_spanish_reftextfacebefore_tl=en la página
+anterior.
+<recently read> }
+l. ...  }
+> \g__zrefvario_ref_opt_lang_spanish_reftextafter_tl=en la página siguiente.
+<recently read> }
+l. ...  }
+> \g__zrefvario_ref_opt_lang_spanish_reftextbefore_tl=en la página anterior.
+<recently read> }
+l. ...  }
+> \g__zrefvario_ref_opt_lang_spanish_reftextcurrent_tl=en esta página.
+<recently read> }
+l. ...  }
+> \__zrefvario_ref_opt_lang_spanish_reftextfaraway:n=macro:#1->en la
+\zcpageref [g=f]{#1}.
+<recently read> }
+l. ...  }
+> \__zrefvario_ref_opt_lang_spanish_reftextpagerange:nn=macro:#1#2->en las
+\zcpageref [range,g=f]{#1,#2}.
+<recently read> }
+l. ...  }
+> \__zrefvario_ref_opt_lang_spanish_reftextlabelrange:nn=macro:#1#2->\zcref
+[range]{#1,#2}.
+<recently read> }
+l. ...  }
+============================================================
+============================================================
+TEST 6: dutch
+============================================================
+> \g__zrefvario_ref_opt_lang_dutch_reftextfaceafter_tl=op de \reftextvario
+{rechter pagina}{pagina hiernaast}.
+<recently read> }
+l. ...  }
+> \g__zrefvario_ref_opt_lang_dutch_reftextfacebefore_tl=op de \reftextvario
+{linker pagina}{pagina hiernaast}.
+<recently read> }
+l. ...  }
+> \g__zrefvario_ref_opt_lang_dutch_reftextafter_tl=op de \reftextvario
+{volgende pagina}{pagina hierna}.
+<recently read> }
+l. ...  }
+> \g__zrefvario_ref_opt_lang_dutch_reftextbefore_tl=op de \reftextvario
+{vorige pagina}{pagina hiervoor}.
+<recently read> }
+l. ...  }
+> \g__zrefvario_ref_opt_lang_dutch_reftextcurrent_tl=op deze pagina.
+<recently read> }
+l. ...  }
+> \__zrefvario_ref_opt_lang_dutch_reftextfaraway:n=macro:#1->op \zcpageref
+[g=f]{#1}.
+<recently read> }
+l. ...  }
+> \__zrefvario_ref_opt_lang_dutch_reftextpagerange:nn=macro:#1#2->op
+\zcpageref [range,g=f]{#1,#2}.
+<recently read> }
+l. ...  }
+> \__zrefvario_ref_opt_lang_dutch_reftextlabelrange:nn=macro:#1#2->\zcref
+[range]{#1,#2}.
+<recently read> }
+l. ...  }
+============================================================
+============================================================
+TEST 7: zv_unknown_language
+============================================================
+> 
+\g__zrefvario_ref_opt_lang_zv_unknown_language_reftextfaceafter_tl=\msg_warning:nnxx
+{zref-vario}{missing-string}{reftextfaceafter}{\l__zrefvario_ref_language_tl
+}\zref@default .
+<recently read> }
+l. ...  }
+> 
+\g__zrefvario_ref_opt_lang_zv_unknown_language_reftextfacebefore_tl=\msg_warning:nnxx
+{zref-vario}{missing-string}{reftextfacebefore}{\l__zrefvario_ref_language_tl
+}\zref@default .
+<recently read> }
+l. ...  }
+> 
+\g__zrefvario_ref_opt_lang_zv_unknown_language_reftextafter_tl=\msg_warning:nnxx
+{zref-vario}{missing-string}{reftextafter}{\l__zrefvario_ref_language_tl
+}\zref@default .
+<recently read> }
+l. ...  }
+> 
+\g__zrefvario_ref_opt_lang_zv_unknown_language_reftextbefore_tl=\msg_warning:nnxx
+{zref-vario}{missing-string}{reftextbefore}{\l__zrefvario_ref_language_tl
+}\zref@default .
+<recently read> }
+l. ...  }
+> 
+\g__zrefvario_ref_opt_lang_zv_unknown_language_reftextcurrent_tl=\msg_warning:nnxx
+{zref-vario}{missing-string}{reftextcurrent}{\l__zrefvario_ref_language_tl
+}\zref@default .
+<recently read> }
+l. ...  }
+> 
+\__zrefvario_ref_opt_lang_zv_unknown_language_reftextfaraway:n=macro:#1->\msg_warning:nnxx
+{zref-vario}{missing-string}{reftextfaraway}{\l__zrefvario_ref_language_tl
+}\zref@default .
+<recently read> }
+l. ...  }
+> 
+\__zrefvario_ref_opt_lang_zv_unknown_language_reftextpagerange:nn=macro:#1#2->\msg_warning:nnxx
+{zref-vario}{missing-string}{reftextpagerange}{\l__zrefvario_ref_language_tl
+}\zref@default .
+<recently read> }
+l. ...  }
+> 
+\__zrefvario_ref_opt_lang_zv_unknown_language_reftextlabelrange:nn=macro:#1#2->\msg_warning:nnxx
+{zref-vario}{missing-string}{reftextlabelrange}{\l__zrefvario_ref_language_tl
+}\zref@default .
+<recently read> }
+l. ...  }
+============================================================

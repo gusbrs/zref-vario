@@ -1,0 +1,81 @@
+\documentclass{article}
+
+\input{regression-test}
+
+% Testing the language specific options.
+
+\usepackage{zref-vario}
+
+\begin{document}
+
+\START
+
+\ExplSyntaxOn
+\clist_map_inline:nn
+  {
+    english ,
+    german ,
+    french ,
+    portuguese ,
+    spanish ,
+    dutch ,
+    zv_unknown_language ,
+  }
+  {
+    \BEGINTEST{#1}
+    \clist_map_inline:nn
+      {
+        reftextfaceafter ,
+        reftextfacebefore ,
+        reftextafter ,
+        reftextbefore ,
+        reftextcurrent ,
+      }
+      {
+        \tl_if_exist:cT
+          { \__zrefvario_ref_opt_name_lang_tl:nn {#1} {##1} }
+          {
+            \tl_show:c
+              { \__zrefvario_ref_opt_name_lang_tl:nn {#1} {##1} }
+          }
+      }
+    \clist_map_inline:nn
+      {
+        reftextfaraway ,
+        fullrefformat ,
+      }
+      {
+        \cs_if_exist:cT
+          { \__zrefvario_ref_opt_name_lang_cs:nnn {#1} {##1} {n} }
+          {
+            \cs_show:c
+              { \__zrefvario_ref_opt_name_lang_cs:nnn {#1} {##1} {n} }
+          }
+      }
+    \clist_map_inline:nn
+      {
+        reftextpagerange ,
+        reftextlabelrange ,
+        vrefformat ,
+      }
+      {
+        \cs_if_exist:cT
+          { \__zrefvario_ref_opt_name_lang_cs:nnn {#1} {##1} {nn} }
+          {
+            \cs_show:c
+              { \__zrefvario_ref_opt_name_lang_cs:nnn {#1} {##1} {nn} }
+          }
+      }
+    \cs_if_exist:cT
+      { \__zrefvario_ref_opt_name_lang_cs:nnn {#1} {vrefrangeformat}{nnn} }
+      {
+        \cs_show:c
+          { \__zrefvario_ref_opt_name_lang_cs:nnn {#1} {vrefrangeformat}{nnn} }
+      }
+    \ENDTEST
+  }
+\ExplSyntaxOff
+
+\OMIT
+
+\end{document}

@@ -1,0 +1,85 @@
+\documentclass[english]{book}
+
+\input{regression-test}
+
+\usepackage{babel}
+
+% There is no concern here of loading etc. just testing hyperlink inhibition
+% with starred variants.
+
+\usepackage[nospace]{varioref}
+\usepackage{zref-vario}
+
+\usepackage{hyperref}
+
+\setlength{\parindent}{0pt}
+
+\begin{document}
+
+\START
+
+\OMIT
+\chapter{Chapter 1}
+\label{cha:chapter-1}
+\zlabel{cha:chapter-1}
+\TIMO
+
+\section{Section 1.1}
+\label{sec:section-1.1}
+\zlabel{sec:section-1.1}
+
+\section{Section 1.2}
+\label{sec:section-1.2}
+\zlabel{sec:section-1.2}
+
+\BEGINTEST{Unstarred}
+\setbox0=\hbox{\zvref{sec:section-1.1} ; \zvref{sec:section-1.1}}
+\showbox0
+\box0
+
+\setbox0=\hbox{\zvpageref{sec:section-1.1} ; \zvpageref{sec:section-1.1}}
+\showbox0
+\box0
+
+\setbox0=\hbox{\zvrefrange{sec:section-1.1}{sec:section-1.2} ;
+  \zvrefrange{sec:section-1.1}{sec:section-1.2}}
+\showbox0
+\box0
+
+\setbox0=\hbox{\zvpagerefrange{sec:section-1.1}{sec:section-1.2} ;
+  \zvpagerefrange{sec:section-1.1}{sec:section-1.2}}
+\showbox0
+\box0
+
+\setbox0=\hbox{\zfullref{sec:section-1.1}}
+\showbox0
+\box0
+\ENDTEST
+
+\BEGINTEST{Starred}
+\setbox0=\hbox{\zvref*{sec:section-1.1} ; \zvref*{sec:section-1.1}}
+\showbox0
+\box0
+
+\setbox0=\hbox{\zvpageref*{sec:section-1.1} ; \zvpageref*{sec:section-1.1}}
+\showbox0
+\box0
+
+\setbox0=\hbox{\zvrefrange*{sec:section-1.1}{sec:section-1.2} ;
+  \zvrefrange*{sec:section-1.1}{sec:section-1.2}}
+\showbox0
+\box0
+
+\setbox0=\hbox{\zvpagerefrange*{sec:section-1.1}{sec:section-1.2} ;
+  \zvpagerefrange*{sec:section-1.1}{sec:section-1.2}}
+\showbox0
+\box0
+
+\setbox0=\hbox{\zfullref*{sec:section-1.1}}
+\showbox0
+\box0
+\ENDTEST
+
+\OMIT
+
+\end{document}
