@@ -138,7 +138,7 @@ As usual:
 
 \section{Dependencies}
 
-\pkg{zref-vario} requires \pkg{zref-clever} and \pkg{varioref}.
+\pkg{zref-vario} requires \pkg{varioref} and \pkg{zref-clever}.
 
 
 \section{User interface}
@@ -173,12 +173,13 @@ As usual:
   \end{syntax}
 \end{function}
 
-These user commands work pretty much as their \pkg{varioref} counterparts.
-Indeed, they are just wrappers around them.  As such, differently from
-\pkg{zref-clever}'s commands, these can receive single labels as arguments,
-not lists of them.  In all of them the starred version inhibits hyperlinking,
-and they (locally) set \pkg{varioref}'s \opt{nospace} option, so that the
-this syntax can be used unambiguously.
+These user commands work pretty much as their \pkg{varioref}
+counterparts.\footnote{If you are not acquainted with them, see
+  \pkg{varioref}'s documentation.}  Indeed, they are just wrappers around
+them.  As such, differently from \pkg{zref-clever}'s commands, these can
+receive single labels as arguments, not lists of them.  In all of them the
+starred version inhibits hyperlinking, and they (locally) set \pkg{varioref}'s
+\opt{nospace} option, so that the this syntax can be used unambiguously.
 
 All of them have a single optional argument, which can receive any of
 \cs{zcref}'s options, and those are set for calls to \cs{zcref} or
