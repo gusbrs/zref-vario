@@ -92,6 +92,7 @@ env:
     # trivfloat
     underscore
     upquote
+    xkeyval
     zref
     zref-clever
 
