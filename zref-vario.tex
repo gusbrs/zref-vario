@@ -111,10 +111,10 @@
 
 \begin{quotation}
   \pkg{zref-vario} offers a compatibility layer for \pkg{varioref} to be used
-  alongside \pkg{zref-clever}.  It provides ``\texttt{\cs{z}}\dots{}''
-  counterparts to \pkg{varioref}'s main reference commands, each of which
-  essentially does some (scoped) setup for \pkg{varioref}, then calls the
-  original one.
+  alongside \pkg{zref-clever}.  It provides
+  ``\texttt{\textbackslash{}z}\dots{}'' counterparts to \pkg{varioref}'s main
+  reference commands, each of which essentially does some (scoped) setup for
+  \pkg{varioref}, then calls the original one.
 \end{quotation}
 
 \bigskip{}
@@ -134,6 +134,20 @@ As usual:
 \begin{zvexample}
 \usepackage{zref-vario}
 \end{zvexample}
+
+Note that \pkg{zref-vario} loads \pkg{varioref}, which has known load order
+interaction with other packages, prominently with \pkg{hyperref}.  It is thus
+subject to the same load order requirements as \pkg{varioref} itself, for this
+reason.  As far as \pkg{zref-vario} is concerned, \pkg{varioref}'s options are
+(mostly) not taken into account: the language options are disregarded, the
+\opt{nospace} option is hard-coded (locally) for the
+``\texttt{\textbackslash{}z}\dots{}'' commands, and \opt{draft} and
+\opt{final} are typically given to \cs{documentclass}.  But, if you do need to
+pass some options to \pkg{varioref} for any reason, you must load
+\pkg{varioref} before \pkg{zref-vario}.  Also, since \pkg{zref-vario} loads
+\pkg{zref-clever}, you'll have to rely on \cs{zcsetup} to configure the latter
+in case you load \pkg{zref-clever} through \pkg{zref-vario}, to avoid package
+option clash.  Or just load \pkg{zref-clever} first.
 
 
 \section{Dependencies}
