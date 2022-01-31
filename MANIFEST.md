@@ -62,6 +62,9 @@ different engines (pdfTeX, XeTeX, LuaTeX, etc.).
 * zv-basic02.lvt 
 * zv-basic03.lvt 
 * zv-basic04.lvt 
+* zv-hyperref01.lvt 
+* zv-languages01.lvt 
+* zv-zcref-options01.lvt 
 * zv-basic01.luatex.tlg 
 * zv-basic01.luatexdev.tlg 
 * zv-basic01.tlg 
@@ -82,6 +85,17 @@ different engines (pdfTeX, XeTeX, LuaTeX, etc.).
 * zv-basic04.tlg 
 * zv-basic04.xetex.tlg 
 * zv-basic04.xetexdev.tlg 
+* zv-hyperref01.luatex.tlg 
+* zv-hyperref01.luatexdev.tlg 
+* zv-hyperref01.tlg 
+* zv-hyperref01.xetex.tlg 
+* zv-hyperref01.xetexdev.tlg 
+* zv-languages01.tlg 
+* zv-zcref-options01.luatex.tlg 
+* zv-zcref-options01.luatexdev.tlg 
+* zv-zcref-options01.tlg 
+* zv-zcref-options01.xetex.tlg 
+* zv-zcref-options01.xetexdev.tlg 
 
 
 ## TDS manifest
