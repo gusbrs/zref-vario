@@ -135,19 +135,11 @@ As usual:
 \usepackage{zref-vario}
 \end{zvexample}
 
-Note that \pkg{zref-vario} loads \pkg{varioref}, which has known load order
-interaction with other packages, prominently with \pkg{hyperref}.  It is thus
-subject to the same load order requirements as \pkg{varioref} itself, for this
-reason.  As far as \pkg{zref-vario} is concerned, \pkg{varioref}'s options are
-(mostly) not taken into account: the language options are disregarded, the
-\opt{nospace} option is hard-coded (locally) for the
-``\texttt{\textbackslash{}z}\dots{}'' commands, and \opt{draft} and
-\opt{final} are typically given to \cs{documentclass}.  But, if you do need to
-pass some options to \pkg{varioref} for any reason, you must load
-\pkg{varioref} before \pkg{zref-vario}.  Also, since \pkg{zref-vario} loads
-\pkg{zref-clever}, you'll have to rely on \cs{zcsetup} to configure the latter
-in case you load \pkg{zref-clever} through \pkg{zref-vario}, to avoid package
-option clash.  Or just load \pkg{zref-clever} first.
+\pkg{zref-vario} will load \pkg{varioref} and \pkg{zref-clever} at
+\texttt{begindocument/before}, if they have not already been loaded.  However,
+considering \pkg{varioref} has known load order interaction with other
+packages, prominently with \pkg{hyperref}, you may wish to load it explicitly
+to ensure its load order requirements are met.
 
 
 \section{Dependencies}
@@ -224,7 +216,6 @@ supports them.
 
 \section{Customization}
 
-
 \begin{function}{\zvLanguageSetup}
   \begin{syntax}
     \cs{zvLanguageSetup}\marg{language}\marg{options}
@@ -248,6 +239,14 @@ options.  Language independent default values are provided for the
 \pkg{varioref}, which are adequate to most use cases), so you may omit them.
 But, if you need to adjust them, the default values can be overridden by
 setting the corresponding options in \cs{zvLanguageSetup}.
+
+As far as \pkg{zref-vario} is concerned, \pkg{varioref}'s options are (mostly)
+not taken into account: the language options are disregarded (settings made
+with \cs{zvLanguageSetup} are used instead), the \opt{nospace} option is
+hard-coded (locally) for the ``\texttt{\textbackslash{}z}\dots{}'' commands,
+and \opt{draft} and \opt{final} are typically given to \cs{documentclass},
+though they do affect \pkg{zref-vario}'s commands, just as they do with
+\pkg{varioref}'s.
 
 
 % \section{Acknowledgments}

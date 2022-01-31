@@ -136,8 +136,11 @@
 % Required packages.
 %
 %    \begin{macrocode}
-\RequirePackage { varioref }
-\RequirePackage { zref-clever } [ 2022-01-28 ] % v0.2.0-alpha
+\AddToHook { begindocument/before }
+  {
+    \RequirePackage { varioref }
+    \RequirePackage { zref-clever } [ 2022-01-28 ] % v0.2.0-alpha
+  }
 %    \end{macrocode}
 %
 %
@@ -314,16 +317,19 @@
 \seq_new:N \g_@@_setup_languages_seq
 \NewDocumentCommand \zvLanguageSetup { m m }
   {
-    \group_begin:
-    \zrefclever_language_if_declared:nTF {#1}
+    \AddToHook { begindocument/before }
       {
-        \tl_set:Nn \l_@@_setup_language_tl {#1}
-        \keys_set:nn { zref-vario/langsetup } {#2}
-        \seq_gput_right:Nx \g_@@_setup_languages_seq
-          { \@@_base_lang:n {#1} }
+        \group_begin:
+        \zrefclever_language_if_declared:nTF {#1}
+          {
+            \tl_set:Nn \l_@@_setup_language_tl {#1}
+            \keys_set:nn { zref-vario/langsetup } {#2}
+            \seq_gput_right:Nx \g_@@_setup_languages_seq
+              { \@@_base_lang:n {#1} }
+          }
+          { \msg_warning:nnn { zref-vario } { unknown-language-setup } {#1} }
+        \group_end:
       }
-      { \msg_warning:nnn { zref-vario } { unknown-language-setup } {#1} }
-    \group_end:
   }
 \msg_new:nnn { zref-vario } { unknown-language-setup }
   {
@@ -498,56 +504,59 @@
 %    \begin{macrocode}
 \group_begin:
 \tl_set:Nn \l_@@_setup_language_tl { zv_unknown_language }
-\keys_set:nn { zref-vario/langsetup }
+\AddToHook { begindocument/before }
   {
-    reftextfaceafter =
+    \keys_set:nn { zref-vario/langsetup }
       {
-        \msg_warning:nnxx { zref-vario } { missing-string }
-          { reftextfaceafter } { \l_@@_ref_language_tl }
-        \zref@default
-      } ,
-    reftextfacebefore =
-      {
-        \msg_warning:nnxx { zref-vario } { missing-string }
-          { reftextfacebefore } { \l_@@_ref_language_tl }
-        \zref@default
-      } ,
-    reftextafter =
-      {
-        \msg_warning:nnxx { zref-vario } { missing-string }
-          { reftextafter } { \l_@@_ref_language_tl }
-        \zref@default
-      } ,
-    reftextbefore =
-      {
-        \msg_warning:nnxx { zref-vario } { missing-string }
-          { reftextbefore } { \l_@@_ref_language_tl }
-        \zref@default
-      } ,
-    reftextcurrent =
-      {
-        \msg_warning:nnxx { zref-vario } { missing-string }
-          { reftextcurrent } { \l_@@_ref_language_tl }
-        \zref@default
-      } ,
-    reftextfaraway =
-      {
-        \msg_warning:nnxx { zref-vario } { missing-string }
-          { reftextfaraway } { \l_@@_ref_language_tl }
-        \zref@default
-      } ,
-    reftextpagerange =
-      {
-        \msg_warning:nnxx { zref-vario } { missing-string }
-          { reftextpagerange } { \l_@@_ref_language_tl }
-        \zref@default
-      } ,
-    reftextlabelrange =
-      {
-        \msg_warning:nnxx { zref-vario } { missing-string }
-          { reftextlabelrange } { \l_@@_ref_language_tl }
-        \zref@default
-      } ,
+        reftextfaceafter =
+          {
+            \msg_warning:nnxx { zref-vario } { missing-string }
+              { reftextfaceafter } { \l_@@_ref_language_tl }
+            \zref@default
+          } ,
+        reftextfacebefore =
+          {
+            \msg_warning:nnxx { zref-vario } { missing-string }
+              { reftextfacebefore } { \l_@@_ref_language_tl }
+            \zref@default
+          } ,
+        reftextafter =
+          {
+            \msg_warning:nnxx { zref-vario } { missing-string }
+              { reftextafter } { \l_@@_ref_language_tl }
+            \zref@default
+          } ,
+        reftextbefore =
+          {
+            \msg_warning:nnxx { zref-vario } { missing-string }
+              { reftextbefore } { \l_@@_ref_language_tl }
+            \zref@default
+          } ,
+        reftextcurrent =
+          {
+            \msg_warning:nnxx { zref-vario } { missing-string }
+              { reftextcurrent } { \l_@@_ref_language_tl }
+            \zref@default
+          } ,
+        reftextfaraway =
+          {
+            \msg_warning:nnxx { zref-vario } { missing-string }
+              { reftextfaraway } { \l_@@_ref_language_tl }
+            \zref@default
+          } ,
+        reftextpagerange =
+          {
+            \msg_warning:nnxx { zref-vario } { missing-string }
+              { reftextpagerange } { \l_@@_ref_language_tl }
+            \zref@default
+          } ,
+        reftextlabelrange =
+          {
+            \msg_warning:nnxx { zref-vario } { missing-string }
+              { reftextlabelrange } { \l_@@_ref_language_tl }
+            \zref@default
+          } ,
+      }
   }
 \group_end:
 \msg_new:nnn { zref-vario } { missing-string }
@@ -558,13 +567,16 @@
 % A general initial warning in case the language is altogether not set up.
 %
 %    \begin{macrocode}
-\AddToHook { begindocument }
+\AddToHook { begindocument/before }
   {
-    \seq_if_in:NxF \g_@@_setup_languages_seq
-      { \@@_base_lang:e { \l_@@_ref_language_tl } }
+    \AddToHook { begindocument }
       {
-        \msg_warning:nnx  { zref-vario } { language-not-setup }
-          { \l_@@_ref_language_tl }
+        \seq_if_in:NxF \g_@@_setup_languages_seq
+          { \@@_base_lang:e { \l_@@_ref_language_tl } }
+          {
+            \msg_warning:nnx  { zref-vario } { language-not-setup }
+              { \l_@@_ref_language_tl }
+          }
       }
   }
 \msg_new:nnn { zref-vario } { language-not-setup }
