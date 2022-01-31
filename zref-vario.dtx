@@ -722,7 +722,7 @@
     \group_end:
   }
 \cs_new_protected:Npn \@@_vpageref:nnn #1#2#3
-  { \vpageref [#1] [#2] {#3} }
+  { \vpageref [{#1}] [#2] {#3} }
 \cs_generate_variant:Nn \@@_vpageref:nnn { VVn }
 %    \end{macrocode}
 % \end{macro}
@@ -750,7 +750,7 @@
     \group_end:
   }
 \cs_new_protected:Npn \@@_vrefrange:nnn #1#2#3
-  { \vrefrange [#1] {#2} {#3} }
+  { \vrefrange [{#1}] {#2} {#3} }
 \cs_generate_variant:Nn \@@_vrefrange:nnn { Vnn }
 %    \end{macrocode}
 % \end{macro}
@@ -778,7 +778,7 @@
     \group_end:
   }
 \cs_new_protected:Npn \@@_vpagerefrange:nnn #1#2#3
-  { \vpagerefrange [#1] {#2} {#3} }
+  { \vpagerefrange [{#1}] {#2} {#3} }
 \cs_generate_variant:Nn \@@_vpagerefrange:nnn { Vnn }
 %    \end{macrocode}
 % \end{macro}
