@@ -1,6 +1,8 @@
 # Changelog
 
-## [Unreleased]
+## [Unreleased](https://github.com/gusbrs/zref-vario/compare/v0.1.1-alpha...HEAD)
+
+## [v0.1.1-alpha](https://github.com/gusbrs/zref-vario/compare/v0.1.0-alpha...v0.1.1-alpha) (2022-02-01)
 
 ### Changed
 - Improved loading setup of required packages.
