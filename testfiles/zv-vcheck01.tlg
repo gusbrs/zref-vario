@@ -1,0 +1,83 @@
+This is a generated file for the l3build validation system.
+Don't change this file in any respect.
+============================================================
+TEST 1: Page 1
+============================================================
+No checks should occur, since we are on different pages
+============================================================
+============================================================
+TEST 2: Page 2
+============================================================
+No checks should occur, since we are on different pages
+============================================================
+============================================================
+TEST 3: Page 3
+============================================================
+No checks should occur, since we are on different pages
+============================================================
+============================================================
+TEST 4: Page 4
+============================================================
+No checks should occur, since we are on different pages
+============================================================
+============================================================
+TEST 5: Page 5: top
+============================================================
+Same page, checks functional
+'above' should fail, 'below' should pass
+Package zref-check Warning: Failed check 'above' for label 'sec:section-3.1'
+(zref-check)                on page 5 on line ....
+'above' should fail, 'below' should pass
+Package zref-check Warning: Failed check 'above' for label 'sec:section-3.1'
+(zref-check)                on page 5 on line ....
+'above' should fail, 'below' should pass
+Package zref-check Warning: Failed check 'above' for label 'sec:section-3.1'
+(zref-check)                on page 5 on line ....
+Package zref-check Warning: Failed check 'above' for label 'sec:section-3.2'
+(zref-check)                on page 5 on line ....
+'above' should fail, 'below' should pass
+Package zref-check Warning: Failed check 'above' for label 'sec:section-3.1'
+(zref-check)                on page 5 on line ....
+Package zref-check Warning: Failed check 'above' for label 'sec:section-3.2'
+(zref-check)                on page 5 on line ....
+no checks, labels on different pages
+no checks, labels on different pages
+============================================================
+============================================================
+TEST 6: Page 5: bottom
+============================================================
+Same page, checks functional
+'above' should pass, 'below' should fail
+Package zref-check Warning: Failed check 'below' for label 'sec:section-3.1'
+(zref-check)                on page 5 on line ....
+'above' should pass, 'below' should fail
+Package zref-check Warning: Failed check 'below' for label 'sec:section-3.1'
+(zref-check)                on page 5 on line ....
+'above' should pass, 'below' should fail
+Package zref-check Warning: Failed check 'below' for label 'sec:section-3.1'
+(zref-check)                on page 5 on line ....
+Package zref-check Warning: Failed check 'below' for label 'sec:section-3.2'
+(zref-check)                on page 5 on line ....
+'above' should pass, 'below' should fail
+Package zref-check Warning: Failed check 'below' for label 'sec:section-3.1'
+(zref-check)                on page 5 on line ....
+Package zref-check Warning: Failed check 'below' for label 'sec:section-3.2'
+(zref-check)                on page 5 on line ....
+no checks, labels on different pages
+no checks, labels on different pages
+============================================================
+============================================================
+TEST 7: Page 6
+============================================================
+No checks should occur, since we are on different pages
+============================================================
+============================================================
+TEST 8: Page 7
+============================================================
+No checks should occur, since we are on different pages
+============================================================
+============================================================
+TEST 9: Page 8
+============================================================
+No checks should occur, since we are on different pages
+============================================================

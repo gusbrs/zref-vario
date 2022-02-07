@@ -574,7 +574,7 @@
         \seq_if_in:NxF \g_@@_setup_languages_seq
           { \@@_base_lang:e { \l_@@_ref_language_tl } }
           {
-            \msg_warning:nnx  { zref-vario } { language-not-setup }
+            \msg_warning:nnx { zref-vario } { language-not-setup }
               { \l_@@_ref_language_tl }
           }
       }
@@ -731,6 +731,19 @@
     \@@_varioref_setup:
     \@@_vpageref:VVn \l_@@_reftextcurrent_tl
       \l_@@_reftextother_tl {#1}
+    \bool_lazy_and:nnT
+      { \g_@@_zrefcheck_available_bool }
+      { \l_@@_with_vcheck_bool }
+      {
+        \zrefcheck_zrefvario_label:
+        \vref@pagenum \l_tmpa_tl { \the\c@vrcnt @vr }
+        \vrefpagenum \l_tmpb_tl {#1}
+        \tl_if_eq:NNT \l_tmpa_tl \l_tmpb_tl
+          {
+            \zrefcheck_zrefvario_run_check_on_label:Vn
+              \l_@@_vcheck_tl {#1}
+          }
+      }
     \group_end:
   }
 \cs_new_protected:Npn \@@_vpageref:nnn #1#2#3
@@ -787,6 +800,25 @@
       { \keys_set:nn { zref-vario/ref } { nohyperref } }
     \@@_varioref_setup:
     \@@_vpagerefrange:Vnn \l_@@_reftextcurrent_tl {#1} {#2}
+    \bool_lazy_and:nnT
+      { \g_@@_zrefcheck_available_bool }
+      { \l_@@_with_vcheck_bool }
+      {
+        \zrefcheck_zrefvario_label:
+        \vrefpagenum \l_tmpa_tl {#1}
+        \vrefpagenum \l_tmpb_tl {#2}
+        \tl_if_eq:NNT \l_tmpa_tl \l_tmpb_tl
+          {
+            \vref@pagenum \l_tmpa_tl { \the\c@vrcnt @vr }
+            \tl_if_eq:NNT \l_tmpa_tl \l_tmpb_tl
+              {
+                \zrefcheck_zrefvario_run_check_on_label:Vn
+                  \l_@@_vcheck_tl {#1}
+                \zrefcheck_zrefvario_run_check_on_label:Vn
+                  \l_@@_vcheck_tl {#2}
+              }
+          }
+      }
     \group_end:
   }
 \cs_new_protected:Npn \@@_vpagerefrange:nnn #1#2#3
@@ -816,6 +848,53 @@
 %    \end{macrocode}
 % \end{macro}
 %
+%
+%
+% \section{\pkg{zref-check} integration}
+%
+% Integration with \pkg{zref-check}.  \opt{vcheck}, differently from
+% \opt{check}, receives only two values \texttt{above} and \texttt{below},
+% since these are the only two checks which make sense for \pkg{zref-vario}.
+% This means that it also does not take \cs{zcheck}'s options, but these can
+% always be passed to \opt{check}.  Besides this, \opt{vcheck}'s check should
+% only be done when label(s) and reference are in the same page, that is, when
+% \opt{vcurrent} is used.  Furthermore, since \pkg{varioref} handles the case
+% where the reference crosses page boundaries, we only set one label for the
+% purpose, and this is done at the end of the reference, because that's the
+% point \pkg{varioref} itself uses to check if label and reference are in the
+% same page.
+%
+%    \begin{macrocode}
+\bool_new:N \g_@@_zrefcheck_available_bool
+\bool_new:N \l_@@_with_vcheck_bool
+\tl_new:N \l_@@_vcheck_tl
+\AddToHook { begindocument/before }
+  {
+    \IfPackageLoadedTF { zref-check }
+      {
+        \bool_gset_true:N \g_@@_zrefcheck_available_bool
+        \keys_define:nn { zref-vario/current }
+          {
+            vcheck .choices:nn =
+              { above , below }
+              {
+                \bool_set_true:N \l_@@_with_vcheck_bool
+                \tl_set:NV \l_@@_vcheck_tl \l_keys_choice_tl
+              } ,
+          }
+      }
+      {
+        \bool_gset_false:N \g_@@_zrefcheck_available_bool
+        \keys_define:nn { zref-vario/current }
+          {
+            vcheck .code:n =
+              { \msg_warning:nn { zref-vario } { zref-check-unavailable } } ,
+          }
+      }
+  }
+\msg_new:nnn { zref-vario } { zref-check-unavailable }
+  { Option~'vcheck'~is~only~available~when~'zref-check'~is~loaded. }
+%    \end{macrocode}
 %
 %
 % \section{Languages}

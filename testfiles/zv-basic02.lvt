@@ -5,7 +5,7 @@
 \usepackage{babel}
 
 % The same as 'zv-basic01.lvt', but with 'hyperref'.  In this case, this is
-% more thank checking if "hyperlinking works", since both 'hyperref' and
+% more than checking if "hyperlinking works", since both 'hyperref' and
 % 'nameref' redefine internals of 'varioref'.  So it is really a "different
 % scenario".
 

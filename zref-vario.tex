@@ -236,7 +236,7 @@ macros to the values given to the corresponding options in
 support, you should set at least the whole set of ``\texttt{reftext}\dots{}''
 options.  Language independent default values are provided for the
 ``\dots{}\texttt{format}'' options (equivalent to the ones from
-\pkg{varioref}, which are adequate to most use cases), so you may omit them.
+\pkg{varioref}, which are adequate for most use cases), so you may omit them.
 But, if you need to adjust them, the default values can be overridden by
 setting the corresponding options in \cs{zvLanguageSetup}.
 
@@ -247,6 +247,35 @@ hard-coded (locally) for the ``\texttt{\textbackslash{}z}\dots{}'' commands,
 and \opt{draft} and \opt{final} are typically given to \cs{documentclass},
 though they do affect \pkg{zref-vario}'s commands, just as they do with
 \pkg{varioref}'s.
+
+
+\section{Integration with \pkg{zref-check}}
+
+When package \pkg{zref-check} is loaded, \pkg{zref-vario} provides one further
+option to its user commands: \opt{vcheck}.  The purpose of this option is to
+check the relative position of label and reference within the same page.  It
+can receive two values: \texttt{above} and \texttt{below}, being those the
+names of the \pkg{zref-check}'s checks which are meaningful for the use case
+at hand.  Of course, these could also be performed with \cs{zcref}'s
+\opt{check} option, which is available for \pkg{zref-vario}'s commands as
+well.  The difference here is that the check specified in \opt{vcheck} is only
+performed when the referenced label -- or labels, in the case of a range --
+fall on the same page as the reference itself.\footnote{There's another
+  technical difference between them.  \pkg{zref-check}'s checks, and hence
+  those of the \opt{check} option, make sure the whole reference passes each
+  check by setting labels both at the start and the end of the reference, and
+  verifying if each one of them passes the checks.  But, since \pkg{varioref}
+  already has it's own mechanism to handle references which cross page
+  boundaries, \opt{vcheck}'s checks set only one label, at the end of the
+  reference, the same position \pkg{varioref} uses to check whether label and
+  reference are on the same page.}  In other words, when \opt{vcurrent} would
+be used (if provided).  For this reason, only the commands which support
+\opt{vcurrent} offer \pkg{vcheck}.  Also, \opt{vcheck} cannot receive
+\pkg{zref-check}'s options, as \opt{check} is able to, but the latter can be
+used for the purpose of locally controlling the behavior of the checks
+performed by \opt{vcheck}.  Consult \pkg{zref-check}'s documentation for
+details and limitations of these checks and envisaged workflows for their
+reliable use.
 
 
 % \section{Acknowledgments}

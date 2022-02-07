@@ -7,8 +7,8 @@ module = "zref-vario"
 -- Typeset only the .tex files
 typesetfiles = {"*.tex"}
 
--- Two runs for label testing
-checkruns = 2
+-- Three runs
+checkruns = 3
 
 -- Use dev formats for regression tests
 -- See https://tex.stackexchange.com/q/611424

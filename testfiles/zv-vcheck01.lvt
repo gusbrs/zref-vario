@@ -1,0 +1,314 @@
+\documentclass[english]{book}
+
+\input{regression-test}
+
+\usepackage{babel}
+
+% This test file aims at testing the 'vcheck' option.
+
+\usepackage{zref-vario}
+\usepackage{zref-check}
+
+\setlength{\parindent}{0pt}
+
+\begin{document}
+
+\START
+
+\OMIT
+\chapter{Chapter 1}
+\zlabel{cha:chapter-1}
+\TIMO
+
+\section{Section 1.1}
+\zlabel{sec:section-1.1}
+
+\section{Section 1.2}
+\zlabel{sec:section-1.2}
+
+\BEGINTEST{Page 1}
+\typeout{No checks should occur, since we are on different pages}
+
+\zvref[vcheck=above]{sec:section-3.1} ;
+\zvref[vcheck=below]{sec:section-3.1}
+
+\zvpageref[vcheck=above]{sec:section-3.1} ;
+\zvpageref[vcheck=below]{sec:section-3.1}
+
+\zvrefrange[vcheck=above]{sec:section-3.1}{sec:section-3.2} ;
+\zvrefrange[vcheck=below]{sec:section-3.1}{sec:section-3.2}
+
+\zvpagerefrange[vcheck=above]{sec:section-3.1}{sec:section-3.2} ;
+\zvpagerefrange[vcheck=below]{sec:section-3.1}{sec:section-3.2}
+
+\zvrefrange[vcheck=above]{sec:section-3.1}{sec:section-3.4} ;
+\zvrefrange[vcheck=below]{sec:section-3.1}{sec:section-3.4}
+
+\zvpagerefrange[vcheck=above]{sec:section-3.1}{sec:section-3.4} ;
+\zvpagerefrange[vcheck=below]{sec:section-3.1}{sec:section-3.4}
+\ENDTEST
+
+\OMIT
+\clearpage{}
+\TIMO
+
+\section{Section 1.3}
+\zlabel{sec:section-1.3}
+
+\section{Section 1.4}
+\zlabel{sec:section-1.4}
+
+\BEGINTEST{Page 2}
+\typeout{No checks should occur, since we are on different pages}
+
+\zvref[vcheck=above]{sec:section-3.1} ;
+\zvref[vcheck=below]{sec:section-3.1}
+
+\zvpageref[vcheck=above]{sec:section-3.1} ;
+\zvpageref[vcheck=below]{sec:section-3.1}
+
+\zvrefrange[vcheck=above]{sec:section-3.1}{sec:section-3.2} ;
+\zvrefrange[vcheck=below]{sec:section-3.1}{sec:section-3.2}
+
+\zvpagerefrange[vcheck=above]{sec:section-3.1}{sec:section-3.2} ;
+\zvpagerefrange[vcheck=below]{sec:section-3.1}{sec:section-3.2}
+
+\zvrefrange[vcheck=above]{sec:section-3.1}{sec:section-3.4} ;
+\zvrefrange[vcheck=below]{sec:section-3.1}{sec:section-3.4}
+
+\zvpagerefrange[vcheck=above]{sec:section-3.1}{sec:section-3.4} ;
+\zvpagerefrange[vcheck=below]{sec:section-3.1}{sec:section-3.4}
+\ENDTEST
+
+\OMIT
+\chapter{Chapter 2}
+\zlabel{cha:chapter-2}
+\TIMO
+
+\section{Section 2.1}
+\zlabel{sec:section-2.1}
+
+\section{Section 2.2}
+\zlabel{sec:section-2.2}
+
+\BEGINTEST{Page 3}
+\typeout{No checks should occur, since we are on different pages}
+
+\zvref[vcheck=above]{sec:section-3.1} ;
+\zvref[vcheck=below]{sec:section-3.1}
+
+\zvpageref[vcheck=above]{sec:section-3.1} ;
+\zvpageref[vcheck=below]{sec:section-3.1}
+
+\zvrefrange[vcheck=above]{sec:section-3.1}{sec:section-3.2} ;
+\zvrefrange[vcheck=below]{sec:section-3.1}{sec:section-3.2}
+
+\zvpagerefrange[vcheck=above]{sec:section-3.1}{sec:section-3.2} ;
+\zvpagerefrange[vcheck=below]{sec:section-3.1}{sec:section-3.2}
+
+\zvrefrange[vcheck=above]{sec:section-3.1}{sec:section-3.4} ;
+\zvrefrange[vcheck=below]{sec:section-3.1}{sec:section-3.4}
+
+\zvpagerefrange[vcheck=above]{sec:section-3.1}{sec:section-3.4} ;
+\zvpagerefrange[vcheck=below]{sec:section-3.1}{sec:section-3.4}
+\ENDTEST
+
+\OMIT
+\clearpage{}
+\TIMO
+
+\section{Section 2.3}
+\zlabel{sec:section-2.3}
+
+\section{Section 2.4}
+\zlabel{sec:section-2.4}
+
+\BEGINTEST{Page 4}
+\typeout{No checks should occur, since we are on different pages}
+
+\zvref[vcheck=above]{sec:section-3.1} ;
+\zvref[vcheck=below]{sec:section-3.1}
+
+\zvpageref[vcheck=above]{sec:section-3.1} ;
+\zvpageref[vcheck=below]{sec:section-3.1}
+
+\zvrefrange[vcheck=above]{sec:section-3.1}{sec:section-3.2} ;
+\zvrefrange[vcheck=below]{sec:section-3.1}{sec:section-3.2}
+
+\zvpagerefrange[vcheck=above]{sec:section-3.1}{sec:section-3.2} ;
+\zvpagerefrange[vcheck=below]{sec:section-3.1}{sec:section-3.2}
+
+\zvrefrange[vcheck=above]{sec:section-3.1}{sec:section-3.4} ;
+\zvrefrange[vcheck=below]{sec:section-3.1}{sec:section-3.4}
+
+\zvpagerefrange[vcheck=above]{sec:section-3.1}{sec:section-3.4} ;
+\zvpagerefrange[vcheck=below]{sec:section-3.1}{sec:section-3.4}
+\ENDTEST
+
+\OMIT
+\chapter{Chapter 3}
+\zlabel{cha:chapter-3}
+\TIMO
+
+\BEGINTEST{Page 5: top}
+\typeout{Same page, checks functional}
+
+\typeout{'above' should fail, 'below' should pass}
+\zvref[vcheck=above]{sec:section-3.1} ;
+\zvref[vcheck=below]{sec:section-3.1}
+
+\typeout{'above' should fail, 'below' should pass}
+\zvpageref[vcheck=above]{sec:section-3.1} ;
+\zvpageref[vcheck=below]{sec:section-3.1}
+
+\typeout{'above' should fail, 'below' should pass}
+\zvrefrange[vcheck=above]{sec:section-3.1}{sec:section-3.2} ;
+\zvrefrange[vcheck=below]{sec:section-3.1}{sec:section-3.2}
+
+\typeout{'above' should fail, 'below' should pass}
+\zvpagerefrange[vcheck=above]{sec:section-3.1}{sec:section-3.2} ;
+\zvpagerefrange[vcheck=below]{sec:section-3.1}{sec:section-3.2}
+
+\typeout{no checks, labels on different pages}
+\zvrefrange[vcheck=above]{sec:section-3.1}{sec:section-3.4} ;
+\zvrefrange[vcheck=below]{sec:section-3.1}{sec:section-3.4}
+
+\typeout{no checks, labels on different pages}
+\zvpagerefrange[vcheck=above]{sec:section-3.1}{sec:section-3.4} ;
+\zvpagerefrange[vcheck=below]{sec:section-3.1}{sec:section-3.4}
+\ENDTEST
+
+\section{Section 3.1}
+\zlabel{sec:section-3.1}
+
+\section{Section 3.2}
+\zlabel{sec:section-3.2}
+
+\BEGINTEST{Page 5: bottom}
+\typeout{Same page, checks functional}
+
+\typeout{'above' should pass, 'below' should fail}
+\zvref[vcheck=above]{sec:section-3.1} ;
+\zvref[vcheck=below]{sec:section-3.1}
+
+\typeout{'above' should pass, 'below' should fail}
+\zvpageref[vcheck=above]{sec:section-3.1} ;
+\zvpageref[vcheck=below]{sec:section-3.1}
+
+\typeout{'above' should pass, 'below' should fail}
+\zvrefrange[vcheck=above]{sec:section-3.1}{sec:section-3.2} ;
+\zvrefrange[vcheck=below]{sec:section-3.1}{sec:section-3.2}
+
+\typeout{'above' should pass, 'below' should fail}
+\zvpagerefrange[vcheck=above]{sec:section-3.1}{sec:section-3.2} ;
+\zvpagerefrange[vcheck=below]{sec:section-3.1}{sec:section-3.2}
+
+\typeout{no checks, labels on different pages}
+\zvrefrange[vcheck=above]{sec:section-3.1}{sec:section-3.4} ;
+\zvrefrange[vcheck=below]{sec:section-3.1}{sec:section-3.4}
+
+\typeout{no checks, labels on different pages}
+\zvpagerefrange[vcheck=above]{sec:section-3.1}{sec:section-3.4} ;
+\zvpagerefrange[vcheck=below]{sec:section-3.1}{sec:section-3.4}
+\ENDTEST
+
+\OMIT
+\clearpage{}
+\TIMO
+
+\section{Section 3.3}
+\zlabel{sec:section-3.3}
+
+\section{Section 3.4}
+\zlabel{sec:section-3.4}
+
+\BEGINTEST{Page 6}
+\typeout{No checks should occur, since we are on different pages}
+
+\zvref[vcheck=above]{sec:section-3.1} ;
+\zvref[vcheck=below]{sec:section-3.1}
+
+\zvpageref[vcheck=above]{sec:section-3.1} ;
+\zvpageref[vcheck=below]{sec:section-3.1}
+
+\zvrefrange[vcheck=above]{sec:section-3.1}{sec:section-3.2} ;
+\zvrefrange[vcheck=below]{sec:section-3.1}{sec:section-3.2}
+
+\zvpagerefrange[vcheck=above]{sec:section-3.1}{sec:section-3.2} ;
+\zvpagerefrange[vcheck=below]{sec:section-3.1}{sec:section-3.2}
+
+\zvrefrange[vcheck=above]{sec:section-3.1}{sec:section-3.4} ;
+\zvrefrange[vcheck=below]{sec:section-3.1}{sec:section-3.4}
+
+\zvpagerefrange[vcheck=above]{sec:section-3.1}{sec:section-3.4} ;
+\zvpagerefrange[vcheck=below]{sec:section-3.1}{sec:section-3.4}
+\ENDTEST
+
+\OMIT
+\chapter{Chapter 4}
+\zlabel{cha:chapter-4}
+\TIMO
+
+\section{Section 4.1}
+\zlabel{sec:section-4.1}
+
+\section{Section 4.2}
+\zlabel{sec:section-4.2}
+
+\BEGINTEST{Page 7}
+\typeout{No checks should occur, since we are on different pages}
+
+\zvref[vcheck=above]{sec:section-3.1} ;
+\zvref[vcheck=below]{sec:section-3.1}
+
+\zvpageref[vcheck=above]{sec:section-3.1} ;
+\zvpageref[vcheck=below]{sec:section-3.1}
+
+\zvrefrange[vcheck=above]{sec:section-3.1}{sec:section-3.2} ;
+\zvrefrange[vcheck=below]{sec:section-3.1}{sec:section-3.2}
+
+\zvpagerefrange[vcheck=above]{sec:section-3.1}{sec:section-3.2} ;
+\zvpagerefrange[vcheck=below]{sec:section-3.1}{sec:section-3.2}
+
+\zvrefrange[vcheck=above]{sec:section-3.1}{sec:section-3.4} ;
+\zvrefrange[vcheck=below]{sec:section-3.1}{sec:section-3.4}
+
+\zvpagerefrange[vcheck=above]{sec:section-3.1}{sec:section-3.4} ;
+\zvpagerefrange[vcheck=below]{sec:section-3.1}{sec:section-3.4}
+\ENDTEST
+
+\OMIT
+\clearpage{}
+\TIMO
+
+\section{Section 4.3}
+\zlabel{sec:section-4.3}
+
+\section{Section 4.4}
+\zlabel{sec:section-4.4}
+
+\BEGINTEST{Page 8}
+\typeout{No checks should occur, since we are on different pages}
+
+\zvref[vcheck=above]{sec:section-3.1} ;
+\zvref[vcheck=below]{sec:section-3.1}
+
+\zvpageref[vcheck=above]{sec:section-3.1} ;
+\zvpageref[vcheck=below]{sec:section-3.1}
+
+\zvrefrange[vcheck=above]{sec:section-3.1}{sec:section-3.2} ;
+\zvrefrange[vcheck=below]{sec:section-3.1}{sec:section-3.2}
+
+\zvpagerefrange[vcheck=above]{sec:section-3.1}{sec:section-3.2} ;
+\zvpagerefrange[vcheck=below]{sec:section-3.1}{sec:section-3.2}
+
+\zvrefrange[vcheck=above]{sec:section-3.1}{sec:section-3.4} ;
+\zvrefrange[vcheck=below]{sec:section-3.1}{sec:section-3.4}
+
+\zvpagerefrange[vcheck=above]{sec:section-3.1}{sec:section-3.4} ;
+\zvpagerefrange[vcheck=below]{sec:section-3.1}{sec:section-3.4}
+\ENDTEST
+
+\OMIT
+
+\end{document}
