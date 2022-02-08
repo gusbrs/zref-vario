@@ -64,6 +64,7 @@ different engines (pdfTeX, XeTeX, LuaTeX, etc.).
 * zv-basic04.lvt 
 * zv-hyperref01.lvt 
 * zv-languages01.lvt 
+* zv-vcheck01.lvt 
 * zv-zcref-options01.lvt 
 * zv-basic01.luatex.tlg 
 * zv-basic01.luatexdev.tlg 
@@ -91,6 +92,7 @@ different engines (pdfTeX, XeTeX, LuaTeX, etc.).
 * zv-hyperref01.xetex.tlg 
 * zv-hyperref01.xetexdev.tlg 
 * zv-languages01.tlg 
+* zv-vcheck01.tlg 
 * zv-zcref-options01.luatex.tlg 
 * zv-zcref-options01.luatexdev.tlg 
 * zv-zcref-options01.tlg 
