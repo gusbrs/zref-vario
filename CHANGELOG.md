@@ -1,6 +1,8 @@
 # Changelog
 
-## [Unreleased](https://github.com/gusbrs/zref-vario/compare/v0.1.1-alpha...HEAD)
+## [Unreleased](https://github.com/gusbrs/zref-vario/compare/v0.1.2-alpha...HEAD)
+
+## [v0.1.2-alpha](https://github.com/gusbrs/zref-vario/compare/v0.1.1-alpha...v0.1.2-alpha) (2022-02-08)
 
 ### Added
 - Integration with `zref-check` and new corresponding option `vcheck`.

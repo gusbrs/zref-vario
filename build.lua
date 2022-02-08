@@ -24,7 +24,7 @@ asciiengines = {}
 
 -- CTAN upload settings
 uploadconfig = {
-  version = "0.1.1-alpha", -- first line for tagging
+  version = "0.1.2-alpha", -- first line for tagging
   pkg = "zref-vario",
   author = "Gustavo Barros",
   uploader = "Gustavo Barros",
