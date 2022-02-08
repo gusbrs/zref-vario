@@ -872,15 +872,26 @@
   {
     \IfPackageLoadedTF { zref-check }
       {
-        \bool_gset_true:N \g_@@_zrefcheck_available_bool
-        \keys_define:nn { zref-vario/current }
+        \IfPackageAtLeastTF { zref-check } { 2022-02-08 }
           {
-            vcheck .choices:nn =
-              { above , below }
+            \bool_gset_true:N \g_@@_zrefcheck_available_bool
+            \keys_define:nn { zref-vario/current }
               {
-                \bool_set_true:N \l_@@_with_vcheck_bool
-                \tl_set:NV \l_@@_vcheck_tl \l_keys_choice_tl
-              } ,
+                vcheck .choices:nn =
+                  { above , below }
+                  {
+                    \bool_set_true:N \l_@@_with_vcheck_bool
+                    \tl_set:NV \l_@@_vcheck_tl \l_keys_choice_tl
+                  } ,
+              }
+          }
+          {
+            \bool_gset_false:N \g_@@_zrefcheck_available_bool
+            \keys_define:nn { zref-vario/current }
+              {
+                vcheck .code:n =
+                  { \msg_warning:nn { zref-vario } { zref-check-unavailable } } ,
+              }
           }
       }
       {
@@ -893,7 +904,10 @@
       }
   }
 \msg_new:nnn { zref-vario } { zref-check-unavailable }
-  { Option~'vcheck'~is~only~available~when~'zref-check'~is~loaded. }
+  {
+    Option~'vcheck'~is~only~available~when~'zref-check'~is~loaded~
+    and~newer~than~'2022-02-08~v0.2.4'.
+  }
 %    \end{macrocode}
 %
 %
