@@ -346,6 +346,20 @@
   {
     reftextfaceafter .code:n =
       {
+        \tl_if_exist:cF
+          {
+            \@@_ref_opt_name_lang_tl:en
+              { \l_@@_setup_language_tl }
+              { reftextfaceafter }
+          }
+          {
+            \tl_new:c
+              {
+                \@@_ref_opt_name_lang_tl:en
+                  { \l_@@_setup_language_tl }
+                  { reftextfaceafter }
+              }
+          }
         \tl_gset:cn
           {
             \@@_ref_opt_name_lang_tl:en
@@ -355,6 +369,20 @@
       } ,
     reftextfacebefore .code:n =
       {
+        \tl_if_exist:cF
+          {
+            \@@_ref_opt_name_lang_tl:en
+              { \l_@@_setup_language_tl }
+              { reftextfacebefore }
+          }
+          {
+            \tl_new:c
+              {
+                \@@_ref_opt_name_lang_tl:en
+                  { \l_@@_setup_language_tl }
+                  { reftextfacebefore }
+              }
+          }
         \tl_gset:cn
           {
             \@@_ref_opt_name_lang_tl:en
@@ -364,6 +392,20 @@
       } ,
     reftextafter .code:n =
       {
+        \tl_if_exist:cF
+          {
+            \@@_ref_opt_name_lang_tl:en
+              { \l_@@_setup_language_tl }
+              { reftextafter }
+          }
+          {
+            \tl_new:c
+              {
+                \@@_ref_opt_name_lang_tl:en
+                  { \l_@@_setup_language_tl }
+                  { reftextafter }
+              }
+          }
         \tl_gset:cn
           {
             \@@_ref_opt_name_lang_tl:en
@@ -373,6 +415,20 @@
       } ,
     reftextbefore .code:n =
       {
+        \tl_if_exist:cF
+          {
+            \@@_ref_opt_name_lang_tl:en
+              { \l_@@_setup_language_tl }
+              { reftextbefore }
+          }
+          {
+            \tl_new:c
+              {
+                \@@_ref_opt_name_lang_tl:en
+                  { \l_@@_setup_language_tl }
+                  { reftextbefore }
+              }
+          }
         \tl_gset:cn
           {
             \@@_ref_opt_name_lang_tl:en
@@ -382,6 +438,20 @@
       } ,
     reftextcurrent .code:n =
       {
+        \tl_if_exist:cF
+          {
+            \@@_ref_opt_name_lang_tl:en
+              { \l_@@_setup_language_tl }
+              { reftextcurrent }
+          }
+          {
+            \tl_new:c
+              {
+                \@@_ref_opt_name_lang_tl:en
+                  { \l_@@_setup_language_tl }
+                  { reftextcurrent }
+              }
+          }
         \tl_gset:cn
           {
             \@@_ref_opt_name_lang_tl:en
