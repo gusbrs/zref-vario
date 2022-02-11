@@ -613,7 +613,7 @@
 %    \begin{macrocode}
 \cs_new_protected:Npn \@@_vref_pagenum:Nn #1#2
   {
-    \exp_args:NNNo \exp_args:NNo \tl_set:Nn #1
+    \exp_args:NNNo \exp_args:NNo \def #1
       { \zref@extractdefault {#2} { page } { ?? } }
   }
 \cs_new_protected:Npn \@@_vrefpagenum:Nn #1#2
