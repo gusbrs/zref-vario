@@ -2,6 +2,11 @@
 
 ## [Unreleased](https://github.com/gusbrs/zref-vario/compare/v0.1.2-alpha...HEAD)
 
+### Changed
+- (Internal) Option variables setting was reviewed, ensuring proper scope is
+  in use and that they are always properly declared.  `expl3` debugging
+  enabled in regression tests.
+
 ## [v0.1.2-alpha](https://github.com/gusbrs/zref-vario/compare/v0.1.1-alpha...v0.1.2-alpha) (2022-02-08)
 
 ### Added

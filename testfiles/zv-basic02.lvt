@@ -2,6 +2,12 @@
 
 \input{regression-test}
 
+\RequirePackage[enable-debug]{expl3}
+
+\ExplSyntaxOn
+\debug_on:n { check-declarations , deprecation }
+\ExplSyntaxOff
+
 \usepackage{babel}
 
 % The same as 'zv-basic01.lvt', but with 'hyperref'.  In this case, this is
