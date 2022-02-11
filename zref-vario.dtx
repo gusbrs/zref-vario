@@ -342,25 +342,21 @@
 %
 %
 %    \begin{macrocode}
+\cs_new_protected:Npn \@@_opt_tl_gset:Nn #1#2
+  {
+    \tl_if_exist:NF #1
+      { \tl_new:N #1 }
+    \tl_gset:Nn #1 {#2}
+  }
+\cs_generate_variant:Nn \@@_opt_tl_gset:Nn { cn }
+%    \end{macrocode}
+%
+%    \begin{macrocode}
 \keys_define:nn { zref-vario/langsetup }
   {
     reftextfaceafter .code:n =
       {
-        \tl_if_exist:cF
-          {
-            \@@_ref_opt_name_lang_tl:en
-              { \l_@@_setup_language_tl }
-              { reftextfaceafter }
-          }
-          {
-            \tl_new:c
-              {
-                \@@_ref_opt_name_lang_tl:en
-                  { \l_@@_setup_language_tl }
-                  { reftextfaceafter }
-              }
-          }
-        \tl_gset:cn
+        \@@_opt_tl_gset:cn
           {
             \@@_ref_opt_name_lang_tl:en
               { \l_@@_setup_language_tl }
@@ -369,21 +365,7 @@
       } ,
     reftextfacebefore .code:n =
       {
-        \tl_if_exist:cF
-          {
-            \@@_ref_opt_name_lang_tl:en
-              { \l_@@_setup_language_tl }
-              { reftextfacebefore }
-          }
-          {
-            \tl_new:c
-              {
-                \@@_ref_opt_name_lang_tl:en
-                  { \l_@@_setup_language_tl }
-                  { reftextfacebefore }
-              }
-          }
-        \tl_gset:cn
+        \@@_opt_tl_gset:cn
           {
             \@@_ref_opt_name_lang_tl:en
               { \l_@@_setup_language_tl }
@@ -392,21 +374,7 @@
       } ,
     reftextafter .code:n =
       {
-        \tl_if_exist:cF
-          {
-            \@@_ref_opt_name_lang_tl:en
-              { \l_@@_setup_language_tl }
-              { reftextafter }
-          }
-          {
-            \tl_new:c
-              {
-                \@@_ref_opt_name_lang_tl:en
-                  { \l_@@_setup_language_tl }
-                  { reftextafter }
-              }
-          }
-        \tl_gset:cn
+        \@@_opt_tl_gset:cn
           {
             \@@_ref_opt_name_lang_tl:en
               { \l_@@_setup_language_tl }
@@ -415,21 +383,7 @@
       } ,
     reftextbefore .code:n =
       {
-        \tl_if_exist:cF
-          {
-            \@@_ref_opt_name_lang_tl:en
-              { \l_@@_setup_language_tl }
-              { reftextbefore }
-          }
-          {
-            \tl_new:c
-              {
-                \@@_ref_opt_name_lang_tl:en
-                  { \l_@@_setup_language_tl }
-                  { reftextbefore }
-              }
-          }
-        \tl_gset:cn
+        \@@_opt_tl_gset:cn
           {
             \@@_ref_opt_name_lang_tl:en
               { \l_@@_setup_language_tl }
@@ -438,21 +392,7 @@
       } ,
     reftextcurrent .code:n =
       {
-        \tl_if_exist:cF
-          {
-            \@@_ref_opt_name_lang_tl:en
-              { \l_@@_setup_language_tl }
-              { reftextcurrent }
-          }
-          {
-            \tl_new:c
-              {
-                \@@_ref_opt_name_lang_tl:en
-                  { \l_@@_setup_language_tl }
-                  { reftextcurrent }
-              }
-          }
-        \tl_gset:cn
+        \@@_opt_tl_gset:cn
           {
             \@@_ref_opt_name_lang_tl:en
               { \l_@@_setup_language_tl }
