@@ -1,6 +1,8 @@
 # Changelog
 
-## [Unreleased](https://github.com/gusbrs/zref-vario/compare/v0.1.2-alpha...HEAD)
+## [Unreleased](https://github.com/gusbrs/zref-vario/compare/v0.1.3-alpha...HEAD)
+
+## [v0.1.3-alpha](https://github.com/gusbrs/zref-vario/compare/v0.1.2-alpha...v0.1.3-alpha) (2022-02-11)
 
 ### Changed
 - (Internal) Option variables setting was reviewed, ensuring proper scope is
