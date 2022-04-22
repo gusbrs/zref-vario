@@ -13,7 +13,8 @@
 % Just some sampling, to be sure the basic mechanism is working, the full set
 % is already being tested in 'zref-clever'.
 
-\usepackage[titleref]{zref-clever}
+\usepackage{zref-clever}
+\usepackage{zref-titleref}
 \usepackage{zref-vario}
 
 \setlength{\parindent}{0pt}
