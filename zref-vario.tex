@@ -135,16 +135,11 @@ As usual:
 \usepackage{zref-vario}
 \end{zvexample}
 
-\pkg{zref-vario} will load \pkg{varioref} and \pkg{zref-clever} at
-\texttt{begindocument/before}, if they have not already been loaded.  However,
+\pkg{zref-vario} loads \pkg{zref-clever}, and will load \pkg{varioref} at
+\texttt{begindocument/before}, if it hasn't already been loaded.  However,
 considering \pkg{varioref} has known load order interaction with other
 packages, prominently with \pkg{hyperref}, you may wish to load it explicitly
 to ensure its load order requirements are met.
-
-
-\section{Dependencies}
-
-\pkg{zref-vario} requires \pkg{varioref} and \pkg{zref-clever}.
 
 
 \section{User interface}

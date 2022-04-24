@@ -2,6 +2,9 @@
 
 ## [Unreleased](https://github.com/gusbrs/zref-vario/compare/v0.1.3-alpha...HEAD)
 
+### Changed
+- Improved loading of dependencies.
+
 ## [v0.1.3-alpha](https://github.com/gusbrs/zref-vario/compare/v0.1.2-alpha...v0.1.3-alpha) (2022-02-11)
 
 ### Changed
