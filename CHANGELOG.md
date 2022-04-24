@@ -1,6 +1,8 @@
 # Changelog
 
-## [Unreleased](https://github.com/gusbrs/zref-vario/compare/v0.1.3-alpha...HEAD)
+## [Unreleased](https://github.com/gusbrs/zref-vario/compare/v0.1.4...HEAD)
+
+## [v0.1.4](https://github.com/gusbrs/zref-vario/compare/v0.1.3-alpha...v0.1.4) (2022-04-24)
 
 ### Changed
 - Improved loading of dependencies.
