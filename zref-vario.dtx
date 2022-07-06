@@ -163,6 +163,51 @@
 % \end{macro}
 %
 %
+% \subsection*{\opt{pageprop}}
+%
+%    \begin{macrocode}
+\tl_new:N \l_@@_pageprop_tl
+\keys_define:nn { zref-vario/setup }
+  {
+    pageprop .code:n =
+      {
+        \zref@ifpropundefined {#1}
+          { \msg_warning:nnn { zref-vario } { pageprop-not-declared } {#1} }
+          {
+            \zref@iflistcontainsprop { \ZREF@mainlist } {#1}
+              { \tl_set:Nn \l_@@_pageprop_tl {#1} }
+              { \msg_warning:nnn { zref-vario } { pageprop-not-in-main } {#1} }
+          }
+      } ,
+    pageprop .value_required:n = true ,
+    pageprop .initial:n = { page } ,
+  }
+\AddToHook { begindocument }
+  {
+    \keys_define:nn { zref-vario/setup }
+      {
+        pageprop .code:n =
+          {
+            \msg_warning:nnn { zref-vario }
+              { option-preamble-only } { pageprop }
+          }
+      }
+  }
+\msg_new:nnn { zref-vario } { option-preamble-only }
+  { Option~'#1'~only~available~in~the~preamble~\msg_line_context:. }
+\msg_new:nnn { zref-vario } { pageprop-not-declared }
+  {
+    Property~'#1'~not~declared~\msg_line_context:.~
+    Using~default~'page'~property.
+  }
+\msg_new:nnn { zref-vario } { pageprop-not-in-main }
+  {
+    Property~'#1'~not~in~main~list~\msg_line_context:.~
+    Using~default~'page'~property.
+  }
+%    \end{macrocode}
+%
+%
 % \section{Reference format}
 %
 % Provide some functions to define options names in a standard form.
@@ -633,7 +678,7 @@
 \cs_new_protected:Npn \@@_vref_pagenum:Nn #1#2
   {
     \exp_args:NNNo \exp_args:NNo \cs_set_nopar:Npn #1
-      { \zref@extractdefault {#2} { page } { ?? } }
+      { \zref@extractdefault {#2} { \l_@@_pageprop_tl } { ?? } }
   }
 \cs_new_protected:Npn \@@_vrefpagenum:Nn #1#2
   {
@@ -641,7 +686,7 @@
     \@@_vref_pagenum:Nn #1 {#2}
   }
 \cs_new_protected:Npn \@@_vref_label:n #1
-  { \zref@labelbyprops {#1} { page } }
+  { \zref@labelbyprops {#1} { \l_@@_pageprop_tl } }
 %    \end{macrocode}
 % \end{macro}
 %
