@@ -61,6 +61,14 @@
 
 \NewDocumentCommand\opt{m}{\texttt{#1}}
 
+% Temporary workaround for 'l3doc' bug.
+% https://github.com/latex3/latex3/issues/1111
+% FIXME Remove when fixed upstream.
+\NewDocElement[
+  macrolike = false ,
+  printtype = \textit{opt.} ,
+]{Option}{optiondesc}
+
 \lstdefinestyle{code}{
   language=[LaTeX]TeX,
   % moretexcs={
@@ -203,6 +211,8 @@ does what it says: passes the options along to the underlying call(s) to
   but does not eliminate the limitations which arise from the underlying
   problem.}
 
+\DescribeOption{vcurrent} %
+\DescribeOption{vother} %
 Besides these options, two other are provided corresponding to
 \pkg{varioref}'s commands' optional arguments: \opt{vcurrent} (the first
 optional argument) and \opt{vother} (the second optional argument).  Of
