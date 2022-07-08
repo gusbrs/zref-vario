@@ -150,7 +150,44 @@ packages, prominently with \pkg{hyperref}, you may wish to load it explicitly
 to ensure its load order requirements are met.
 
 
-\section{User interface}
+\section{Package options}
+
+Package options can be set by means of \cs{zvsetup}.
+
+\begin{function}{\zvsetup}
+  \begin{syntax}
+    \cs{zvsetpup}\marg{options}
+  \end{syntax}
+\end{function}
+
+Available options are:
+
+\bigskip{}
+
+\DescribeOption{pageprop} %
+\pkg{varioref} uses the \texttt{page} field of the standard label to check
+whether a reference and its label are on the same page, nearby, or far away.
+And has no real alternative data to use for the purpose.  Possibly for this
+reason, the basic mechanism of page comparison in \pkg{varioref} is restricted
+to arabic numbered pages.  Any other page numbering scheme results in
+\pkg{varioref} making no distinction between one or many pages off.  But with
+\pkg{zref} it is trivial to detach the printed representation of the reference
+and the data used to make page comparisons.  And that's what the
+\opt{pageprop} option allows to control.  It receives a \pkg{zref} property as
+value to be used by \pkg{zref-vario} to make page comparisons, and defaults to
+the \texttt{page} property, which corresponds to the usual \pkg{varioref}
+behavior.  The property must be defined and be included in \pkg{zref}'s main
+list at the time the setting is performed.  The natural intended use case of
+this option is the \texttt{abspage} property provided by the
+\pkg{zref-abspage} module, which already handles these two requirements.
+Thus, loading this module and setting \opt{pageprop} to \texttt{abspage} gives
+us page comparisons independent of the page numbering scheme, which works in
+the front matter with roman numbering, across front and main matter
+boundaries, etc.  In sum, regardless of whether the page numbering is arabic
+or anything else.
+
+
+\section{Reference commands}
 
 \begin{function}{\zvref}
   \begin{syntax}
@@ -213,13 +250,14 @@ does what it says: passes the options along to the underlying call(s) to
 
 \DescribeOption{vcurrent} %
 \DescribeOption{vother} %
-Besides these options, two other are provided corresponding to
-\pkg{varioref}'s commands' optional arguments: \opt{vcurrent} (the first
-optional argument) and \opt{vother} (the second optional argument).  Of
-course, these are only available when the underlying \pkg{varioref} command
-supports them.
+Besides \cs{zcref}'s options, mentioned above, two other ones are provided for
+\pkg{zref-vario}'s reference commands, corresponding to \pkg{varioref}'s
+commands optional arguments: \opt{vcurrent} (the first optional argument) and
+\opt{vother} (the second optional argument).  Of course, these are only
+available when the underlying \pkg{varioref} command supports them.
 
-\section{Customization}
+
+\section{Reference format}
 
 \begin{function}{\zvLanguageSetup}
   \begin{syntax}

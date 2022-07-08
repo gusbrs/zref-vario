@@ -2,6 +2,13 @@
 
 ## [Unreleased](https://github.com/gusbrs/zref-vario/compare/v0.1.4...HEAD)
 
+### Added
+- `\zvsetup` for package options settings.
+- `pageprop` option to set the reference property used for page comparisons.
+  This option lifts `varioref`'s restriction of depending on the arabic page
+  numbering to distinguish between nearby and far away references.  See the
+  user manual for details.
+
 ## [v0.1.4](https://github.com/gusbrs/zref-vario/compare/v0.1.3-alpha...v0.1.4) (2022-04-24)
 
 ### Changed
