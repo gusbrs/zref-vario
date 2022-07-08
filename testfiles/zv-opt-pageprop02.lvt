@@ -1,0 +1,439 @@
+\documentclass[english]{book}
+
+\input{regression-test}
+
+\RequirePackage[enable-debug]{expl3}
+
+\ExplSyntaxOn
+\debug_on:n { check-declarations , deprecation }
+\ExplSyntaxOff
+
+\usepackage{babel}
+
+\usepackage[nospace]{varioref}
+\usepackage{zref-vario}
+\usepackage{zref-abspage}
+\zvsetup{pageprop=abspage}
+
+\setlength{\parindent}{0pt}
+
+\usepackage{hyperref}
+
+\begin{document}
+
+\frontmatter
+
+\START
+
+\OMIT
+\chapter{Chapter 1}
+\label{cha:chapter-1}
+\zlabel{cha:chapter-1}
+\TIMO
+
+\section{Section 1.1}
+\label{sec:section-1.1}
+\zlabel{sec:section-1.1}
+
+\section{Section 1.2}
+\label{sec:section-1.2}
+\zlabel{sec:section-1.2}
+
+\BEGINTEST{Page 1}
+\vref{sec:section-3.1} ; \vref{sec:section-3.1}
+
+\vnameref{sec:section-3.1} ; \vnameref{sec:section-3.1}
+
+\setbox0=\hbox{\zvref{sec:section-3.1} ; \zvref{sec:section-3.1}}
+\showbox0
+\box0
+
+\vpageref{sec:section-3.1} ; \vpageref{sec:section-3.1}
+
+\setbox0=\hbox{\zvpageref{sec:section-3.1} ; \zvpageref{sec:section-3.1}}
+\showbox0
+\box0
+
+\vrefrange{sec:section-3.1}{sec:section-3.2} ;
+\vrefrange{sec:section-3.1}{sec:section-3.2}
+
+\setbox0=\hbox{\zvrefrange{sec:section-3.1}{sec:section-3.2} ;
+  \zvrefrange{sec:section-3.1}{sec:section-3.2}}
+\showbox0
+\box0
+
+\vpagerefrange{sec:section-3.1}{sec:section-3.2} ;
+\vpagerefrange{sec:section-3.1}{sec:section-3.2}
+
+\setbox0=\hbox{\zvpagerefrange{sec:section-3.1}{sec:section-3.2} ;
+  \zvpagerefrange{sec:section-3.1}{sec:section-3.2}}
+\showbox0
+\box0
+
+\fullref{sec:section-3.1}
+
+\setbox0=\hbox{\zfullref{sec:section-3.1}}
+\showbox0
+\box0
+\ENDTEST
+
+\OMIT
+\clearpage{}
+\TIMO
+
+\section{Section 1.3}
+\label{sec:section-1.3}
+\zlabel{sec:section-1.3}
+
+\section{Section 1.4}
+\label{sec:section-1.4}
+\zlabel{sec:section-1.4}
+
+\BEGINTEST{Page 2}
+\vref{sec:section-3.1} ; \vref{sec:section-3.1}
+
+\vnameref{sec:section-3.1} ; \vnameref{sec:section-3.1}
+
+\setbox0=\hbox{\zvref{sec:section-3.1} ; \zvref{sec:section-3.1}}
+\showbox0
+\box0
+
+\vpageref{sec:section-3.1} ; \vpageref{sec:section-3.1}
+
+\setbox0=\hbox{\zvpageref{sec:section-3.1} ; \zvpageref{sec:section-3.1}}
+\showbox0
+\box0
+
+\vrefrange{sec:section-3.1}{sec:section-3.2} ;
+\vrefrange{sec:section-3.1}{sec:section-3.2}
+
+\setbox0=\hbox{\zvrefrange{sec:section-3.1}{sec:section-3.2} ;
+  \zvrefrange{sec:section-3.1}{sec:section-3.2}}
+\showbox0
+\box0
+
+\vpagerefrange{sec:section-3.1}{sec:section-3.2} ;
+\vpagerefrange{sec:section-3.1}{sec:section-3.2}
+
+\setbox0=\hbox{\zvpagerefrange{sec:section-3.1}{sec:section-3.2} ;
+  \zvpagerefrange{sec:section-3.1}{sec:section-3.2}}
+\showbox0
+\box0
+
+\fullref{sec:section-3.1}
+
+\setbox0=\hbox{\zfullref{sec:section-3.1}}
+\showbox0
+\box0
+\ENDTEST
+
+\OMIT
+\chapter{Chapter 2}
+\label{cha:chapter-2}
+\zlabel{cha:chapter-2}
+\TIMO
+
+\section{Section 2.1}
+\label{sec:section-2.1}
+\zlabel{sec:section-2.1}
+
+\section{Section 2.2}
+\label{sec:section-2.2}
+\zlabel{sec:section-2.2}
+
+\BEGINTEST{Page 3}
+\vref{sec:section-3.1} ; \vref{sec:section-3.1}
+
+\vnameref{sec:section-3.1} ; \vnameref{sec:section-3.1}
+
+\setbox0=\hbox{\zvref{sec:section-3.1} ; \zvref{sec:section-3.1}}
+\showbox0
+\box0
+
+\vpageref{sec:section-3.1} ; \vpageref{sec:section-3.1}
+
+\setbox0=\hbox{\zvpageref{sec:section-3.1} ; \zvpageref{sec:section-3.1}}
+\showbox0
+\box0
+
+\vrefrange{sec:section-3.1}{sec:section-3.2} ;
+\vrefrange{sec:section-3.1}{sec:section-3.2}
+
+\setbox0=\hbox{\zvrefrange{sec:section-3.1}{sec:section-3.2} ;
+  \zvrefrange{sec:section-3.1}{sec:section-3.2}}
+\showbox0
+\box0
+
+\vpagerefrange{sec:section-3.1}{sec:section-3.2} ;
+\vpagerefrange{sec:section-3.1}{sec:section-3.2}
+
+\setbox0=\hbox{\zvpagerefrange{sec:section-3.1}{sec:section-3.2} ;
+  \zvpagerefrange{sec:section-3.1}{sec:section-3.2}}
+\showbox0
+\box0
+
+\fullref{sec:section-3.1}
+
+\setbox0=\hbox{\zfullref{sec:section-3.1}}
+\showbox0
+\box0
+\ENDTEST
+
+\OMIT
+\clearpage{}
+\TIMO
+
+\section{Section 2.3}
+\label{sec:section-2.3}
+\zlabel{sec:section-2.3}
+
+\section{Section 2.4}
+\label{sec:section-2.4}
+\zlabel{sec:section-2.4}
+
+\BEGINTEST{Page 4}
+\vref{sec:section-3.1} ; \vref{sec:section-3.1}
+
+\vnameref{sec:section-3.1} ; \vnameref{sec:section-3.1}
+
+\setbox0=\hbox{\zvref{sec:section-3.1} ; \zvref{sec:section-3.1}}
+\showbox0
+\box0
+
+\vpageref{sec:section-3.1} ; \vpageref{sec:section-3.1}
+
+\setbox0=\hbox{\zvpageref{sec:section-3.1} ; \zvpageref{sec:section-3.1}}
+\showbox0
+\box0
+
+\vrefrange{sec:section-3.1}{sec:section-3.2} ;
+\vrefrange{sec:section-3.1}{sec:section-3.2}
+
+\setbox0=\hbox{\zvrefrange{sec:section-3.1}{sec:section-3.2} ;
+  \zvrefrange{sec:section-3.1}{sec:section-3.2}}
+\showbox0
+\box0
+
+\vpagerefrange{sec:section-3.1}{sec:section-3.2} ;
+\vpagerefrange{sec:section-3.1}{sec:section-3.2}
+
+\setbox0=\hbox{\zvpagerefrange{sec:section-3.1}{sec:section-3.2} ;
+  \zvpagerefrange{sec:section-3.1}{sec:section-3.2}}
+\showbox0
+\box0
+
+\fullref{sec:section-3.1}
+
+\setbox0=\hbox{\zfullref{sec:section-3.1}}
+\showbox0
+\box0
+\ENDTEST
+
+\OMIT
+\mainmatter
+\chapter{Chapter 3}
+\label{cha:chapter-3}
+\zlabel{cha:chapter-3}
+\TIMO
+
+\section{Section 3.1}
+\label{sec:section-3.1}
+\zlabel{sec:section-3.1}
+
+\section{Section 3.2}
+\label{sec:section-3.2}
+\zlabel{sec:section-3.2}
+
+\BEGINTEST{Page 5}
+\vref{sec:section-3.1} ; \vref{sec:section-3.1}
+
+\vnameref{sec:section-3.1} ; \vnameref{sec:section-3.1}
+
+\setbox0=\hbox{\zvref{sec:section-3.1} ; \zvref{sec:section-3.1}}
+\showbox0
+\box0
+
+\vpageref{sec:section-3.1} ; \vpageref{sec:section-3.1}
+
+\setbox0=\hbox{\zvpageref{sec:section-3.1} ; \zvpageref{sec:section-3.1}}
+\showbox0
+\box0
+
+\vrefrange{sec:section-3.1}{sec:section-3.2} ;
+\vrefrange{sec:section-3.1}{sec:section-3.2}
+
+\setbox0=\hbox{\zvrefrange{sec:section-3.1}{sec:section-3.2} ;
+  \zvrefrange{sec:section-3.1}{sec:section-3.2}}
+\showbox0
+\box0
+
+\vpagerefrange{sec:section-3.1}{sec:section-3.2} ;
+\vpagerefrange{sec:section-3.1}{sec:section-3.2}
+
+\setbox0=\hbox{\zvpagerefrange{sec:section-3.1}{sec:section-3.2} ;
+  \zvpagerefrange{sec:section-3.1}{sec:section-3.2}}
+\showbox0
+\box0
+
+\fullref{sec:section-3.1}
+
+\setbox0=\hbox{\zfullref{sec:section-3.1}}
+\showbox0
+\box0
+\ENDTEST
+
+\OMIT
+\clearpage{}
+\TIMO
+
+\section{Section 3.3}
+\label{sec:section-3.3}
+\zlabel{sec:section-3.3}
+
+\section{Section 3.4}
+\label{sec:section-3.4}
+\zlabel{sec:section-3.4}
+
+\BEGINTEST{Page 6}
+\vref{sec:section-3.1} ; \vref{sec:section-3.1}
+
+\vnameref{sec:section-3.1} ; \vnameref{sec:section-3.1}
+
+\setbox0=\hbox{\zvref{sec:section-3.1} ; \zvref{sec:section-3.1}}
+\showbox0
+\box0
+
+\vpageref{sec:section-3.1} ; \vpageref{sec:section-3.1}
+
+\setbox0=\hbox{\zvpageref{sec:section-3.1} ; \zvpageref{sec:section-3.1}}
+\showbox0
+\box0
+
+\vrefrange{sec:section-3.1}{sec:section-3.2} ;
+\vrefrange{sec:section-3.1}{sec:section-3.2}
+
+\setbox0=\hbox{\zvrefrange{sec:section-3.1}{sec:section-3.2} ;
+  \zvrefrange{sec:section-3.1}{sec:section-3.2}}
+\showbox0
+\box0
+
+\vpagerefrange{sec:section-3.1}{sec:section-3.2} ;
+\vpagerefrange{sec:section-3.1}{sec:section-3.2}
+
+\setbox0=\hbox{\zvpagerefrange{sec:section-3.1}{sec:section-3.2} ;
+  \zvpagerefrange{sec:section-3.1}{sec:section-3.2}}
+\showbox0
+\box0
+
+\fullref{sec:section-3.1}
+
+\setbox0=\hbox{\zfullref{sec:section-3.1}}
+\showbox0
+\box0
+\ENDTEST
+
+\OMIT
+\chapter{Chapter 4}
+\label{cha:chapter-4}
+\zlabel{cha:chapter-4}
+\TIMO
+
+\section{Section 4.1}
+\label{sec:section-4.1}
+\zlabel{sec:section-4.1}
+
+\section{Section 4.2}
+\label{sec:section-4.2}
+\zlabel{sec:section-4.2}
+
+\BEGINTEST{Page 7}
+\vref{sec:section-3.1} ; \vref{sec:section-3.1}
+
+\vnameref{sec:section-3.1} ; \vnameref{sec:section-3.1}
+
+\setbox0=\hbox{\zvref{sec:section-3.1} ; \zvref{sec:section-3.1}}
+\showbox0
+\box0
+
+\vpageref{sec:section-3.1} ; \vpageref{sec:section-3.1}
+
+\setbox0=\hbox{\zvpageref{sec:section-3.1} ; \zvpageref{sec:section-3.1}}
+\showbox0
+\box0
+
+\vrefrange{sec:section-3.1}{sec:section-3.2} ;
+\vrefrange{sec:section-3.1}{sec:section-3.2}
+
+\setbox0=\hbox{\zvrefrange{sec:section-3.1}{sec:section-3.2} ;
+  \zvrefrange{sec:section-3.1}{sec:section-3.2}}
+\showbox0
+\box0
+
+\vpagerefrange{sec:section-3.1}{sec:section-3.2} ;
+\vpagerefrange{sec:section-3.1}{sec:section-3.2}
+
+\setbox0=\hbox{\zvpagerefrange{sec:section-3.1}{sec:section-3.2} ;
+  \zvpagerefrange{sec:section-3.1}{sec:section-3.2}}
+\showbox0
+\box0
+
+\fullref{sec:section-3.1}
+
+\setbox0=\hbox{\zfullref{sec:section-3.1}}
+\showbox0
+\box0
+\ENDTEST
+
+\OMIT
+\clearpage{}
+\TIMO
+
+\section{Section 4.3}
+\label{sec:section-4.3}
+\zlabel{sec:section-4.3}
+
+\section{Section 4.4}
+\label{sec:section-4.4}
+\zlabel{sec:section-4.4}
+
+\BEGINTEST{Page 8}
+\vref{sec:section-3.1} ; \vref{sec:section-3.1}
+
+\vnameref{sec:section-3.1} ; \vnameref{sec:section-3.1}
+
+\setbox0=\hbox{\zvref{sec:section-3.1} ; \zvref{sec:section-3.1}}
+\showbox0
+\box0
+
+\vpageref{sec:section-3.1} ; \vpageref{sec:section-3.1}
+
+\setbox0=\hbox{\zvpageref{sec:section-3.1} ; \zvpageref{sec:section-3.1}}
+\showbox0
+\box0
+
+\vrefrange{sec:section-3.1}{sec:section-3.2} ;
+\vrefrange{sec:section-3.1}{sec:section-3.2}
+
+\setbox0=\hbox{\zvrefrange{sec:section-3.1}{sec:section-3.2} ;
+  \zvrefrange{sec:section-3.1}{sec:section-3.2}}
+\showbox0
+\box0
+
+\vpagerefrange{sec:section-3.1}{sec:section-3.2} ;
+\vpagerefrange{sec:section-3.1}{sec:section-3.2}
+
+\setbox0=\hbox{\zvpagerefrange{sec:section-3.1}{sec:section-3.2} ;
+  \zvpagerefrange{sec:section-3.1}{sec:section-3.2}}
+\showbox0
+\box0
+
+\fullref{sec:section-3.1}
+
+\setbox0=\hbox{\zfullref{sec:section-3.1}}
+\showbox0
+\box0
+\ENDTEST
+
+\OMIT
+
+\end{document}

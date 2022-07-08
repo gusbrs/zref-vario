@@ -1,0 +1,38 @@
+\documentclass[english]{book}
+
+\input{regression-test}
+
+\RequirePackage[enable-debug]{expl3}
+
+\ExplSyntaxOn
+\debug_on:n { check-declarations , deprecation }
+\ExplSyntaxOff
+
+\usepackage{babel}
+
+\usepackage[nospace]{varioref}
+\usepackage{zref-vario}
+\usepackage{zref-abspage}
+\zvsetup{pageprop=abspage}
+
+\setlength{\parindent}{0pt}
+
+\usepackage{hyperref}
+
+\START
+
+\BEGINTEST{pageprop option: non existing property}
+\zvsetup{pageprop=foobar}
+\ENDTEST
+
+\OMIT
+\begin{document}
+\TIMO
+
+\BEGINTEST{pageprop option: preamble only option}
+\zvsetup{pageprop=abspage}
+\ENDTEST
+
+\OMIT
+
+\end{document}
