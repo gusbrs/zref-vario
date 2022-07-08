@@ -1,6 +1,8 @@
 # Changelog
 
-## [Unreleased](https://github.com/gusbrs/zref-vario/compare/v0.1.4...HEAD)
+## [Unreleased](https://github.com/gusbrs/zref-vario/compare/v0.1.5...HEAD)
+
+## [v0.1.5](https://github.com/gusbrs/zref-vario/compare/v0.1.4...v0.1.5) (2022-07-08)
 
 ### Added
 - `\zvsetup` for package options settings.
