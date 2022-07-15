@@ -61,13 +61,12 @@
 
 \NewDocumentCommand\opt{m}{\texttt{#1}}
 
+\setlength{\marginparsep}{2\labelsep}
+
 % Temporary workaround for 'l3doc' bug.
 % https://github.com/latex3/latex3/issues/1111
 % FIXME Remove when fixed upstream.
-\NewDocElement[
-  macrolike = false ,
-  printtype = \textit{opt.} ,
-]{Option}{optiondesc}
+\NewDocElement[macrolike=false]{Option}{option}
 
 \lstdefinestyle{code}{
   language=[LaTeX]TeX,
