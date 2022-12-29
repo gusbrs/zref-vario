@@ -1092,6 +1092,15 @@
 %
 % \section{Languages}
 %
+% Localization for the languages provided by the author, except where
+% otherwise stated.  However, I could only do so thanks to \pkg{varioref}, in
+% particular for languages I don't really know.  So, credits go to the
+% contributors of \pkg{varioref}.  Of course, if any native speaker would like
+% to review these, or contribute new ones, it is much welcome.  Note, however,
+% that since \pkg{zref-vario} depends on \pkg{zref-clever} and piggybacks on
+% its language infrastructure, it only makes sense to provide localization
+% here for languages already supported by \pkg{zref-clever}.
+%
 %
 %    \begin{macrocode}
 \zvLanguageSetup { english }
@@ -1193,6 +1202,24 @@
     reftextcurrent = {op~\zvhyperlink{deze~pagina}} ,
     reftextfaraway = {op~\zcpageref[g=f]{#1}} ,
     reftextpagerange = {op~\zcpageref[range,g=f]{#1,#2}} ,
+    reftextlabelrange = {\zcref[range]{#1,#2}} ,
+  }
+%    \end{macrocode}
+%
+%
+%    \begin{macrocode}
+\zvLanguageSetup { italian }
+  {
+    reftextfaceafter =
+      {\reftextvario{}{nella~}\zvhyperlink{\reftextvario{a~fronte}{pagina~successiva}}} ,
+    reftextfacebefore =
+      {\reftextvario{}{nella~}\zvhyperlink{\reftextvario{a~fronte}{pagina~precedente}}} ,
+    reftextafter =
+      {nella~\zvhyperlink{pagina~\reftextvario{seguente}{successiva}}} ,
+    reftextbefore = {nella~\zvhyperlink{pagina~precedente}} ,
+    reftextcurrent = {in~\zvhyperlink{questa~pagina}} ,
+    reftextfaraway = {a~\zcpageref[g=f]{#1}} ,
+    reftextpagerange = {nelle~\zcpageref[range,g=f]{#1,#2}} ,
     reftextlabelrange = {\zcref[range]{#1,#2}} ,
   }
 %    \end{macrocode}

@@ -217,7 +217,43 @@ l. ...  }
 l. ...  }
 ============================================================
 ============================================================
-TEST 7: zv_unknown_language
+TEST 7: italian
+============================================================
+> \g__zrefvario_ref_opt_lang_italian_reftextfaceafter_tl=\reftextvario
+{}{nella }\zvhyperlink {\reftextvario {a fronte}{pagina successiva}}.
+<recently read> }
+l. ...  }
+> \g__zrefvario_ref_opt_lang_italian_reftextfacebefore_tl=\reftextvario
+{}{nella }\zvhyperlink {\reftextvario {a fronte}{pagina precedente}}.
+<recently read> }
+l. ...  }
+> \g__zrefvario_ref_opt_lang_italian_reftextafter_tl=nella \zvhyperlink
+{pagina \reftextvario {seguente}{successiva}}.
+<recently read> }
+l. ...  }
+> \g__zrefvario_ref_opt_lang_italian_reftextbefore_tl=nella \zvhyperlink
+{pagina precedente}.
+<recently read> }
+l. ...  }
+> \g__zrefvario_ref_opt_lang_italian_reftextcurrent_tl=in \zvhyperlink {questa
+pagina}.
+<recently read> }
+l. ...  }
+> \__zrefvario_ref_opt_lang_italian_reftextfaraway:n=macro:#1->a \zcpageref
+[g=f]{#1}.
+<recently read> }
+l. ...  }
+> \__zrefvario_ref_opt_lang_italian_reftextpagerange:nn=macro:#1#2->nelle
+\zcpageref [range,g=f]{#1,#2}.
+<recently read> }
+l. ...  }
+> \__zrefvario_ref_opt_lang_italian_reftextlabelrange:nn=macro:#1#2->\zcref
+[range]{#1,#2}.
+<recently read> }
+l. ...  }
+============================================================
+============================================================
+TEST 8: zv_unknown_language
 ============================================================
 > 
 \g__zrefvario_ref_opt_lang_zv_unknown_language_reftextfaceafter_tl=\msg_warning:nnxx
