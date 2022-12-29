@@ -536,9 +536,11 @@ TEST 4: Page 4
 .\glue 3.33 plus 1.665 minus 1.11
 .\TU/lmr/m/n/10 the
 .\glue 3.33 plus 1.665 minus 1.11
+.\special{pdf:bann<</Type/Annot/Subtype/Link/Border[0 0 1]/H/I/C[1 0 0]/A<</S/G\ETC.}
 .\TU/lmr/m/n/10 facing
 .\glue 3.33 plus 1.665 minus 1.11
 .\TU/lmr/m/n/10 page
+.\special{pdf:eann}
 .\write1{\zref@newlabel{59@vr}{\abspage{\Z@C@abspage }}}
 .\glue 3.33 plus 1.665 minus 1.11
 .\TU/lmr/m/n/10 ;
@@ -555,9 +557,11 @@ TEST 4: Page 4
 .\glue 3.33 plus 1.665 minus 1.11
 .\TU/lmr/m/n/10 the
 .\glue 3.33 plus 1.665 minus 1.11
+.\special{pdf:bann<</Type/Annot/Subtype/Link/Border[0 0 1]/H/I/C[1 0 0]/A<</S/G\ETC.}
 .\TU/lmr/m/n/10 next
 .\glue 3.33 plus 1.665 minus 1.11
 .\TU/lmr/m/n/10 page
+.\special{pdf:eann}
 .\write1{\zref@newlabel{60@vr}{\abspage{\Z@C@abspage }}}
 ! OK.
 l. ...\showbox0
@@ -568,9 +572,11 @@ l. ...\showbox0
 .\glue 3.33 plus 1.665 minus 1.11
 .\TU/lmr/m/n/10 the
 .\glue 3.33 plus 1.665 minus 1.11
+.\special{pdf:bann<</Type/Annot/Subtype/Link/Border[0 0 1]/H/I/C[1 0 0]/A<</S/G\ETC.}
 .\TU/lmr/m/n/10 facing
 .\glue 3.33 plus 1.665 minus 1.11
 .\TU/lmr/m/n/10 page
+.\special{pdf:eann}
 .\write1{\zref@newlabel{63@vr}{\abspage{\Z@C@abspage }}}
 .\glue 3.33 plus 1.665 minus 1.11
 .\TU/lmr/m/n/10 ;
@@ -580,9 +586,11 @@ l. ...\showbox0
 .\glue 3.33 plus 1.665 minus 1.11
 .\TU/lmr/m/n/10 the
 .\glue 3.33 plus 1.665 minus 1.11
+.\special{pdf:bann<</Type/Annot/Subtype/Link/Border[0 0 1]/H/I/C[1 0 0]/A<</S/G\ETC.}
 .\TU/lmr/m/n/10 next
 .\glue 3.33 plus 1.665 minus 1.11
 .\TU/lmr/m/n/10 page
+.\special{pdf:eann}
 .\write1{\zref@newlabel{64@vr}{\abspage{\Z@C@abspage }}}
 ! OK.
 l. ...\showbox0
@@ -607,9 +615,11 @@ l. ...\showbox0
 .\glue 3.33 plus 1.665 minus 1.11
 .\TU/lmr/m/n/10 the
 .\glue 3.33 plus 1.665 minus 1.11
+.\special{pdf:bann<</Type/Annot/Subtype/Link/Border[0 0 1]/H/I/C[1 0 0]/A<</S/G\ETC.}
 .\TU/lmr/m/n/10 facing
 .\glue 3.33 plus 1.665 minus 1.11
 .\TU/lmr/m/n/10 page
+.\special{pdf:eann}
 .\write1{\zref@newlabel{67@vr}{\abspage{\Z@C@abspage }}}
 .\glue 3.33 plus 1.665 minus 1.11
 .\TU/lmr/m/n/10 ;
@@ -633,9 +643,11 @@ l. ...\showbox0
 .\glue 3.33 plus 1.665 minus 1.11
 .\TU/lmr/m/n/10 the
 .\glue 3.33 plus 1.665 minus 1.11
+.\special{pdf:bann<</Type/Annot/Subtype/Link/Border[0 0 1]/H/I/C[1 0 0]/A<</S/G\ETC.}
 .\TU/lmr/m/n/10 next
 .\glue 3.33 plus 1.665 minus 1.11
 .\TU/lmr/m/n/10 page
+.\special{pdf:eann}
 .\write1{\zref@newlabel{68@vr}{\abspage{\Z@C@abspage }}}
 ! OK.
 l. ...\showbox0
@@ -646,9 +658,11 @@ l. ...\showbox0
 .\glue 3.33 plus 1.665 minus 1.11
 .\TU/lmr/m/n/10 the
 .\glue 3.33 plus 1.665 minus 1.11
+.\special{pdf:bann<</Type/Annot/Subtype/Link/Border[0 0 1]/H/I/C[1 0 0]/A<</S/G\ETC.}
 .\TU/lmr/m/n/10 facing
 .\glue 3.33 plus 1.665 minus 1.11
 .\TU/lmr/m/n/10 page
+.\special{pdf:eann}
 .\write1{\zref@newlabel{71@vr}{\abspage{\Z@C@abspage }}}
 .\glue 3.33 plus 1.665 minus 1.11
 .\TU/lmr/m/n/10 ;
@@ -658,9 +672,11 @@ l. ...\showbox0
 .\glue 3.33 plus 1.665 minus 1.11
 .\TU/lmr/m/n/10 the
 .\glue 3.33 plus 1.665 minus 1.11
+.\special{pdf:bann<</Type/Annot/Subtype/Link/Border[0 0 1]/H/I/C[1 0 0]/A<</S/G\ETC.}
 .\TU/lmr/m/n/10 next
 .\glue 3.33 plus 1.665 minus 1.11
 .\TU/lmr/m/n/10 page
+.\special{pdf:eann}
 .\write1{\zref@newlabel{72@vr}{\abspage{\Z@C@abspage }}}
 ! OK.
 l. ...\showbox0
@@ -715,9 +731,11 @@ l. ...\showbox0
 .\write1{\zref@newlabel{81@xvr}{\abspage{\Z@C@abspage }}}
 .\TU/lmr/m/n/10 on
 .\glue 3.33 plus 1.665 minus 1.11
+.\special{pdf:bann<</Type/Annot/Subtype/Link/Border[0 0 1]/H/I/C[1 0 0]/A<</S/G\ETC.}
 .\TU/lmr/m/n/10 this
 .\glue 3.33 plus 1.665 minus 1.11
 .\TU/lmr/m/n/10 page
+.\special{pdf:eann}
 .\write1{\zref@newlabel{81@vr}{\abspage{\Z@C@abspage }}}
 .\glue 3.33 plus 1.665 minus 1.11
 .\TU/lmr/m/n/10 ;
@@ -727,9 +745,11 @@ l. ...\showbox0
 .\glue 3.33 plus 1.665 minus 1.11
 .\TU/lmr/m/n/10 the
 .\glue 3.33 plus 1.665 minus 1.11
+.\special{pdf:bann<</Type/Annot/Subtype/Link/Border[0 0 1]/H/I/C[1 0 0]/A<</S/G\ETC.}
 .\TU/lmr/m/n/10 current
 .\glue 3.33 plus 1.665 minus 1.11
 .\TU/lmr/m/n/10 page
+.\special{pdf:eann}
 .\write1{\zref@newlabel{82@vr}{\abspage{\Z@C@abspage }}}
 ! OK.
 l. ...\showbox0
@@ -752,9 +772,11 @@ l. ...\showbox0
 .\glue 3.33 plus 1.665 minus 1.11
 .\TU/lmr/m/n/10 on
 .\glue 3.33 plus 1.665 minus 1.11
+.\special{pdf:bann<</Type/Annot/Subtype/Link/Border[0 0 1]/H/I/C[1 0 0]/A<</S/G\ETC.}
 .\TU/lmr/m/n/10 this
 .\glue 3.33 plus 1.665 minus 1.11
 .\TU/lmr/m/n/10 page
+.\special{pdf:eann}
 .\write1{\zref@newlabel{85@vr}{\abspage{\Z@C@abspage }}}
 .\glue 3.33 plus 1.665 minus 1.11
 .\TU/lmr/m/n/10 ;
@@ -778,9 +800,11 @@ l. ...\showbox0
 .\glue 3.33 plus 1.665 minus 1.11
 .\TU/lmr/m/n/10 the
 .\glue 3.33 plus 1.665 minus 1.11
+.\special{pdf:bann<</Type/Annot/Subtype/Link/Border[0 0 1]/H/I/C[1 0 0]/A<</S/G\ETC.}
 .\TU/lmr/m/n/10 current
 .\glue 3.33 plus 1.665 minus 1.11
 .\TU/lmr/m/n/10 page
+.\special{pdf:eann}
 .\write1{\zref@newlabel{86@vr}{\abspage{\Z@C@abspage }}}
 ! OK.
 l. ...\showbox0
@@ -789,9 +813,11 @@ l. ...\showbox0
 .\write1{\zref@newlabel{89@xvr}{\abspage{\Z@C@abspage }}}
 .\TU/lmr/m/n/10 on
 .\glue 3.33 plus 1.665 minus 1.11
+.\special{pdf:bann<</Type/Annot/Subtype/Link/Border[0 0 1]/H/I/C[1 0 0]/A<</S/G\ETC.}
 .\TU/lmr/m/n/10 this
 .\glue 3.33 plus 1.665 minus 1.11
 .\TU/lmr/m/n/10 page
+.\special{pdf:eann}
 .\write1{\zref@newlabel{89@vr}{\abspage{\Z@C@abspage }}}
 .\glue 3.33 plus 1.665 minus 1.11
 .\TU/lmr/m/n/10 ;
@@ -801,9 +827,11 @@ l. ...\showbox0
 .\glue 3.33 plus 1.665 minus 1.11
 .\TU/lmr/m/n/10 the
 .\glue 3.33 plus 1.665 minus 1.11
+.\special{pdf:bann<</Type/Annot/Subtype/Link/Border[0 0 1]/H/I/C[1 0 0]/A<</S/G\ETC.}
 .\TU/lmr/m/n/10 current
 .\glue 3.33 plus 1.665 minus 1.11
 .\TU/lmr/m/n/10 page
+.\special{pdf:eann}
 .\write1{\zref@newlabel{90@vr}{\abspage{\Z@C@abspage }}}
 ! OK.
 l. ...\showbox0
@@ -844,9 +872,11 @@ TEST 6: Page 6
 .\glue 3.33 plus 1.665 minus 1.11
 .\TU/lmr/m/n/10 the
 .\glue 3.33 plus 1.665 minus 1.11
+.\special{pdf:bann<</Type/Annot/Subtype/Link/Border[0 0 1]/H/I/C[1 0 0]/A<</S/G\ETC.}
 .\TU/lmr/m/n/10 preceding
 .\glue 3.33 plus 1.665 minus 1.11
 .\TU/lmr/m/n/10 page
+.\special{pdf:eann}
 .\write1{\zref@newlabel{95@vr}{\abspage{\Z@C@abspage }}}
 .\glue 3.33 plus 1.665 minus 1.11
 .\TU/lmr/m/n/10 ;
@@ -863,9 +893,11 @@ TEST 6: Page 6
 .\glue 3.33 plus 1.665 minus 1.11
 .\TU/lmr/m/n/10 the
 .\glue 3.33 plus 1.665 minus 1.11
+.\special{pdf:bann<</Type/Annot/Subtype/Link/Border[0 0 1]/H/I/C[1 0 0]/A<</S/G\ETC.}
 .\TU/lmr/m/n/10 previous
 .\glue 3.33 plus 1.665 minus 1.11
 .\TU/lmr/m/n/10 page
+.\special{pdf:eann}
 .\write1{\zref@newlabel{96@vr}{\abspage{\Z@C@abspage }}}
 ! OK.
 l. ...\showbox0
@@ -876,9 +908,11 @@ l. ...\showbox0
 .\glue 3.33 plus 1.665 minus 1.11
 .\TU/lmr/m/n/10 the
 .\glue 3.33 plus 1.665 minus 1.11
+.\special{pdf:bann<</Type/Annot/Subtype/Link/Border[0 0 1]/H/I/C[1 0 0]/A<</S/G\ETC.}
 .\TU/lmr/m/n/10 preceding
 .\glue 3.33 plus 1.665 minus 1.11
 .\TU/lmr/m/n/10 page
+.\special{pdf:eann}
 .\write1{\zref@newlabel{99@vr}{\abspage{\Z@C@abspage }}}
 .\glue 3.33 plus 1.665 minus 1.11
 .\TU/lmr/m/n/10 ;
@@ -888,9 +922,11 @@ l. ...\showbox0
 .\glue 3.33 plus 1.665 minus 1.11
 .\TU/lmr/m/n/10 the
 .\glue 3.33 plus 1.665 minus 1.11
+.\special{pdf:bann<</Type/Annot/Subtype/Link/Border[0 0 1]/H/I/C[1 0 0]/A<</S/G\ETC.}
 .\TU/lmr/m/n/10 previous
 .\glue 3.33 plus 1.665 minus 1.11
 .\TU/lmr/m/n/10 page
+.\special{pdf:eann}
 .\write1{\zref@newlabel{100@vr}{\abspage{\Z@C@abspage }}}
 ! OK.
 l. ...\showbox0
@@ -915,9 +951,11 @@ l. ...\showbox0
 .\glue 3.33 plus 1.665 minus 1.11
 .\TU/lmr/m/n/10 the
 .\glue 3.33 plus 1.665 minus 1.11
+.\special{pdf:bann<</Type/Annot/Subtype/Link/Border[0 0 1]/H/I/C[1 0 0]/A<</S/G\ETC.}
 .\TU/lmr/m/n/10 preceding
 .\glue 3.33 plus 1.665 minus 1.11
 .\TU/lmr/m/n/10 page
+.\special{pdf:eann}
 .\write1{\zref@newlabel{103@vr}{\abspage{\Z@C@abspage }}}
 .\glue 3.33 plus 1.665 minus 1.11
 .\TU/lmr/m/n/10 ;
@@ -941,9 +979,11 @@ l. ...\showbox0
 .\glue 3.33 plus 1.665 minus 1.11
 .\TU/lmr/m/n/10 the
 .\glue 3.33 plus 1.665 minus 1.11
+.\special{pdf:bann<</Type/Annot/Subtype/Link/Border[0 0 1]/H/I/C[1 0 0]/A<</S/G\ETC.}
 .\TU/lmr/m/n/10 previous
 .\glue 3.33 plus 1.665 minus 1.11
 .\TU/lmr/m/n/10 page
+.\special{pdf:eann}
 .\write1{\zref@newlabel{104@vr}{\abspage{\Z@C@abspage }}}
 ! OK.
 l. ...\showbox0
@@ -954,9 +994,11 @@ l. ...\showbox0
 .\glue 3.33 plus 1.665 minus 1.11
 .\TU/lmr/m/n/10 the
 .\glue 3.33 plus 1.665 minus 1.11
+.\special{pdf:bann<</Type/Annot/Subtype/Link/Border[0 0 1]/H/I/C[1 0 0]/A<</S/G\ETC.}
 .\TU/lmr/m/n/10 preceding
 .\glue 3.33 plus 1.665 minus 1.11
 .\TU/lmr/m/n/10 page
+.\special{pdf:eann}
 .\write1{\zref@newlabel{107@vr}{\abspage{\Z@C@abspage }}}
 .\glue 3.33 plus 1.665 minus 1.11
 .\TU/lmr/m/n/10 ;
@@ -966,9 +1008,11 @@ l. ...\showbox0
 .\glue 3.33 plus 1.665 minus 1.11
 .\TU/lmr/m/n/10 the
 .\glue 3.33 plus 1.665 minus 1.11
+.\special{pdf:bann<</Type/Annot/Subtype/Link/Border[0 0 1]/H/I/C[1 0 0]/A<</S/G\ETC.}
 .\TU/lmr/m/n/10 previous
 .\glue 3.33 plus 1.665 minus 1.11
 .\TU/lmr/m/n/10 page
+.\special{pdf:eann}
 .\write1{\zref@newlabel{108@vr}{\abspage{\Z@C@abspage }}}
 ! OK.
 l. ...\showbox0

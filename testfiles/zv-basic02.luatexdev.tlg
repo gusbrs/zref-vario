@@ -837,6 +837,7 @@ TEST 4: Page 4
 .\TU/lmr/m/n/10 h
 .\TU/lmr/m/n/10 e
 .\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\pdfstartlink(*+*)x* attr{/Border[0 0 1]/H/I/C[1 0 0]} action goto name{section.3.1}
 .\TU/lmr/m/n/10 f
 .\TU/lmr/m/n/10 a
 .\TU/lmr/m/n/10 c
@@ -850,6 +851,7 @@ TEST 4: Page 4
 .\TU/lmr/m/n/10 a
 .\TU/lmr/m/n/10 g
 .\TU/lmr/m/n/10 e
+.\pdfendlink
 .\write1{\zref@newlabel{59@vr}{\page{\Z@C@page }}}
 .\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
 .\TU/lmr/m/n/10 ;
@@ -879,6 +881,7 @@ TEST 4: Page 4
 .\TU/lmr/m/n/10 h
 .\TU/lmr/m/n/10 e
 .\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\pdfstartlink(*+*)x* attr{/Border[0 0 1]/H/I/C[1 0 0]} action goto name{section.3.1}
 .\TU/lmr/m/n/10 n
 .\TU/lmr/m/n/10 e
 .\TU/lmr/m/n/10 x
@@ -888,6 +891,7 @@ TEST 4: Page 4
 .\TU/lmr/m/n/10 a
 .\TU/lmr/m/n/10 g
 .\TU/lmr/m/n/10 e
+.\pdfendlink
 .\write1{\zref@newlabel{60@vr}{\page{\Z@C@page }}}
 ! OK.
 l. ...\showbox0
@@ -901,6 +905,7 @@ l. ...\showbox0
 .\TU/lmr/m/n/10 h
 .\TU/lmr/m/n/10 e
 .\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\pdfstartlink(*+*)x* attr{/Border[0 0 1]/H/I/C[1 0 0]} action goto name{section.3.1}
 .\TU/lmr/m/n/10 f
 .\TU/lmr/m/n/10 a
 .\TU/lmr/m/n/10 c
@@ -914,6 +919,7 @@ l. ...\showbox0
 .\TU/lmr/m/n/10 a
 .\TU/lmr/m/n/10 g
 .\TU/lmr/m/n/10 e
+.\pdfendlink
 .\write1{\zref@newlabel{63@vr}{\page{\Z@C@page }}}
 .\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
 .\TU/lmr/m/n/10 ;
@@ -926,6 +932,7 @@ l. ...\showbox0
 .\TU/lmr/m/n/10 h
 .\TU/lmr/m/n/10 e
 .\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\pdfstartlink(*+*)x* attr{/Border[0 0 1]/H/I/C[1 0 0]} action goto name{section.3.1}
 .\TU/lmr/m/n/10 n
 .\TU/lmr/m/n/10 e
 .\TU/lmr/m/n/10 x
@@ -935,6 +942,7 @@ l. ...\showbox0
 .\TU/lmr/m/n/10 a
 .\TU/lmr/m/n/10 g
 .\TU/lmr/m/n/10 e
+.\pdfendlink
 .\write1{\zref@newlabel{64@vr}{\page{\Z@C@page }}}
 ! OK.
 l. ...\showbox0
@@ -977,6 +985,7 @@ l. ...\showbox0
 .\TU/lmr/m/n/10 h
 .\TU/lmr/m/n/10 e
 .\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\pdfstartlink(*+*)x* attr{/Border[0 0 1]/H/I/C[1 0 0]} action goto name{section.3.1}
 .\TU/lmr/m/n/10 f
 .\TU/lmr/m/n/10 a
 .\TU/lmr/m/n/10 c
@@ -990,6 +999,7 @@ l. ...\showbox0
 .\TU/lmr/m/n/10 a
 .\TU/lmr/m/n/10 g
 .\TU/lmr/m/n/10 e
+.\pdfendlink
 .\write1{\zref@newlabel{67@vr}{\page{\Z@C@page }}}
 .\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
 .\TU/lmr/m/n/10 ;
@@ -1031,6 +1041,7 @@ l. ...\showbox0
 .\TU/lmr/m/n/10 h
 .\TU/lmr/m/n/10 e
 .\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\pdfstartlink(*+*)x* attr{/Border[0 0 1]/H/I/C[1 0 0]} action goto name{section.3.1}
 .\TU/lmr/m/n/10 n
 .\TU/lmr/m/n/10 e
 .\TU/lmr/m/n/10 x
@@ -1040,6 +1051,7 @@ l. ...\showbox0
 .\TU/lmr/m/n/10 a
 .\TU/lmr/m/n/10 g
 .\TU/lmr/m/n/10 e
+.\pdfendlink
 .\write1{\zref@newlabel{68@vr}{\page{\Z@C@page }}}
 ! OK.
 l. ...\showbox0
@@ -1053,6 +1065,7 @@ l. ...\showbox0
 .\TU/lmr/m/n/10 h
 .\TU/lmr/m/n/10 e
 .\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\pdfstartlink(*+*)x* attr{/Border[0 0 1]/H/I/C[1 0 0]} action goto name{section.3.1}
 .\TU/lmr/m/n/10 f
 .\TU/lmr/m/n/10 a
 .\TU/lmr/m/n/10 c
@@ -1066,6 +1079,7 @@ l. ...\showbox0
 .\TU/lmr/m/n/10 a
 .\TU/lmr/m/n/10 g
 .\TU/lmr/m/n/10 e
+.\pdfendlink
 .\write1{\zref@newlabel{71@vr}{\page{\Z@C@page }}}
 .\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
 .\TU/lmr/m/n/10 ;
@@ -1078,6 +1092,7 @@ l. ...\showbox0
 .\TU/lmr/m/n/10 h
 .\TU/lmr/m/n/10 e
 .\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\pdfstartlink(*+*)x* attr{/Border[0 0 1]/H/I/C[1 0 0]} action goto name{section.3.1}
 .\TU/lmr/m/n/10 n
 .\TU/lmr/m/n/10 e
 .\TU/lmr/m/n/10 x
@@ -1087,6 +1102,7 @@ l. ...\showbox0
 .\TU/lmr/m/n/10 a
 .\TU/lmr/m/n/10 g
 .\TU/lmr/m/n/10 e
+.\pdfendlink
 .\write1{\zref@newlabel{72@vr}{\page{\Z@C@page }}}
 ! OK.
 l. ...\showbox0
@@ -1176,6 +1192,7 @@ l. ...\showbox0
 .\TU/lmr/m/n/10 o
 .\TU/lmr/m/n/10 n
 .\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\pdfstartlink(*+*)x* attr{/Border[0 0 1]/H/I/C[1 0 0]} action goto name{section.3.1}
 .\TU/lmr/m/n/10 t
 .\TU/lmr/m/n/10 h
 .\TU/lmr/m/n/10 i
@@ -1185,6 +1202,7 @@ l. ...\showbox0
 .\TU/lmr/m/n/10 a
 .\TU/lmr/m/n/10 g
 .\TU/lmr/m/n/10 e
+.\pdfendlink
 .\write1{\zref@newlabel{81@vr}{\page{\Z@C@page }}}
 .\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
 .\TU/lmr/m/n/10 ;
@@ -1197,6 +1215,7 @@ l. ...\showbox0
 .\TU/lmr/m/n/10 h
 .\TU/lmr/m/n/10 e
 .\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\pdfstartlink(*+*)x* attr{/Border[0 0 1]/H/I/C[1 0 0]} action goto name{section.3.1}
 .\TU/lmr/m/n/10 c
 .\TU/lmr/m/n/10 u
 .\TU/lmr/m/n/10 r
@@ -1212,6 +1231,7 @@ l. ...\showbox0
 .\TU/lmr/m/n/10 a
 .\TU/lmr/m/n/10 g
 .\TU/lmr/m/n/10 e
+.\pdfendlink
 .\write1{\zref@newlabel{82@vr}{\page{\Z@C@page }}}
 ! OK.
 l. ...\showbox0
@@ -1250,6 +1270,7 @@ l. ...\showbox0
 .\TU/lmr/m/n/10 o
 .\TU/lmr/m/n/10 n
 .\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\pdfstartlink(*+*)x* attr{/Border[0 0 1]/H/I/C[1 0 0]} action goto name{section.3.1}
 .\TU/lmr/m/n/10 t
 .\TU/lmr/m/n/10 h
 .\TU/lmr/m/n/10 i
@@ -1259,6 +1280,7 @@ l. ...\showbox0
 .\TU/lmr/m/n/10 a
 .\TU/lmr/m/n/10 g
 .\TU/lmr/m/n/10 e
+.\pdfendlink
 .\write1{\zref@newlabel{85@vr}{\page{\Z@C@page }}}
 .\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
 .\TU/lmr/m/n/10 ;
@@ -1300,6 +1322,7 @@ l. ...\showbox0
 .\TU/lmr/m/n/10 h
 .\TU/lmr/m/n/10 e
 .\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\pdfstartlink(*+*)x* attr{/Border[0 0 1]/H/I/C[1 0 0]} action goto name{section.3.1}
 .\TU/lmr/m/n/10 c
 .\TU/lmr/m/n/10 u
 .\TU/lmr/m/n/10 r
@@ -1315,6 +1338,7 @@ l. ...\showbox0
 .\TU/lmr/m/n/10 a
 .\TU/lmr/m/n/10 g
 .\TU/lmr/m/n/10 e
+.\pdfendlink
 .\write1{\zref@newlabel{86@vr}{\page{\Z@C@page }}}
 ! OK.
 l. ...\showbox0
@@ -1324,6 +1348,7 @@ l. ...\showbox0
 .\TU/lmr/m/n/10 o
 .\TU/lmr/m/n/10 n
 .\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\pdfstartlink(*+*)x* attr{/Border[0 0 1]/H/I/C[1 0 0]} action goto name{section.3.1}
 .\TU/lmr/m/n/10 t
 .\TU/lmr/m/n/10 h
 .\TU/lmr/m/n/10 i
@@ -1333,6 +1358,7 @@ l. ...\showbox0
 .\TU/lmr/m/n/10 a
 .\TU/lmr/m/n/10 g
 .\TU/lmr/m/n/10 e
+.\pdfendlink
 .\write1{\zref@newlabel{89@vr}{\page{\Z@C@page }}}
 .\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
 .\TU/lmr/m/n/10 ;
@@ -1345,6 +1371,7 @@ l. ...\showbox0
 .\TU/lmr/m/n/10 h
 .\TU/lmr/m/n/10 e
 .\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\pdfstartlink(*+*)x* attr{/Border[0 0 1]/H/I/C[1 0 0]} action goto name{section.3.1}
 .\TU/lmr/m/n/10 c
 .\TU/lmr/m/n/10 u
 .\TU/lmr/m/n/10 r
@@ -1360,6 +1387,7 @@ l. ...\showbox0
 .\TU/lmr/m/n/10 a
 .\TU/lmr/m/n/10 g
 .\TU/lmr/m/n/10 e
+.\pdfendlink
 .\write1{\zref@newlabel{90@vr}{\page{\Z@C@page }}}
 ! OK.
 l. ...\showbox0
@@ -1427,6 +1455,7 @@ TEST 6: Page 6
 .\TU/lmr/m/n/10 h
 .\TU/lmr/m/n/10 e
 .\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\pdfstartlink(*+*)x* attr{/Border[0 0 1]/H/I/C[1 0 0]} action goto name{section.3.1}
 .\TU/lmr/m/n/10 p
 .\TU/lmr/m/n/10 r
 .\TU/lmr/m/n/10 e
@@ -1445,6 +1474,7 @@ TEST 6: Page 6
 .\TU/lmr/m/n/10 a
 .\TU/lmr/m/n/10 g
 .\TU/lmr/m/n/10 e
+.\pdfendlink
 .\write1{\zref@newlabel{95@vr}{\page{\Z@C@page }}}
 .\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
 .\TU/lmr/m/n/10 ;
@@ -1474,6 +1504,7 @@ TEST 6: Page 6
 .\TU/lmr/m/n/10 h
 .\TU/lmr/m/n/10 e
 .\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\pdfstartlink(*+*)x* attr{/Border[0 0 1]/H/I/C[1 0 0]} action goto name{section.3.1}
 .\TU/lmr/m/n/10 p
 .\TU/lmr/m/n/10 r
 .\TU/lmr/m/n/10 e
@@ -1491,6 +1522,7 @@ TEST 6: Page 6
 .\TU/lmr/m/n/10 a
 .\TU/lmr/m/n/10 g
 .\TU/lmr/m/n/10 e
+.\pdfendlink
 .\write1{\zref@newlabel{96@vr}{\page{\Z@C@page }}}
 ! OK.
 l. ...\showbox0
@@ -1504,6 +1536,7 @@ l. ...\showbox0
 .\TU/lmr/m/n/10 h
 .\TU/lmr/m/n/10 e
 .\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\pdfstartlink(*+*)x* attr{/Border[0 0 1]/H/I/C[1 0 0]} action goto name{section.3.1}
 .\TU/lmr/m/n/10 p
 .\TU/lmr/m/n/10 r
 .\TU/lmr/m/n/10 e
@@ -1522,6 +1555,7 @@ l. ...\showbox0
 .\TU/lmr/m/n/10 a
 .\TU/lmr/m/n/10 g
 .\TU/lmr/m/n/10 e
+.\pdfendlink
 .\write1{\zref@newlabel{99@vr}{\page{\Z@C@page }}}
 .\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
 .\TU/lmr/m/n/10 ;
@@ -1534,6 +1568,7 @@ l. ...\showbox0
 .\TU/lmr/m/n/10 h
 .\TU/lmr/m/n/10 e
 .\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\pdfstartlink(*+*)x* attr{/Border[0 0 1]/H/I/C[1 0 0]} action goto name{section.3.1}
 .\TU/lmr/m/n/10 p
 .\TU/lmr/m/n/10 r
 .\TU/lmr/m/n/10 e
@@ -1551,6 +1586,7 @@ l. ...\showbox0
 .\TU/lmr/m/n/10 a
 .\TU/lmr/m/n/10 g
 .\TU/lmr/m/n/10 e
+.\pdfendlink
 .\write1{\zref@newlabel{100@vr}{\page{\Z@C@page }}}
 ! OK.
 l. ...\showbox0
@@ -1593,6 +1629,7 @@ l. ...\showbox0
 .\TU/lmr/m/n/10 h
 .\TU/lmr/m/n/10 e
 .\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\pdfstartlink(*+*)x* attr{/Border[0 0 1]/H/I/C[1 0 0]} action goto name{section.3.1}
 .\TU/lmr/m/n/10 p
 .\TU/lmr/m/n/10 r
 .\TU/lmr/m/n/10 e
@@ -1611,6 +1648,7 @@ l. ...\showbox0
 .\TU/lmr/m/n/10 a
 .\TU/lmr/m/n/10 g
 .\TU/lmr/m/n/10 e
+.\pdfendlink
 .\write1{\zref@newlabel{103@vr}{\page{\Z@C@page }}}
 .\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
 .\TU/lmr/m/n/10 ;
@@ -1652,6 +1690,7 @@ l. ...\showbox0
 .\TU/lmr/m/n/10 h
 .\TU/lmr/m/n/10 e
 .\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\pdfstartlink(*+*)x* attr{/Border[0 0 1]/H/I/C[1 0 0]} action goto name{section.3.1}
 .\TU/lmr/m/n/10 p
 .\TU/lmr/m/n/10 r
 .\TU/lmr/m/n/10 e
@@ -1669,6 +1708,7 @@ l. ...\showbox0
 .\TU/lmr/m/n/10 a
 .\TU/lmr/m/n/10 g
 .\TU/lmr/m/n/10 e
+.\pdfendlink
 .\write1{\zref@newlabel{104@vr}{\page{\Z@C@page }}}
 ! OK.
 l. ...\showbox0
@@ -1682,6 +1722,7 @@ l. ...\showbox0
 .\TU/lmr/m/n/10 h
 .\TU/lmr/m/n/10 e
 .\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\pdfstartlink(*+*)x* attr{/Border[0 0 1]/H/I/C[1 0 0]} action goto name{section.3.1}
 .\TU/lmr/m/n/10 p
 .\TU/lmr/m/n/10 r
 .\TU/lmr/m/n/10 e
@@ -1700,6 +1741,7 @@ l. ...\showbox0
 .\TU/lmr/m/n/10 a
 .\TU/lmr/m/n/10 g
 .\TU/lmr/m/n/10 e
+.\pdfendlink
 .\write1{\zref@newlabel{107@vr}{\page{\Z@C@page }}}
 .\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
 .\TU/lmr/m/n/10 ;
@@ -1712,6 +1754,7 @@ l. ...\showbox0
 .\TU/lmr/m/n/10 h
 .\TU/lmr/m/n/10 e
 .\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\pdfstartlink(*+*)x* attr{/Border[0 0 1]/H/I/C[1 0 0]} action goto name{section.3.1}
 .\TU/lmr/m/n/10 p
 .\TU/lmr/m/n/10 r
 .\TU/lmr/m/n/10 e
@@ -1729,6 +1772,7 @@ l. ...\showbox0
 .\TU/lmr/m/n/10 a
 .\TU/lmr/m/n/10 g
 .\TU/lmr/m/n/10 e
+.\pdfendlink
 .\write1{\zref@newlabel{108@vr}{\page{\Z@C@page }}}
 ! OK.
 l. ...\showbox0

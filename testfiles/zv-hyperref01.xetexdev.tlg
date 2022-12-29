@@ -31,9 +31,11 @@ l. ...\showbox0
 .\write1{\zref@newlabel{3@xvr}{\page{\Z@C@page }}}
 .\TU/lmr/m/n/10 on
 .\glue 3.33 plus 1.665 minus 1.11
+.\special{pdf:bann<</Type/Annot/Subtype/Link/Border[0 0 1]/H/I/C[1 0 0]/A<</S/G\ETC.}
 .\TU/lmr/m/n/10 this
 .\glue 3.33 plus 1.665 minus 1.11
 .\TU/lmr/m/n/10 page
+.\special{pdf:eann}
 .\write1{\zref@newlabel{3@vr}{\page{\Z@C@page }}}
 .\glue 3.33 plus 1.665 minus 1.11
 .\TU/lmr/m/n/10 ;
@@ -43,9 +45,11 @@ l. ...\showbox0
 .\glue 3.33 plus 1.665 minus 1.11
 .\TU/lmr/m/n/10 the
 .\glue 3.33 plus 1.665 minus 1.11
+.\special{pdf:bann<</Type/Annot/Subtype/Link/Border[0 0 1]/H/I/C[1 0 0]/A<</S/G\ETC.}
 .\TU/lmr/m/n/10 current
 .\glue 3.33 plus 1.665 minus 1.11
 .\TU/lmr/m/n/10 page
+.\special{pdf:eann}
 .\write1{\zref@newlabel{4@vr}{\page{\Z@C@page }}}
 ! OK.
 l. ...\showbox0
@@ -68,9 +72,11 @@ l. ...\showbox0
 .\glue 3.33 plus 1.665 minus 1.11
 .\TU/lmr/m/n/10 on
 .\glue 3.33 plus 1.665 minus 1.11
+.\special{pdf:bann<</Type/Annot/Subtype/Link/Border[0 0 1]/H/I/C[1 0 0]/A<</S/G\ETC.}
 .\TU/lmr/m/n/10 this
 .\glue 3.33 plus 1.665 minus 1.11
 .\TU/lmr/m/n/10 page
+.\special{pdf:eann}
 .\write1{\zref@newlabel{5@vr}{\page{\Z@C@page }}}
 .\glue 3.33 plus 1.665 minus 1.11
 .\TU/lmr/m/n/10 ;
@@ -94,9 +100,11 @@ l. ...\showbox0
 .\glue 3.33 plus 1.665 minus 1.11
 .\TU/lmr/m/n/10 the
 .\glue 3.33 plus 1.665 minus 1.11
+.\special{pdf:bann<</Type/Annot/Subtype/Link/Border[0 0 1]/H/I/C[1 0 0]/A<</S/G\ETC.}
 .\TU/lmr/m/n/10 current
 .\glue 3.33 plus 1.665 minus 1.11
 .\TU/lmr/m/n/10 page
+.\special{pdf:eann}
 .\write1{\zref@newlabel{6@vr}{\page{\Z@C@page }}}
 ! OK.
 l. ...\showbox0
@@ -105,9 +113,11 @@ l. ...\showbox0
 .\write1{\zref@newlabel{7@xvr}{\page{\Z@C@page }}}
 .\TU/lmr/m/n/10 on
 .\glue 3.33 plus 1.665 minus 1.11
+.\special{pdf:bann<</Type/Annot/Subtype/Link/Border[0 0 1]/H/I/C[1 0 0]/A<</S/G\ETC.}
 .\TU/lmr/m/n/10 this
 .\glue 3.33 plus 1.665 minus 1.11
 .\TU/lmr/m/n/10 page
+.\special{pdf:eann}
 .\write1{\zref@newlabel{7@vr}{\page{\Z@C@page }}}
 .\glue 3.33 plus 1.665 minus 1.11
 .\TU/lmr/m/n/10 ;
@@ -117,9 +127,11 @@ l. ...\showbox0
 .\glue 3.33 plus 1.665 minus 1.11
 .\TU/lmr/m/n/10 the
 .\glue 3.33 plus 1.665 minus 1.11
+.\special{pdf:bann<</Type/Annot/Subtype/Link/Border[0 0 1]/H/I/C[1 0 0]/A<</S/G\ETC.}
 .\TU/lmr/m/n/10 current
 .\glue 3.33 plus 1.665 minus 1.11
 .\TU/lmr/m/n/10 page
+.\special{pdf:eann}
 .\write1{\zref@newlabel{8@vr}{\page{\Z@C@page }}}
 ! OK.
 l. ...\showbox0

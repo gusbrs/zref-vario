@@ -40,32 +40,32 @@
 \BEGINTEST{Page 1}
 \vref[above]{sec:section-3.1} ; \vref[above]{sec:section-3.1}
 
-\setbox0=\hbox{\zvref[vcurrent=above]{sec:section-3.1} ;
-  \zvref[vcurrent=above]{sec:section-3.1}}
+\setbox0=\hbox{\zvref[vcurrent=\zvhyperlink{above}]{sec:section-3.1} ;
+  \zvref[vcurrent=\zvhyperlink{above}]{sec:section-3.1}}
 \showbox0
 \box0
 
 \vpageref[above example][example]{sec:section-3.1} ;
 \vpageref[above example][example]{sec:section-3.1}
 
-\setbox0=\hbox{\zvpageref[vcurrent={above example},vother=example]{sec:section-3.1} ;
-  \zvpageref[vcurrent={above example},vother=example]{sec:section-3.1}}
+\setbox0=\hbox{\zvpageref[vcurrent=\zvhyperlink{above example},vother=\zvhyperlink{example}]{sec:section-3.1} ;
+  \zvpageref[vcurrent=\zvhyperlink{above example},vother=\zvhyperlink{example}]{sec:section-3.1}}
 \showbox0
 \box0
 
 \vrefrange[above]{sec:section-3.1}{sec:section-3.2} ;
 \vrefrange[above]{sec:section-3.1}{sec:section-3.2}
 
-\setbox0=\hbox{\zvrefrange[vcurrent=above]{sec:section-3.1}{sec:section-3.2} ;
-  \zvrefrange[vcurrent=above]{sec:section-3.1}{sec:section-3.2}}
+\setbox0=\hbox{\zvrefrange[vcurrent=\zvhyperlink{above}]{sec:section-3.1}{sec:section-3.2} ;
+  \zvrefrange[vcurrent=\zvhyperlink{above}]{sec:section-3.1}{sec:section-3.2}}
 \showbox0
 \box0
 
 \vpagerefrange[above]{sec:section-3.1}{sec:section-3.2} ;
 \vpagerefrange[above]{sec:section-3.1}{sec:section-3.2}
 
-\setbox0=\hbox{\zvpagerefrange[vcurrent=above]{sec:section-3.1}{sec:section-3.2} ;
-  \zvpagerefrange[vcurrent=above]{sec:section-3.1}{sec:section-3.2}}
+\setbox0=\hbox{\zvpagerefrange[vcurrent=\zvhyperlink{above}]{sec:section-3.1}{sec:section-3.2} ;
+  \zvpagerefrange[vcurrent=\zvhyperlink{above}]{sec:section-3.1}{sec:section-3.2}}
 \showbox0
 \box0
 
@@ -91,32 +91,32 @@
 \BEGINTEST{Page 2}
 \vref[above]{sec:section-3.1} ; \vref[above]{sec:section-3.1}
 
-\setbox0=\hbox{\zvref[vcurrent=above]{sec:section-3.1} ;
-  \zvref[vcurrent=above]{sec:section-3.1}}
+\setbox0=\hbox{\zvref[vcurrent=\zvhyperlink{above}]{sec:section-3.1} ;
+  \zvref[vcurrent=\zvhyperlink{above}]{sec:section-3.1}}
 \showbox0
 \box0
 
 \vpageref[above example][example]{sec:section-3.1} ;
 \vpageref[above example][example]{sec:section-3.1}
 
-\setbox0=\hbox{\zvpageref[vcurrent={above example},vother=example]{sec:section-3.1} ;
-  \zvpageref[vcurrent={above example},vother=example]{sec:section-3.1}}
+\setbox0=\hbox{\zvpageref[vcurrent=\zvhyperlink{above example},vother=\zvhyperlink{example}]{sec:section-3.1} ;
+  \zvpageref[vcurrent=\zvhyperlink{above example},vother=\zvhyperlink{example}]{sec:section-3.1}}
 \showbox0
 \box0
 
 \vrefrange[above]{sec:section-3.1}{sec:section-3.2} ;
 \vrefrange[above]{sec:section-3.1}{sec:section-3.2}
 
-\setbox0=\hbox{\zvrefrange[vcurrent=above]{sec:section-3.1}{sec:section-3.2} ;
-  \zvrefrange[vcurrent=above]{sec:section-3.1}{sec:section-3.2}}
+\setbox0=\hbox{\zvrefrange[vcurrent=\zvhyperlink{above}]{sec:section-3.1}{sec:section-3.2} ;
+  \zvrefrange[vcurrent=\zvhyperlink{above}]{sec:section-3.1}{sec:section-3.2}}
 \showbox0
 \box0
 
 \vpagerefrange[above]{sec:section-3.1}{sec:section-3.2} ;
 \vpagerefrange[above]{sec:section-3.1}{sec:section-3.2}
 
-\setbox0=\hbox{\zvpagerefrange[vcurrent=above]{sec:section-3.1}{sec:section-3.2} ;
-  \zvpagerefrange[vcurrent=above]{sec:section-3.1}{sec:section-3.2}}
+\setbox0=\hbox{\zvpagerefrange[vcurrent=\zvhyperlink{above}]{sec:section-3.1}{sec:section-3.2} ;
+  \zvpagerefrange[vcurrent=\zvhyperlink{above}]{sec:section-3.1}{sec:section-3.2}}
 \showbox0
 \box0
 
@@ -144,32 +144,32 @@
 \BEGINTEST{Page 3}
 \vref[above]{sec:section-3.1} ; \vref[above]{sec:section-3.1}
 
-\setbox0=\hbox{\zvref[vcurrent=above]{sec:section-3.1} ;
-  \zvref[vcurrent=above]{sec:section-3.1}}
+\setbox0=\hbox{\zvref[vcurrent=\zvhyperlink{above}]{sec:section-3.1} ;
+  \zvref[vcurrent=\zvhyperlink{above}]{sec:section-3.1}}
 \showbox0
 \box0
 
 \vpageref[above example][example]{sec:section-3.1} ;
 \vpageref[above example][example]{sec:section-3.1}
 
-\setbox0=\hbox{\zvpageref[vcurrent={above example},vother=example]{sec:section-3.1} ;
-  \zvpageref[vcurrent={above example},vother=example]{sec:section-3.1}}
+\setbox0=\hbox{\zvpageref[vcurrent=\zvhyperlink{above example},vother=\zvhyperlink{example}]{sec:section-3.1} ;
+  \zvpageref[vcurrent=\zvhyperlink{above example},vother=\zvhyperlink{example}]{sec:section-3.1}}
 \showbox0
 \box0
 
 \vrefrange[above]{sec:section-3.1}{sec:section-3.2} ;
 \vrefrange[above]{sec:section-3.1}{sec:section-3.2}
 
-\setbox0=\hbox{\zvrefrange[vcurrent=above]{sec:section-3.1}{sec:section-3.2} ;
-  \zvrefrange[vcurrent=above]{sec:section-3.1}{sec:section-3.2}}
+\setbox0=\hbox{\zvrefrange[vcurrent=\zvhyperlink{above}]{sec:section-3.1}{sec:section-3.2} ;
+  \zvrefrange[vcurrent=\zvhyperlink{above}]{sec:section-3.1}{sec:section-3.2}}
 \showbox0
 \box0
 
 \vpagerefrange[above]{sec:section-3.1}{sec:section-3.2} ;
 \vpagerefrange[above]{sec:section-3.1}{sec:section-3.2}
 
-\setbox0=\hbox{\zvpagerefrange[vcurrent=above]{sec:section-3.1}{sec:section-3.2} ;
-  \zvpagerefrange[vcurrent=above]{sec:section-3.1}{sec:section-3.2}}
+\setbox0=\hbox{\zvpagerefrange[vcurrent=\zvhyperlink{above}]{sec:section-3.1}{sec:section-3.2} ;
+  \zvpagerefrange[vcurrent=\zvhyperlink{above}]{sec:section-3.1}{sec:section-3.2}}
 \showbox0
 \box0
 
@@ -195,32 +195,32 @@
 \BEGINTEST{Page 4}
 \vref[above]{sec:section-3.1} ; \vref[above]{sec:section-3.1}
 
-\setbox0=\hbox{\zvref[vcurrent=above]{sec:section-3.1} ;
-  \zvref[vcurrent=above]{sec:section-3.1}}
+\setbox0=\hbox{\zvref[vcurrent=\zvhyperlink{above}]{sec:section-3.1} ;
+  \zvref[vcurrent=\zvhyperlink{above}]{sec:section-3.1}}
 \showbox0
 \box0
 
 \vpageref[above example][example]{sec:section-3.1} ;
 \vpageref[above example][example]{sec:section-3.1}
 
-\setbox0=\hbox{\zvpageref[vcurrent={above example},vother=example]{sec:section-3.1} ;
-  \zvpageref[vcurrent={above example},vother=example]{sec:section-3.1}}
+\setbox0=\hbox{\zvpageref[vcurrent=\zvhyperlink{above example},vother=\zvhyperlink{example}]{sec:section-3.1} ;
+  \zvpageref[vcurrent=\zvhyperlink{above example},vother=\zvhyperlink{example}]{sec:section-3.1}}
 \showbox0
 \box0
 
 \vrefrange[above]{sec:section-3.1}{sec:section-3.2} ;
 \vrefrange[above]{sec:section-3.1}{sec:section-3.2}
 
-\setbox0=\hbox{\zvrefrange[vcurrent=above]{sec:section-3.1}{sec:section-3.2} ;
-  \zvrefrange[vcurrent=above]{sec:section-3.1}{sec:section-3.2}}
+\setbox0=\hbox{\zvrefrange[vcurrent=\zvhyperlink{above}]{sec:section-3.1}{sec:section-3.2} ;
+  \zvrefrange[vcurrent=\zvhyperlink{above}]{sec:section-3.1}{sec:section-3.2}}
 \showbox0
 \box0
 
 \vpagerefrange[above]{sec:section-3.1}{sec:section-3.2} ;
 \vpagerefrange[above]{sec:section-3.1}{sec:section-3.2}
 
-\setbox0=\hbox{\zvpagerefrange[vcurrent=above]{sec:section-3.1}{sec:section-3.2} ;
-  \zvpagerefrange[vcurrent=above]{sec:section-3.1}{sec:section-3.2}}
+\setbox0=\hbox{\zvpagerefrange[vcurrent=\zvhyperlink{above}]{sec:section-3.1}{sec:section-3.2} ;
+  \zvpagerefrange[vcurrent=\zvhyperlink{above}]{sec:section-3.1}{sec:section-3.2}}
 \showbox0
 \box0
 
@@ -248,32 +248,32 @@
 \BEGINTEST{Page 5}
 \vref[above]{sec:section-3.1} ; \vref[above]{sec:section-3.1}
 
-\setbox0=\hbox{\zvref[vcurrent=above]{sec:section-3.1} ;
-  \zvref[vcurrent=above]{sec:section-3.1}}
+\setbox0=\hbox{\zvref[vcurrent=\zvhyperlink{above}]{sec:section-3.1} ;
+  \zvref[vcurrent=\zvhyperlink{above}]{sec:section-3.1}}
 \showbox0
 \box0
 
 \vpageref[above example][example]{sec:section-3.1} ;
 \vpageref[above example][example]{sec:section-3.1}
 
-\setbox0=\hbox{\zvpageref[vcurrent={above example},vother=example]{sec:section-3.1} ;
-  \zvpageref[vcurrent={above example},vother=example]{sec:section-3.1}}
+\setbox0=\hbox{\zvpageref[vcurrent=\zvhyperlink{above example},vother=\zvhyperlink{example}]{sec:section-3.1} ;
+  \zvpageref[vcurrent=\zvhyperlink{above example},vother=\zvhyperlink{example}]{sec:section-3.1}}
 \showbox0
 \box0
 
 \vrefrange[above]{sec:section-3.1}{sec:section-3.2} ;
 \vrefrange[above]{sec:section-3.1}{sec:section-3.2}
 
-\setbox0=\hbox{\zvrefrange[vcurrent=above]{sec:section-3.1}{sec:section-3.2} ;
-  \zvrefrange[vcurrent=above]{sec:section-3.1}{sec:section-3.2}}
+\setbox0=\hbox{\zvrefrange[vcurrent=\zvhyperlink{above}]{sec:section-3.1}{sec:section-3.2} ;
+  \zvrefrange[vcurrent=\zvhyperlink{above}]{sec:section-3.1}{sec:section-3.2}}
 \showbox0
 \box0
 
 \vpagerefrange[above]{sec:section-3.1}{sec:section-3.2} ;
 \vpagerefrange[above]{sec:section-3.1}{sec:section-3.2}
 
-\setbox0=\hbox{\zvpagerefrange[vcurrent=above]{sec:section-3.1}{sec:section-3.2} ;
-  \zvpagerefrange[vcurrent=above]{sec:section-3.1}{sec:section-3.2}}
+\setbox0=\hbox{\zvpagerefrange[vcurrent=\zvhyperlink{above}]{sec:section-3.1}{sec:section-3.2} ;
+  \zvpagerefrange[vcurrent=\zvhyperlink{above}]{sec:section-3.1}{sec:section-3.2}}
 \showbox0
 \box0
 
@@ -299,32 +299,32 @@
 \BEGINTEST{Page 6}
 \vref[above]{sec:section-3.1} ; \vref[above]{sec:section-3.1}
 
-\setbox0=\hbox{\zvref[vcurrent=above]{sec:section-3.1} ;
-  \zvref[vcurrent=above]{sec:section-3.1}}
+\setbox0=\hbox{\zvref[vcurrent=\zvhyperlink{above}]{sec:section-3.1} ;
+  \zvref[vcurrent=\zvhyperlink{above}]{sec:section-3.1}}
 \showbox0
 \box0
 
 \vpageref[above example][example]{sec:section-3.1} ;
 \vpageref[above example][example]{sec:section-3.1}
 
-\setbox0=\hbox{\zvpageref[vcurrent={above example},vother=example]{sec:section-3.1} ;
-  \zvpageref[vcurrent={above example},vother=example]{sec:section-3.1}}
+\setbox0=\hbox{\zvpageref[vcurrent=\zvhyperlink{above example},vother=\zvhyperlink{example}]{sec:section-3.1} ;
+  \zvpageref[vcurrent=\zvhyperlink{above example},vother=\zvhyperlink{example}]{sec:section-3.1}}
 \showbox0
 \box0
 
 \vrefrange[above]{sec:section-3.1}{sec:section-3.2} ;
 \vrefrange[above]{sec:section-3.1}{sec:section-3.2}
 
-\setbox0=\hbox{\zvrefrange[vcurrent=above]{sec:section-3.1}{sec:section-3.2} ;
-  \zvrefrange[vcurrent=above]{sec:section-3.1}{sec:section-3.2}}
+\setbox0=\hbox{\zvrefrange[vcurrent=\zvhyperlink{above}]{sec:section-3.1}{sec:section-3.2} ;
+  \zvrefrange[vcurrent=\zvhyperlink{above}]{sec:section-3.1}{sec:section-3.2}}
 \showbox0
 \box0
 
 \vpagerefrange[above]{sec:section-3.1}{sec:section-3.2} ;
 \vpagerefrange[above]{sec:section-3.1}{sec:section-3.2}
 
-\setbox0=\hbox{\zvpagerefrange[vcurrent=above]{sec:section-3.1}{sec:section-3.2} ;
-  \zvpagerefrange[vcurrent=above]{sec:section-3.1}{sec:section-3.2}}
+\setbox0=\hbox{\zvpagerefrange[vcurrent=\zvhyperlink{above}]{sec:section-3.1}{sec:section-3.2} ;
+  \zvpagerefrange[vcurrent=\zvhyperlink{above}]{sec:section-3.1}{sec:section-3.2}}
 \showbox0
 \box0
 
@@ -352,32 +352,32 @@
 \BEGINTEST{Page 7}
 \vref[above]{sec:section-3.1} ; \vref[above]{sec:section-3.1}
 
-\setbox0=\hbox{\zvref[vcurrent=above]{sec:section-3.1} ;
-  \zvref[vcurrent=above]{sec:section-3.1}}
+\setbox0=\hbox{\zvref[vcurrent=\zvhyperlink{above}]{sec:section-3.1} ;
+  \zvref[vcurrent=\zvhyperlink{above}]{sec:section-3.1}}
 \showbox0
 \box0
 
 \vpageref[above example][example]{sec:section-3.1} ;
 \vpageref[above example][example]{sec:section-3.1}
 
-\setbox0=\hbox{\zvpageref[vcurrent={above example},vother=example]{sec:section-3.1} ;
-  \zvpageref[vcurrent={above example},vother=example]{sec:section-3.1}}
+\setbox0=\hbox{\zvpageref[vcurrent=\zvhyperlink{above example},vother=\zvhyperlink{example}]{sec:section-3.1} ;
+  \zvpageref[vcurrent=\zvhyperlink{above example},vother=\zvhyperlink{example}]{sec:section-3.1}}
 \showbox0
 \box0
 
 \vrefrange[above]{sec:section-3.1}{sec:section-3.2} ;
 \vrefrange[above]{sec:section-3.1}{sec:section-3.2}
 
-\setbox0=\hbox{\zvrefrange[vcurrent=above]{sec:section-3.1}{sec:section-3.2} ;
-  \zvrefrange[vcurrent=above]{sec:section-3.1}{sec:section-3.2}}
+\setbox0=\hbox{\zvrefrange[vcurrent=\zvhyperlink{above}]{sec:section-3.1}{sec:section-3.2} ;
+  \zvrefrange[vcurrent=\zvhyperlink{above}]{sec:section-3.1}{sec:section-3.2}}
 \showbox0
 \box0
 
 \vpagerefrange[above]{sec:section-3.1}{sec:section-3.2} ;
 \vpagerefrange[above]{sec:section-3.1}{sec:section-3.2}
 
-\setbox0=\hbox{\zvpagerefrange[vcurrent=above]{sec:section-3.1}{sec:section-3.2} ;
-  \zvpagerefrange[vcurrent=above]{sec:section-3.1}{sec:section-3.2}}
+\setbox0=\hbox{\zvpagerefrange[vcurrent=\zvhyperlink{above}]{sec:section-3.1}{sec:section-3.2} ;
+  \zvpagerefrange[vcurrent=\zvhyperlink{above}]{sec:section-3.1}{sec:section-3.2}}
 \showbox0
 \box0
 
@@ -403,32 +403,32 @@
 \BEGINTEST{Page 8}
 \vref[above]{sec:section-3.1} ; \vref[above]{sec:section-3.1}
 
-\setbox0=\hbox{\zvref[vcurrent=above]{sec:section-3.1} ;
-  \zvref[vcurrent=above]{sec:section-3.1}}
+\setbox0=\hbox{\zvref[vcurrent=\zvhyperlink{above}]{sec:section-3.1} ;
+  \zvref[vcurrent=\zvhyperlink{above}]{sec:section-3.1}}
 \showbox0
 \box0
 
 \vpageref[above example][example]{sec:section-3.1} ;
 \vpageref[above example][example]{sec:section-3.1}
 
-\setbox0=\hbox{\zvpageref[vcurrent={above example},vother=example]{sec:section-3.1} ;
-  \zvpageref[vcurrent={above example},vother=example]{sec:section-3.1}}
+\setbox0=\hbox{\zvpageref[vcurrent=\zvhyperlink{above example},vother=\zvhyperlink{example}]{sec:section-3.1} ;
+  \zvpageref[vcurrent=\zvhyperlink{above example},vother=\zvhyperlink{example}]{sec:section-3.1}}
 \showbox0
 \box0
 
 \vrefrange[above]{sec:section-3.1}{sec:section-3.2} ;
 \vrefrange[above]{sec:section-3.1}{sec:section-3.2}
 
-\setbox0=\hbox{\zvrefrange[vcurrent=above]{sec:section-3.1}{sec:section-3.2} ;
-  \zvrefrange[vcurrent=above]{sec:section-3.1}{sec:section-3.2}}
+\setbox0=\hbox{\zvrefrange[vcurrent=\zvhyperlink{above}]{sec:section-3.1}{sec:section-3.2} ;
+  \zvrefrange[vcurrent=\zvhyperlink{above}]{sec:section-3.1}{sec:section-3.2}}
 \showbox0
 \box0
 
 \vpagerefrange[above]{sec:section-3.1}{sec:section-3.2} ;
 \vpagerefrange[above]{sec:section-3.1}{sec:section-3.2}
 
-\setbox0=\hbox{\zvpagerefrange[vcurrent=above]{sec:section-3.1}{sec:section-3.2} ;
-  \zvpagerefrange[vcurrent=above]{sec:section-3.1}{sec:section-3.2}}
+\setbox0=\hbox{\zvpagerefrange[vcurrent=\zvhyperlink{above}]{sec:section-3.1}{sec:section-3.2} ;
+  \zvpagerefrange[vcurrent=\zvhyperlink{above}]{sec:section-3.1}{sec:section-3.2}}
 \showbox0
 \box0
 

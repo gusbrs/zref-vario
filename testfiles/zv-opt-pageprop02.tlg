@@ -805,6 +805,7 @@ TEST 4: Page 4
 .\OT1/cmr/m/n/10 h
 .\OT1/cmr/m/n/10 e
 .\glue 3.33333 plus 1.66666 minus 1.11111
+.\pdfstartlink(*+*)x* attr{/Border[0 0 1]/H/I/C[1 0 0]} action goto name{section.1.1}
 .\OT1/cmr/m/n/10 f
 .\OT1/cmr/m/n/10 a
 .\OT1/cmr/m/n/10 c
@@ -816,6 +817,7 @@ TEST 4: Page 4
 .\OT1/cmr/m/n/10 a
 .\OT1/cmr/m/n/10 g
 .\OT1/cmr/m/n/10 e
+.\pdfendlink
 .\write1{\zref@newlabel{59@vr}{\abspage{\Z@C@abspage }}}
 .\glue 3.33333 plus 1.66666 minus 1.11111
 .\OT1/cmr/m/n/10 ;
@@ -843,6 +845,7 @@ TEST 4: Page 4
 .\OT1/cmr/m/n/10 h
 .\OT1/cmr/m/n/10 e
 .\glue 3.33333 plus 1.66666 minus 1.11111
+.\pdfstartlink(*+*)x* attr{/Border[0 0 1]/H/I/C[1 0 0]} action goto name{section.1.1}
 .\OT1/cmr/m/n/10 n
 .\OT1/cmr/m/n/10 e
 .\OT1/cmr/m/n/10 x
@@ -852,6 +855,7 @@ TEST 4: Page 4
 .\OT1/cmr/m/n/10 a
 .\OT1/cmr/m/n/10 g
 .\OT1/cmr/m/n/10 e
+.\pdfendlink
 .\write1{\zref@newlabel{60@vr}{\abspage{\Z@C@abspage }}}
 ! OK.
 l. ...\showbox0
@@ -865,6 +869,7 @@ l. ...\showbox0
 .\OT1/cmr/m/n/10 h
 .\OT1/cmr/m/n/10 e
 .\glue 3.33333 plus 1.66666 minus 1.11111
+.\pdfstartlink(*+*)x* attr{/Border[0 0 1]/H/I/C[1 0 0]} action goto name{section.1.1}
 .\OT1/cmr/m/n/10 f
 .\OT1/cmr/m/n/10 a
 .\OT1/cmr/m/n/10 c
@@ -876,6 +881,7 @@ l. ...\showbox0
 .\OT1/cmr/m/n/10 a
 .\OT1/cmr/m/n/10 g
 .\OT1/cmr/m/n/10 e
+.\pdfendlink
 .\write1{\zref@newlabel{63@vr}{\abspage{\Z@C@abspage }}}
 .\glue 3.33333 plus 1.66666 minus 1.11111
 .\OT1/cmr/m/n/10 ;
@@ -888,6 +894,7 @@ l. ...\showbox0
 .\OT1/cmr/m/n/10 h
 .\OT1/cmr/m/n/10 e
 .\glue 3.33333 plus 1.66666 minus 1.11111
+.\pdfstartlink(*+*)x* attr{/Border[0 0 1]/H/I/C[1 0 0]} action goto name{section.1.1}
 .\OT1/cmr/m/n/10 n
 .\OT1/cmr/m/n/10 e
 .\OT1/cmr/m/n/10 x
@@ -897,6 +904,7 @@ l. ...\showbox0
 .\OT1/cmr/m/n/10 a
 .\OT1/cmr/m/n/10 g
 .\OT1/cmr/m/n/10 e
+.\pdfendlink
 .\write1{\zref@newlabel{64@vr}{\abspage{\Z@C@abspage }}}
 ! OK.
 l. ...\showbox0
@@ -937,6 +945,7 @@ l. ...\showbox0
 .\OT1/cmr/m/n/10 h
 .\OT1/cmr/m/n/10 e
 .\glue 3.33333 plus 1.66666 minus 1.11111
+.\pdfstartlink(*+*)x* attr{/Border[0 0 1]/H/I/C[1 0 0]} action goto name{section.1.1}
 .\OT1/cmr/m/n/10 f
 .\OT1/cmr/m/n/10 a
 .\OT1/cmr/m/n/10 c
@@ -948,6 +957,7 @@ l. ...\showbox0
 .\OT1/cmr/m/n/10 a
 .\OT1/cmr/m/n/10 g
 .\OT1/cmr/m/n/10 e
+.\pdfendlink
 .\write1{\zref@newlabel{67@vr}{\abspage{\Z@C@abspage }}}
 .\glue 3.33333 plus 1.66666 minus 1.11111
 .\OT1/cmr/m/n/10 ;
@@ -987,6 +997,7 @@ l. ...\showbox0
 .\OT1/cmr/m/n/10 h
 .\OT1/cmr/m/n/10 e
 .\glue 3.33333 plus 1.66666 minus 1.11111
+.\pdfstartlink(*+*)x* attr{/Border[0 0 1]/H/I/C[1 0 0]} action goto name{section.1.1}
 .\OT1/cmr/m/n/10 n
 .\OT1/cmr/m/n/10 e
 .\OT1/cmr/m/n/10 x
@@ -996,6 +1007,7 @@ l. ...\showbox0
 .\OT1/cmr/m/n/10 a
 .\OT1/cmr/m/n/10 g
 .\OT1/cmr/m/n/10 e
+.\pdfendlink
 .\write1{\zref@newlabel{68@vr}{\abspage{\Z@C@abspage }}}
 ! OK.
 l. ...\showbox0
@@ -1009,6 +1021,7 @@ l. ...\showbox0
 .\OT1/cmr/m/n/10 h
 .\OT1/cmr/m/n/10 e
 .\glue 3.33333 plus 1.66666 minus 1.11111
+.\pdfstartlink(*+*)x* attr{/Border[0 0 1]/H/I/C[1 0 0]} action goto name{section.1.1}
 .\OT1/cmr/m/n/10 f
 .\OT1/cmr/m/n/10 a
 .\OT1/cmr/m/n/10 c
@@ -1020,6 +1033,7 @@ l. ...\showbox0
 .\OT1/cmr/m/n/10 a
 .\OT1/cmr/m/n/10 g
 .\OT1/cmr/m/n/10 e
+.\pdfendlink
 .\write1{\zref@newlabel{71@vr}{\abspage{\Z@C@abspage }}}
 .\glue 3.33333 plus 1.66666 minus 1.11111
 .\OT1/cmr/m/n/10 ;
@@ -1032,6 +1046,7 @@ l. ...\showbox0
 .\OT1/cmr/m/n/10 h
 .\OT1/cmr/m/n/10 e
 .\glue 3.33333 plus 1.66666 minus 1.11111
+.\pdfstartlink(*+*)x* attr{/Border[0 0 1]/H/I/C[1 0 0]} action goto name{section.1.1}
 .\OT1/cmr/m/n/10 n
 .\OT1/cmr/m/n/10 e
 .\OT1/cmr/m/n/10 x
@@ -1041,6 +1056,7 @@ l. ...\showbox0
 .\OT1/cmr/m/n/10 a
 .\OT1/cmr/m/n/10 g
 .\OT1/cmr/m/n/10 e
+.\pdfendlink
 .\write1{\zref@newlabel{72@vr}{\abspage{\Z@C@abspage }}}
 ! OK.
 l. ...\showbox0
@@ -1124,6 +1140,7 @@ l. ...\showbox0
 .\OT1/cmr/m/n/10 o
 .\OT1/cmr/m/n/10 n
 .\glue 3.33333 plus 1.66666 minus 1.11111
+.\pdfstartlink(*+*)x* attr{/Border[0 0 1]/H/I/C[1 0 0]} action goto name{section.1.1}
 .\OT1/cmr/m/n/10 t
 .\OT1/cmr/m/n/10 h
 .\OT1/cmr/m/n/10 i
@@ -1133,6 +1150,7 @@ l. ...\showbox0
 .\OT1/cmr/m/n/10 a
 .\OT1/cmr/m/n/10 g
 .\OT1/cmr/m/n/10 e
+.\pdfendlink
 .\write1{\zref@newlabel{81@vr}{\abspage{\Z@C@abspage }}}
 .\glue 3.33333 plus 1.66666 minus 1.11111
 .\OT1/cmr/m/n/10 ;
@@ -1145,6 +1163,7 @@ l. ...\showbox0
 .\OT1/cmr/m/n/10 h
 .\OT1/cmr/m/n/10 e
 .\glue 3.33333 plus 1.66666 minus 1.11111
+.\pdfstartlink(*+*)x* attr{/Border[0 0 1]/H/I/C[1 0 0]} action goto name{section.1.1}
 .\OT1/cmr/m/n/10 c
 .\OT1/cmr/m/n/10 u
 .\OT1/cmr/m/n/10 r
@@ -1158,6 +1177,7 @@ l. ...\showbox0
 .\OT1/cmr/m/n/10 a
 .\OT1/cmr/m/n/10 g
 .\OT1/cmr/m/n/10 e
+.\pdfendlink
 .\write1{\zref@newlabel{82@vr}{\abspage{\Z@C@abspage }}}
 ! OK.
 l. ...\showbox0
@@ -1194,6 +1214,7 @@ l. ...\showbox0
 .\OT1/cmr/m/n/10 o
 .\OT1/cmr/m/n/10 n
 .\glue 3.33333 plus 1.66666 minus 1.11111
+.\pdfstartlink(*+*)x* attr{/Border[0 0 1]/H/I/C[1 0 0]} action goto name{section.1.1}
 .\OT1/cmr/m/n/10 t
 .\OT1/cmr/m/n/10 h
 .\OT1/cmr/m/n/10 i
@@ -1203,6 +1224,7 @@ l. ...\showbox0
 .\OT1/cmr/m/n/10 a
 .\OT1/cmr/m/n/10 g
 .\OT1/cmr/m/n/10 e
+.\pdfendlink
 .\write1{\zref@newlabel{85@vr}{\abspage{\Z@C@abspage }}}
 .\glue 3.33333 plus 1.66666 minus 1.11111
 .\OT1/cmr/m/n/10 ;
@@ -1242,6 +1264,7 @@ l. ...\showbox0
 .\OT1/cmr/m/n/10 h
 .\OT1/cmr/m/n/10 e
 .\glue 3.33333 plus 1.66666 minus 1.11111
+.\pdfstartlink(*+*)x* attr{/Border[0 0 1]/H/I/C[1 0 0]} action goto name{section.1.1}
 .\OT1/cmr/m/n/10 c
 .\OT1/cmr/m/n/10 u
 .\OT1/cmr/m/n/10 r
@@ -1255,6 +1278,7 @@ l. ...\showbox0
 .\OT1/cmr/m/n/10 a
 .\OT1/cmr/m/n/10 g
 .\OT1/cmr/m/n/10 e
+.\pdfendlink
 .\write1{\zref@newlabel{86@vr}{\abspage{\Z@C@abspage }}}
 ! OK.
 l. ...\showbox0
@@ -1264,6 +1288,7 @@ l. ...\showbox0
 .\OT1/cmr/m/n/10 o
 .\OT1/cmr/m/n/10 n
 .\glue 3.33333 plus 1.66666 minus 1.11111
+.\pdfstartlink(*+*)x* attr{/Border[0 0 1]/H/I/C[1 0 0]} action goto name{section.1.1}
 .\OT1/cmr/m/n/10 t
 .\OT1/cmr/m/n/10 h
 .\OT1/cmr/m/n/10 i
@@ -1273,6 +1298,7 @@ l. ...\showbox0
 .\OT1/cmr/m/n/10 a
 .\OT1/cmr/m/n/10 g
 .\OT1/cmr/m/n/10 e
+.\pdfendlink
 .\write1{\zref@newlabel{89@vr}{\abspage{\Z@C@abspage }}}
 .\glue 3.33333 plus 1.66666 minus 1.11111
 .\OT1/cmr/m/n/10 ;
@@ -1285,6 +1311,7 @@ l. ...\showbox0
 .\OT1/cmr/m/n/10 h
 .\OT1/cmr/m/n/10 e
 .\glue 3.33333 plus 1.66666 minus 1.11111
+.\pdfstartlink(*+*)x* attr{/Border[0 0 1]/H/I/C[1 0 0]} action goto name{section.1.1}
 .\OT1/cmr/m/n/10 c
 .\OT1/cmr/m/n/10 u
 .\OT1/cmr/m/n/10 r
@@ -1298,6 +1325,7 @@ l. ...\showbox0
 .\OT1/cmr/m/n/10 a
 .\OT1/cmr/m/n/10 g
 .\OT1/cmr/m/n/10 e
+.\pdfendlink
 .\write1{\zref@newlabel{90@vr}{\abspage{\Z@C@abspage }}}
 ! OK.
 l. ...\showbox0
@@ -1361,6 +1389,7 @@ TEST 6: Page 6
 .\OT1/cmr/m/n/10 h
 .\OT1/cmr/m/n/10 e
 .\glue 3.33333 plus 1.66666 minus 1.11111
+.\pdfstartlink(*+*)x* attr{/Border[0 0 1]/H/I/C[1 0 0]} action goto name{section.1.1}
 .\OT1/cmr/m/n/10 p
 .\OT1/cmr/m/n/10 r
 .\OT1/cmr/m/n/10 e
@@ -1375,6 +1404,7 @@ TEST 6: Page 6
 .\OT1/cmr/m/n/10 a
 .\OT1/cmr/m/n/10 g
 .\OT1/cmr/m/n/10 e
+.\pdfendlink
 .\write1{\zref@newlabel{95@vr}{\abspage{\Z@C@abspage }}}
 .\glue 3.33333 plus 1.66666 minus 1.11111
 .\OT1/cmr/m/n/10 ;
@@ -1402,6 +1432,7 @@ TEST 6: Page 6
 .\OT1/cmr/m/n/10 h
 .\OT1/cmr/m/n/10 e
 .\glue 3.33333 plus 1.66666 minus 1.11111
+.\pdfstartlink(*+*)x* attr{/Border[0 0 1]/H/I/C[1 0 0]} action goto name{section.1.1}
 .\OT1/cmr/m/n/10 p
 .\OT1/cmr/m/n/10 r
 .\OT1/cmr/m/n/10 e
@@ -1415,6 +1446,7 @@ TEST 6: Page 6
 .\OT1/cmr/m/n/10 a
 .\OT1/cmr/m/n/10 g
 .\OT1/cmr/m/n/10 e
+.\pdfendlink
 .\write1{\zref@newlabel{96@vr}{\abspage{\Z@C@abspage }}}
 ! OK.
 l. ...\showbox0
@@ -1428,6 +1460,7 @@ l. ...\showbox0
 .\OT1/cmr/m/n/10 h
 .\OT1/cmr/m/n/10 e
 .\glue 3.33333 plus 1.66666 minus 1.11111
+.\pdfstartlink(*+*)x* attr{/Border[0 0 1]/H/I/C[1 0 0]} action goto name{section.1.1}
 .\OT1/cmr/m/n/10 p
 .\OT1/cmr/m/n/10 r
 .\OT1/cmr/m/n/10 e
@@ -1442,6 +1475,7 @@ l. ...\showbox0
 .\OT1/cmr/m/n/10 a
 .\OT1/cmr/m/n/10 g
 .\OT1/cmr/m/n/10 e
+.\pdfendlink
 .\write1{\zref@newlabel{99@vr}{\abspage{\Z@C@abspage }}}
 .\glue 3.33333 plus 1.66666 minus 1.11111
 .\OT1/cmr/m/n/10 ;
@@ -1454,6 +1488,7 @@ l. ...\showbox0
 .\OT1/cmr/m/n/10 h
 .\OT1/cmr/m/n/10 e
 .\glue 3.33333 plus 1.66666 minus 1.11111
+.\pdfstartlink(*+*)x* attr{/Border[0 0 1]/H/I/C[1 0 0]} action goto name{section.1.1}
 .\OT1/cmr/m/n/10 p
 .\OT1/cmr/m/n/10 r
 .\OT1/cmr/m/n/10 e
@@ -1467,6 +1502,7 @@ l. ...\showbox0
 .\OT1/cmr/m/n/10 a
 .\OT1/cmr/m/n/10 g
 .\OT1/cmr/m/n/10 e
+.\pdfendlink
 .\write1{\zref@newlabel{100@vr}{\abspage{\Z@C@abspage }}}
 ! OK.
 l. ...\showbox0
@@ -1507,6 +1543,7 @@ l. ...\showbox0
 .\OT1/cmr/m/n/10 h
 .\OT1/cmr/m/n/10 e
 .\glue 3.33333 plus 1.66666 minus 1.11111
+.\pdfstartlink(*+*)x* attr{/Border[0 0 1]/H/I/C[1 0 0]} action goto name{section.1.1}
 .\OT1/cmr/m/n/10 p
 .\OT1/cmr/m/n/10 r
 .\OT1/cmr/m/n/10 e
@@ -1521,6 +1558,7 @@ l. ...\showbox0
 .\OT1/cmr/m/n/10 a
 .\OT1/cmr/m/n/10 g
 .\OT1/cmr/m/n/10 e
+.\pdfendlink
 .\write1{\zref@newlabel{103@vr}{\abspage{\Z@C@abspage }}}
 .\glue 3.33333 plus 1.66666 minus 1.11111
 .\OT1/cmr/m/n/10 ;
@@ -1560,6 +1598,7 @@ l. ...\showbox0
 .\OT1/cmr/m/n/10 h
 .\OT1/cmr/m/n/10 e
 .\glue 3.33333 plus 1.66666 minus 1.11111
+.\pdfstartlink(*+*)x* attr{/Border[0 0 1]/H/I/C[1 0 0]} action goto name{section.1.1}
 .\OT1/cmr/m/n/10 p
 .\OT1/cmr/m/n/10 r
 .\OT1/cmr/m/n/10 e
@@ -1573,6 +1612,7 @@ l. ...\showbox0
 .\OT1/cmr/m/n/10 a
 .\OT1/cmr/m/n/10 g
 .\OT1/cmr/m/n/10 e
+.\pdfendlink
 .\write1{\zref@newlabel{104@vr}{\abspage{\Z@C@abspage }}}
 ! OK.
 l. ...\showbox0
@@ -1586,6 +1626,7 @@ l. ...\showbox0
 .\OT1/cmr/m/n/10 h
 .\OT1/cmr/m/n/10 e
 .\glue 3.33333 plus 1.66666 minus 1.11111
+.\pdfstartlink(*+*)x* attr{/Border[0 0 1]/H/I/C[1 0 0]} action goto name{section.1.1}
 .\OT1/cmr/m/n/10 p
 .\OT1/cmr/m/n/10 r
 .\OT1/cmr/m/n/10 e
@@ -1600,6 +1641,7 @@ l. ...\showbox0
 .\OT1/cmr/m/n/10 a
 .\OT1/cmr/m/n/10 g
 .\OT1/cmr/m/n/10 e
+.\pdfendlink
 .\write1{\zref@newlabel{107@vr}{\abspage{\Z@C@abspage }}}
 .\glue 3.33333 plus 1.66666 minus 1.11111
 .\OT1/cmr/m/n/10 ;
@@ -1612,6 +1654,7 @@ l. ...\showbox0
 .\OT1/cmr/m/n/10 h
 .\OT1/cmr/m/n/10 e
 .\glue 3.33333 plus 1.66666 minus 1.11111
+.\pdfstartlink(*+*)x* attr{/Border[0 0 1]/H/I/C[1 0 0]} action goto name{section.1.1}
 .\OT1/cmr/m/n/10 p
 .\OT1/cmr/m/n/10 r
 .\OT1/cmr/m/n/10 e
@@ -1625,6 +1668,7 @@ l. ...\showbox0
 .\OT1/cmr/m/n/10 a
 .\OT1/cmr/m/n/10 g
 .\OT1/cmr/m/n/10 e
+.\pdfendlink
 .\write1{\zref@newlabel{108@vr}{\abspage{\Z@C@abspage }}}
 ! OK.
 l. ...\showbox0
