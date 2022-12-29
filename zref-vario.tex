@@ -279,6 +279,24 @@ options.  Language independent default values are provided for the
 But, if you need to adjust them, the default values can be overridden by
 setting the corresponding options in \cs{zvLanguageSetup}.
 
+\begin{function}{\zvhyperlink}
+  \begin{syntax}
+    \cs{zvhyperlink}\marg{text}
+  \end{syntax}
+\end{function}
+
+Inside the options of \cs{zvLanguageSetup}, and also inside the \opt{vcurrent}
+and \opt{vother} options of \pkg{zref-vario}'s reference commands,
+\cs{zvhyperlink} can be used to produce a hyperlink to the label of the
+reference.  For example, one could set \texttt{reftextafter=\{on the
+  \cs{zvhyperlink}\{next page\}\}} to get ``next page'' hyperlinked.
+\cs{zvhyperlink} can be used regardless of \opt{hyperref} being enabled for
+\pkg{zref-clever}, it will just pass on the \meta{text} argument if it is not.
+On range reference commands, \cs{zvhyperlink} only produces a link when both
+labels fall on the same page, in which case it hyperlinks to the first label.
+
+\bigskip{}
+
 As far as \pkg{zref-vario} is concerned, \pkg{varioref}'s options are (mostly)
 not taken into account: the language options are disregarded (settings made
 with \cs{zvLanguageSetup} are used instead), the \opt{nospace} option is

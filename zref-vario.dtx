@@ -139,11 +139,18 @@
 % the user (and the manual recommends it).  But we do it, if it hasn't been
 % done.
 %
+% Note that \pkg{zref-clever} \texttt{v0.2.0-alpha}, from 2022-01-28, requires
+% a kernel 2021-11-15 or newer.
+%
 %    \begin{macrocode}
 \RequirePackage { zref-clever } [ 2022-01-28 ] % v0.2.0-alpha
 \AddToHook { begindocument/before }
   { \RequirePackage { varioref } }
 %    \end{macrocode}
+%
+% Also note that, contrary to \pkg{zref-clever}, \pkg{zref-vario} is
+% incompatible with \pkg{cleveref}, because the latter patches \pkg{varioref}
+% in ways that break \pkg{zref-vario}.
 %
 %
 % \section{Options}
@@ -565,7 +572,11 @@
     \group_begin:
     \keys_set:nn { zref-vario/ref } {#3}
     \bool_if:nT {#2}
-      { \keys_set:nn { zref-vario/ref } { nohyperref } }
+      {
+        \keys_set:nn { zref-vario/ref } { nohyperref }
+        \bool_set_false:N \l_@@_hyperlink_bool
+      }
+    \tl_set:Nn \l_@@_linklabel_tl {#1}
     \@@_varioref_setup:
     \reftextfaraway {#1}
     \group_end:
@@ -659,6 +670,78 @@
     See~documentation~for~'\iow_char:N\\zvLanguageSetup'.
   }
 %    \end{macrocode}
+%
+%
+%
+% Provide proper hyperlinking for the ``nearby'' page references.
+% \pkg{hyperref} makes \cs{vref} a \emph{single} link, including both the
+% standard and the page reference (see Ulrike Fischer's answer and discussion
+% in the comments at \url{https://tex.stackexchange.com/a/655106}).  However,
+% it does not provide the same treatment to \cs{vpageref}, where there's no
+% linking at all for nearby pages, to \cs{vrefrange}, \cs{vpagerefrange}, or
+% \cs{vnameref}.  In my view, this makes \pkg{hyperref} inconsistent.
+% \pkg{cleveref} indeed discusses the issue in the ``Known Bugs and
+% Work-Arounds'' section, mentioning two problems.  The first, that the page
+% reference does not honor the \texttt{nameinlink} option, which it is
+% actually the same behavior we get from \cs{vnameref}.  The second, that
+% nearby page references are not included in the links or hyperlinked when by
+% themselves.  This latter problem may be considered undesirable, and even a
+% ``bug'', but at least \pkg{cleveref}'s behavior in this regard is
+% consistent.
+%
+% This is actually tricky and I think the best alternative here is to not even
+% try to make a single link of both references, as \pkg{hyperref} does for
+% \cs{vref}.  But rather to offer ways to hyperlink the ``nearby'' page
+% references separately, which is something that can work for paired
+% references and for standalone page references just as well.
+% \cs{zvhyperlink} is provided for such purpose, and is meant to be used
+% either in the reference format settings of \cs{zvLanguageSetup}, or in the
+% \opt{vcurrent} and \opt{vother} options of the reference commands.  It only
+% makes a hyperlink if used in one such place (technically, if
+% \cs{l_@@_linklabel_tl} is not empty), if \cs{l_@@_hyperlink_bool} is true
+% (to control for starred variants) and if \pkg{hyperref} and
+% \pkg{zref-hyperref} are loaded, otherwise it passes on its argument
+% untouched.
+%
+%
+%    \begin{macrocode}
+\bool_new:N \g_@@_zref_hyperref_loaded_bool
+\bool_new:N \l_@@_hyperlink_bool
+\AddToHook { package/zref-hyperref/after }
+  {
+    \AddToHook { package/hyperref/after }
+      {
+        \bool_gset_true:N \g_@@_zref_hyperref_loaded_bool
+        \bool_set_true:N \l_@@_hyperlink_bool
+      }
+  }
+\tl_new:N \l_@@_linklabel_tl
+%    \end{macrocode}
+%
+% \begin{macro}[int]{\zvhyperlink}
+%   \begin{syntax}
+%     \cs{zvhyperlink}\marg{text}
+%   \end{syntax}
+%    \begin{macrocode}
+\NewDocumentCommand \zvhyperlink { m }
+  { \@@_hyperlink:n {#1} }
+\cs_new_protected:Npn \@@_hyperlink:n #1
+  {
+    \bool_lazy_all:nTF
+      {
+        { \g_@@_zref_hyperref_loaded_bool }
+        { \l_@@_hyperlink_bool }
+        { ! \tl_if_empty_p:V \l_@@_linklabel_tl }
+      }
+      {
+        \hyperlink
+          { \zref@extractdefault { \l_@@_linklabel_tl } { anchor } { } }
+          {#1}
+      }
+      {#1}
+  }
+%    \end{macrocode}
+% \end{macro}
 %
 %
 %
@@ -770,7 +853,11 @@
     \group_begin:
     \keys_set:nn { zref-vario/ref-oneoptarg } {#3}
     \bool_if:nT {#2}
-      { \keys_set:nn { zref-vario/ref } { nohyperref } }
+      {
+        \keys_set:nn { zref-vario/ref } { nohyperref }
+        \bool_set_false:N \l_@@_hyperlink_bool
+      }
+    \tl_set:Nn \l_@@_linklabel_tl {#1}
     \@@_varioref_setup:
     \@@_vref:Vn \l_@@_vref_reftextcurrent_tl {#1}
     \group_end:
@@ -801,7 +888,11 @@
     \group_begin:
     \keys_set:nn { zref-vario/ref-twooptargs } {#3}
     \bool_if:nT {#2}
-      { \keys_set:nn { zref-vario/ref } { nohyperref } }
+      {
+        \keys_set:nn { zref-vario/ref } { nohyperref }
+        \bool_set_false:N \l_@@_hyperlink_bool
+      }
+    \tl_set:Nn \l_@@_linklabel_tl {#1}
     \@@_varioref_setup:
     \@@_vpageref:VVn \l_@@_reftextcurrent_tl
       \l_@@_reftextother_tl {#1}
@@ -843,8 +934,13 @@
     \group_begin:
     \keys_set:nn { zref-vario/ref-oneoptarg } {#4}
     \bool_if:nT {#3}
-      { \keys_set:nn { zref-vario/ref } { nohyperref } }
+      {
+        \keys_set:nn { zref-vario/ref } { nohyperref }
+        \bool_set_false:N \l_@@_hyperlink_bool
+      }
     \@@_varioref_setup:
+    \vpagerefcompare {#1} {#2}
+      { \tl_set:Nn \l_@@_linklabel_tl {#1} } { }
     \@@_vrefrange:Vnn \l_@@_reftextcurrent_tl {#1} {#2}
     \group_end:
   }
@@ -871,8 +967,13 @@
     \group_begin:
     \keys_set:nn { zref-vario/ref-oneoptarg } {#4}
     \bool_if:nT {#3}
-      { \keys_set:nn { zref-vario/ref } { nohyperref } }
+      {
+        \keys_set:nn { zref-vario/ref } { nohyperref }
+        \bool_set_false:N \l_@@_hyperlink_bool
+      }
     \@@_varioref_setup:
+    \vpagerefcompare {#1} {#2}
+      { \tl_set:Nn \l_@@_linklabel_tl {#1} } { }
     \@@_vpagerefrange:Vnn \l_@@_reftextcurrent_tl {#1} {#2}
     \bool_lazy_and:nnT
       { \g_@@_zrefcheck_available_bool }
@@ -914,7 +1015,11 @@
     \group_begin:
     \keys_set:nn { zref-vario/ref } {#3}
     \bool_if:nT {#2}
-      { \keys_set:nn { zref-vario/ref } { nohyperref } }
+      {
+        \keys_set:nn { zref-vario/ref } { nohyperref }
+        \bool_set_false:N \l_@@_hyperlink_bool
+      }
+    \tl_set:Nn \l_@@_linklabel_tl {#1}
     \@@_varioref_setup:
     \fullref {#1}
     \group_end:
@@ -991,11 +1096,16 @@
 %    \begin{macrocode}
 \zvLanguageSetup { english }
   {
-    reftextfaceafter = {on~the~\reftextvario{facing}{next}~page} ,
-    reftextfacebefore = {on~the~\reftextvario{facing}{preceding}~page} ,
-    reftextafter = {on~the~\reftextvario{following}{next}~page} ,
-    reftextbefore = {on~the~\reftextvario{preceding}{previous}~page} ,
-    reftextcurrent = {on~\reftextvario{this}{the~current}~page} ,
+    reftextfaceafter =
+      {on~the~\zvhyperlink{\reftextvario{facing}{next}~page}} ,
+    reftextfacebefore =
+      {on~the~\zvhyperlink{\reftextvario{facing}{preceding}~page}} ,
+    reftextafter =
+      {on~the~\zvhyperlink{\reftextvario{following}{next}~page}} ,
+    reftextbefore =
+      {on~the~\zvhyperlink{\reftextvario{preceding}{previous}~page}} ,
+    reftextcurrent =
+      {on~\reftextvario{}{the~}\zvhyperlink{\reftextvario{this}{current}~page}} ,
     reftextfaraway = {on~\zcpageref{#1}} ,
     reftextpagerange = {on~\zcpageref[range]{#1,#2}} ,
     reftextlabelrange = {\zcref[range]{#1,#2}} ,
@@ -1006,11 +1116,11 @@
 %    \begin{macrocode}
 \zvLanguageSetup { german }
   {
-    reftextfaceafter = {auf~der~nächsten~Seite} ,
-    reftextfacebefore = {auf~der~vorherigen~Seite} ,
-    reftextafter = {auf~der~nächsten~Seite} ,
-    reftextbefore = {auf~der~vorherigen~Seite} ,
-    reftextcurrent = {auf~dieser~Seite} ,
+    reftextfaceafter = {auf~der~\zvhyperlink{nächsten~Seite}} ,
+    reftextfacebefore = {auf~der~\zvhyperlink{vorherigen~Seite}} ,
+    reftextafter = {auf~der~\zvhyperlink{nächsten~Seite}} ,
+    reftextbefore = {auf~der~\zvhyperlink{vorherigen~Seite}} ,
+    reftextcurrent = {auf~\zvhyperlink{dieser~Seite}} ,
     reftextfaraway = {auf~\zcpageref[d=D,g=f]{#1}} ,
     reftextpagerange = {auf~den~\zcpageref[range,d=D,g=f]{#1,#2}} ,
     reftextlabelrange = {\zcref[range]{#1,#2}} ,
@@ -1021,11 +1131,13 @@
 %    \begin{macrocode}
 \zvLanguageSetup { french }
   {
-    reftextfaceafter = {page~\reftextvario{ci-contre}{suivante}} ,
-    reftextfacebefore = {page~\reftextvario{ci-contre}{précédente}} ,
-    reftextafter = {page~suivante} ,
-    reftextbefore = {page~précédente} ,
-    reftextcurrent = {de~la~présente~page} ,
+    reftextfaceafter =
+      {\zvhyperlink{page~\reftextvario{ci-contre}{suivante}}} ,
+    reftextfacebefore =
+      {\zvhyperlink{page~\reftextvario{ci-contre}{précédente}}} ,
+    reftextafter = {\zvhyperlink{page~suivante}} ,
+    reftextbefore = {\zvhyperlink{page~précédente}} ,
+    reftextcurrent = {de~la~\zvhyperlink{présente~page}} ,
     reftextfaraway = {\zcpageref[g=f]{#1}} ,
     reftextpagerange = {\zcpageref[range,g=f]{#1,#2}} ,
     reftextlabelrange = {\zcref[range]{#1,#2}} ,
@@ -1036,11 +1148,15 @@
 %    \begin{macrocode}
 \zvLanguageSetup { portuguese }
   {
-    reftextfaceafter = {na~\reftextvario{página~oposta}{próxima~página}} ,
-    reftextfacebefore = {na~página~\reftextvario{oposta}{anterior}} ,
-    reftextafter = {na~\reftextvario{página~seguinte}{próxima~página}} ,
-    reftextbefore = {na~página~\reftextvario{anterior}{precedente}} ,
-    reftextcurrent = {nesta~página} ,
+    reftextfaceafter =
+      {na~\zvhyperlink{\reftextvario{página~oposta}{próxima~página}}} ,
+    reftextfacebefore =
+      {na~\zvhyperlink{página~\reftextvario{oposta}{anterior}}} ,
+    reftextafter =
+      {na~\zvhyperlink{\reftextvario{página~seguinte}{próxima~página}}} ,
+    reftextbefore =
+      {na~\zvhyperlink{página~\reftextvario{anterior}{precedente}}} ,
+    reftextcurrent = {\zvhyperlink{nesta~página}} ,
     reftextfaraway = {na~\zcpageref[g=f]{#1}} ,
     reftextpagerange = {nas~\zcpageref[range,g=f]{#1,#2}} ,
     reftextlabelrange = {\zcref[range]{#1,#2}} ,
@@ -1051,11 +1167,11 @@
 %    \begin{macrocode}
 \zvLanguageSetup { spanish }
   {
-    reftextfaceafter = {en~la~página~siguiente} ,
-    reftextfacebefore = {en~la~página~anterior} ,
-    reftextafter = {en~la~página~siguiente} ,
-    reftextbefore = {en~la~página~anterior} ,
-    reftextcurrent = {en~esta~página} ,
+    reftextfaceafter = {en~la~\zvhyperlink{página~siguiente}} ,
+    reftextfacebefore = {en~la~\zvhyperlink{página~anterior}} ,
+    reftextafter = {en~la~\zvhyperlink{página~siguiente}} ,
+    reftextbefore = {en~la~\zvhyperlink{página~anterior}} ,
+    reftextcurrent = {en~\zvhyperlink{esta~página}} ,
     reftextfaraway = {en~la~\zcpageref[g=f]{#1}} ,
     reftextpagerange = {en~las~\zcpageref[range,g=f]{#1,#2}} ,
     reftextlabelrange = {\zcref[range]{#1,#2}} ,
@@ -1066,11 +1182,15 @@
 %    \begin{macrocode}
 \zvLanguageSetup { dutch }
   {
-    reftextfaceafter = {op~de~\reftextvario{rechter~pagina}{pagina~hiernaast}} ,
-    reftextfacebefore = {op~de~\reftextvario{linker~pagina}{pagina~hiernaast}} ,
-    reftextafter = {op~de~\reftextvario{volgende~pagina}{pagina~hierna}} ,
-    reftextbefore = {op~de~\reftextvario{vorige~pagina}{pagina~hiervoor}} ,
-    reftextcurrent = {op~deze~pagina} ,
+    reftextfaceafter =
+      {op~de~\zvhyperlink{\reftextvario{rechter~pagina}{pagina~hiernaast}}} ,
+    reftextfacebefore =
+      {op~de~\zvhyperlink{\reftextvario{linker~pagina}{pagina~hiernaast}}} ,
+    reftextafter =
+      {op~de~\zvhyperlink{\reftextvario{volgende~pagina}{pagina~hierna}}} ,
+    reftextbefore =
+      {op~de~\zvhyperlink{\reftextvario{vorige~pagina}{pagina~hiervoor}}} ,
+    reftextcurrent = {op~\zvhyperlink{deze~pagina}} ,
     reftextfaraway = {op~\zcpageref[g=f]{#1}} ,
     reftextpagerange = {op~\zcpageref[range,g=f]{#1,#2}} ,
     reftextlabelrange = {\zcref[range]{#1,#2}} ,

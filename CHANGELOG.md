@@ -2,6 +2,10 @@
 
 ## [Unreleased](https://github.com/gusbrs/zref-vario/compare/v0.1.5...HEAD)
 
+### Added
+- Hyperlinking for the nearby page references and for the page part of paired
+  references.
+
 ## [v0.1.5](https://github.com/gusbrs/zref-vario/compare/v0.1.4...v0.1.5) (2022-07-08)
 
 ### Added
