@@ -1,6 +1,8 @@
 # Changelog
 
-## [Unreleased](https://github.com/gusbrs/zref-vario/compare/v0.1.5...HEAD)
+## [Unreleased](https://github.com/gusbrs/zref-vario/compare/v0.1.6...HEAD)
+
+## [v0.1.6](https://github.com/gusbrs/zref-vario/compare/v0.1.5...v0.1.6) (2022-12-29)
 
 ### Added
 - Hyperlinking for the nearby page references and for the page part of paired

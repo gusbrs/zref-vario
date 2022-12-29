@@ -1,9 +1,7 @@
-## v0.1.5 (2022-07-08)
+## v0.1.6 (2022-12-29)
 
 ### Added
-- `\zvsetup` for package options settings.
-- `pageprop` option to set the reference property used for page comparisons.
-  This option lifts `varioref`'s restriction of depending on the arabic page
-  numbering to distinguish between nearby and far away references.  See the
-  user manual for details.
+- Hyperlinking for the nearby page references and for the page part of paired
+  references.
+- Localization for Italian.
 
