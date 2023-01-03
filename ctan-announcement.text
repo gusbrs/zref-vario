@@ -1,7 +1,6 @@
-## v0.1.6 (2022-12-29)
+## v0.1.7 (2023-01-03)
 
-### Added
-- Hyperlinking for the nearby page references and for the page part of paired
-  references.
-- Localization for Italian.
+### Changed
+- Improved Italian localization (see issue
+  [#1](https://github.com/gusbrs/zref-vario/issues/1)).
 

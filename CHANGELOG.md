@@ -1,6 +1,8 @@
 # Changelog
 
-## [Unreleased](https://github.com/gusbrs/zref-vario/compare/v0.1.6...HEAD)
+## [Unreleased](https://github.com/gusbrs/zref-vario/compare/v0.1.7...HEAD)
+
+## [v0.1.7](https://github.com/gusbrs/zref-vario/compare/v0.1.6...v0.1.7) (2023-01-03)
 
 ### Changed
 - Improved Italian localization (see issue
