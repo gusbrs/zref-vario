@@ -219,12 +219,12 @@ l. ...  }
 ============================================================
 TEST 7: italian
 ============================================================
-> \g__zrefvario_ref_opt_lang_italian_reftextfaceafter_tl=\reftextvario
-{}{nella }\zvhyperlink {\reftextvario {a fronte}{pagina successiva}}.
+> \g__zrefvario_ref_opt_lang_italian_reftextfaceafter_tl=nella \zvhyperlink
+{pagina \reftextvario {a fianco}{successiva}}.
 <recently read> }
 l. ...  }
-> \g__zrefvario_ref_opt_lang_italian_reftextfacebefore_tl=\reftextvario
-{}{nella }\zvhyperlink {\reftextvario {a fronte}{pagina precedente}}.
+> \g__zrefvario_ref_opt_lang_italian_reftextfacebefore_tl=nella \zvhyperlink
+{pagina \reftextvario {a fianco}{precedente}}.
 <recently read> }
 l. ...  }
 > \g__zrefvario_ref_opt_lang_italian_reftextafter_tl=nella \zvhyperlink
