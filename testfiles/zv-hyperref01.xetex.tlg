@@ -4,153 +4,267 @@ Don't change this file in any respect.
 TEST 1: Unstarred
 ============================================================
 > \box...=
-\hbox(6.66+1.92998)x101.76001
-.\special{pdf:bann<</Type/Annot/Subtype/Link/Border[0 0 1]/H/I/C[1 0 0]/A<</S/G\ETC.}
-.\TU/lmr/m/n/10 section
+\hbox(6.67859+1.94444)x101.77794
+.\special{pdf:bann<</Type/Annot/Subtype/Link/Border[0 0 1]/H/I/C[1 0 0]/A<</S/GoTo/D(section.1.1)>>>>}
+.\OT1/cmr/m/n/10 s
+.\OT1/cmr/m/n/10 e
+.\OT1/cmr/m/n/10 c
+.\OT1/cmr/m/n/10 t
+.\OT1/cmr/m/n/10 i
+.\OT1/cmr/m/n/10 o
+.\OT1/cmr/m/n/10 n
 .\penalty 10000
-.\glue 3.33 plus 1.665 minus 1.11
-.\TU/lmr/m/n/10 1.1
+.\glue 3.33333 plus 1.66666 minus 1.11111
+.\OT1/cmr/m/n/10 1
+.\OT1/cmr/m/n/10 .
+.\OT1/cmr/m/n/10 1
 .\special{pdf:eann}
 .\write1{\zref@newlabel{1@xvr}{\page{\Z@C@page }}}
 .\write1{\zref@newlabel{1@vr}{\page{\Z@C@page }}}
-.\glue 3.33 plus 1.665 minus 1.11
-.\TU/lmr/m/n/10 ;
-.\glue 3.33 plus 2.49748 minus 0.73999
-.\special{pdf:bann<</Type/Annot/Subtype/Link/Border[0 0 1]/H/I/C[1 0 0]/A<</S/G\ETC.}
-.\TU/lmr/m/n/10 section
+.\glue 3.33333 plus 1.66666 minus 1.11111
+.\OT1/cmr/m/n/10 ;
+.\glue 3.33333 plus 2.49998 minus 0.74074
+.\special{pdf:bann<</Type/Annot/Subtype/Link/Border[0 0 1]/H/I/C[1 0 0]/A<</S/GoTo/D(section.1.1)>>>>}
+.\OT1/cmr/m/n/10 s
+.\OT1/cmr/m/n/10 e
+.\OT1/cmr/m/n/10 c
+.\OT1/cmr/m/n/10 t
+.\OT1/cmr/m/n/10 i
+.\OT1/cmr/m/n/10 o
+.\OT1/cmr/m/n/10 n
 .\penalty 10000
-.\glue 3.33 plus 1.665 minus 1.11
-.\TU/lmr/m/n/10 1.1
+.\glue 3.33333 plus 1.66666 minus 1.11111
+.\OT1/cmr/m/n/10 1
+.\OT1/cmr/m/n/10 .
+.\OT1/cmr/m/n/10 1
 .\special{pdf:eann}
 .\write1{\zref@newlabel{2@xvr}{\page{\Z@C@page }}}
 .\write1{\zref@newlabel{2@vr}{\page{\Z@C@page }}}
 ! OK.
 l. ...\showbox0
 > \box...=
-\hbox(6.94+2.05998)x148.72
+\hbox(6.94444+1.94444)x148.72246
 .\write1{\zref@newlabel{3@xvr}{\page{\Z@C@page }}}
-.\TU/lmr/m/n/10 on
-.\glue 3.33 plus 1.665 minus 1.11
-.\special{pdf:bann<</Type/Annot/Subtype/Link/Border[0 0 1]/H/I/C[1 0 0]/A<</S/G\ETC.}
-.\TU/lmr/m/n/10 this
-.\glue 3.33 plus 1.665 minus 1.11
-.\TU/lmr/m/n/10 page
+.\OT1/cmr/m/n/10 o
+.\OT1/cmr/m/n/10 n
+.\glue 3.33333 plus 1.66666 minus 1.11111
+.\special{pdf:bann<</Type/Annot/Subtype/Link/Border[0 0 1]/H/I/C[1 0 0]/A<</S/GoTo/D(section.1.1)>>>>}
+.\OT1/cmr/m/n/10 t
+.\OT1/cmr/m/n/10 h
+.\OT1/cmr/m/n/10 i
+.\OT1/cmr/m/n/10 s
+.\glue 3.33333 plus 1.66666 minus 1.11111
+.\OT1/cmr/m/n/10 p
+.\OT1/cmr/m/n/10 a
+.\OT1/cmr/m/n/10 g
+.\OT1/cmr/m/n/10 e
 .\special{pdf:eann}
 .\write1{\zref@newlabel{3@vr}{\page{\Z@C@page }}}
-.\glue 3.33 plus 1.665 minus 1.11
-.\TU/lmr/m/n/10 ;
+.\glue 3.33333 plus 1.66666 minus 1.11111
+.\OT1/cmr/m/n/10 ;
 .\write1{\zref@newlabel{4@xvr}{\page{\Z@C@page }}}
-.\glue 3.33 plus 2.49748 minus 0.73999
-.\TU/lmr/m/n/10 on
-.\glue 3.33 plus 1.665 minus 1.11
-.\TU/lmr/m/n/10 the
-.\glue 3.33 plus 1.665 minus 1.11
-.\special{pdf:bann<</Type/Annot/Subtype/Link/Border[0 0 1]/H/I/C[1 0 0]/A<</S/G\ETC.}
-.\TU/lmr/m/n/10 current
-.\glue 3.33 plus 1.665 minus 1.11
-.\TU/lmr/m/n/10 page
+.\glue 3.33333 plus 2.49998 minus 0.74074
+.\OT1/cmr/m/n/10 o
+.\OT1/cmr/m/n/10 n
+.\glue 3.33333 plus 1.66666 minus 1.11111
+.\OT1/cmr/m/n/10 t
+.\OT1/cmr/m/n/10 h
+.\OT1/cmr/m/n/10 e
+.\glue 3.33333 plus 1.66666 minus 1.11111
+.\special{pdf:bann<</Type/Annot/Subtype/Link/Border[0 0 1]/H/I/C[1 0 0]/A<</S/GoTo/D(section.1.1)>>>>}
+.\OT1/cmr/m/n/10 c
+.\OT1/cmr/m/n/10 u
+.\OT1/cmr/m/n/10 r
+.\OT1/cmr/m/n/10 r
+.\OT1/cmr/m/n/10 e
+.\OT1/cmr/m/n/10 n
+.\kern-0.27779
+.\OT1/cmr/m/n/10 t
+.\glue 3.33333 plus 1.66666 minus 1.11111
+.\OT1/cmr/m/n/10 p
+.\OT1/cmr/m/n/10 a
+.\OT1/cmr/m/n/10 g
+.\OT1/cmr/m/n/10 e
 .\special{pdf:eann}
 .\write1{\zref@newlabel{4@vr}{\page{\Z@C@page }}}
 ! OK.
 l. ...\showbox0
 > \box...=
-\hbox(6.94+2.05998)x326.70001
-.\TU/lmr/m/n/10 sections
+\hbox(6.94444+1.94444)x326.72276
+.\OT1/cmr/m/n/10 s
+.\OT1/cmr/m/n/10 e
+.\OT1/cmr/m/n/10 c
+.\OT1/cmr/m/n/10 t
+.\OT1/cmr/m/n/10 i
+.\OT1/cmr/m/n/10 o
+.\OT1/cmr/m/n/10 n
+.\OT1/cmr/m/n/10 s
 .\penalty 10000
-.\glue 3.33 plus 1.665 minus 1.11
-.\special{pdf:bann<</Type/Annot/Subtype/Link/Border[0 0 1]/H/I/C[1 0 0]/A<</S/G\ETC.}
-.\TU/lmr/m/n/10 1.1
+.\glue 3.33333 plus 1.66666 minus 1.11111
+.\special{pdf:bann<</Type/Annot/Subtype/Link/Border[0 0 1]/H/I/C[1 0 0]/A<</S/GoTo/D(section.1.1)>>>>}
+.\OT1/cmr/m/n/10 1
+.\OT1/cmr/m/n/10 .
+.\OT1/cmr/m/n/10 1
 .\special{pdf:eann}
-.\glue 3.33 plus 1.665 minus 1.11
-.\TU/lmr/m/n/10 and
+.\glue 3.33333 plus 1.66666 minus 1.11111
+.\OT1/cmr/m/n/10 a
+.\OT1/cmr/m/n/10 n
+.\OT1/cmr/m/n/10 d
 .\penalty 10000
-.\glue 3.33 plus 1.665 minus 1.11
-.\special{pdf:bann<</Type/Annot/Subtype/Link/Border[0 0 1]/H/I/C[1 0 0]/A<</S/G\ETC.}
-.\TU/lmr/m/n/10 1.2
+.\glue 3.33333 plus 1.66666 minus 1.11111
+.\special{pdf:bann<</Type/Annot/Subtype/Link/Border[0 0 1]/H/I/C[1 0 0]/A<</S/GoTo/D(section.1.2)>>>>}
+.\OT1/cmr/m/n/10 1
+.\OT1/cmr/m/n/10 .
+.\OT1/cmr/m/n/10 2
 .\special{pdf:eann}
 .\write1{\zref@newlabel{5@xvr}{\page{\Z@C@page }}}
-.\glue 3.33 plus 1.665 minus 1.11
-.\TU/lmr/m/n/10 on
-.\glue 3.33 plus 1.665 minus 1.11
-.\special{pdf:bann<</Type/Annot/Subtype/Link/Border[0 0 1]/H/I/C[1 0 0]/A<</S/G\ETC.}
-.\TU/lmr/m/n/10 this
-.\glue 3.33 plus 1.665 minus 1.11
-.\TU/lmr/m/n/10 page
+.\glue 3.33333 plus 1.66666 minus 1.11111
+.\OT1/cmr/m/n/10 o
+.\OT1/cmr/m/n/10 n
+.\glue 3.33333 plus 1.66666 minus 1.11111
+.\special{pdf:bann<</Type/Annot/Subtype/Link/Border[0 0 1]/H/I/C[1 0 0]/A<</S/GoTo/D(section.1.1)>>>>}
+.\OT1/cmr/m/n/10 t
+.\OT1/cmr/m/n/10 h
+.\OT1/cmr/m/n/10 i
+.\OT1/cmr/m/n/10 s
+.\glue 3.33333 plus 1.66666 minus 1.11111
+.\OT1/cmr/m/n/10 p
+.\OT1/cmr/m/n/10 a
+.\OT1/cmr/m/n/10 g
+.\OT1/cmr/m/n/10 e
 .\special{pdf:eann}
 .\write1{\zref@newlabel{5@vr}{\page{\Z@C@page }}}
-.\glue 3.33 plus 1.665 minus 1.11
-.\TU/lmr/m/n/10 ;
-.\glue 3.33 plus 2.49748 minus 0.73999
-.\TU/lmr/m/n/10 sections
+.\glue 3.33333 plus 1.66666 minus 1.11111
+.\OT1/cmr/m/n/10 ;
+.\glue 3.33333 plus 2.49998 minus 0.74074
+.\OT1/cmr/m/n/10 s
+.\OT1/cmr/m/n/10 e
+.\OT1/cmr/m/n/10 c
+.\OT1/cmr/m/n/10 t
+.\OT1/cmr/m/n/10 i
+.\OT1/cmr/m/n/10 o
+.\OT1/cmr/m/n/10 n
+.\OT1/cmr/m/n/10 s
 .\penalty 10000
-.\glue 3.33 plus 1.665 minus 1.11
-.\special{pdf:bann<</Type/Annot/Subtype/Link/Border[0 0 1]/H/I/C[1 0 0]/A<</S/G\ETC.}
-.\TU/lmr/m/n/10 1.1
+.\glue 3.33333 plus 1.66666 minus 1.11111
+.\special{pdf:bann<</Type/Annot/Subtype/Link/Border[0 0 1]/H/I/C[1 0 0]/A<</S/GoTo/D(section.1.1)>>>>}
+.\OT1/cmr/m/n/10 1
+.\OT1/cmr/m/n/10 .
+.\OT1/cmr/m/n/10 1
 .\special{pdf:eann}
-.\glue 3.33 plus 1.665 minus 1.11
-.\TU/lmr/m/n/10 and
+.\glue 3.33333 plus 1.66666 minus 1.11111
+.\OT1/cmr/m/n/10 a
+.\OT1/cmr/m/n/10 n
+.\OT1/cmr/m/n/10 d
 .\penalty 10000
-.\glue 3.33 plus 1.665 minus 1.11
-.\special{pdf:bann<</Type/Annot/Subtype/Link/Border[0 0 1]/H/I/C[1 0 0]/A<</S/G\ETC.}
-.\TU/lmr/m/n/10 1.2
+.\glue 3.33333 plus 1.66666 minus 1.11111
+.\special{pdf:bann<</Type/Annot/Subtype/Link/Border[0 0 1]/H/I/C[1 0 0]/A<</S/GoTo/D(section.1.2)>>>>}
+.\OT1/cmr/m/n/10 1
+.\OT1/cmr/m/n/10 .
+.\OT1/cmr/m/n/10 2
 .\special{pdf:eann}
 .\write1{\zref@newlabel{6@xvr}{\page{\Z@C@page }}}
-.\glue 3.33 plus 1.665 minus 1.11
-.\TU/lmr/m/n/10 on
-.\glue 3.33 plus 1.665 minus 1.11
-.\TU/lmr/m/n/10 the
-.\glue 3.33 plus 1.665 minus 1.11
-.\special{pdf:bann<</Type/Annot/Subtype/Link/Border[0 0 1]/H/I/C[1 0 0]/A<</S/G\ETC.}
-.\TU/lmr/m/n/10 current
-.\glue 3.33 plus 1.665 minus 1.11
-.\TU/lmr/m/n/10 page
+.\glue 3.33333 plus 1.66666 minus 1.11111
+.\OT1/cmr/m/n/10 o
+.\OT1/cmr/m/n/10 n
+.\glue 3.33333 plus 1.66666 minus 1.11111
+.\OT1/cmr/m/n/10 t
+.\OT1/cmr/m/n/10 h
+.\OT1/cmr/m/n/10 e
+.\glue 3.33333 plus 1.66666 minus 1.11111
+.\special{pdf:bann<</Type/Annot/Subtype/Link/Border[0 0 1]/H/I/C[1 0 0]/A<</S/GoTo/D(section.1.1)>>>>}
+.\OT1/cmr/m/n/10 c
+.\OT1/cmr/m/n/10 u
+.\OT1/cmr/m/n/10 r
+.\OT1/cmr/m/n/10 r
+.\OT1/cmr/m/n/10 e
+.\OT1/cmr/m/n/10 n
+.\kern-0.27779
+.\OT1/cmr/m/n/10 t
+.\glue 3.33333 plus 1.66666 minus 1.11111
+.\OT1/cmr/m/n/10 p
+.\OT1/cmr/m/n/10 a
+.\OT1/cmr/m/n/10 g
+.\OT1/cmr/m/n/10 e
 .\special{pdf:eann}
 .\write1{\zref@newlabel{6@vr}{\page{\Z@C@page }}}
 ! OK.
 l. ...\showbox0
 > \box...=
-\hbox(6.94+2.05998)x148.72
+\hbox(6.94444+1.94444)x148.72246
 .\write1{\zref@newlabel{7@xvr}{\page{\Z@C@page }}}
-.\TU/lmr/m/n/10 on
-.\glue 3.33 plus 1.665 minus 1.11
-.\special{pdf:bann<</Type/Annot/Subtype/Link/Border[0 0 1]/H/I/C[1 0 0]/A<</S/G\ETC.}
-.\TU/lmr/m/n/10 this
-.\glue 3.33 plus 1.665 minus 1.11
-.\TU/lmr/m/n/10 page
+.\OT1/cmr/m/n/10 o
+.\OT1/cmr/m/n/10 n
+.\glue 3.33333 plus 1.66666 minus 1.11111
+.\special{pdf:bann<</Type/Annot/Subtype/Link/Border[0 0 1]/H/I/C[1 0 0]/A<</S/GoTo/D(section.1.1)>>>>}
+.\OT1/cmr/m/n/10 t
+.\OT1/cmr/m/n/10 h
+.\OT1/cmr/m/n/10 i
+.\OT1/cmr/m/n/10 s
+.\glue 3.33333 plus 1.66666 minus 1.11111
+.\OT1/cmr/m/n/10 p
+.\OT1/cmr/m/n/10 a
+.\OT1/cmr/m/n/10 g
+.\OT1/cmr/m/n/10 e
 .\special{pdf:eann}
 .\write1{\zref@newlabel{7@vr}{\page{\Z@C@page }}}
-.\glue 3.33 plus 1.665 minus 1.11
-.\TU/lmr/m/n/10 ;
+.\glue 3.33333 plus 1.66666 minus 1.11111
+.\OT1/cmr/m/n/10 ;
 .\write1{\zref@newlabel{8@xvr}{\page{\Z@C@page }}}
-.\glue 3.33 plus 2.49748 minus 0.73999
-.\TU/lmr/m/n/10 on
-.\glue 3.33 plus 1.665 minus 1.11
-.\TU/lmr/m/n/10 the
-.\glue 3.33 plus 1.665 minus 1.11
-.\special{pdf:bann<</Type/Annot/Subtype/Link/Border[0 0 1]/H/I/C[1 0 0]/A<</S/G\ETC.}
-.\TU/lmr/m/n/10 current
-.\glue 3.33 plus 1.665 minus 1.11
-.\TU/lmr/m/n/10 page
+.\glue 3.33333 plus 2.49998 minus 0.74074
+.\OT1/cmr/m/n/10 o
+.\OT1/cmr/m/n/10 n
+.\glue 3.33333 plus 1.66666 minus 1.11111
+.\OT1/cmr/m/n/10 t
+.\OT1/cmr/m/n/10 h
+.\OT1/cmr/m/n/10 e
+.\glue 3.33333 plus 1.66666 minus 1.11111
+.\special{pdf:bann<</Type/Annot/Subtype/Link/Border[0 0 1]/H/I/C[1 0 0]/A<</S/GoTo/D(section.1.1)>>>>}
+.\OT1/cmr/m/n/10 c
+.\OT1/cmr/m/n/10 u
+.\OT1/cmr/m/n/10 r
+.\OT1/cmr/m/n/10 r
+.\OT1/cmr/m/n/10 e
+.\OT1/cmr/m/n/10 n
+.\kern-0.27779
+.\OT1/cmr/m/n/10 t
+.\glue 3.33333 plus 1.66666 minus 1.11111
+.\OT1/cmr/m/n/10 p
+.\OT1/cmr/m/n/10 a
+.\OT1/cmr/m/n/10 g
+.\OT1/cmr/m/n/10 e
 .\special{pdf:eann}
 .\write1{\zref@newlabel{8@vr}{\page{\Z@C@page }}}
 ! OK.
 l. ...\showbox0
 > \box...=
-\hbox(6.66+2.05998)x91.71
-.\special{pdf:bann<</Type/Annot/Subtype/Link/Border[0 0 1]/H/I/C[1 0 0]/A<</S/G\ETC.}
-.\TU/lmr/m/n/10 section
+\hbox(6.67859+1.94444)x91.72238
+.\special{pdf:bann<</Type/Annot/Subtype/Link/Border[0 0 1]/H/I/C[1 0 0]/A<</S/GoTo/D(section.1.1)>>>>}
+.\OT1/cmr/m/n/10 s
+.\OT1/cmr/m/n/10 e
+.\OT1/cmr/m/n/10 c
+.\OT1/cmr/m/n/10 t
+.\OT1/cmr/m/n/10 i
+.\OT1/cmr/m/n/10 o
+.\OT1/cmr/m/n/10 n
 .\penalty 10000
-.\glue 3.33 plus 1.665 minus 1.11
-.\TU/lmr/m/n/10 1.1
+.\glue 3.33333 plus 1.66666 minus 1.11111
+.\OT1/cmr/m/n/10 1
+.\OT1/cmr/m/n/10 .
+.\OT1/cmr/m/n/10 1
 .\special{pdf:eann}
-.\glue 3.33 plus 1.665 minus 1.11
-.\TU/lmr/m/n/10 on
-.\glue 3.33 plus 1.665 minus 1.11
-.\special{pdf:bann<</Type/Annot/Subtype/Link/Border[0 0 1]/H/I/C[1 0 0]/A<</S/G\ETC.}
-.\TU/lmr/m/n/10 page
+.\glue 3.33333 plus 1.66666 minus 1.11111
+.\OT1/cmr/m/n/10 o
+.\OT1/cmr/m/n/10 n
+.\glue 3.33333 plus 1.66666 minus 1.11111
+.\special{pdf:bann<</Type/Annot/Subtype/Link/Border[0 0 1]/H/I/C[1 0 0]/A<</S/GoTo/D(section.1.1)>>>>}
+.\OT1/cmr/m/n/10 p
+.\OT1/cmr/m/n/10 a
+.\OT1/cmr/m/n/10 g
+.\OT1/cmr/m/n/10 e
 .\penalty 10000
-.\glue 3.33 plus 1.665 minus 1.11
-.\TU/lmr/m/n/10 1
+.\glue 3.33333 plus 1.66666 minus 1.11111
+.\OT1/cmr/m/n/10 1
 .\special{pdf:eann}
 ! OK.
 l. ...\showbox0
@@ -159,126 +273,240 @@ l. ...\showbox0
 TEST 2: Starred
 ============================================================
 > \box...=
-\hbox(6.66+1.92998)x101.76001
-.\TU/lmr/m/n/10 section
+\hbox(6.67859+1.94444)x101.77794
+.\OT1/cmr/m/n/10 s
+.\OT1/cmr/m/n/10 e
+.\OT1/cmr/m/n/10 c
+.\OT1/cmr/m/n/10 t
+.\OT1/cmr/m/n/10 i
+.\OT1/cmr/m/n/10 o
+.\OT1/cmr/m/n/10 n
 .\penalty 10000
-.\glue 3.33 plus 1.665 minus 1.11
-.\TU/lmr/m/n/10 1.1
+.\glue 3.33333 plus 1.66666 minus 1.11111
+.\OT1/cmr/m/n/10 1
+.\OT1/cmr/m/n/10 .
+.\OT1/cmr/m/n/10 1
 .\write1{\zref@newlabel{9@xvr}{\page{\Z@C@page }}}
 .\write1{\zref@newlabel{9@vr}{\page{\Z@C@page }}}
-.\glue 3.33 plus 1.665 minus 1.11
-.\TU/lmr/m/n/10 ;
-.\glue 3.33 plus 2.49748 minus 0.73999
-.\TU/lmr/m/n/10 section
+.\glue 3.33333 plus 1.66666 minus 1.11111
+.\OT1/cmr/m/n/10 ;
+.\glue 3.33333 plus 2.49998 minus 0.74074
+.\OT1/cmr/m/n/10 s
+.\OT1/cmr/m/n/10 e
+.\OT1/cmr/m/n/10 c
+.\OT1/cmr/m/n/10 t
+.\OT1/cmr/m/n/10 i
+.\OT1/cmr/m/n/10 o
+.\OT1/cmr/m/n/10 n
 .\penalty 10000
-.\glue 3.33 plus 1.665 minus 1.11
-.\TU/lmr/m/n/10 1.1
+.\glue 3.33333 plus 1.66666 minus 1.11111
+.\OT1/cmr/m/n/10 1
+.\OT1/cmr/m/n/10 .
+.\OT1/cmr/m/n/10 1
 .\write1{\zref@newlabel{10@xvr}{\page{\Z@C@page }}}
 .\write1{\zref@newlabel{10@vr}{\page{\Z@C@page }}}
 ! OK.
 l. ...\showbox0
 > \box...=
-\hbox(6.94+2.05998)x148.72
+\hbox(6.94444+1.94444)x148.72246
 .\write1{\zref@newlabel{11@xvr}{\page{\Z@C@page }}}
-.\TU/lmr/m/n/10 on
-.\glue 3.33 plus 1.665 minus 1.11
-.\TU/lmr/m/n/10 this
-.\glue 3.33 plus 1.665 minus 1.11
-.\TU/lmr/m/n/10 page
+.\OT1/cmr/m/n/10 o
+.\OT1/cmr/m/n/10 n
+.\glue 3.33333 plus 1.66666 minus 1.11111
+.\OT1/cmr/m/n/10 t
+.\OT1/cmr/m/n/10 h
+.\OT1/cmr/m/n/10 i
+.\OT1/cmr/m/n/10 s
+.\glue 3.33333 plus 1.66666 minus 1.11111
+.\OT1/cmr/m/n/10 p
+.\OT1/cmr/m/n/10 a
+.\OT1/cmr/m/n/10 g
+.\OT1/cmr/m/n/10 e
 .\write1{\zref@newlabel{11@vr}{\page{\Z@C@page }}}
-.\glue 3.33 plus 1.665 minus 1.11
-.\TU/lmr/m/n/10 ;
+.\glue 3.33333 plus 1.66666 minus 1.11111
+.\OT1/cmr/m/n/10 ;
 .\write1{\zref@newlabel{12@xvr}{\page{\Z@C@page }}}
-.\glue 3.33 plus 2.49748 minus 0.73999
-.\TU/lmr/m/n/10 on
-.\glue 3.33 plus 1.665 minus 1.11
-.\TU/lmr/m/n/10 the
-.\glue 3.33 plus 1.665 minus 1.11
-.\TU/lmr/m/n/10 current
-.\glue 3.33 plus 1.665 minus 1.11
-.\TU/lmr/m/n/10 page
+.\glue 3.33333 plus 2.49998 minus 0.74074
+.\OT1/cmr/m/n/10 o
+.\OT1/cmr/m/n/10 n
+.\glue 3.33333 plus 1.66666 minus 1.11111
+.\OT1/cmr/m/n/10 t
+.\OT1/cmr/m/n/10 h
+.\OT1/cmr/m/n/10 e
+.\glue 3.33333 plus 1.66666 minus 1.11111
+.\OT1/cmr/m/n/10 c
+.\OT1/cmr/m/n/10 u
+.\OT1/cmr/m/n/10 r
+.\OT1/cmr/m/n/10 r
+.\OT1/cmr/m/n/10 e
+.\OT1/cmr/m/n/10 n
+.\kern-0.27779
+.\OT1/cmr/m/n/10 t
+.\glue 3.33333 plus 1.66666 minus 1.11111
+.\OT1/cmr/m/n/10 p
+.\OT1/cmr/m/n/10 a
+.\OT1/cmr/m/n/10 g
+.\OT1/cmr/m/n/10 e
 .\write1{\zref@newlabel{12@vr}{\page{\Z@C@page }}}
 ! OK.
 l. ...\showbox0
 > \box...=
-\hbox(6.94+2.05998)x326.70001
-.\TU/lmr/m/n/10 sections
+\hbox(6.94444+1.94444)x326.72276
+.\OT1/cmr/m/n/10 s
+.\OT1/cmr/m/n/10 e
+.\OT1/cmr/m/n/10 c
+.\OT1/cmr/m/n/10 t
+.\OT1/cmr/m/n/10 i
+.\OT1/cmr/m/n/10 o
+.\OT1/cmr/m/n/10 n
+.\OT1/cmr/m/n/10 s
 .\penalty 10000
-.\glue 3.33 plus 1.665 minus 1.11
-.\TU/lmr/m/n/10 1.1
-.\glue 3.33 plus 1.665 minus 1.11
-.\TU/lmr/m/n/10 and
+.\glue 3.33333 plus 1.66666 minus 1.11111
+.\OT1/cmr/m/n/10 1
+.\OT1/cmr/m/n/10 .
+.\OT1/cmr/m/n/10 1
+.\glue 3.33333 plus 1.66666 minus 1.11111
+.\OT1/cmr/m/n/10 a
+.\OT1/cmr/m/n/10 n
+.\OT1/cmr/m/n/10 d
 .\penalty 10000
-.\glue 3.33 plus 1.665 minus 1.11
-.\TU/lmr/m/n/10 1.2
+.\glue 3.33333 plus 1.66666 minus 1.11111
+.\OT1/cmr/m/n/10 1
+.\OT1/cmr/m/n/10 .
+.\OT1/cmr/m/n/10 2
 .\write1{\zref@newlabel{13@xvr}{\page{\Z@C@page }}}
-.\glue 3.33 plus 1.665 minus 1.11
-.\TU/lmr/m/n/10 on
-.\glue 3.33 plus 1.665 minus 1.11
-.\TU/lmr/m/n/10 this
-.\glue 3.33 plus 1.665 minus 1.11
-.\TU/lmr/m/n/10 page
+.\glue 3.33333 plus 1.66666 minus 1.11111
+.\OT1/cmr/m/n/10 o
+.\OT1/cmr/m/n/10 n
+.\glue 3.33333 plus 1.66666 minus 1.11111
+.\OT1/cmr/m/n/10 t
+.\OT1/cmr/m/n/10 h
+.\OT1/cmr/m/n/10 i
+.\OT1/cmr/m/n/10 s
+.\glue 3.33333 plus 1.66666 minus 1.11111
+.\OT1/cmr/m/n/10 p
+.\OT1/cmr/m/n/10 a
+.\OT1/cmr/m/n/10 g
+.\OT1/cmr/m/n/10 e
 .\write1{\zref@newlabel{13@vr}{\page{\Z@C@page }}}
-.\glue 3.33 plus 1.665 minus 1.11
-.\TU/lmr/m/n/10 ;
-.\glue 3.33 plus 2.49748 minus 0.73999
-.\TU/lmr/m/n/10 sections
+.\glue 3.33333 plus 1.66666 minus 1.11111
+.\OT1/cmr/m/n/10 ;
+.\glue 3.33333 plus 2.49998 minus 0.74074
+.\OT1/cmr/m/n/10 s
+.\OT1/cmr/m/n/10 e
+.\OT1/cmr/m/n/10 c
+.\OT1/cmr/m/n/10 t
+.\OT1/cmr/m/n/10 i
+.\OT1/cmr/m/n/10 o
+.\OT1/cmr/m/n/10 n
+.\OT1/cmr/m/n/10 s
 .\penalty 10000
-.\glue 3.33 plus 1.665 minus 1.11
-.\TU/lmr/m/n/10 1.1
-.\glue 3.33 plus 1.665 minus 1.11
-.\TU/lmr/m/n/10 and
+.\glue 3.33333 plus 1.66666 minus 1.11111
+.\OT1/cmr/m/n/10 1
+.\OT1/cmr/m/n/10 .
+.\OT1/cmr/m/n/10 1
+.\glue 3.33333 plus 1.66666 minus 1.11111
+.\OT1/cmr/m/n/10 a
+.\OT1/cmr/m/n/10 n
+.\OT1/cmr/m/n/10 d
 .\penalty 10000
-.\glue 3.33 plus 1.665 minus 1.11
-.\TU/lmr/m/n/10 1.2
+.\glue 3.33333 plus 1.66666 minus 1.11111
+.\OT1/cmr/m/n/10 1
+.\OT1/cmr/m/n/10 .
+.\OT1/cmr/m/n/10 2
 .\write1{\zref@newlabel{14@xvr}{\page{\Z@C@page }}}
-.\glue 3.33 plus 1.665 minus 1.11
-.\TU/lmr/m/n/10 on
-.\glue 3.33 plus 1.665 minus 1.11
-.\TU/lmr/m/n/10 the
-.\glue 3.33 plus 1.665 minus 1.11
-.\TU/lmr/m/n/10 current
-.\glue 3.33 plus 1.665 minus 1.11
-.\TU/lmr/m/n/10 page
+.\glue 3.33333 plus 1.66666 minus 1.11111
+.\OT1/cmr/m/n/10 o
+.\OT1/cmr/m/n/10 n
+.\glue 3.33333 plus 1.66666 minus 1.11111
+.\OT1/cmr/m/n/10 t
+.\OT1/cmr/m/n/10 h
+.\OT1/cmr/m/n/10 e
+.\glue 3.33333 plus 1.66666 minus 1.11111
+.\OT1/cmr/m/n/10 c
+.\OT1/cmr/m/n/10 u
+.\OT1/cmr/m/n/10 r
+.\OT1/cmr/m/n/10 r
+.\OT1/cmr/m/n/10 e
+.\OT1/cmr/m/n/10 n
+.\kern-0.27779
+.\OT1/cmr/m/n/10 t
+.\glue 3.33333 plus 1.66666 minus 1.11111
+.\OT1/cmr/m/n/10 p
+.\OT1/cmr/m/n/10 a
+.\OT1/cmr/m/n/10 g
+.\OT1/cmr/m/n/10 e
 .\write1{\zref@newlabel{14@vr}{\page{\Z@C@page }}}
 ! OK.
 l. ...\showbox0
 > \box...=
-\hbox(6.94+2.05998)x148.72
+\hbox(6.94444+1.94444)x148.72246
 .\write1{\zref@newlabel{15@xvr}{\page{\Z@C@page }}}
-.\TU/lmr/m/n/10 on
-.\glue 3.33 plus 1.665 minus 1.11
-.\TU/lmr/m/n/10 this
-.\glue 3.33 plus 1.665 minus 1.11
-.\TU/lmr/m/n/10 page
+.\OT1/cmr/m/n/10 o
+.\OT1/cmr/m/n/10 n
+.\glue 3.33333 plus 1.66666 minus 1.11111
+.\OT1/cmr/m/n/10 t
+.\OT1/cmr/m/n/10 h
+.\OT1/cmr/m/n/10 i
+.\OT1/cmr/m/n/10 s
+.\glue 3.33333 plus 1.66666 minus 1.11111
+.\OT1/cmr/m/n/10 p
+.\OT1/cmr/m/n/10 a
+.\OT1/cmr/m/n/10 g
+.\OT1/cmr/m/n/10 e
 .\write1{\zref@newlabel{15@vr}{\page{\Z@C@page }}}
-.\glue 3.33 plus 1.665 minus 1.11
-.\TU/lmr/m/n/10 ;
+.\glue 3.33333 plus 1.66666 minus 1.11111
+.\OT1/cmr/m/n/10 ;
 .\write1{\zref@newlabel{16@xvr}{\page{\Z@C@page }}}
-.\glue 3.33 plus 2.49748 minus 0.73999
-.\TU/lmr/m/n/10 on
-.\glue 3.33 plus 1.665 minus 1.11
-.\TU/lmr/m/n/10 the
-.\glue 3.33 plus 1.665 minus 1.11
-.\TU/lmr/m/n/10 current
-.\glue 3.33 plus 1.665 minus 1.11
-.\TU/lmr/m/n/10 page
+.\glue 3.33333 plus 2.49998 minus 0.74074
+.\OT1/cmr/m/n/10 o
+.\OT1/cmr/m/n/10 n
+.\glue 3.33333 plus 1.66666 minus 1.11111
+.\OT1/cmr/m/n/10 t
+.\OT1/cmr/m/n/10 h
+.\OT1/cmr/m/n/10 e
+.\glue 3.33333 plus 1.66666 minus 1.11111
+.\OT1/cmr/m/n/10 c
+.\OT1/cmr/m/n/10 u
+.\OT1/cmr/m/n/10 r
+.\OT1/cmr/m/n/10 r
+.\OT1/cmr/m/n/10 e
+.\OT1/cmr/m/n/10 n
+.\kern-0.27779
+.\OT1/cmr/m/n/10 t
+.\glue 3.33333 plus 1.66666 minus 1.11111
+.\OT1/cmr/m/n/10 p
+.\OT1/cmr/m/n/10 a
+.\OT1/cmr/m/n/10 g
+.\OT1/cmr/m/n/10 e
 .\write1{\zref@newlabel{16@vr}{\page{\Z@C@page }}}
 ! OK.
 l. ...\showbox0
 > \box...=
-\hbox(6.66+2.05998)x91.71
-.\TU/lmr/m/n/10 section
+\hbox(6.67859+1.94444)x91.72238
+.\OT1/cmr/m/n/10 s
+.\OT1/cmr/m/n/10 e
+.\OT1/cmr/m/n/10 c
+.\OT1/cmr/m/n/10 t
+.\OT1/cmr/m/n/10 i
+.\OT1/cmr/m/n/10 o
+.\OT1/cmr/m/n/10 n
 .\penalty 10000
-.\glue 3.33 plus 1.665 minus 1.11
-.\TU/lmr/m/n/10 1.1
-.\glue 3.33 plus 1.665 minus 1.11
-.\TU/lmr/m/n/10 on
-.\glue 3.33 plus 1.665 minus 1.11
-.\TU/lmr/m/n/10 page
+.\glue 3.33333 plus 1.66666 minus 1.11111
+.\OT1/cmr/m/n/10 1
+.\OT1/cmr/m/n/10 .
+.\OT1/cmr/m/n/10 1
+.\glue 3.33333 plus 1.66666 minus 1.11111
+.\OT1/cmr/m/n/10 o
+.\OT1/cmr/m/n/10 n
+.\glue 3.33333 plus 1.66666 minus 1.11111
+.\OT1/cmr/m/n/10 p
+.\OT1/cmr/m/n/10 a
+.\OT1/cmr/m/n/10 g
+.\OT1/cmr/m/n/10 e
 .\penalty 10000
-.\glue 3.33 plus 1.665 minus 1.11
-.\TU/lmr/m/n/10 1
+.\glue 3.33333 plus 1.66666 minus 1.11111
+.\OT1/cmr/m/n/10 1
 ! OK.
 l. ...\showbox0
 ============================================================

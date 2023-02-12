@@ -681,21 +681,20 @@ l. ...\showbox0
 ============================================================
 TEST 6: Option: lang
 ============================================================
-(../zref-clever-spanish.lang)
-Package zref-clever Info: Loaded 'spanish' language file.
+(../zref-clever-dutch.lang)
+Package zref-clever Info: Loaded 'dutch' language file.
 > \box...=
-\hbox(6.94444+1.94444)x111.72241
+\hbox(6.94444+1.94444)x112.00027
 .\pdfstartlink(*+*)x* attr{/Border[0 0 1]/H/I/C[1 0 0]} action goto name{section.1.1}
-.\OT1/cmr/m/n/10 s
-.\OT1/cmr/m/n/10 e
-.\OT1/cmr/m/n/10 c
-.\OT1/cmr/m/n/10 c
-.\OT1/cmr/m/n/10 i
-.\kern 0.0 (for accent)
-.\OT1/cmr/m/n/10 ^^S
-.\kern -5.00002 (for accent)
-.\OT1/cmr/m/n/10 o
-.\OT1/cmr/m/n/10 n
+.\OT1/cmr/m/n/10 p
+.\OT1/cmr/m/n/10 a
+.\OT1/cmr/m/n/10 r
+.\OT1/cmr/m/n/10 a
+.\OT1/cmr/m/n/10 g
+.\OT1/cmr/m/n/10 r
+.\OT1/cmr/m/n/10 a
+.\OT1/cmr/m/n/10 a
+.\OT1/cmr/m/n/10 f
 .\penalty 10000
 .\glue 3.33333 plus 1.66666 minus 1.11111
 .\OT1/cmr/m/n/10 1
@@ -704,17 +703,11 @@ Package zref-clever Info: Loaded 'spanish' language file.
 .\pdfendlink
 .\write1{\zref@newlabel{21@xvr}{\page{\Z@C@page }}}
 .\glue 3.33333 plus 1.66666 minus 1.11111
-.\OT1/cmr/m/n/10 e
-.\OT1/cmr/m/n/10 n
-.\glue 3.33333 plus 1.66666 minus 1.11111
-.\OT1/cmr/m/n/10 l
-.\OT1/cmr/m/n/10 a
+.\OT1/cmr/m/n/10 o
+.\OT1/cmr/m/n/10 p
 .\glue 3.33333 plus 1.66666 minus 1.11111
 .\pdfstartlink(*+*)x* attr{/Border[0 0 1]/H/I/C[1 0 0]} action goto name{section.1.1}
 .\OT1/cmr/m/n/10 p
-.\kern 0.0 (for accent)
-.\OT1/cmr/m/n/10 ^^S
-.\kern -5.00002 (for accent)
 .\OT1/cmr/m/n/10 a
 .\OT1/cmr/m/n/10 g
 .\OT1/cmr/m/n/10 i
@@ -728,19 +721,13 @@ Package zref-clever Info: Loaded 'spanish' language file.
 ! OK.
 l. ...\showbox0
 > \box...=
-\hbox(6.94444+1.94444)x61.6668
+\hbox(6.67859+1.94444)x51.11124
 .\write1{\zref@newlabel{22@xvr}{\page{\Z@C@page }}}
-.\OT1/cmr/m/n/10 e
-.\OT1/cmr/m/n/10 n
-.\glue 3.33333 plus 1.66666 minus 1.11111
-.\OT1/cmr/m/n/10 l
-.\OT1/cmr/m/n/10 a
+.\OT1/cmr/m/n/10 o
+.\OT1/cmr/m/n/10 p
 .\glue 3.33333 plus 1.66666 minus 1.11111
 .\pdfstartlink(*+*)x* attr{/Border[0 0 1]/H/I/C[1 0 0]} action goto name{section.1.1}
 .\OT1/cmr/m/n/10 p
-.\kern 0.0 (for accent)
-.\OT1/cmr/m/n/10 ^^S
-.\kern -5.00002 (for accent)
 .\OT1/cmr/m/n/10 a
 .\OT1/cmr/m/n/10 g
 .\OT1/cmr/m/n/10 i
@@ -754,16 +741,17 @@ l. ...\showbox0
 ! OK.
 l. ...\showbox0
 > \box...=
-\hbox(6.94444+1.94444)x144.83357
-.\OT1/cmr/m/n/10 s
+\hbox(6.94444+1.94444)x146.44476
+.\OT1/cmr/m/n/10 p
+.\OT1/cmr/m/n/10 a
+.\OT1/cmr/m/n/10 r
+.\OT1/cmr/m/n/10 a
+.\OT1/cmr/m/n/10 g
+.\OT1/cmr/m/n/10 r
+.\OT1/cmr/m/n/10 a
+.\OT1/cmr/m/n/10 f
 .\OT1/cmr/m/n/10 e
-.\OT1/cmr/m/n/10 c
-.\OT1/cmr/m/n/10 c
-.\OT1/cmr/m/n/10 i
-.\OT1/cmr/m/n/10 o
 .\OT1/cmr/m/n/10 n
-.\OT1/cmr/m/n/10 e
-.\OT1/cmr/m/n/10 s
 .\penalty 10000
 .\glue 3.33333 plus 1.66666 minus 1.11111
 .\pdfstartlink(*+*)x* attr{/Border[0 0 1]/H/I/C[1 0 0]} action goto name{section.1.1}
@@ -772,7 +760,8 @@ l. ...\showbox0
 .\OT1/cmr/m/n/10 1
 .\pdfendlink
 .\glue 3.33333 plus 1.66666 minus 1.11111
-.\OT1/cmr/m/n/10 y
+.\OT1/cmr/m/n/10 e
+.\OT1/cmr/m/n/10 n
 .\penalty 10000
 .\glue 3.33333 plus 1.66666 minus 1.11111
 .\pdfstartlink(*+*)x* attr{/Border[0 0 1]/H/I/C[1 0 0]} action goto name{section.1.2}
@@ -782,17 +771,11 @@ l. ...\showbox0
 .\pdfendlink
 .\write1{\zref@newlabel{23@xvr}{\page{\Z@C@page }}}
 .\glue 3.33333 plus 1.66666 minus 1.11111
-.\OT1/cmr/m/n/10 e
-.\OT1/cmr/m/n/10 n
-.\glue 3.33333 plus 1.66666 minus 1.11111
-.\OT1/cmr/m/n/10 l
-.\OT1/cmr/m/n/10 a
+.\OT1/cmr/m/n/10 o
+.\OT1/cmr/m/n/10 p
 .\glue 3.33333 plus 1.66666 minus 1.11111
 .\pdfstartlink(*+*)x* attr{/Border[0 0 1]/H/I/C[1 0 0]} action goto name{section.1.1}
 .\OT1/cmr/m/n/10 p
-.\kern 0.0 (for accent)
-.\OT1/cmr/m/n/10 ^^S
-.\kern -5.00002 (for accent)
 .\OT1/cmr/m/n/10 a
 .\OT1/cmr/m/n/10 g
 .\OT1/cmr/m/n/10 i
@@ -806,19 +789,13 @@ l. ...\showbox0
 ! OK.
 l. ...\showbox0
 > \box...=
-\hbox(6.94444+1.94444)x61.6668
+\hbox(6.67859+1.94444)x51.11124
 .\write1{\zref@newlabel{24@xvr}{\page{\Z@C@page }}}
-.\OT1/cmr/m/n/10 e
-.\OT1/cmr/m/n/10 n
-.\glue 3.33333 plus 1.66666 minus 1.11111
-.\OT1/cmr/m/n/10 l
-.\OT1/cmr/m/n/10 a
+.\OT1/cmr/m/n/10 o
+.\OT1/cmr/m/n/10 p
 .\glue 3.33333 plus 1.66666 minus 1.11111
 .\pdfstartlink(*+*)x* attr{/Border[0 0 1]/H/I/C[1 0 0]} action goto name{section.1.1}
 .\OT1/cmr/m/n/10 p
-.\kern 0.0 (for accent)
-.\OT1/cmr/m/n/10 ^^S
-.\kern -5.00002 (for accent)
 .\OT1/cmr/m/n/10 a
 .\OT1/cmr/m/n/10 g
 .\OT1/cmr/m/n/10 i
@@ -832,18 +809,17 @@ l. ...\showbox0
 ! OK.
 l. ...\showbox0
 > \box...=
-\hbox(6.94444+1.94444)x111.72241
+\hbox(6.94444+1.94444)x112.00027
 .\pdfstartlink(*+*)x* attr{/Border[0 0 1]/H/I/C[1 0 0]} action goto name{section.1.1}
-.\OT1/cmr/m/n/10 s
-.\OT1/cmr/m/n/10 e
-.\OT1/cmr/m/n/10 c
-.\OT1/cmr/m/n/10 c
-.\OT1/cmr/m/n/10 i
-.\kern 0.0 (for accent)
-.\OT1/cmr/m/n/10 ^^S
-.\kern -5.00002 (for accent)
-.\OT1/cmr/m/n/10 o
-.\OT1/cmr/m/n/10 n
+.\OT1/cmr/m/n/10 p
+.\OT1/cmr/m/n/10 a
+.\OT1/cmr/m/n/10 r
+.\OT1/cmr/m/n/10 a
+.\OT1/cmr/m/n/10 g
+.\OT1/cmr/m/n/10 r
+.\OT1/cmr/m/n/10 a
+.\OT1/cmr/m/n/10 a
+.\OT1/cmr/m/n/10 f
 .\penalty 10000
 .\glue 3.33333 plus 1.66666 minus 1.11111
 .\OT1/cmr/m/n/10 1
@@ -851,17 +827,11 @@ l. ...\showbox0
 .\OT1/cmr/m/n/10 1
 .\pdfendlink
 .\glue 3.33333 plus 1.66666 minus 1.11111
-.\OT1/cmr/m/n/10 e
-.\OT1/cmr/m/n/10 n
-.\glue 3.33333 plus 1.66666 minus 1.11111
-.\OT1/cmr/m/n/10 l
-.\OT1/cmr/m/n/10 a
+.\OT1/cmr/m/n/10 o
+.\OT1/cmr/m/n/10 p
 .\glue 3.33333 plus 1.66666 minus 1.11111
 .\pdfstartlink(*+*)x* attr{/Border[0 0 1]/H/I/C[1 0 0]} action goto name{section.1.1}
 .\OT1/cmr/m/n/10 p
-.\kern 0.0 (for accent)
-.\OT1/cmr/m/n/10 ^^S
-.\kern -5.00002 (for accent)
 .\OT1/cmr/m/n/10 a
 .\OT1/cmr/m/n/10 g
 .\OT1/cmr/m/n/10 i

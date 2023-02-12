@@ -8,6 +8,12 @@
 \debug_on:n { check-declarations , deprecation }
 \ExplSyntaxOff
 
+% Ensure the same font across check engines
+\usepackage[OT1]{fontenc}
+\renewcommand\rmdefault{cmr}
+\renewcommand\sfdefault{cmss}
+\renewcommand\ttdefault{cmtt}
+
 \usepackage{babel}
 
 % Just some sampling, to be sure the basic mechanism is working, the full set
@@ -181,23 +187,23 @@
 \newoptblock{lang}
 
 \BEGINTEST{Option: lang}
-\setbox0=\hbox{\zvref[lang=spanish]{sec:section-1.1}}
+\setbox0=\hbox{\zvref[lang=dutch]{sec:section-1.1}}
 \showbox0
 \box0
 
-\setbox0=\hbox{\zvpageref[lang=spanish]{sec:section-1.1}}
+\setbox0=\hbox{\zvpageref[lang=dutch]{sec:section-1.1}}
 \showbox0
 \box0
 
-\setbox0=\hbox{\zvrefrange[lang=spanish]{sec:section-1.1}{sec:section-1.2}}
+\setbox0=\hbox{\zvrefrange[lang=dutch]{sec:section-1.1}{sec:section-1.2}}
 \showbox0
 \box0
 
-\setbox0=\hbox{\zvpagerefrange[lang=spanish]{sec:section-1.1}{sec:section-1.2}}
+\setbox0=\hbox{\zvpagerefrange[lang=dutch]{sec:section-1.1}{sec:section-1.2}}
 \showbox0
 \box0
 
-\setbox0=\hbox{\zfullref[lang=spanish]{sec:section-1.1}}
+\setbox0=\hbox{\zfullref[lang=dutch]{sec:section-1.1}}
 \showbox0
 \box0
 \ENDTEST
