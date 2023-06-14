@@ -2,6 +2,10 @@
 
 ## [Unreleased](https://github.com/gusbrs/zref-vario/compare/v0.1.7...HEAD)
 
+### Changed
+- Improvements to User manual.
+- Simplify and improve regression tests.
+
 ## [v0.1.7](https://github.com/gusbrs/zref-vario/compare/v0.1.6...v0.1.7) (2023-01-03)
 
 ### Changed
