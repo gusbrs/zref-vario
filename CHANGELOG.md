@@ -1,6 +1,8 @@
 # Changelog
 
-## [Unreleased](https://github.com/gusbrs/zref-vario/compare/v0.1.7...HEAD)
+## [Unreleased](https://github.com/gusbrs/zref-vario/compare/v0.1.8...HEAD)
+
+## [v0.1.8](https://github.com/gusbrs/zref-vario/compare/v0.1.7...v0.1.8) (2023-06-14)
 
 ### Changed
 - Improvements to User manual.

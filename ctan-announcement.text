@@ -1,6 +1,6 @@
-## v0.1.7 (2023-01-03)
+## v0.1.8 (2023-06-14)
 
 ### Changed
-- Improved Italian localization (see issue
-  [#1](https://github.com/gusbrs/zref-vario/issues/1)).
+- Improvements to User manual.
+- Simplify and improve regression tests.
 
