@@ -2,6 +2,9 @@
 
 ## [Unreleased](https://github.com/gusbrs/zref-vario/compare/v0.1.8...HEAD)
 
+### Changed
+- Use `\label` instead of `\zlabel` in regression tests.
+
 ## [v0.1.8](https://github.com/gusbrs/zref-vario/compare/v0.1.7...v0.1.8) (2023-06-14)
 
 ### Changed

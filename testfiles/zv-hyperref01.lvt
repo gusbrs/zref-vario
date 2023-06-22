@@ -33,16 +33,13 @@
 \OMIT
 \chapter{Chapter 1}
 \label{cha:chapter-1}
-\zlabel{cha:chapter-1}
 \TIMO
 
 \section{Section 1.1}
 \label{sec:section-1.1}
-\zlabel{sec:section-1.1}
 
 \section{Section 1.2}
 \label{sec:section-1.2}
-\zlabel{sec:section-1.2}
 
 \BEGINTEST{Unstarred}
 \setbox0=\hbox{\zvref{sec:section-1.1} ; \zvref{sec:section-1.1}}
