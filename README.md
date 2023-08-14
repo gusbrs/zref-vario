@@ -11,4 +11,4 @@ The released version of this package is available [from
 CTAN](https://ctan.org/pkg/zref-vario).
 
 For more details, check the
-[Documentation](https://mirrors.ctan.org/macros/latex/contrib/zref-vario/zref-vario.pdf).
+[Documentation](https://mirrors.ctan.org/macros/latex/contrib/zref-vario/zref-vario-doc.pdf).
