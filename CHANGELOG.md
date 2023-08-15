@@ -1,6 +1,8 @@
 # Changelog
 
-## [Unreleased](https://github.com/gusbrs/zref-vario/compare/v0.1.8...HEAD)
+## [Unreleased](https://github.com/gusbrs/zref-vario/compare/v0.1.9...HEAD)
+
+## [v0.1.9](https://github.com/gusbrs/zref-vario/compare/v0.1.8...v0.1.9) (2023-08-15)
 
 ### Changed
 - `zref-vario` no longer delays the loading of `varioref`.  So there's no

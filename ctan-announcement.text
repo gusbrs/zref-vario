@@ -1,6 +1,9 @@
-## v0.1.8 (2023-06-14)
+## v0.1.9 (2023-08-15)
 
 ### Changed
-- Improvements to User manual.
-- Simplify and improve regression tests.
+- `zref-vario` no longer delays the loading of `varioref`.  So there's no
+  longer need to load the latter separately but, on the other hand,
+  `zref-vario` becomes subject to the same load order restrictions as
+  `varioref`.
+- Use `\label` instead of `\zlabel` in regression tests.
 
