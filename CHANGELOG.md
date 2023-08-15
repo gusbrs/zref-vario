@@ -3,6 +3,10 @@
 ## [Unreleased](https://github.com/gusbrs/zref-vario/compare/v0.1.8...HEAD)
 
 ### Changed
+- `zref-vario` no longer delays the loading of `varioref`.  So there's no
+  longer need to load the latter separately but, on the other hand,
+  `zref-vario` becomes subject to the same load order restrictions as
+  `varioref`.
 - Use `\label` instead of `\zlabel` in regression tests.
 
 ## [v0.1.8](https://github.com/gusbrs/zref-vario/compare/v0.1.7...v0.1.8) (2023-06-14)

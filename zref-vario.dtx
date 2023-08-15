@@ -138,19 +138,12 @@
 %    \end{macrocode}
 %
 %
-% Required packages.  The loading of \pkg{varioref} is delayed until
-% \texttt{begindocument/before} since it has potential load order issues
-% (e.g.\ with \pkg{hyperref}) so, ideally, it should be explicitly loaded by
-% the user (and the manual recommends it).  But we do it, if it hasn't been
-% done.
-%
-% Note that \pkg{zref-clever} \texttt{v0.2.0-alpha}, from 2022-01-28, requires
-% a kernel 2021-11-15 or newer.
+% Required packages.  Note that \pkg{zref-clever} \texttt{v0.2.0-alpha}, from
+% 2022-01-28, requires a kernel 2021-11-15 or newer.
 %
 %    \begin{macrocode}
 \RequirePackage { zref-clever } [ 2022-01-28 ] % v0.2.0-alpha
-\AddToHook { begindocument/before }
-  { \RequirePackage { varioref } }
+\RequirePackage { varioref }
 %    \end{macrocode}
 %
 % Also note that, contrary to \pkg{zref-clever}, \pkg{zref-vario} is
