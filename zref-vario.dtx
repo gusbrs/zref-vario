@@ -151,6 +151,19 @@
 % in ways that break \pkg{zref-vario}.
 %
 %
+% \begin{macro}
+%   {
+%      \l_@@_tmpa_tl ,
+%      \l_@@_tmpb_tl ,
+%   }
+%   Temporary scratch variables.
+%    \begin{macrocode}
+\tl_new:N \l_@@_tmpa_tl
+\tl_new:N \l_@@_tmpb_tl
+%    \end{macrocode}
+% \end{macro}
+%
+%
 % \section{Options}
 %
 % \subsection*{\cs{zvsetup}}
@@ -899,9 +912,9 @@
       { \l_@@_with_vcheck_bool }
       {
         \zrefcheck_zrefvario_label:
-        \vref@pagenum \l_tmpa_tl { \the\c@vrcnt @vr }
-        \vrefpagenum \l_tmpb_tl {#1}
-        \tl_if_eq:NNT \l_tmpa_tl \l_tmpb_tl
+        \vref@pagenum \l_@@_tmpa_tl { \the\c@vrcnt @vr }
+        \vrefpagenum \l_@@_tmpb_tl {#1}
+        \tl_if_eq:NNT \l_@@_tmpa_tl \l_@@_tmpb_tl
           {
             \zrefcheck_zrefvario_run_check_on_label:Vn
               \l_@@_vcheck_tl {#1}
@@ -978,12 +991,12 @@
       { \l_@@_with_vcheck_bool }
       {
         \zrefcheck_zrefvario_label:
-        \vrefpagenum \l_tmpa_tl {#1}
-        \vrefpagenum \l_tmpb_tl {#2}
-        \tl_if_eq:NNT \l_tmpa_tl \l_tmpb_tl
+        \vrefpagenum \l_@@_tmpa_tl {#1}
+        \vrefpagenum \l_@@_tmpb_tl {#2}
+        \tl_if_eq:NNT \l_@@_tmpa_tl \l_@@_tmpb_tl
           {
-            \vref@pagenum \l_tmpa_tl { \the\c@vrcnt @vr }
-            \tl_if_eq:NNT \l_tmpa_tl \l_tmpb_tl
+            \vref@pagenum \l_@@_tmpa_tl { \the\c@vrcnt @vr }
+            \tl_if_eq:NNT \l_@@_tmpa_tl \l_@@_tmpb_tl
               {
                 \zrefcheck_zrefvario_run_check_on_label:Vn
                   \l_@@_vcheck_tl {#1}
