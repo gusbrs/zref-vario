@@ -2,8 +2,8 @@
 
 **Extended LaTeX page cross-references with varioref and zref-clever**
 
-Author: Gustavo Barros
-Maintainer: Gustavo Barros
+Author: gusbrs
+Maintainer: gusbrs
 
 `zref-vario` offers a compatibility layer for `varioref` to be used alongside
 `zref-clever`.  It provides "`\z...`" counterparts to `varioref`'s main
