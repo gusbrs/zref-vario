@@ -312,7 +312,7 @@
           { \@@_ref_opt_name_lang_tl:nn { zv_unknown_language } {#2} }
       }
   }
-\cs_generate_variant:Nn \@@_ref_opt_tl_get:nnN { xnN }
+\cs_generate_variant:Nn \@@_ref_opt_tl_get:nnN { enN }
 \cs_new_protected:Npn \@@_ref_opt_cs_get:nnnN #1#2#3#4
   {
     \cs_if_exist:cTF
@@ -337,7 +337,7 @@
           }
       }
   }
-\cs_generate_variant:Nn \@@_ref_opt_cs_get:nnnN { xnnN }
+\cs_generate_variant:Nn \@@_ref_opt_cs_get:nnnN { ennN }
 %    \end{macrocode}
 % \end{macro}
 %
@@ -404,7 +404,7 @@
           {
             \tl_set:Nn \l_@@_setup_language_tl {#1}
             \keys_set:nn { zref-vario/langsetup } {#2}
-            \seq_gput_right:Nx \g_@@_setup_languages_seq
+            \seq_gput_right:Ne \g_@@_setup_languages_seq
               { \@@_base_lang:n {#1} }
           }
           { \msg_warning:nnn { zref-vario } { unknown-language-setup } {#1} }
@@ -604,49 +604,49 @@
       {
         reftextfaceafter =
           {
-            \msg_warning:nnxx { zref-vario } { missing-string }
+            \msg_warning:nnee { zref-vario } { missing-string }
               { reftextfaceafter } { \l_@@_ref_language_tl }
             \zref@default
           } ,
         reftextfacebefore =
           {
-            \msg_warning:nnxx { zref-vario } { missing-string }
+            \msg_warning:nnee { zref-vario } { missing-string }
               { reftextfacebefore } { \l_@@_ref_language_tl }
             \zref@default
           } ,
         reftextafter =
           {
-            \msg_warning:nnxx { zref-vario } { missing-string }
+            \msg_warning:nnee { zref-vario } { missing-string }
               { reftextafter } { \l_@@_ref_language_tl }
             \zref@default
           } ,
         reftextbefore =
           {
-            \msg_warning:nnxx { zref-vario } { missing-string }
+            \msg_warning:nnee { zref-vario } { missing-string }
               { reftextbefore } { \l_@@_ref_language_tl }
             \zref@default
           } ,
         reftextcurrent =
           {
-            \msg_warning:nnxx { zref-vario } { missing-string }
+            \msg_warning:nnee { zref-vario } { missing-string }
               { reftextcurrent } { \l_@@_ref_language_tl }
             \zref@default
           } ,
         reftextfaraway =
           {
-            \msg_warning:nnxx { zref-vario } { missing-string }
+            \msg_warning:nnee { zref-vario } { missing-string }
               { reftextfaraway } { \l_@@_ref_language_tl }
             \zref@default
           } ,
         reftextpagerange =
           {
-            \msg_warning:nnxx { zref-vario } { missing-string }
+            \msg_warning:nnee { zref-vario } { missing-string }
               { reftextpagerange } { \l_@@_ref_language_tl }
             \zref@default
           } ,
         reftextlabelrange =
           {
-            \msg_warning:nnxx { zref-vario } { missing-string }
+            \msg_warning:nnee { zref-vario } { missing-string }
               { reftextlabelrange } { \l_@@_ref_language_tl }
             \zref@default
           } ,
@@ -665,10 +665,10 @@
   {
     \AddToHook { begindocument }
       {
-        \seq_if_in:NxF \g_@@_setup_languages_seq
+        \seq_if_in:NeF \g_@@_setup_languages_seq
           { \@@_base_lang:e { \l_@@_ref_language_tl } }
           {
-            \msg_warning:nnx { zref-vario } { language-not-setup }
+            \msg_warning:nne { zref-vario } { language-not-setup }
               { \l_@@_ref_language_tl }
           }
       }
@@ -798,47 +798,47 @@
         \cs_set_eq:NN \vref@pagenum \@@_vref_pagenum:Nn
         \cs_set_eq:NN \vrefpagenum \@@_vrefpagenum:Nn
         \cs_set_eq:NN \vref@label \@@_vref_label:n
-        \@@_ref_opt_tl_get:xnN
+        \@@_ref_opt_tl_get:enN
           { \l_@@_ref_language_tl }
           { reftextfaceafter }
           \reftextfaceafter
-        \@@_ref_opt_tl_get:xnN
+        \@@_ref_opt_tl_get:enN
           { \l_@@_ref_language_tl }
           { reftextfacebefore }
           \reftextfacebefore
-        \@@_ref_opt_tl_get:xnN
+        \@@_ref_opt_tl_get:enN
           { \l_@@_ref_language_tl }
           { reftextafter }
           \reftextafter
-        \@@_ref_opt_tl_get:xnN
+        \@@_ref_opt_tl_get:enN
           { \l_@@_ref_language_tl }
           { reftextbefore }
           \reftextbefore
-        \@@_ref_opt_tl_get:xnN
+        \@@_ref_opt_tl_get:enN
           { \l_@@_ref_language_tl }
           { reftextcurrent }
           \reftextcurrent
-        \@@_ref_opt_cs_get:xnnN
+        \@@_ref_opt_cs_get:ennN
           { \l_@@_ref_language_tl }
           { reftextfaraway } { n }
           \reftextfaraway
-        \@@_ref_opt_cs_get:xnnN
+        \@@_ref_opt_cs_get:ennN
           { \l_@@_ref_language_tl }
           { reftextpagerange } { nn }
           \reftextpagerange
-        \@@_ref_opt_cs_get:xnnN
+        \@@_ref_opt_cs_get:ennN
           { \l_@@_ref_language_tl }
           { reftextlabelrange } { nn }
           \reftextlabelrange
-        \@@_ref_opt_cs_get:xnnN
+        \@@_ref_opt_cs_get:ennN
           { \l_@@_ref_language_tl }
           { vrefformat } { nn }
           \vrefformat
-        \@@_ref_opt_cs_get:xnnN
+        \@@_ref_opt_cs_get:ennN
           { \l_@@_ref_language_tl }
           { vrefrangeformat } { nnn }
           \vrefrangeformat
-        \@@_ref_opt_cs_get:xnnN
+        \@@_ref_opt_cs_get:ennN
           { \l_@@_ref_language_tl }
           { fullrefformat } { n }
           \fullrefformat

@@ -256,49 +256,49 @@ l. ...  }
 TEST 8: zv_unknown_language
 ============================================================
 > 
-\g__zrefvario_ref_opt_lang_zv_unknown_language_reftextfaceafter_tl=\msg_warning:nnxx
+\g__zrefvario_ref_opt_lang_zv_unknown_language_reftextfaceafter_tl=\msg_warning:nnee
 {zref-vario}{missing-string}{reftextfaceafter}{\l__zrefvario_ref_language_tl
 }\zref@default .
 <recently read> }
 l. ...  }
 > 
-\g__zrefvario_ref_opt_lang_zv_unknown_language_reftextfacebefore_tl=\msg_warning:nnxx
+\g__zrefvario_ref_opt_lang_zv_unknown_language_reftextfacebefore_tl=\msg_warning:nnee
 {zref-vario}{missing-string}{reftextfacebefore}{\l__zrefvario_ref_language_tl
 }\zref@default .
 <recently read> }
 l. ...  }
 > 
-\g__zrefvario_ref_opt_lang_zv_unknown_language_reftextafter_tl=\msg_warning:nnxx
+\g__zrefvario_ref_opt_lang_zv_unknown_language_reftextafter_tl=\msg_warning:nnee
 {zref-vario}{missing-string}{reftextafter}{\l__zrefvario_ref_language_tl
 }\zref@default .
 <recently read> }
 l. ...  }
 > 
-\g__zrefvario_ref_opt_lang_zv_unknown_language_reftextbefore_tl=\msg_warning:nnxx
+\g__zrefvario_ref_opt_lang_zv_unknown_language_reftextbefore_tl=\msg_warning:nnee
 {zref-vario}{missing-string}{reftextbefore}{\l__zrefvario_ref_language_tl
 }\zref@default .
 <recently read> }
 l. ...  }
 > 
-\g__zrefvario_ref_opt_lang_zv_unknown_language_reftextcurrent_tl=\msg_warning:nnxx
+\g__zrefvario_ref_opt_lang_zv_unknown_language_reftextcurrent_tl=\msg_warning:nnee
 {zref-vario}{missing-string}{reftextcurrent}{\l__zrefvario_ref_language_tl
 }\zref@default .
 <recently read> }
 l. ...  }
 > 
-\__zrefvario_ref_opt_lang_zv_unknown_language_reftextfaraway:n=macro:#1->\msg_warning:nnxx
+\__zrefvario_ref_opt_lang_zv_unknown_language_reftextfaraway:n=macro:#1->\msg_warning:nnee
 {zref-vario}{missing-string}{reftextfaraway}{\l__zrefvario_ref_language_tl
 }\zref@default .
 <recently read> }
 l. ...  }
 > 
-\__zrefvario_ref_opt_lang_zv_unknown_language_reftextpagerange:nn=macro:#1#2->\msg_warning:nnxx
+\__zrefvario_ref_opt_lang_zv_unknown_language_reftextpagerange:nn=macro:#1#2->\msg_warning:nnee
 {zref-vario}{missing-string}{reftextpagerange}{\l__zrefvario_ref_language_tl
 }\zref@default .
 <recently read> }
 l. ...  }
 > 
-\__zrefvario_ref_opt_lang_zv_unknown_language_reftextlabelrange:nn=macro:#1#2->\msg_warning:nnxx
+\__zrefvario_ref_opt_lang_zv_unknown_language_reftextlabelrange:nn=macro:#1#2->\msg_warning:nnee
 {zref-vario}{missing-string}{reftextlabelrange}{\l__zrefvario_ref_language_tl
 }\zref@default .
 <recently read> }

@@ -4,6 +4,7 @@
 
 ### Changed
 - Don't use `expl3` public scratch temporary variables.
+- Prefer `e-type` expansion.
 
 ## [v0.1.9](https://github.com/gusbrs/zref-vario/compare/v0.1.8...v0.1.9) (2023-08-15)
 
