@@ -125,7 +125,17 @@
 %
 %
 %    \begin{macrocode}
-\NeedsTeXFormat{LaTeX2e}
+\def\zrefvario@required@kernel{2023-11-01}
+\NeedsTeXFormat{LaTeX2e}[\zrefvario@required@kernel]
+\providecommand\IfFormatAtLeastTF{\@ifl@t@r\fmtversion}
+\IfFormatAtLeastTF{\zrefvario@required@kernel}
+  {}
+  {%
+    \PackageError{zref-vario}{LaTeX kernel too old}
+      {%
+        'zref-vario' requires a LaTeX kernel \zrefvario@required@kernel\space or newer.%
+      }%
+  }%
 %    \end{macrocode}
 %
 %
@@ -136,8 +146,7 @@
 %    \end{macrocode}
 %
 %
-% Required packages.  Note that \pkg{zref-clever} \texttt{v0.2.0-alpha}, from
-% 2022-01-28, requires a kernel 2021-11-15 or newer.
+% Required packages.
 %
 %    \begin{macrocode}
 \RequirePackage { zref-clever } [ 2022-01-28 ] % v0.2.0-alpha
