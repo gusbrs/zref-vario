@@ -87,6 +87,13 @@ jobs:
       - name: Run tests and docs
         run: l3build ctan -q
 
+      - name: Archive documentation
+        if: success()
+        uses: actions/upload-artifact@v4
+        with:
+          name: documentation
+          path: build/doc/*.pdf
+
       - name: Archive logs and diffs on failure
         if: failure()
         uses: actions/upload-artifact@v4
