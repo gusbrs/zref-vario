@@ -3,304 +3,224 @@ Don't change this file in any respect.
 ============================================================
 TEST 1: english
 ============================================================
-> \g__zrefvario_ref_opt_lang_english_reftextfaceafter_tl=on the \zvhyperlink
-{\reftextvario {facing}{next} page}.
+> \g__zrefvario_ref_opt_lang_english_reftextfaceafter_tl=on the \zvhyperlink {\reftextvario {facing}{next} page}.
 <recently read> }
 l. ...  }
-> \g__zrefvario_ref_opt_lang_english_reftextfacebefore_tl=on the \zvhyperlink
-{\reftextvario {facing}{preceding} page}.
+> \g__zrefvario_ref_opt_lang_english_reftextfacebefore_tl=on the \zvhyperlink {\reftextvario {facing}{preceding} page}.
 <recently read> }
 l. ...  }
-> \g__zrefvario_ref_opt_lang_english_reftextafter_tl=on the \zvhyperlink
-{\reftextvario {following}{next} page}.
+> \g__zrefvario_ref_opt_lang_english_reftextafter_tl=on the \zvhyperlink {\reftextvario {following}{next} page}.
 <recently read> }
 l. ...  }
-> \g__zrefvario_ref_opt_lang_english_reftextbefore_tl=on the \zvhyperlink
-{\reftextvario {preceding}{previous} page}.
+> \g__zrefvario_ref_opt_lang_english_reftextbefore_tl=on the \zvhyperlink {\reftextvario {preceding}{previous} page}.
 <recently read> }
 l. ...  }
-> \g__zrefvario_ref_opt_lang_english_reftextcurrent_tl=on \reftextvario {}{the
-}\zvhyperlink {\reftextvario {this}{current} page}.
+> \g__zrefvario_ref_opt_lang_english_reftextcurrent_tl=on \reftextvario {}{the }\zvhyperlink {\reftextvario {this}{current} page}.
 <recently read> }
 l. ...  }
-> \__zrefvario_ref_opt_lang_english_reftextfaraway:n=macro:#1->on \zcpageref
-{#1}.
+> \__zrefvario_ref_opt_lang_english_reftextfaraway:n=macro:#1->on \zcpageref {#1}.
 <recently read> }
 l. ...  }
-> \__zrefvario_ref_opt_lang_english_reftextpagerange:nn=macro:#1#2->on
-\zcpageref [range]{#1,#2}.
+> \__zrefvario_ref_opt_lang_english_reftextpagerange:nn=macro:#1#2->on \zcpageref [range]{#1,#2}.
 <recently read> }
 l. ...  }
-> \__zrefvario_ref_opt_lang_english_reftextlabelrange:nn=macro:#1#2->\zcref
-[range]{#1,#2}.
+> \__zrefvario_ref_opt_lang_english_reftextlabelrange:nn=macro:#1#2->\zcref [range]{#1,#2}.
 <recently read> }
 l. ...  }
 ============================================================
 ============================================================
 TEST 2: german
 ============================================================
-> \g__zrefvario_ref_opt_lang_german_reftextfaceafter_tl=auf der \zvhyperlink
-{nächsten Seite}.
+> \g__zrefvario_ref_opt_lang_german_reftextfaceafter_tl=auf der \zvhyperlink {nächsten Seite}.
 <recently read> }
 l. ...  }
-> \g__zrefvario_ref_opt_lang_german_reftextfacebefore_tl=auf der \zvhyperlink
-{vorherigen Seite}.
+> \g__zrefvario_ref_opt_lang_german_reftextfacebefore_tl=auf der \zvhyperlink {vorherigen Seite}.
 <recently read> }
 l. ...  }
-> \g__zrefvario_ref_opt_lang_german_reftextafter_tl=auf der \zvhyperlink
-{nächsten Seite}.
+> \g__zrefvario_ref_opt_lang_german_reftextafter_tl=auf der \zvhyperlink {nächsten Seite}.
 <recently read> }
 l. ...  }
-> \g__zrefvario_ref_opt_lang_german_reftextbefore_tl=auf der \zvhyperlink
-{vorherigen Seite}.
+> \g__zrefvario_ref_opt_lang_german_reftextbefore_tl=auf der \zvhyperlink {vorherigen Seite}.
 <recently read> }
 l. ...  }
-> \g__zrefvario_ref_opt_lang_german_reftextcurrent_tl=auf \zvhyperlink {dieser
-Seite}.
+> \g__zrefvario_ref_opt_lang_german_reftextcurrent_tl=auf \zvhyperlink {dieser Seite}.
 <recently read> }
 l. ...  }
-> \__zrefvario_ref_opt_lang_german_reftextfaraway:n=macro:#1->auf \zcpageref
-[d=D,g=f]{#1}.
+> \__zrefvario_ref_opt_lang_german_reftextfaraway:n=macro:#1->auf \zcpageref [d=D,g=f]{#1}.
 <recently read> }
 l. ...  }
-> \__zrefvario_ref_opt_lang_german_reftextpagerange:nn=macro:#1#2->auf den
-\zcpageref [range,d=D,g=f]{#1,#2}.
+> \__zrefvario_ref_opt_lang_german_reftextpagerange:nn=macro:#1#2->auf den \zcpageref [range,d=D,g=f]{#1,#2}.
 <recently read> }
 l. ...  }
-> \__zrefvario_ref_opt_lang_german_reftextlabelrange:nn=macro:#1#2->\zcref
-[range]{#1,#2}.
+> \__zrefvario_ref_opt_lang_german_reftextlabelrange:nn=macro:#1#2->\zcref [range]{#1,#2}.
 <recently read> }
 l. ...  }
 ============================================================
 ============================================================
 TEST 3: french
 ============================================================
-> \g__zrefvario_ref_opt_lang_french_reftextfaceafter_tl=\zvhyperlink {page
-\reftextvario {ci-contre}{suivante}}.
+> \g__zrefvario_ref_opt_lang_french_reftextfaceafter_tl=\zvhyperlink {page \reftextvario {ci-contre}{suivante}}.
 <recently read> }
 l. ...  }
-> \g__zrefvario_ref_opt_lang_french_reftextfacebefore_tl=\zvhyperlink {page
-\reftextvario {ci-contre}{précédente}}.
+> \g__zrefvario_ref_opt_lang_french_reftextfacebefore_tl=\zvhyperlink {page \reftextvario {ci-contre}{précédente}}.
 <recently read> }
 l. ...  }
-> \g__zrefvario_ref_opt_lang_french_reftextafter_tl=\zvhyperlink {page
-suivante}.
+> \g__zrefvario_ref_opt_lang_french_reftextafter_tl=\zvhyperlink {page suivante}.
 <recently read> }
 l. ...  }
-> \g__zrefvario_ref_opt_lang_french_reftextbefore_tl=\zvhyperlink {page
-précédente}.
+> \g__zrefvario_ref_opt_lang_french_reftextbefore_tl=\zvhyperlink {page précédente}.
 <recently read> }
 l. ...  }
-> \g__zrefvario_ref_opt_lang_french_reftextcurrent_tl=de la \zvhyperlink
-{présente page}.
+> \g__zrefvario_ref_opt_lang_french_reftextcurrent_tl=de la \zvhyperlink {présente page}.
 <recently read> }
 l. ...  }
-> \__zrefvario_ref_opt_lang_french_reftextfaraway:n=macro:#1->\zcpageref
-[g=f]{#1}.
+> \__zrefvario_ref_opt_lang_french_reftextfaraway:n=macro:#1->\zcpageref [g=f]{#1}.
 <recently read> }
 l. ...  }
-> \__zrefvario_ref_opt_lang_french_reftextpagerange:nn=macro:#1#2->\zcpageref
-[range,g=f]{#1,#2}.
+> \__zrefvario_ref_opt_lang_french_reftextpagerange:nn=macro:#1#2->\zcpageref [range,g=f]{#1,#2}.
 <recently read> }
 l. ...  }
-> \__zrefvario_ref_opt_lang_french_reftextlabelrange:nn=macro:#1#2->\zcref
-[range]{#1,#2}.
+> \__zrefvario_ref_opt_lang_french_reftextlabelrange:nn=macro:#1#2->\zcref [range]{#1,#2}.
 <recently read> }
 l. ...  }
 ============================================================
 ============================================================
 TEST 4: portuguese
 ============================================================
-> \g__zrefvario_ref_opt_lang_portuguese_reftextfaceafter_tl=na \zvhyperlink
-{\reftextvario {página oposta}{próxima página}}.
+> \g__zrefvario_ref_opt_lang_portuguese_reftextfaceafter_tl=na \zvhyperlink {\reftextvario {página oposta}{próxima página}}.
 <recently read> }
 l. ...  }
-> \g__zrefvario_ref_opt_lang_portuguese_reftextfacebefore_tl=na \zvhyperlink
-{página \reftextvario {oposta}{anterior}}.
+> \g__zrefvario_ref_opt_lang_portuguese_reftextfacebefore_tl=na \zvhyperlink {página \reftextvario {oposta}{anterior}}.
 <recently read> }
 l. ...  }
-> \g__zrefvario_ref_opt_lang_portuguese_reftextafter_tl=na \zvhyperlink
-{\reftextvario {página seguinte}{próxima página}}.
+> \g__zrefvario_ref_opt_lang_portuguese_reftextafter_tl=na \zvhyperlink {\reftextvario {página seguinte}{próxima página}}.
 <recently read> }
 l. ...  }
-> \g__zrefvario_ref_opt_lang_portuguese_reftextbefore_tl=na \zvhyperlink
-{página \reftextvario {anterior}{precedente}}.
+> \g__zrefvario_ref_opt_lang_portuguese_reftextbefore_tl=na \zvhyperlink {página \reftextvario {anterior}{precedente}}.
 <recently read> }
 l. ...  }
-> \g__zrefvario_ref_opt_lang_portuguese_reftextcurrent_tl=\zvhyperlink {nesta
-página}.
+> \g__zrefvario_ref_opt_lang_portuguese_reftextcurrent_tl=\zvhyperlink {nesta página}.
 <recently read> }
 l. ...  }
-> \__zrefvario_ref_opt_lang_portuguese_reftextfaraway:n=macro:#1->na
-\zcpageref [g=f]{#1}.
+> \__zrefvario_ref_opt_lang_portuguese_reftextfaraway:n=macro:#1->na \zcpageref [g=f]{#1}.
 <recently read> }
 l. ...  }
-> \__zrefvario_ref_opt_lang_portuguese_reftextpagerange:nn=macro:#1#2->nas
-\zcpageref [range,g=f]{#1,#2}.
+> \__zrefvario_ref_opt_lang_portuguese_reftextpagerange:nn=macro:#1#2->nas \zcpageref [range,g=f]{#1,#2}.
 <recently read> }
 l. ...  }
-> \__zrefvario_ref_opt_lang_portuguese_reftextlabelrange:nn=macro:#1#2->\zcref
-[range]{#1,#2}.
+> \__zrefvario_ref_opt_lang_portuguese_reftextlabelrange:nn=macro:#1#2->\zcref [range]{#1,#2}.
 <recently read> }
 l. ...  }
 ============================================================
 ============================================================
 TEST 5: spanish
 ============================================================
-> \g__zrefvario_ref_opt_lang_spanish_reftextfaceafter_tl=en la \zvhyperlink
-{página siguiente}.
+> \g__zrefvario_ref_opt_lang_spanish_reftextfaceafter_tl=en la \zvhyperlink {página siguiente}.
 <recently read> }
 l. ...  }
-> \g__zrefvario_ref_opt_lang_spanish_reftextfacebefore_tl=en la \zvhyperlink
-{página anterior}.
+> \g__zrefvario_ref_opt_lang_spanish_reftextfacebefore_tl=en la \zvhyperlink {página anterior}.
 <recently read> }
 l. ...  }
-> \g__zrefvario_ref_opt_lang_spanish_reftextafter_tl=en la \zvhyperlink
-{página siguiente}.
+> \g__zrefvario_ref_opt_lang_spanish_reftextafter_tl=en la \zvhyperlink {página siguiente}.
 <recently read> }
 l. ...  }
-> \g__zrefvario_ref_opt_lang_spanish_reftextbefore_tl=en la \zvhyperlink
-{página anterior}.
+> \g__zrefvario_ref_opt_lang_spanish_reftextbefore_tl=en la \zvhyperlink {página anterior}.
 <recently read> }
 l. ...  }
-> \g__zrefvario_ref_opt_lang_spanish_reftextcurrent_tl=en \zvhyperlink {esta
-página}.
+> \g__zrefvario_ref_opt_lang_spanish_reftextcurrent_tl=en \zvhyperlink {esta página}.
 <recently read> }
 l. ...  }
-> \__zrefvario_ref_opt_lang_spanish_reftextfaraway:n=macro:#1->en la
-\zcpageref [g=f]{#1}.
+> \__zrefvario_ref_opt_lang_spanish_reftextfaraway:n=macro:#1->en la \zcpageref [g=f]{#1}.
 <recently read> }
 l. ...  }
-> \__zrefvario_ref_opt_lang_spanish_reftextpagerange:nn=macro:#1#2->en las
-\zcpageref [range,g=f]{#1,#2}.
+> \__zrefvario_ref_opt_lang_spanish_reftextpagerange:nn=macro:#1#2->en las \zcpageref [range,g=f]{#1,#2}.
 <recently read> }
 l. ...  }
-> \__zrefvario_ref_opt_lang_spanish_reftextlabelrange:nn=macro:#1#2->\zcref
-[range]{#1,#2}.
+> \__zrefvario_ref_opt_lang_spanish_reftextlabelrange:nn=macro:#1#2->\zcref [range]{#1,#2}.
 <recently read> }
 l. ...  }
 ============================================================
 ============================================================
 TEST 6: dutch
 ============================================================
-> \g__zrefvario_ref_opt_lang_dutch_reftextfaceafter_tl=op de \zvhyperlink
-{\reftextvario {rechter pagina}{pagina hiernaast}}.
+> \g__zrefvario_ref_opt_lang_dutch_reftextfaceafter_tl=op de \zvhyperlink {\reftextvario {rechter pagina}{pagina hiernaast}}.
 <recently read> }
 l. ...  }
-> \g__zrefvario_ref_opt_lang_dutch_reftextfacebefore_tl=op de \zvhyperlink
-{\reftextvario {linker pagina}{pagina hiernaast}}.
+> \g__zrefvario_ref_opt_lang_dutch_reftextfacebefore_tl=op de \zvhyperlink {\reftextvario {linker pagina}{pagina hiernaast}}.
 <recently read> }
 l. ...  }
-> \g__zrefvario_ref_opt_lang_dutch_reftextafter_tl=op de \zvhyperlink
-{\reftextvario {volgende pagina}{pagina hierna}}.
+> \g__zrefvario_ref_opt_lang_dutch_reftextafter_tl=op de \zvhyperlink {\reftextvario {volgende pagina}{pagina hierna}}.
 <recently read> }
 l. ...  }
-> \g__zrefvario_ref_opt_lang_dutch_reftextbefore_tl=op de \zvhyperlink
-{\reftextvario {vorige pagina}{pagina hiervoor}}.
+> \g__zrefvario_ref_opt_lang_dutch_reftextbefore_tl=op de \zvhyperlink {\reftextvario {vorige pagina}{pagina hiervoor}}.
 <recently read> }
 l. ...  }
-> \g__zrefvario_ref_opt_lang_dutch_reftextcurrent_tl=op \zvhyperlink {deze
-pagina}.
+> \g__zrefvario_ref_opt_lang_dutch_reftextcurrent_tl=op \zvhyperlink {deze pagina}.
 <recently read> }
 l. ...  }
-> \__zrefvario_ref_opt_lang_dutch_reftextfaraway:n=macro:#1->op \zcpageref
-[g=f]{#1}.
+> \__zrefvario_ref_opt_lang_dutch_reftextfaraway:n=macro:#1->op \zcpageref [g=f]{#1}.
 <recently read> }
 l. ...  }
-> \__zrefvario_ref_opt_lang_dutch_reftextpagerange:nn=macro:#1#2->op
-\zcpageref [range,g=f]{#1,#2}.
+> \__zrefvario_ref_opt_lang_dutch_reftextpagerange:nn=macro:#1#2->op \zcpageref [range,g=f]{#1,#2}.
 <recently read> }
 l. ...  }
-> \__zrefvario_ref_opt_lang_dutch_reftextlabelrange:nn=macro:#1#2->\zcref
-[range]{#1,#2}.
+> \__zrefvario_ref_opt_lang_dutch_reftextlabelrange:nn=macro:#1#2->\zcref [range]{#1,#2}.
 <recently read> }
 l. ...  }
 ============================================================
 ============================================================
 TEST 7: italian
 ============================================================
-> \g__zrefvario_ref_opt_lang_italian_reftextfaceafter_tl=nella \zvhyperlink
-{pagina \reftextvario {a fianco}{successiva}}.
+> \g__zrefvario_ref_opt_lang_italian_reftextfaceafter_tl=nella \zvhyperlink {pagina \reftextvario {a fianco}{successiva}}.
 <recently read> }
 l. ...  }
-> \g__zrefvario_ref_opt_lang_italian_reftextfacebefore_tl=nella \zvhyperlink
-{pagina \reftextvario {a fianco}{precedente}}.
+> \g__zrefvario_ref_opt_lang_italian_reftextfacebefore_tl=nella \zvhyperlink {pagina \reftextvario {a fianco}{precedente}}.
 <recently read> }
 l. ...  }
-> \g__zrefvario_ref_opt_lang_italian_reftextafter_tl=nella \zvhyperlink
-{pagina \reftextvario {seguente}{successiva}}.
+> \g__zrefvario_ref_opt_lang_italian_reftextafter_tl=nella \zvhyperlink {pagina \reftextvario {seguente}{successiva}}.
 <recently read> }
 l. ...  }
-> \g__zrefvario_ref_opt_lang_italian_reftextbefore_tl=nella \zvhyperlink
-{pagina precedente}.
+> \g__zrefvario_ref_opt_lang_italian_reftextbefore_tl=nella \zvhyperlink {pagina precedente}.
 <recently read> }
 l. ...  }
-> \g__zrefvario_ref_opt_lang_italian_reftextcurrent_tl=in \zvhyperlink {questa
-pagina}.
+> \g__zrefvario_ref_opt_lang_italian_reftextcurrent_tl=in \zvhyperlink {questa pagina}.
 <recently read> }
 l. ...  }
-> \__zrefvario_ref_opt_lang_italian_reftextfaraway:n=macro:#1->a \zcpageref
-[g=f]{#1}.
+> \__zrefvario_ref_opt_lang_italian_reftextfaraway:n=macro:#1->a \zcpageref [g=f]{#1}.
 <recently read> }
 l. ...  }
-> \__zrefvario_ref_opt_lang_italian_reftextpagerange:nn=macro:#1#2->nelle
-\zcpageref [range,g=f]{#1,#2}.
+> \__zrefvario_ref_opt_lang_italian_reftextpagerange:nn=macro:#1#2->nelle \zcpageref [range,g=f]{#1,#2}.
 <recently read> }
 l. ...  }
-> \__zrefvario_ref_opt_lang_italian_reftextlabelrange:nn=macro:#1#2->\zcref
-[range]{#1,#2}.
+> \__zrefvario_ref_opt_lang_italian_reftextlabelrange:nn=macro:#1#2->\zcref [range]{#1,#2}.
 <recently read> }
 l. ...  }
 ============================================================
 ============================================================
 TEST 8: zv_unknown_language
 ============================================================
-> 
-\g__zrefvario_ref_opt_lang_zv_unknown_language_reftextfaceafter_tl=\msg_warning:nnee
-{zref-vario}{missing-string}{reftextfaceafter}{\l__zrefvario_ref_language_tl
-}\zref@default .
+> \g__zrefvario_ref_opt_lang_zv_unknown_language_reftextfaceafter_tl=\msg_warning:nnee {zref-vario}{missing-string}{reftextfaceafter}{\l__zrefvario_ref_language_tl }\zref@default .
 <recently read> }
 l. ...  }
-> 
-\g__zrefvario_ref_opt_lang_zv_unknown_language_reftextfacebefore_tl=\msg_warning:nnee
-{zref-vario}{missing-string}{reftextfacebefore}{\l__zrefvario_ref_language_tl
-}\zref@default .
+> \g__zrefvario_ref_opt_lang_zv_unknown_language_reftextfacebefore_tl=\msg_warning:nnee {zref-vario}{missing-string}{reftextfacebefore}{\l__zrefvario_ref_language_tl }\zref@default .
 <recently read> }
 l. ...  }
-> 
-\g__zrefvario_ref_opt_lang_zv_unknown_language_reftextafter_tl=\msg_warning:nnee
-{zref-vario}{missing-string}{reftextafter}{\l__zrefvario_ref_language_tl
-}\zref@default .
+> \g__zrefvario_ref_opt_lang_zv_unknown_language_reftextafter_tl=\msg_warning:nnee {zref-vario}{missing-string}{reftextafter}{\l__zrefvario_ref_language_tl }\zref@default .
 <recently read> }
 l. ...  }
-> 
-\g__zrefvario_ref_opt_lang_zv_unknown_language_reftextbefore_tl=\msg_warning:nnee
-{zref-vario}{missing-string}{reftextbefore}{\l__zrefvario_ref_language_tl
-}\zref@default .
+> \g__zrefvario_ref_opt_lang_zv_unknown_language_reftextbefore_tl=\msg_warning:nnee {zref-vario}{missing-string}{reftextbefore}{\l__zrefvario_ref_language_tl }\zref@default .
 <recently read> }
 l. ...  }
-> 
-\g__zrefvario_ref_opt_lang_zv_unknown_language_reftextcurrent_tl=\msg_warning:nnee
-{zref-vario}{missing-string}{reftextcurrent}{\l__zrefvario_ref_language_tl
-}\zref@default .
+> \g__zrefvario_ref_opt_lang_zv_unknown_language_reftextcurrent_tl=\msg_warning:nnee {zref-vario}{missing-string}{reftextcurrent}{\l__zrefvario_ref_language_tl }\zref@default .
 <recently read> }
 l. ...  }
-> 
-\__zrefvario_ref_opt_lang_zv_unknown_language_reftextfaraway:n=macro:#1->\msg_warning:nnee
-{zref-vario}{missing-string}{reftextfaraway}{\l__zrefvario_ref_language_tl
-}\zref@default .
+> \__zrefvario_ref_opt_lang_zv_unknown_language_reftextfaraway:n=macro:#1->\msg_warning:nnee {zref-vario}{missing-string}{reftextfaraway}{\l__zrefvario_ref_language_tl }\zref@default .
 <recently read> }
 l. ...  }
-> 
-\__zrefvario_ref_opt_lang_zv_unknown_language_reftextpagerange:nn=macro:#1#2->\msg_warning:nnee
-{zref-vario}{missing-string}{reftextpagerange}{\l__zrefvario_ref_language_tl
-}\zref@default .
+> \__zrefvario_ref_opt_lang_zv_unknown_language_reftextpagerange:nn=macro:#1#2->\msg_warning:nnee {zref-vario}{missing-string}{reftextpagerange}{\l__zrefvario_ref_language_tl }\zref@default .
 <recently read> }
 l. ...  }
-> 
-\__zrefvario_ref_opt_lang_zv_unknown_language_reftextlabelrange:nn=macro:#1#2->\msg_warning:nnee
-{zref-vario}{missing-string}{reftextlabelrange}{\l__zrefvario_ref_language_tl
-}\zref@default .
+> \__zrefvario_ref_opt_lang_zv_unknown_language_reftextlabelrange:nn=macro:#1#2->\msg_warning:nnee {zref-vario}{missing-string}{reftextlabelrange}{\l__zrefvario_ref_language_tl }\zref@default .
 <recently read> }
 l. ...  }
 ============================================================

@@ -25,21 +25,15 @@ TEST 5: Page 5: top
 ============================================================
 Same page, checks functional
 'above' should fail, 'below' should pass
-Package zref-check Warning: Check failed on line .... Failed check 'above' for
-(zref-check)                label 'sec:section-3.1' on page 5.
+Package zref-check Warning: Check failed on line .... Failed check 'above' for label 'sec:section-3.1' on page 5.
 'above' should fail, 'below' should pass
-Package zref-check Warning: Check failed on line .... Failed check 'above' for
-(zref-check)                label 'sec:section-3.1' on page 5.
+Package zref-check Warning: Check failed on line .... Failed check 'above' for label 'sec:section-3.1' on page 5.
 'above' should fail, 'below' should pass
-Package zref-check Warning: Check failed on line .... Failed check 'above' for
-(zref-check)                label 'sec:section-3.1' on page 5.
-Package zref-check Warning: Check failed on line .... Failed check 'above' for
-(zref-check)                label 'sec:section-3.2' on page 5.
+Package zref-check Warning: Check failed on line .... Failed check 'above' for label 'sec:section-3.1' on page 5.
+Package zref-check Warning: Check failed on line .... Failed check 'above' for label 'sec:section-3.2' on page 5.
 'above' should fail, 'below' should pass
-Package zref-check Warning: Check failed on line .... Failed check 'above' for
-(zref-check)                label 'sec:section-3.1' on page 5.
-Package zref-check Warning: Check failed on line .... Failed check 'above' for
-(zref-check)                label 'sec:section-3.2' on page 5.
+Package zref-check Warning: Check failed on line .... Failed check 'above' for label 'sec:section-3.1' on page 5.
+Package zref-check Warning: Check failed on line .... Failed check 'above' for label 'sec:section-3.2' on page 5.
 no checks, labels on different pages
 no checks, labels on different pages
 ============================================================
@@ -48,21 +42,15 @@ TEST 6: Page 5: bottom
 ============================================================
 Same page, checks functional
 'above' should pass, 'below' should fail
-Package zref-check Warning: Check failed on line .... Failed check 'below' for
-(zref-check)                label 'sec:section-3.1' on page 5.
+Package zref-check Warning: Check failed on line .... Failed check 'below' for label 'sec:section-3.1' on page 5.
 'above' should pass, 'below' should fail
-Package zref-check Warning: Check failed on line .... Failed check 'below' for
-(zref-check)                label 'sec:section-3.1' on page 5.
+Package zref-check Warning: Check failed on line .... Failed check 'below' for label 'sec:section-3.1' on page 5.
 'above' should pass, 'below' should fail
-Package zref-check Warning: Check failed on line .... Failed check 'below' for
-(zref-check)                label 'sec:section-3.1' on page 5.
-Package zref-check Warning: Check failed on line .... Failed check 'below' for
-(zref-check)                label 'sec:section-3.2' on page 5.
+Package zref-check Warning: Check failed on line .... Failed check 'below' for label 'sec:section-3.1' on page 5.
+Package zref-check Warning: Check failed on line .... Failed check 'below' for label 'sec:section-3.2' on page 5.
 'above' should pass, 'below' should fail
-Package zref-check Warning: Check failed on line .... Failed check 'below' for
-(zref-check)                label 'sec:section-3.1' on page 5.
-Package zref-check Warning: Check failed on line .... Failed check 'below' for
-(zref-check)                label 'sec:section-3.2' on page 5.
+Package zref-check Warning: Check failed on line .... Failed check 'below' for label 'sec:section-3.1' on page 5.
+Package zref-check Warning: Check failed on line .... Failed check 'below' for label 'sec:section-3.2' on page 5.
 no checks, labels on different pages
 no checks, labels on different pages
 ============================================================

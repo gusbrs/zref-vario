@@ -3,12 +3,10 @@ Don't change this file in any respect.
 ============================================================
 TEST 1: pageprop option: non existing property
 ============================================================
-Package zref-vario Warning: Property 'foobar' not declared on line .... Using
-(zref-vario)                default 'page' property.
+Package zref-vario Warning: Property 'foobar' not declared on line .... Using default 'page' property.
 ============================================================
 ============================================================
 TEST 2: pageprop option: preamble only option
 ============================================================
-Package zref-vario Warning: Option 'pageprop' only available in the preamble
-(zref-vario)                on line ....
+Package zref-vario Warning: Option 'pageprop' only available in the preamble on line ....
 ============================================================
