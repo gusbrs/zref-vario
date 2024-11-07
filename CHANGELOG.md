@@ -1,6 +1,8 @@
 # Changelog
 
-## [Unreleased](https://github.com/gusbrs/zref-vario/compare/v0.1.10...HEAD)
+## [Unreleased](https://github.com/gusbrs/zref-vario/compare/v0.1.11...HEAD)
+
+## [v0.1.11](https://github.com/gusbrs/zref-vario/compare/v0.1.10...v0.1.11) (2024-11-07)
 
 ### Changed
 - Preemptively avoid empty module when setting l3keys `.inherit:n`

@@ -21,7 +21,7 @@ cleanfiles = {
 
 -- CTAN upload settings
 uploadconfig = {
-  version = "0.1.10", -- first line for tagging
+  version = "0.1.11", -- first line for tagging
   pkg = "zref-vario",
   author = "gusbrs",
   uploader = "gusbrs",
