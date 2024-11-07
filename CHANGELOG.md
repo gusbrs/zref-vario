@@ -2,6 +2,10 @@
 
 ## [Unreleased](https://github.com/gusbrs/zref-vario/compare/v0.1.10...HEAD)
 
+### Changed
+- Preemptively avoid empty module when setting l3keys `.inherit:n`
+  (https://github.com/latex3/latex3/issues/1254).
+
 ## [v0.1.10](https://github.com/gusbrs/zref-vario/compare/v0.1.9...v0.1.10) (2023-11-14)
 
 ### Changed

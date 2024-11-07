@@ -383,13 +383,20 @@
     vother .tl_set:N = \l_@@_reftextother_tl ,
     vother .value_required:n = true ,
   }
-\keys_define:nn { }
+%    \end{macrocode}
+%
+% See \url{https://github.com/latex3/latex3/issues/1254}.
+% ^^A zref-vario/ref
+% ^^A zref-vario/ref-oneoptarg
+% ^^A zref-vario/ref-twooptargs
+%    \begin{macrocode}
+\keys_define:nn { zref-vario }
   {
-    zref-vario/ref .inherit:n =
+    ref .inherit:n =
       { zref-clever/reference } ,
-    zref-vario/ref-oneoptarg .inherit:n =
+    ref-oneoptarg .inherit:n =
       { zref-clever/reference , zref-vario/current } ,
-    zref-vario/ref-twooptargs .inherit:n =
+    ref-twooptargs .inherit:n =
       { zref-clever/reference , zref-vario/current , zref-vario/other } ,
   }
 %    \end{macrocode}
