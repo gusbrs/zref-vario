@@ -1,6 +1,8 @@
 # Changelog
 
-## [Unreleased](https://github.com/gusbrs/zref-vario/compare/v0.1.11...HEAD)
+## [Unreleased](https://github.com/gusbrs/zref-vario/compare/v0.1.12...HEAD)
+
+## [v0.1.12](https://github.com/gusbrs/zref-vario/compare/v0.1.11...v0.1.12) (2024-11-25)
 
 ### Added
 - Swedish localization (see issue

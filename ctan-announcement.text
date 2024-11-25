@@ -1,6 +1,6 @@
-## v0.1.11 (2024-11-07)
+## v0.1.12 (2024-11-25)
 
-### Changed
-- Preemptively avoid empty module when setting l3keys `.inherit:n`
-  (https://github.com/latex3/latex3/issues/1254).
+### Added
+- Swedish localization (see issue
+  [#3](https://github.com/gusbrs/zref-vario/issues/3)).
 
