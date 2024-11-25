@@ -24,6 +24,7 @@
     spanish ,
     dutch ,
     italian ,
+    swedish ,
     zv_unknown_language ,
   }
   {

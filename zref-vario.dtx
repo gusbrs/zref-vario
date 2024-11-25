@@ -1233,7 +1233,7 @@
 %
 %
 % Italian localization improved thanks to \contributor{Matteo Ferrigato} (at
-% \githubissue{1})
+% \githubissue{1}).
 %
 %    \begin{macrocode}
 \zvLanguageSetup { italian }
@@ -1248,6 +1248,29 @@
     reftextcurrent = {in~\zvhyperlink{questa~pagina}} ,
     reftextfaraway = {a~\zcpageref[g=f]{#1}} ,
     reftextpagerange = {nelle~\zcpageref[range,g=f]{#1,#2}} ,
+    reftextlabelrange = {\zcref[range]{#1,#2}} ,
+  }
+%    \end{macrocode}
+%
+%
+% Swedish localization initially provided by \contributor{\username{Timmyfox}}
+% (at \githubissue{3}).
+%
+%    \begin{macrocode}
+\zvLanguageSetup { swedish }
+  {
+    reftextfaceafter =
+      {på~\zvhyperlink{\reftextvario{motstående}{nästa}~sida}} ,
+    reftextfacebefore =
+      {på~\zvhyperlink{\reftextvario{motstående}{föregående}~sida}} ,
+    reftextafter =
+      {på~\zvhyperlink{\reftextvario{följande}{nästa}~sida}} ,
+    reftextbefore =
+      {på~\zvhyperlink{föregående~sida}} ,
+    reftextcurrent =
+      {på~\zvhyperlink{\reftextvario{den~här~sidan}{denna~sida}}} ,
+    reftextfaraway = {på~\zcpageref{#1}} ,
+    reftextpagerange = {på~\zcpageref[range]{#1,#2}} ,
     reftextlabelrange = {\zcref[range]{#1,#2}} ,
   }
 %    \end{macrocode}

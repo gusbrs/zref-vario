@@ -197,7 +197,35 @@ l. ...  }
 l. ...  }
 ============================================================
 ============================================================
-TEST 8: zv_unknown_language
+TEST 8: swedish
+============================================================
+> \g__zrefvario_ref_opt_lang_swedish_reftextfaceafter_tl=på \zvhyperlink {\reftextvario {motstående}{nästa} sida}.
+<recently read> }
+l. ...  }
+> \g__zrefvario_ref_opt_lang_swedish_reftextfacebefore_tl=på \zvhyperlink {\reftextvario {motstående}{föregående} sida}.
+<recently read> }
+l. ...  }
+> \g__zrefvario_ref_opt_lang_swedish_reftextafter_tl=på \zvhyperlink {\reftextvario {följande}{nästa} sida}.
+<recently read> }
+l. ...  }
+> \g__zrefvario_ref_opt_lang_swedish_reftextbefore_tl=på \zvhyperlink {föregående sida}.
+<recently read> }
+l. ...  }
+> \g__zrefvario_ref_opt_lang_swedish_reftextcurrent_tl=på \zvhyperlink {\reftextvario {den här sidan}{denna sida}}.
+<recently read> }
+l. ...  }
+> \__zrefvario_ref_opt_lang_swedish_reftextfaraway:n=macro:#1->på \zcpageref {#1}.
+<recently read> }
+l. ...  }
+> \__zrefvario_ref_opt_lang_swedish_reftextpagerange:nn=macro:#1#2->på \zcpageref [range]{#1,#2}.
+<recently read> }
+l. ...  }
+> \__zrefvario_ref_opt_lang_swedish_reftextlabelrange:nn=macro:#1#2->\zcref [range]{#1,#2}.
+<recently read> }
+l. ...  }
+============================================================
+============================================================
+TEST 9: zv_unknown_language
 ============================================================
 > \g__zrefvario_ref_opt_lang_zv_unknown_language_reftextfaceafter_tl=\msg_warning:nnee {zref-vario}{missing-string}{reftextfaceafter}{\l__zrefvario_ref_language_tl }\zref@default .
 <recently read> }
