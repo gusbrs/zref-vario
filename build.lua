@@ -7,6 +7,9 @@ module = "zref-vario"
 -- Typeset only the .tex files
 typesetfiles = {"*.tex"}
 
+-- Use lualatex for compiling docs
+typesetexe = "lualatex"
+
 -- Three runs
 checkruns = 3
 

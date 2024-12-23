@@ -1277,6 +1277,24 @@
 %
 %
 %    \begin{macrocode}
+\zvLanguageSetup { japanese }
+  {
+    reftextfaceafter  = {\zvhyperlink{\reftextvario{見開き}{次}ページ}} ,
+    reftextfacebefore = {\zvhyperlink{\reftextvario{見開き}{前}ページ}} ,
+    reftextafter      = {\zvhyperlink{\reftextvario{直後の}{次}ページ}} ,
+    reftextbefore     = {\zvhyperlink{\reftextvario{直前の}{前}ページ}} ,
+    reftextcurrent    = {\zvhyperlink{\reftextvario{この}{現}ページ}} ,
+    reftextfaraway    = {\zcpageref{#1}} ,
+    reftextpagerange  = {\zcpageref[range]{#1,#2}} ,
+    reftextlabelrange = {\zcref[range]{#1,#2}} ,
+    vrefformat        = {\zcref{#2}（\zvpageref[#1]{#2}）} ,
+    vrefrangeformat   = {\zcref[range]{#2,#3}（\vpagerefrange[{#1}]{#2}{#3}）} ,
+    fullrefformat     = {\zcref{#1}（\reftextfaraway{#1}）} ,
+  }
+%    \end{macrocode}
+%
+%
+%    \begin{macrocode}
 %</package>
 %    \end{macrocode}
 %
